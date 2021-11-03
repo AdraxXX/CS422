@@ -1,0 +1,39 @@
+
+body,html{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.page{
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.hidden{
+    display: none !important;
+}
+
+/*Animations*/
+@keyframes clockwiseRotation {
+    0% {
+        transform: rotateZ(-360deg)
+    }
+    100% {
+        transform: rotateZ(0deg)
+    }
+}
+@keyframes counterClockwiseRotation {
+    0% {
+        transform: rotateZ(360deg)
+    }
+    100% {
+        transform: rotateZ(0deg)
+    }
+}
