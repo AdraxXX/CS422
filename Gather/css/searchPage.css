@@ -1,0 +1,91 @@
+#searchScreen{
+    text-align: center;
+}
+
+#searchInputArea .input-txt-default, #searchInputArea .btn-default, #showSearchButton{
+    position: relative;
+    top: 2em;
+    margin:0;
+    z-index: 1001;
+}
+
+.statsButton {
+    position: relative;
+    bottom: 2em;
+    margin:0;
+    z-index: 1001;
+}
+
+#showStateSearch {
+    position: absolute;
+    left: 2em;
+}
+
+#searchInputArea .btn-default {
+    border-radius: 0;
+    margin-left: -5px;
+    font-size: 2vh;
+    font-weight: 400;
+}
+
+#stateInputArea {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: inline-block;
+    left: 0;
+    pointer-events: none;
+    background: transparent;
+    z-index: -1;
+}
+
+.autoComplete{
+    position: relative;
+    width: 200px;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    left: Calc(50% - 130px);
+    top: 3em;
+    z-index: -1;
+    pointer-events: none;
+    background: transparent;
+}
+
+.autoComplete button{
+    position: relative;
+    display: inline-block;
+    pointer-events: visible;
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+    left: 0;
+    box-shadow: none;
+    z-index: 1002;
+}
+
+.autoComplete button:active{
+    box-shadow: none;
+}
+
+.autoComplete button:hover{
+    box-shadow: none;
+    background-color: gainsboro;
+}
+
+#searchButton {
+    background-color: rgb(156, 211, 159);
+}
+
+#searchButton:hover {
+    background-color: green;
+}
+
+#hideSearchButton {
+    background-color: rgb(211, 156, 159);
+}
+
+#hideSearchButton:hover{
+    background-color: red;
+}

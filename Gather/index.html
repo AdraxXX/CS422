@@ -14,6 +14,7 @@
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">-->
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/loadingPage.css">
+        <link rel="stylesheet" href="css/searchPage.css">
     </head>
 
     <body>
@@ -26,7 +27,27 @@
                 <div id="loadingText"><p>LOADING...</p></div>
             </div>
         </div>
-        
+        <div id="searchScreen" class="page">
+            <div class="top navBar center-content">
+                <button id="showStateSearch" onclick="backToStateSearch()" class="btn-default hidden">←</button>
+                <button id="showSearchButton" onclick="searchToggle(this)" class="btn-default">Show Search Bar</button>
+                <div id="searchInputArea" class="hidden">
+                    <input id="countyInput" class="searchInput hidden input-txt-default" type='text' placeholder="Input County" />
+                    <input id="stateInput" class="searchInput input-txt-default" type='text' placeholder="Input State"/>
+                    <div id='stateInputArea' class="hidden">
+                        <div id="stateAutoComplete" class="autoComplete">
+                        </div>
+                    </div>
+                    <button id="searchButton" class="btn-default">→</button>
+                    <button id="hideSearchButton" onclick="searchToggle(this)" class="btn-default">X</button>
+                </div>
+            </div>
+            
+            <div class="bottom navBar center-content">
+                <button id="countryStats" class="btn-default statsButton">Contry Statistics</button>
+                <button id="stateStats" class="btn-default statsButton hidden">State Statistics</button>
+            </div>
+        </div>
         <script src="js/state.js"></script>
         <script src="js/search.js"></script>
         <script src="js/load.js"></script>
