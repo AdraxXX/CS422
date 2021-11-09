@@ -1,0 +1,82 @@
+#loadingScreen {
+    background: black;
+}
+
+#spinner {
+    position: relative;
+    text-align: center;
+    align-content: center;
+    width: 50vw;
+    height: 50vw;
+    left: 25vw;
+    top: auto;
+}
+
+.ring {
+    position: absolute;
+    box-shadow: 4px 2px rgba(134, 132, 132, 0.7),
+    -4px 2px rgba(134, 132, 132, 0.7);
+    border-radius: 50%;
+}
+
+.oddRing {
+    border: 4px solid #E0EDFF;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.evenRing {
+    border: 6px solid #E0EDFF;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+#innerRing {
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+    animation: clockwiseRotation 2s cubic-bezier(0.26, 1.36, 0.74, -0.29) infinite;
+}
+
+#innerMiddleRing {
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    left: 20%;
+    animation: counterClockwiseRotation 3s cubic-bezier(0.26, 1.36, 0.74, -0.29) infinite;
+}
+
+#outterMiddleRing {
+    width: 70%;
+    height: 70%;
+    top: 15%;
+    left: 15%;
+    animation: clockwiseRotation 3s cubic-bezier(0.26, 1.36, 0.74, -0.29) infinite;
+}
+
+#outterRing {
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    animation: counterClockwiseRotation 2s cubic-bezier(0.26, 1.36, 0.74, -0.29) infinite;
+}
+
+#loadingText {
+    display: table;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top: 25%;
+}
+
+#loadingText p {
+    color: ghostwhite;
+    font-family: "Walter Turncoat", cursive;
+    font-size: 2vh;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
