@@ -124,10 +124,3 @@ let currentSelectedCountyData = null;
 let oldSelectedCountyData = null;
 
 getAllOldUSData();
-
-const reader = new FileReader();
-    reader.onload = function (event) {
-    console.log(event.target.result); // the CSV content as string
-};
-
-reader.readAsText('../data/time_series_covid19_confirmed_US.csv');
