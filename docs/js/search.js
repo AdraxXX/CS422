@@ -86,19 +86,68 @@ document.querySelector('#stateInput').addEventListener("keyup", (e)=>{
     }
 });
 
-// document.querySelector('#countyInput').addEventListener("keypress", (e)=>{
-//     let currentValue = document.querySelector('#' + searchState + 'Input').value.toLowerCase();
-//     if(LETTERS.includes(e.key.toLowerCase())){
-//         let currentSearch = currentValue + e.key.toLowerCase();
-//         //let currentList = STATES.filter(s => s.startsWith(currentSearch));
-//         //if(currentList.length > 0)
-//         //    currentPick = currentList[0]
-//         //console.log(currentList);
-//     }
-//     else if(e.key.toLowerCase() === 'enter' && currentCountyPick != null){
-//         fireSearch(currentCountyPick);
-//     }
-// });
+document.querySelector('#countyInput').addEventListener("keypress", (e)=>{
+    let currentInput = document.querySelector('#' + searchState + 'Input');
+    let currentValue = currentInput.value.toLowerCase();
+    let key = e.key.toLowerCase();
+    if(LETTERS.includes(key)){
+        globalCurrentSearch = currentInput.value + e.key;
+        let currentSearch = currentValue + key;
+        let currentList = currentCountyOptions.filter(county => county.startsWith(currentSearch));
+        if(currentList.length > 0)
+        {
+            currentCountyPick = currentList[0];
+            createAutoComplete(currentList);
+        }
+        else{
+            currentCountyPick = null;
+            createAutoComplete([]);
+        }
+    }else if(key === 'enter' && currentCountyPick != null){
+        document.querySelector('#searchButton').click();
+    }else{
+        currentCountyPick = null;
+        createAutoComplete([]);
+    }
+});
+
+document.querySelector('#countyInput').addEventListener("keyup", (e)=>{
+    let key = e.key.toLowerCase();
+    let currentInput = document.querySelector('#' + searchState + 'Input');
+    let currentValue = currentInput.value.toLowerCase();
+    if(key === 'backspace'){
+        globalCurrentSearch = currentInput.value;
+        let currentList = currentCountyOptions.filter(county => county.startsWith(currentValue));
+        if(currentList.length > 0 && globalCurrentSearch != '')
+        {
+            currentCountyPick = currentList[0];
+            createAutoComplete(currentList);
+        }
+        else{
+            currentCountyPick = null;
+            createAutoComplete([]);
+        }
+    }else if(key === 'arrowup' && currentPickerItem != 0)
+    {
+        currentAutoPickerOptions[currentPickerItem].style = "background-color: ghostwhite;";
+        let currentSelection = currentAutoPickerOptions[--currentPickerItem]
+        if(currentPickerItem != 0){
+            currentCountyPick = currentSelection.innerHTML;
+            currentSelection.style = "background-color: gainsboro;";
+        }
+        currentSelection.click();
+    }
+    else if(key === 'arrowdown' && currentPickerItem < currentAutoPickerOptions.length - 1)
+    {
+        if(currentPickerItem != 0)
+            currentAutoPickerOptions[currentPickerItem].style = "background-color: ghostwhite;";
+
+        let currentSelection = currentAutoPickerOptions[++currentPickerItem];
+        currentSelection.style = "background-color: gainsboro;";
+        currentCountyPick = currentSelection.innerHTML;
+        currentSelection.click();
+    }
+});
 
 document.querySelector('#searchButton').addEventListener('click', (e) => {
     if(globalCurrentSearch != '') {
@@ -114,14 +163,12 @@ document.querySelector('#searchButton').addEventListener('click', (e) => {
             document.querySelector('#countyInput').classList.remove('hidden');
             document.querySelector('#showStateSearch').classList.remove('hidden');
             document.querySelector('#stateStats').classList.remove('hidden');
+            getOldCountyData(STATEABREVIATIONS[currentStatePick]);
             searchState = 'county';
         }
         else
         {
             fireSearch(currentCountyPick);
-            document.querySelector('#countyInput').classList.add('hidden');
-            document.querySelector('#stateStats').classList.add('hidden');
-            document.querySelector('#showStateSearch').classList.add('hidden');
         }
     }
 });
@@ -139,11 +186,20 @@ backToStateSearch = () => {
     document.querySelector('#countyInput').classList.add('hidden');
     document.querySelector('#showStateSearch').classList.add('hidden');
     document.querySelector('#stateStats').classList.add('hidden');
+    stateOldData = null;
+    stateCurrentData = null;
+    currentCountyOptions = null;
 }
 
 fireSearch = (searchValue) => {
-    console.log('Search Goes Here');
-    console.log(searchValue);
+    if(stateOldData == null && stateCurrentData == null)
+        getOldDataState(STATEABREVIATIONS[searchValue]);
+    else{
+        getOldCountyData(STATEABREVIATIONS[currentStatePick]);
+        console.log(countryCurrentData);
+        state.changeState('infoScreen');
+    }
+
 }
 
 createAutoComplete = (currentList) => {

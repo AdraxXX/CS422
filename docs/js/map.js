@@ -127,10 +127,10 @@ let addMapManipulations = () =>
     });
 }
 
-let addMapControls = () =>
+/*let addMapControls = () =>
 {
     map.addControl( new maplibregl.GeolocateControl() );
-}
+}*/
 
 // geojson for US
 // https://eric.clst.org/tech/usgeojson/

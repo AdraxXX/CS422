@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="css/searchPage.css">
         <script src="https://unpkg.com/maplibre-gl@1.15.2/dist/maplibre-gl.js"></script>
         <link href="https://unpkg.com/maplibre-gl@1.15.2/dist/maplibre-gl.css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="./js/map.js" defer="defer"></script>
     </head>
 
@@ -31,7 +32,7 @@
                 <div id="loadingText"><p>LOADING...</p></div>
             </div>
         </div>
-        <div id="searchScreen" class="page">
+        <div id="searchScreen" class="page hidden">
             <div class="top navBar center-content">
                 <button id="showStateSearch" onclick="backToStateSearch()" class="btn-default hidden">←</button>
                 <button id="showSearchButton" onclick="searchToggle(this)" class="btn-default">Show Search Bar</button>
@@ -52,7 +53,7 @@
                 <button id="stateStats" class="btn-default statsButton hidden">State Statistics</button>
             </div>
         </div>
-        <div id="infoScreen" class="page" style="overflow:auto">
+        <div id="infoScreen" class="page hidden" style="overflow:auto">
             <div class="container text-center">
                 <header class="d-flex align-items-center justify-content-center mt-5">
                     <button class="btn btn-outline-dark">Back</button>
@@ -72,6 +73,7 @@
                 </section>
             </div>
         </div>
+        <script src="js/jsonRetriever.js"></script>
         <script src="js/state.js"></script>
         <script src="js/search.js"></script>
         <script src="js/load.js"></script>
