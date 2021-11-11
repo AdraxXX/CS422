@@ -196,7 +196,6 @@ fireSearch = (searchValue) => {
         getOldDataState(STATEABREVIATIONS[searchValue]);
     else{
         getOldCountyData(STATEABREVIATIONS[currentStatePick]);
-        console.log(countryCurrentData);
         state.changeState('infoScreen');
     }
 

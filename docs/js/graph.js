@@ -30,10 +30,6 @@ xmlhttp.onreadystatechange = function(){
         dateOfUS=data.actualsTimeseries.map(function (elem){
             return elem.date;
         })
-        console.log(newCasesOfUS)
-        console.log(vaccinesAdministeredOfUS)
-        console.log(deathsOfUS)
-        console.log(dateOfUS)
         const ctx = document.getElementById('myChart').getContext('2d');
         const myChart = new Chart(ctx, {
             type: 'line',
@@ -109,10 +105,6 @@ xmlhttp2.onreadystatechange = function(){
                 dateOfCounty = data[key].actualsTimeseries.map(function (elem) {
                     return elem.date;
                 })
-                console.log(newCasesOfCounty)
-                console.log(vaccinesAdministeredOfCounty)
-                console.log(deathsOfCounty)
-                console.log(dateOfCounty)
                 const ctx6 = document.getElementById('myChart6').getContext('2d');
                 const myChart6 = new Chart(ctx6, {
                     type: 'bar',
@@ -200,10 +192,6 @@ xmlhttp1.onreadystatechange = function(){
         dateOfState=data.actualsTimeseries.map(function (elem){
             return elem.date;
         })
-        console.log(newCasesOfState)
-        console.log(vaccinesAdministeredOfState)
-        console.log(deathsOfState)
-        console.log(dateOfState)
         const ctx3 = document.getElementById('myChart3').getContext('2d');
         const myChart3 = new Chart(ctx3, {
             type: 'bar',
