@@ -124,3 +124,8 @@ body,html{
     background-color: rgba(0,0,0, 0.5);
     opacity: 1;
 }
+
+.chartBox {
+    width: 800px;
+    height: 800px;
+}
