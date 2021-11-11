@@ -32,7 +32,7 @@ map.on('load', () =>
 {
     addMapData();
     addMapManipulations();
-    addMapControls();
+    //addMapControls();
 
     map.on('mouseenter', 'county-fills', () => { map.getCanvas().style.cursor = 'pointer'; });
     map.on('mouseleave', 'county-fills', () => { map.getCanvas().style.cursor = ''; });

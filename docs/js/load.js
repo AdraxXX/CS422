@@ -122,5 +122,3 @@ let countryOldData = null;
 let countryCurrentData = null;
 let currentSelectedCountyData = null;
 let oldSelectedCountyData = null;
-
-getAllOldUSData();
