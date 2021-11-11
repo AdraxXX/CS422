@@ -88,7 +88,6 @@ let addMapManipulations = () =>
             return;
 
         let countyId = e.features[0].id;
-        console.log(countyId)
         if (hoveredCounty)
         {
             map.setFeatureState
@@ -124,6 +123,7 @@ let addMapManipulations = () =>
     {
         let coords = e.lngLat;
         addPopup([coords.lat, coords.lng], e.features[0].properties.NAME)
+        console.log(STATEABREVIATIONS[STATES[parseInt(e.features[0].properties.STATE)]])
     });
 }
 
