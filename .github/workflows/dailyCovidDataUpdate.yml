@@ -22,7 +22,7 @@ jobs:
             from urllib.request import urlopen
 
             apiKey = os.environ['API_KEY'];
-            historicalUSURL = ''https://api.covidactnow.org/v2/country/US.timeseries.json?apiKey=' + apiKey
+            historicalUSURL = 'https://api.covidactnow.org/v2/country/US.timeseries.json?apiKey=' + apiKey
             
             historicalUSResponse = urlopen(historicalUSURL)
             
