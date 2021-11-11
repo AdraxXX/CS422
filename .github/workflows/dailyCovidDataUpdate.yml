@@ -10,8 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
-      - name: Fetch resources
-        run: ./scripts/fetch-resources.sh
       - uses: jannekem/run-python-script-action@v1
         with:
           script: |
