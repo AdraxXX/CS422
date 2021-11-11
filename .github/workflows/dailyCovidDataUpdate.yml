@@ -1,4 +1,6 @@
 name: "Daily Covid Data Pull"
+env:
+    API_KEY: ${{ secrets.COVIDAPIKEY }}
 on:
   workflow_dispatch:
   schedule:
@@ -18,7 +20,7 @@ jobs:
             import json
             from urllib.request import urlopen
 
-            apiKey = os.environ.get('COVIDAPIKEY');
+            apiKey = os.environ['API_KEY'];
             currentUSURL = 'https://api.covidactnow.org/v2/states.json?apiKey=' + apiKey
             historicalUSURL = 'https://api.covidactnow.org/v2/states.timeseries.json?apiKey=' + apiKey
             currentAllStates = 'https://api.covidactnow.org/v2/counties.json?apiKey=' + apiKey
