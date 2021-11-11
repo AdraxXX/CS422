@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
-      - name: Update Historical US Covid Data
+      - name: Update Historical Country Covid Data
         uses: jannekem/run-python-script-action@v1
         with:
           script: |
@@ -22,7 +22,7 @@ jobs:
             from urllib.request import urlopen
 
             apiKey = os.environ['API_KEY'];
-            historicalUSURL = 'https://api.covidactnow.org/v2/states.timeseries.json?apiKey=' + apiKey
+            historicalUSURL = ''https://api.covidactnow.org/v2/country/US.timeseries.json?apiKey=' + apiKey
             
             historicalUSResponse = urlopen(historicalUSURL)
             
@@ -34,7 +34,7 @@ jobs:
             
             updateFile.write(newHistoricalUSData)
             updateFile.close()
-      - name: Update Current US Covid Data
+      - name: Update Current Country Covid Data
         uses: jannekem/run-python-script-action@v1
         with:
           script: |
@@ -44,19 +44,19 @@ jobs:
             from urllib.request import urlopen
 
             apiKey = os.environ['API_KEY'];
-            currentUSURL = 'https://api.covidactnow.org/v2/states.json?apiKey=' + apiKey
-
+            currentUSURL = 'https://api.covidactnow.org/v2/country/US.json?apiKey=' + apiKey
+            
             currentUSResponse = urlopen(currentUSURL)
-
+            
             dataCurrentUSJSON = json.loads(currentUSResponse.read())
+            
             updateFile = open("./docs/data/covidCurrentUSData.js", "w")
 
             newCurrentUSData = 'let currentUSData = ' + json.dumps(dataCurrentUSJSON, indent=4, separators=(", ", " : "))
             
             updateFile.write(newCurrentUSData)
             updateFile.close()
-        
-      - name: Update Current State Covid Data
+      - name: Update Historical All States Covid Data
         uses: jannekem/run-python-script-action@v1
         with:
           script: |
@@ -66,17 +66,61 @@ jobs:
             from urllib.request import urlopen
 
             apiKey = os.environ['API_KEY'];
-            currentAllStates = 'https://api.covidactnow.org/v2/counties.json?apiKey=' + apiKey
+            historicalAllStatesURL = 'https://api.covidactnow.org/v2/states.timeseries.json?apiKey=' + apiKey
+            
+            historicalAllStatesResponse = urlopen(historicalAllStatesURL)
+            
+            dataHistoricalAllStatesJSON = json.loads(historicalAllStatesResponse.read())
+            
+            updateFile = open("./docs/data/covidHistoricalStateData.js", "w")
 
-            currentAllStatesResponse = urlopen(currentAllStates)
+            newHistoricalAllStatesData = 'let historicalAllStatesData = ' + json.dumps(dataHistoricalAllStatesJSON, indent=4, separators=(", ", " : "))
+            
+            updateFile.write(newHistoricalAllStatesData)
+            updateFile.close()
+      - name: Update Current All States Covid Data
+        uses: jannekem/run-python-script-action@v1
+        with:
+          script: |
+            import os
+            import sys
+            import json
+            from urllib.request import urlopen
+
+            apiKey = os.environ['API_KEY'];
+            currentAllStatesURL = 'https://api.covidactnow.org/v2/states.json?apiKey=' + apiKey
+
+            currentAllStatesResponse = urlopen(currentAllStatesURL)
 
             dataCurrentAllStatesJSON = json.loads(currentAllStatesResponse.read())
-
             updateFile = open("./docs/data/covidCurrentStateData.js", "w")
 
             newCurrentAllStatesData = 'let currentAllStatesData = ' + json.dumps(dataCurrentAllStatesJSON, indent=4, separators=(", ", " : "))
-
+            
             updateFile.write(newCurrentAllStatesData)
+            updateFile.close()
+        
+      - name: Update Current All Counties Covid Data
+        uses: jannekem/run-python-script-action@v1
+        with:
+          script: |
+            import os
+            import sys
+            import json
+            from urllib.request import urlopen
+
+            apiKey = os.environ['API_KEY'];
+            currentAllCounties = 'https://api.covidactnow.org/v2/counties.json?apiKey=' + apiKey
+
+            currentAllCountiesResponse = urlopen(currentAllCounties)
+
+            dataCurrentAllCountiesJSON = json.loads(currentAllCountiesResponse.read())
+
+            updateFile = open("./docs/data/covidCurrentCountyData.js", "w")
+
+            newCurrentAllCountiesData = 'let currentAllCountiesData = ' + json.dumps(dataCurrentAllCountiesJSON, indent=4, separators=(", ", " : "))
+
+            updateFile.write(newCurrentAllCountiesData)
             updateFile.close()
       - name: Update resources
         uses: test-room-7/action-update-file@v1
@@ -84,7 +128,9 @@ jobs:
             branch: main
             file-path: |
                 docs/data/covidCurrentStateData.js
-                docs/data/covidCurrentUSData.js
+                docs/data/covidCurrentCountyData.js
+                docs/data/covidHistoricalStateData.js
                 docs/data/covidHistoricalUSData.js
+                docs/data/covidCurrentUSData.js
             commit-msg: Daily Covid Data Pull
             github-token: ${{ secrets.GITHUB_TOKEN }}
