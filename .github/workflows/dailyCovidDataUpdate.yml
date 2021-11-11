@@ -28,7 +28,7 @@ jobs:
             
             dataHistoricalUSJSON = json.loads(historicalUSResponse.read())
             
-            updateFile = open("covidHistoricalUSData.js", "w")
+            updateFile = open("./docs/data/covidHistoricalUSData.js", "w")
 
             newHistoricalUSData = 'let historicalUSData = ' + json.dumps(dataHistoricalUSJSON, indent=4, separators=(", ", " : "))
             
@@ -49,7 +49,7 @@ jobs:
             currentUSResponse = urlopen(currentUSURL)
 
             dataCurrentUSJSON = json.loads(currentUSResponse.read())
-            updateFile = open("covidCurrentUSData.js", "w")
+            updateFile = open("./docs/data/covidCurrentUSData.js", "w")
 
             newCurrentUSData = 'let currentUSData = ' + json.dumps(dataCurrentUSJSON, indent=4, separators=(", ", " : "))
             
@@ -72,7 +72,7 @@ jobs:
 
             dataHistoricalAllStatesJSON = json.loads(historicalAllStatesResponse.read())
 
-            updateFile = open("covidHistoricalStateData.js", "w")
+            updateFile = open("./docs/data/covidHistoricalStateData.js", "w")
 
             newHistoricalAllStatesData = 'let historicalAllStatesData = [ "AL" : ' + json.dumps(dataHistoricalAllStatesJSON, indent=4, separators=(", ", " : ")) + ',\n'
             
@@ -95,7 +95,7 @@ jobs:
 
             dataHistoricalAllStatesJSON = json.loads(historicalAllStatesResponse.read())
 
-            updateFile = open("covidHistoricalStateData.js", "a")
+            updateFile = open("./docs/data/covidHistoricalStateData.js", "a")
 
             newHistoricalAllStatesData = '"AK" : ' + json.dumps(dataHistoricalAllStatesJSON, indent=4, separators=(", ", " : ")) + ',\n'
             
@@ -118,7 +118,7 @@ jobs:
 
             dataHistoricalAllStatesJSON = json.loads(historicalAllStatesResponse.read())
 
-            updateFile = open("covidHistoricalStateData.js", "a")
+            updateFile = open("./docs/data/covidHistoricalStateData.js", "a")
 
             newHistoricalAllStatesData = '"AZ" : ' + json.dumps(dataHistoricalAllStatesJSON, indent=4, separators=(", ", " : ")) + ',\n'
             
@@ -141,7 +141,7 @@ jobs:
 
             dataHistoricalAllStatesJSON = json.loads(historicalAllStatesResponse.read())
 
-            updateFile = open("covidHistoricalStateData.js", "a")
+            updateFile = open("./docs/data/covidHistoricalStateData.js", "a")
 
             newHistoricalAllStatesData = '"AR" : ' + json.dumps(dataHistoricalAllStatesJSON, indent=4, separators=(", ", " : ")) + '\n]\n'
             
@@ -164,7 +164,7 @@ jobs:
 
             dataCurrentAllStatesJSON = json.loads(currentAllStatesResponse.read())
 
-            updateFile = open("covidCurrentStateData.js", "w")
+            updateFile = open("./docs/data/covidCurrentStateData.js", "w")
 
             newCurrentAllStatesData = 'let currentAllStatesData = ' + json.dumps(dataCurrentAllStatesJSON, indent=4, separators=(", ", " : "))
 
