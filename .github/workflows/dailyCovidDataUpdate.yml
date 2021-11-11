@@ -1,5 +1,6 @@
 name: "Daily Covid Data Pull"
 on:
+  workflow_dispatch:
   schedule:
   - cron: "19 10 * * *"
 
