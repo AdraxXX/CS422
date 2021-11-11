@@ -2,7 +2,7 @@ name: "Daily Covid Data Pull"
 on:
   workflow_dispatch:
   schedule:
-  - cron: "19 10 * * *"
+  - cron: "0 10 * * *"
 
 jobs:
   stale:
@@ -18,21 +18,30 @@ jobs:
             import json
             from urllib.request import urlopen
 
-            historicalURL = 'https://api.covidtracking.com/v1/us/daily.json'
-            currentURL = 'https://api.covidtracking.com/v1/us/current.json'
+            apiKey = os.environ.get('COVIDAPIKEY');
+            currentUSURL = 'https://api.covidactnow.org/v2/states.json?apiKey=' + apiKey
+            historicalUSURL = 'https://api.covidactnow.org/v2/states.timeseries.json?apiKey=' + apiKey
+            currentAllStates = 'https://api.covidactnow.org/v2/counties.json?apiKey=' + apiKey
+            historicalAllStates = 'https://api.covidactnow.org/v2/counties.timeseries.json?apiKey=' + apiKey
 
-            historicalResponse = urlopen(historicalURL)
-            currentResponse = urlopen(historicalURL)
+            historicalUSResponse = urlopen(historicalUSURL)
+            currentUSResponse = urlopen(currentUSURL)
+            historicalAllStatesResponse = urlopen(historicalAllStates)
+            currentAllStatesResponse = urlopen(currentAllStates)
 
-            dataHistoricalJSON = json.loads(historicalResponse.read())
-            dataCurrentJSON = json.loads(currentResponse.read())
+            dataHistoricalUSJSON = json.loads(historicalUSResponse.read())
+            dataCurrentUSJSON = json.loads(currentUSResponse.read())
+            dataHistoricalAllStatesJSON = json.loads(historicalAllStatesResponse.read())
+            dataCurrentAllStatesJSON = json.loads(currentAllStatesResponse.read())
 
-            updateFile = open("./docs/data/covidData.js", "w")
+            updateFile = open("covidData.js", "w")
 
-            newHistoricalData = 'let historicalData = ' + json.dumps(dataHistoricalJSON, indent=4, separators=(", ", " : "))
-            newCurrentData = 'let currentData = ' + json.dumps(dataCurrentJSON, indent=4, separators=(", ", " : "))
+            newHistoricalUSData = 'let historicalUSData = ' + json.dumps(dataHistoricalUSJSON, indent=4, separators=(", ", " : "))
+            newCurrentUSData = 'let currentUSData = ' + json.dumps(dataCurrentUSJSON, indent=4, separators=(", ", " : "))
+            newHistoricalAllStatesData = 'let historicalAllStatesData = ' + json.dumps(dataHistoricalAllStatesJSON, indent=4, separators=(", ", " : "))
+            newCurrentAllStatesData = 'let currentAllStatesData = ' + json.dumps(dataCurrentAllStatesJSON, indent=4, separators=(", ", " : "))
 
-            updateFile.write(newHistoricalData  + '\n' + newCurrentData)
+            updateFile.write(newHistoricalUSData  + '\n' + newCurrentUSData + '\n' + newHistoricalAllStatesData  + '\n' + newCurrentAllStatesData)
             updateFile.close()
       - name: Update resources
         uses: test-room-7/action-update-file@v1
