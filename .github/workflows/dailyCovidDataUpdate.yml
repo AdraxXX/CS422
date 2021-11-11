@@ -38,6 +38,6 @@ jobs:
         uses: test-room-7/action-update-file@v1
         with:
             branch: main
-            file-path: ./docs/data/covidData.js
+            file-path: docs/data/covidData.js
             commit-msg: Daily Covid Data Pull
             github-token: ${{ secrets.GITHUB_TOKEN }}
