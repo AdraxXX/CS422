@@ -174,7 +174,7 @@ jobs:
         uses: test-room-7/action-update-file@v1
         with:
             branch: main
-            file-path: 
+            file-path: |
                 docs/data/covidHistoricalUSData.js
                 docs/data/covidCurrentUSData.js
                 docs/data/covidHistoricalStateData.js
