@@ -56,98 +56,6 @@ jobs:
             updateFile.write(newCurrentUSData)
             updateFile.close()
         
-      - name: Update Historical Alabama Covid Data
-        uses: jannekem/run-python-script-action@v1
-        with:
-          script: |
-            import os
-            import sys
-            import json
-            from urllib.request import urlopen
-
-            apiKey = os.environ['API_KEY'];
-            historicalAllStates = 'https://api.covidactnow.org/v2/county/AL.timeseries.json?apiKey=' + apiKey
-
-            historicalAllStatesResponse = urlopen(historicalAllStates)
-
-            dataHistoricalAllStatesJSON = json.loads(historicalAllStatesResponse.read())
-
-            updateFile = open("./docs/data/covidHistoricalStateData.js", "w")
-
-            newHistoricalAllStatesData = 'let historicalAllStatesData = [ "AL" : ' + json.dumps(dataHistoricalAllStatesJSON, indent=4, separators=(", ", " : ")) + ',\n'
-            
-            updateFile.write(newHistoricalAllStatesData)
-            updateFile.close()
-    
-      - name: Update Historical Alaska Covid Data
-        uses: jannekem/run-python-script-action@v1
-        with:
-          script: |
-            import os
-            import sys
-            import json
-            from urllib.request import urlopen
-
-            apiKey = os.environ['API_KEY'];
-            historicalAllStates = 'https://api.covidactnow.org/v2/county/AK.timeseries.json?apiKey=' + apiKey
-
-            historicalAllStatesResponse = urlopen(historicalAllStates)
-
-            dataHistoricalAllStatesJSON = json.loads(historicalAllStatesResponse.read())
-
-            updateFile = open("./docs/data/covidHistoricalStateData.js", "a")
-
-            newHistoricalAllStatesData = '"AK" : ' + json.dumps(dataHistoricalAllStatesJSON, indent=4, separators=(", ", " : ")) + ',\n'
-            
-            updateFile.write(newHistoricalAllStatesData)
-            updateFile.close()
-
-      - name: Update Historical Arizona Covid Data
-        uses: jannekem/run-python-script-action@v1
-        with:
-          script: |
-            import os
-            import sys
-            import json
-            from urllib.request import urlopen
-
-            apiKey = os.environ['API_KEY'];
-            historicalAllStates = 'https://api.covidactnow.org/v2/county/AZ.timeseries.json?apiKey=' + apiKey
-
-            historicalAllStatesResponse = urlopen(historicalAllStates)
-
-            dataHistoricalAllStatesJSON = json.loads(historicalAllStatesResponse.read())
-
-            updateFile = open("./docs/data/covidHistoricalStateData.js", "a")
-
-            newHistoricalAllStatesData = '"AZ" : ' + json.dumps(dataHistoricalAllStatesJSON, indent=4, separators=(", ", " : ")) + ',\n'
-            
-            updateFile.write(newHistoricalAllStatesData)
-            updateFile.close()
-
-      - name: Update Historical Arkansas Covid Data
-        uses: jannekem/run-python-script-action@v1
-        with:
-          script: |
-            import os
-            import sys
-            import json
-            from urllib.request import urlopen
-
-            apiKey = os.environ['API_KEY'];
-            historicalAllStates = 'https://api.covidactnow.org/v2/county/AR.timeseries.json?apiKey=' + apiKey
-
-            historicalAllStatesResponse = urlopen(historicalAllStates)
-
-            dataHistoricalAllStatesJSON = json.loads(historicalAllStatesResponse.read())
-
-            updateFile = open("./docs/data/covidHistoricalStateData.js", "a")
-
-            newHistoricalAllStatesData = '"AR" : ' + json.dumps(dataHistoricalAllStatesJSON, indent=4, separators=(", ", " : ")) + '\n]\n'
-            
-            updateFile.write(newHistoricalAllStatesData)
-            updateFile.close()
-            
       - name: Update Current State Covid Data
         uses: jannekem/run-python-script-action@v1
         with:
@@ -176,7 +84,6 @@ jobs:
             branch: main
             file-path: |
                 docs/data/covidCurrentStateData.js
-                docs/data/covidHistoricalStateData.js
                 docs/data/covidCurrentUSData.js
                 docs/data/covidHistoricalUSData.js
             commit-msg: Daily Covid Data Pull
