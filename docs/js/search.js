@@ -193,9 +193,10 @@ backToStateSearch = () => {
 
 fireSearch = (searchValue) => {
     if(stateOldData == null && stateCurrentData == null)
-        getOldDataState(STATEABREVIATIONS[searchValue]);
+        getOldDataState(STATEABREVIATIONS[searchValue.toLowerCase()]);
     else{
-        getOldCountyData(STATEABREVIATIONS[currentStatePick]);
+        currentSelectedCountyData = countyCurrentData.filter(County => County.county.toLowerCase() === searchValue);
+        oldSelectedCountyData = countyOldData.filter(County => County.county.toLowerCase() === searchValue);
         state.changeState('infoScreen');
     }
 

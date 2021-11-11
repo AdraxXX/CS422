@@ -113,4 +113,12 @@ const STATEABREVIATIONS = {
     'wyoming':'WY'
 }
 
+let currentCountyOptions = null;
+let stateOldData = null;
+let stateCurrentData = null;
+let countyOldData = null;
+let countyCurrentData = null;
+let currentSelectedCountyData = null;
+let oldSelectedCountyData = null;
+
 state.changeState('searchScreen');
