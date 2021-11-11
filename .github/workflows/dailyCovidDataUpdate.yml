@@ -7,7 +7,7 @@ on:
   - cron: "0 10 * * *"
 
 jobs:
-  UpdateDate:
+  UpdateData:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -55,8 +55,8 @@ jobs:
             
             updateFile.write(newCurrentUSData)
             updateFile.close()
-      - name: Update Historical State Covid Data
-        timeout-minutes: 6
+        
+      - name: Update Historical Alabama Covid Data
         uses: jannekem/run-python-script-action@v1
         with:
           script: |
@@ -66,7 +66,7 @@ jobs:
             from urllib.request import urlopen
 
             apiKey = os.environ['API_KEY'];
-            historicalAllStates = 'https://api.covidactnow.org/v2/counties.timeseries.json?apiKey=' + apiKey
+            historicalAllStates = 'https://api.covidactnow.org/v2/county/AL.timeseries.json?apiKey=' + apiKey
 
             historicalAllStatesResponse = urlopen(historicalAllStates)
 
@@ -74,12 +74,81 @@ jobs:
 
             updateFile = open("covidHistoricalStateData.js", "w")
 
-            newHistoricalAllStatesData = 'let historicalAllStatesData = ' + json.dumps(dataHistoricalAllStatesJSON, indent=4, separators=(", ", " : "))
+            newHistoricalAllStatesData = 'let historicalAllStatesData = [ "AL" : ' + json.dumps(dataHistoricalAllStatesJSON, indent=4, separators=(", ", " : ")) + ',\n'
             
             updateFile.write(newHistoricalAllStatesData)
             updateFile.close()
+    
+      - name: Update Historical Alaska Covid Data
+        uses: jannekem/run-python-script-action@v1
+        with:
+          script: |
+            import os
+            import sys
+            import json
+            from urllib.request import urlopen
+
+            apiKey = os.environ['API_KEY'];
+            historicalAllStates = 'https://api.covidactnow.org/v2/county/AK.timeseries.json?apiKey=' + apiKey
+
+            historicalAllStatesResponse = urlopen(historicalAllStates)
+
+            dataHistoricalAllStatesJSON = json.loads(historicalAllStatesResponse.read())
+
+            updateFile = open("covidHistoricalStateData.js", "a")
+
+            newHistoricalAllStatesData = '"AK" : ' + json.dumps(dataHistoricalAllStatesJSON, indent=4, separators=(", ", " : ")) + ',\n'
+            
+            updateFile.write(newHistoricalAllStatesData)
+            updateFile.close()
+
+      - name: Update Historical Arizona Covid Data
+        uses: jannekem/run-python-script-action@v1
+        with:
+          script: |
+            import os
+            import sys
+            import json
+            from urllib.request import urlopen
+
+            apiKey = os.environ['API_KEY'];
+            historicalAllStates = 'https://api.covidactnow.org/v2/county/AZ.timeseries.json?apiKey=' + apiKey
+
+            historicalAllStatesResponse = urlopen(historicalAllStates)
+
+            dataHistoricalAllStatesJSON = json.loads(historicalAllStatesResponse.read())
+
+            updateFile = open("covidHistoricalStateData.js", "a")
+
+            newHistoricalAllStatesData = '"AZ" : ' + json.dumps(dataHistoricalAllStatesJSON, indent=4, separators=(", ", " : ")) + ',\n'
+            
+            updateFile.write(newHistoricalAllStatesData)
+            updateFile.close()
+
+      - name: Update Historical Arkansas Covid Data
+        uses: jannekem/run-python-script-action@v1
+        with:
+          script: |
+            import os
+            import sys
+            import json
+            from urllib.request import urlopen
+
+            apiKey = os.environ['API_KEY'];
+            historicalAllStates = 'https://api.covidactnow.org/v2/county/AR.timeseries.json?apiKey=' + apiKey
+
+            historicalAllStatesResponse = urlopen(historicalAllStates)
+
+            dataHistoricalAllStatesJSON = json.loads(historicalAllStatesResponse.read())
+
+            updateFile = open("covidHistoricalStateData.js", "a")
+
+            newHistoricalAllStatesData = '"AR" : ' + json.dumps(dataHistoricalAllStatesJSON, indent=4, separators=(", ", " : ")) + '\n]\n'
+            
+            updateFile.write(newHistoricalAllStatesData)
+            updateFile.close()
+            
       - name: Update Current State Covid Data
-        timeout-minutes: 6
         uses: jannekem/run-python-script-action@v1
         with:
           script: |
