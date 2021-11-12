@@ -241,7 +241,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/alaska-ak"
     }, 
     {
@@ -486,7 +486,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/alabama-al"
     }, 
     {
@@ -731,7 +731,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/arkansas-ar"
     }, 
     {
@@ -967,7 +967,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/arizona-az"
     }, 
     {
@@ -1212,7 +1212,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/california-ca"
     }, 
     {
@@ -1462,7 +1462,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/colorado-co"
     }, 
     {
@@ -1721,7 +1721,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/connecticut-ct"
     }, 
     {
@@ -2013,7 +2013,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/district_of_columbia-dc"
     }, 
     {
@@ -2249,7 +2249,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/delaware-de"
     }, 
     {
@@ -2520,7 +2520,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/florida-fl"
     }, 
     {
@@ -2765,7 +2765,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/georgia-ga"
     }, 
     {
@@ -3001,7 +3001,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/hawaii-hi"
     }, 
     {
@@ -3246,7 +3246,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/iowa-ia"
     }, 
     {
@@ -3491,7 +3491,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/idaho-id"
     }, 
     {
@@ -3736,7 +3736,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/illinois-il"
     }, 
     {
@@ -3972,7 +3972,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/indiana-in"
     }, 
     {
@@ -4217,7 +4217,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/kansas-ks"
     }, 
     {
@@ -4467,7 +4467,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/kentucky-ky"
     }, 
     {
@@ -4717,7 +4717,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/louisiana-la"
     }, 
     {
@@ -4971,7 +4971,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/massachusetts-ma"
     }, 
     {
@@ -5216,7 +5216,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/maryland-md"
     }, 
     {
@@ -5461,7 +5461,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/maine-me"
     }, 
     {
@@ -5715,7 +5715,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/michigan-mi"
     }, 
     {
@@ -5951,7 +5951,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/minnesota-mn"
     }, 
     {
@@ -6205,7 +6205,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/missouri-mo"
     }, 
     {
@@ -6414,7 +6414,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/northern_mariana_islands-mp"
     }, 
     {
@@ -6650,7 +6650,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/mississippi-ms"
     }, 
     {
@@ -6895,7 +6895,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/montana-mt"
     }, 
     {
@@ -7140,7 +7140,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/north_carolina-nc"
     }, 
     {
@@ -7376,7 +7376,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/north_dakota-nd"
     }, 
     {
@@ -7677,7 +7677,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/nebraska-ne"
     }, 
     {
@@ -7913,7 +7913,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/new_hampshire-nh"
     }, 
     {
@@ -8149,7 +8149,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/new_jersey-nj"
     }, 
     {
@@ -8385,7 +8385,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/new_mexico-nm"
     }, 
     {
@@ -8621,7 +8621,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/nevada-nv"
     }, 
     {
@@ -8866,7 +8866,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/new_york-ny"
     }, 
     {
@@ -9116,7 +9116,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/ohio-oh"
     }, 
     {
@@ -9385,7 +9385,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/oklahoma-ok"
     }, 
     {
@@ -9630,7 +9630,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/oregon-or"
     }, 
     {
@@ -9917,7 +9917,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/pennsylvania-pa"
     }, 
     {
@@ -10167,7 +10167,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/puerto_rico-pr"
     }, 
     {
@@ -10412,7 +10412,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/rhode_island-ri"
     }, 
     {
@@ -10657,7 +10657,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/south_carolina-sc"
     }, 
     {
@@ -10893,7 +10893,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/south_dakota-sd"
     }, 
     {
@@ -11157,7 +11157,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/tennessee-tn"
     }, 
     {
@@ -11425,7 +11425,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/texas-tx"
     }, 
     {
@@ -11661,7 +11661,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/utah-ut"
     }, 
     {
@@ -11897,7 +11897,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/virginia-va"
     }, 
     {
@@ -12142,7 +12142,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/vermont-vt"
     }, 
     {
@@ -12396,7 +12396,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/washington-wa"
     }, 
     {
@@ -12670,7 +12670,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/wisconsin-wi"
     }, 
     {
@@ -12915,7 +12915,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/west_virginia-wv"
     }, 
     {
@@ -13165,7 +13165,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-11", 
+        "lastUpdatedDate" : "2021-11-12", 
         "url" : "https://covidactnow.org/us/wyoming-wy"
     }
 ]

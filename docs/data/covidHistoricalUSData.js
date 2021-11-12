@@ -168,7 +168,7 @@ let historicalUSData = {
         "vaccinationsInitiatedRatio" : null, 
         "vaccinationsCompletedRatio" : null
     }, 
-    "lastUpdatedDate" : "2021-11-11", 
+    "lastUpdatedDate" : "2021-11-12", 
     "url" : null, 
     "metricsTimeseries" : [
         {
@@ -6785,6 +6785,17 @@ let historicalUSData = {
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null, 
             "date" : "2021-11-11"
+        }, 
+        {
+            "testPositivityRatio" : null, 
+            "caseDensity" : null, 
+            "contactTracerCapacityRatio" : null, 
+            "infectionRate" : null, 
+            "infectionRateCI90" : null, 
+            "icuCapacityRatio" : null, 
+            "vaccinationsInitiatedRatio" : null, 
+            "vaccinationsCompletedRatio" : null, 
+            "date" : "2021-11-12"
         }
     ], 
     "actualsTimeseries" : [
@@ -22661,6 +22672,32 @@ let historicalUSData = {
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null, 
             "date" : "2021-11-11"
+        }, 
+        {
+            "cases" : null, 
+            "deaths" : null, 
+            "positiveTests" : null, 
+            "negativeTests" : null, 
+            "contactTracers" : 66210, 
+            "hospitalBeds" : {
+                "capacity" : null, 
+                "currentUsageTotal" : null, 
+                "currentUsageCovid" : null
+            }, 
+            "icuBeds" : {
+                "capacity" : null, 
+                "currentUsageTotal" : null, 
+                "currentUsageCovid" : null
+            }, 
+            "newCases" : null, 
+            "newDeaths" : null, 
+            "vaccinesDistributed" : null, 
+            "vaccinationsInitiated" : null, 
+            "vaccinationsCompleted" : null, 
+            "vaccinesAdministered" : null, 
+            "vaccinesAdministeredDemographics" : null, 
+            "vaccinationsInitiatedDemographics" : null, 
+            "date" : "2021-11-12"
         }
     ], 
     "riskLevelsTimeseries" : [
@@ -25968,6 +26005,11 @@ let historicalUSData = {
             "overall" : 2, 
             "caseDensity" : 2, 
             "date" : "2021-11-11"
+        }, 
+        {
+            "overall" : 2, 
+            "caseDensity" : 2, 
+            "date" : "2021-11-12"
         }
     ], 
     "cdcTransmissionLevelTimeseries" : [
@@ -28613,6 +28655,10 @@ let historicalUSData = {
         }, 
         {
             "date" : "2021-11-11", 
+            "cdcTransmissionLevel" : 3
+        }, 
+        {
+            "date" : "2021-11-12", 
             "cdcTransmissionLevel" : 3
         }
     ]

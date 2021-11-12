@@ -168,6 +168,6 @@ let currentUSData = {
         "vaccinationsInitiatedRatio" : null, 
         "vaccinationsCompletedRatio" : null
     }, 
-    "lastUpdatedDate" : "2021-11-11", 
+    "lastUpdatedDate" : "2021-11-12", 
     "url" : null
 }
