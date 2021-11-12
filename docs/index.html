@@ -26,7 +26,6 @@
         <script src="./data/covidCurrentUSData.js"></script>
         <script src="./data/covidHistoricalUSData.js"></script>
         <script src="./data/covidCurrentCountyData.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     </head>
 
@@ -58,59 +57,83 @@
             </div>
             <div id="map"></div>
             <div class="bottom navBar center-content">
-                <button id="countryStats" class="btn-default statsButton">Contry Statistics</button>
-                <button id="stateStats" class="btn-default statsButton hidden">State Statistics</button>
+                <button id="countryStats" onclick="openCountryOverTimeScreen()" class="btn-default statsButton">Country Statistics</button>
+                <button id="stateStats" onclick="openStateOverTimeScreen()" class="btn-default statsButton hidden">State Statistics</button>
             </div>
         </div>
 
-        <div id="infoScreen" class="page hidden" style="overflow:auto">
+        <div id="statsCountryScreen" class="page hidden dataPage">
+            <div class="container text-center">
+                <header class="d-flex align-items-left justify-content-left mt-5">
+                    <button class="btn btn-outline-dark" onclick="changeState('searchScreen')">Back</button>
+                </header>
+                <h1 class="h2 mb-0 ms-3">Statistics &ndash; <span id="info-location-title">United States of America</span></h1>
+                <section class="mt-4">
+                    <h3 class="h4 mb-3">Time Options</h3>
+                    <button id="week-button" class="btn btn-outline-dark btn-sm active">Week</button>
+                    <button id="month-button" class="btn btn-outline-dark btn-sm">Month</button>
+                </section>
+                <div class="chartBox">
+                    <canvas id="myChart"></canvas>
+                    <canvas id="myChart1"></canvas>
+                    <canvas id="myChart2"></canvas>
+                </div>
+            </div>
+        </div>
+        <div id="statsStateScreen" class="page hidden dataPage"> 
+            <div class="container text-center">
+                <header class="d-flex align-items-left justify-content-left mt-5">
+                    <button class="btn btn-outline-dark" onclick="changeState('searchScreen')">Back</button>
+                </header>
+                <h1 class="h2 mb-0 ms-3">Statistics &ndash; <span id="info-location-title">State</span></h1>
+                <section class="mt-4">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="h4 mb-3">Time Options</h3>
+                            <button id="week-button" class="btn btn-outline-dark btn-sm active">Week</button>
+                            <button id="month-button" class="btn btn-outline-dark btn-sm">Month</button>
+                        </div>
+                        <div class="col"> 
+                            <h3 class="h4 mb-3">Comparison Options</h3>
+                            <button id="country-button" class="btn btn-outline-dark btn-sm">Country</button>
+                        </div>
+                    </div>
+                </section>
+                <div class="chartBox">
+                    <canvas id="myChart3"></canvas>
+                    <canvas id="myChart4"></canvas>
+                    <canvas id="myChart5"></canvas>
+                </div>
+            </div>
+        </div>
+        <div id="statsCountyScreen" class="page hidden dataPage">
             <div class="container text-center">
                 <header class="d-flex align-items-center justify-content-center mt-5">
-                    <button class="btn btn-outline-dark">Back</button>
-                    <h1 class="h2 mb-0 ms-3">Statistics &ndash; <span id="info-location-title">United States of America</span></h1>
+                    <button class="btn btn-outline-dark"  onclick="changeState('searchScreen')">Back</button>
                 </header>
+                <h1 class="h2 mb-0 ms-3">Statistics &ndash; <span id="info-location-title">County</span></h1>
                 <section class="mt-4">
+                    <h3 class="h4 mb-3">Time Options</h3>
                     <button id="week-button" class="btn btn-outline-dark btn-sm active">Week</button>
                     <button id="month-button" class="btn btn-outline-dark btn-sm">Month</button>
                 </section>
                 <section class="mt-4">
                     <h3 class="h4 mb-3">Comparison Options</h3>
-                    <button id="illinois-button" class="btn btn-outline-dark btn-sm">Illinois</button>
+                    <button id="illinois-button" class="btn btn-outline-dark btn-sm">State</button>
                     <button id="country-button" class="btn btn-outline-dark btn-sm">Country</button>
                 </section>
-                <section id="graphs" class="d-flex flex-column align-items-center mt-4">
-
-                </section>
+                <div class="chartBox">
+                    <canvas id="myChart6"></canvas>
+                    <canvas id="myChart7"></canvas>
+                    <canvas id="myChart8"></canvas>
+                </div>
             </div>
         </div>
 
-        <div id="statsCountryScreen" class="page hidden">
-            <title>My Chart.js Chart</title>
-            <div class="chartBox">
-            <canvas id="myChart"></canvas>
-            <canvas id="myChart1"></canvas>
-            <canvas id="myChart2"></canvas>
-            </div>
-        </div>
-        <div id="statsStateScreen" class="page hidden">
-            <title>My Chart.js Chart</title>
-            <div class="chartBox">
-                <canvas id="myChart3"></canvas>
-                <canvas id="myChart4"></canvas>
-                <canvas id="myChart5"></canvas>
-            </div>
-        </div>
-        <div id="statsCountyScreen" class="page hidden">
-            <title>My Chart.js Chart</title>
-            <div class="chartBox">
-                <canvas id="myChart6"></canvas>
-                <canvas id="myChart7"></canvas>
-                <canvas id="myChart8"></canvas>
-            </div>
-        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
         <script src="js/jsonRetriever.js"></script>
         <script src="js/state.js"></script>
-        <!--<script src="js/graph.js"></script>-->
+        <script src="js/graph.js"></script>
         <script src="js/search.js"></script>
         <script src="js/load.js"></script>
         <script src="js/info.js"></script>

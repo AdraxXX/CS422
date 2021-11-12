@@ -28,7 +28,6 @@ getCurrentDataState = (queryState) => {
 }
 
 getOldDataState = (queryState) => {
-	console.log(queryState)
 	state.changeState('loadingScreen');
 	stateOldData = historicalAllStatesData.filter(State => State.state === queryState);
 	getCurrentDataState(queryState);

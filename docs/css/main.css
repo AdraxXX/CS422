@@ -126,6 +126,18 @@ body,html{
 }
 
 .chartBox {
-    width: 800px;
-    height: 800px;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 25%;
+}
+
+.dataPage{
+    overflow: hidden !important;
+    overflow-y: auto !important;
+}
+
+.dataPage header{
+    position: absolute;
+    top: 0;
 }

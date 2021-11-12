@@ -1,71 +1,77 @@
-let stateInUS = 'IL'
-const xmlhttp=new XMLHttpRequest()
-const us_api_url='https://api.covidactnow.org/v2/country/US.timeseries.json?apiKey=47a9b3b8d749453c980cb48d8513f660'
-var dateOfUS
-var deathsOfUS
-var vaccinesAdministeredOfUS
-var newCasesOfUS
-var dateOfCounty
-var deathsOfCounty
-var vaccinesAdministeredOfCounty
-var newCasesOfCounty
-var dateOfState
-var deathsOfState
-var vaccinesAdministeredOfState
-var newCasesOfState
-xmlhttp.open("get",us_api_url,true);
-xmlhttp.send();
-xmlhttp.onreadystatechange = function(){
-    if(this.readyState==4 && this.status==200){
-        var data = JSON.parse(this.responseText);
-        newCasesOfUS=data.actualsTimeseries.map(function (elem){
+class Graphs{ 
+
+    constructor(){
+        this.dateOfUS = null;
+        this.deathsOfUS = null;
+        this.vaccinesAdministeredOfUS = null;
+        this.newCasesOfUS = null;
+        this.dateOfCounty = null;
+        this.deathsOfCounty = null;
+        this.vaccinesAdministeredOfCounty = null;
+        this.newCasesOfCounty = null;
+        this.dateOfState = null;
+        this.deathsOfState = null;
+        this.vaccinesAdministeredOfState = null;
+        this.newCasesOfState = null;
+    }
+
+    countryOverTimeData = () =>{
+        let data = historicalUSData;
+        
+        this.newCasesOfUS = data.actualsTimeseries.map( (elem) => {
             return elem.newCases;
         })
-        vaccinesAdministeredOfUS=data.actualsTimeseries.map(function (elem){
+        
+        this.vaccinesAdministeredOfUS = data.actualsTimeseries.map( (elem) => {
             return elem.vaccinesAdministered;
         })
-        deathsOfUS=data.actualsTimeseries.map(function (elem){
+        
+        this.deathsOfUS = data.actualsTimeseries.map( (elem) => {
             return elem.deaths;
         })
-        dateOfUS=data.actualsTimeseries.map(function (elem){
+
+        this.dateOfUS = data.actualsTimeseries.map( (elem) => {
             return elem.date;
         })
+
         const ctx = document.getElementById('myChart').getContext('2d');
         const myChart = new Chart(ctx, {
             type: 'line',
             data: {
-                labels: dateOfUS,
+                labels: this.dateOfUS,
                 datasets: [{
                     label: 'New Cases',
-                    data: newCasesOfUS,
+                    data: this.newCasesOfUS,
                     backgroundColor: 'transparent',
                     borderColor:'red',
                     borderWidth: 4
                 }]
             }
         });
+
         const ctx1 = document.getElementById('myChart1').getContext('2d');
         const myChart1 = new Chart(ctx1, {
             type: 'line',
             data: {
-                labels:dateOfUS,
+                labels: this.dateOfUS,
                 datasets: [{
                     label: 'Deaths',
-                    data: newCasesOfUS,
+                    data: this.newCasesOfUS,
                     backgroundColor: 'transparent',
                     borderColor: 'red',
                     borderWidth: 4
                 }]
             }
         });
+
         const ctx2 = document.getElementById('myChart2').getContext('2d');
         const myChart2 = new Chart(ctx2, {
             type: 'bar',
             data: {
-                labels: dateOfUS,
+                labels: this.dateOfUS,
                 datasets: [{
                     label: 'vaccines Administered',
-                    data: vaccinesAdministeredOfUS,
+                    data: this.vaccinesAdministeredOfUS,
                     backgroundColor: 'transparent',
                     borderColor: 'red',
                     borderWidth: 4
@@ -79,40 +85,38 @@ xmlhttp.onreadystatechange = function(){
                 }
             }
         });
-    }
-}
+    };
 
-const xmlhttp2=new XMLHttpRequest()
-const county_api_url='https://api.covidactnow.org/v2/county/' + stateInUS + '.timeseries.json?apiKey=47a9b3b8d749453c980cb48d8513f660'
-let county = "Cook County"
-xmlhttp2.open("get",county_api_url,true);
-xmlhttp2.send();
-xmlhttp2.onreadystatechange = function(){
-    if(this.readyState==4 && this.status==200) {
-        var data = JSON.parse(this.responseText);
+    countyTimeOverTimeData = (currentSelectedCounty) => {
+        let data = countyOldData;
 
         for (let key in data) {
-            if (data[key].county === county) {
-                newCasesOfCounty = data[key].actualsTimeseries.map(function (elem) {
+            if (data[key].county.toLowerCase() === currentSelectedCounty) {
+
+                this.newCasesOfCounty = data[key].actualsTimeseries.map( (elem) => {
                     return elem.newCases;
                 })
-                vaccinesAdministeredOfCounty = data[key].actualsTimeseries.map(function (elem) {
+
+                this.vaccinesAdministeredOfCounty = data[key].actualsTimeseries.map( (elem) => {
                     return elem.vaccinesAdministered;
                 })
-                deathsOfCounty = data[key].actualsTimeseries.map(function (elem) {
+
+                this.deathsOfCounty = data[key].actualsTimeseries.map( (elem) => {
                     return elem.deaths;
                 })
-                dateOfCounty = data[key].actualsTimeseries.map(function (elem) {
+
+                this.dateOfCounty = data[key].actualsTimeseries.map( (elem) => {
                     return elem.date;
                 })
+
                 const ctx6 = document.getElementById('myChart6').getContext('2d');
                 const myChart6 = new Chart(ctx6, {
                     type: 'bar',
                     data: {
-                        labels: dateOfCounty,
+                        labels: this.dateOfCounty,
                         datasets: [{
-                            label: '# of New Cases',
-                            data: newCasesOfCounty,
+                            label: '# of New Cases in ' + currentSelectedCounty,
+                            data: this.newCasesOfCounty,
                             backgroundColor: 'transparent',
                             borderColor: 'red',
                             borderWidth: 4
@@ -126,14 +130,15 @@ xmlhttp2.onreadystatechange = function(){
                         }
                     }
                 });
+
                 const ctx7 = document.getElementById('myChart7').getContext('2d');
                 const myChart7 = new Chart(ctx7, {
                     type: 'bar',
                     data: {
-                        labels: dateOfCounty,
+                        labels: this.dateOfCounty,
                         datasets: [{
-                            label: '# of Deaths',
-                            data: deathsOfCounty,
+                            label: '# of Deaths in ' + currentSelectedCounty,
+                            data: this.deathsOfCounty,
                             backgroundColor: 'transparent',
                             borderColor: 'red',
                             borderWidth: 4
@@ -147,14 +152,15 @@ xmlhttp2.onreadystatechange = function(){
                         }
                     }
                 });
+
                 const ctx8 = document.getElementById('myChart8').getContext('2d');
                 const myChart8 = new Chart(ctx8, {
                     type: 'bar',
                     data: {
-                        labels: dateOfCounty,
+                        labels: this.dateOfCounty,
                         datasets: [{
-                            label: '# of Vaccines Administered',
-                            data: vaccinesAdministeredOfCounty,
+                            label: '# of Vaccines Administered in ' + currentSelectedCounty,
+                            data: this.vaccinesAdministeredOfCounty,
                             backgroundColor: 'transparent',
                             borderColor: 'red',
                             borderWidth: 4
@@ -170,36 +176,35 @@ xmlhttp2.onreadystatechange = function(){
                 });
             }
         }
-    }
-}
-const xmlhttp1=new XMLHttpRequest()
-const state_api_url='https://api.covidactnow.org/v2/state/' + stateInUS + '.timeseries.json?apiKey=47a9b3b8d749453c980cb48d8513f660'
+    };
 
-xmlhttp1.open("get",state_api_url,true);
-xmlhttp1.send();
-xmlhttp1.onreadystatechange = function(){
-    if(this.readyState==4 && this.status==200){
-        var data = JSON.parse(this.responseText);
-        newCasesOfState=data.actualsTimeseries.map(function (elem){
+    stateOverTimeData = (currentSelectedState) => {
+        let data = stateOldData[0];
+        
+        this.newCasesOfState = data.actualsTimeseries.map( (elem) => {
             return elem.newCases;
         })
-        vaccinesAdministeredOfState=data.actualsTimeseries.map(function (elem){
+
+        this.vaccinesAdministeredOfState = data.actualsTimeseries.map( (elem) => {
             return elem.vaccinesAdministered;
         })
-        deathsOfState=data.actualsTimeseries.map(function (elem){
+
+        this.deathsOfState = data.actualsTimeseries.map( (elem) => {
             return elem.deaths;
         })
-        dateOfState=data.actualsTimeseries.map(function (elem){
+
+        this.dateOfState = data.actualsTimeseries.map( (elem) => {
             return elem.date;
         })
+
         const ctx3 = document.getElementById('myChart3').getContext('2d');
         const myChart3 = new Chart(ctx3, {
             type: 'bar',
             data: {
-                labels: dateOfState,
+                labels: this.dateOfState,
                 datasets: [{
-                    label: '# of New Cases in '+stateInUS,
-                    data: newCasesOfState,
+                    label: '# of New Cases in ' + currentSelectedState,
+                    data: this.newCasesOfState,
                     backgroundColor: 'transparent',
                     borderColor: 'red',
                     borderWidth: 4
@@ -213,14 +218,15 @@ xmlhttp1.onreadystatechange = function(){
                 }
             }
         });
+
         const ctx4 = document.getElementById('myChart4').getContext('2d');
         const myChart4 = new Chart(ctx4, {
             type: 'bar',
             data: {
-                labels: dateOfState,
+                labels: this.dateOfState,
                 datasets: [{
-                    label: '# of Deaths in '+ stateInUS,
-                    data: deathsOfState,
+                    label: '# of Deaths in '+ currentSelectedState,
+                    data: this.deathsOfState,
                     backgroundColor: 'transparent',
                     borderColor: 'red',
                     borderWidth: 4
@@ -234,14 +240,15 @@ xmlhttp1.onreadystatechange = function(){
                 }
             }
         });
+
         const ctx5 = document.getElementById('myChart5').getContext('2d');
         const myChart5 = new Chart(ctx5, {
             type: 'bar',
             data: {
-                labels: dateOfState,
+                labels: this.dateOfState,
                 datasets: [{
-                    label: '# of Vaccines Administered in '+ stateInUS,
-                    data:vaccinesAdministeredOfState ,
+                    label: '# of Vaccines Administered in ' + currentSelectedState,
+                    data: this.vaccinesAdministeredOfState ,
                     backgroundColor: 'transparent',
                     borderColor: 'red',
                     borderWidth: 4
@@ -255,10 +262,5 @@ xmlhttp1.onreadystatechange = function(){
                 }
             }
         });
-    }
-}
-
-
-
-
-
+    };
+};

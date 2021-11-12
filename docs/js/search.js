@@ -192,14 +192,16 @@ backToStateSearch = () => {
 }
 
 fireSearch = (searchValue) => {
-    if(stateOldData == null && stateCurrentData == null)
+    if(stateOldData == null || stateCurrentData == null){
         getOldDataState(STATEABREVIATIONS[searchValue.toLowerCase()]);
+    }
     else{
+	    state.changeState('loadingScreen');
         currentSelectedCountyData = countyCurrentData.filter(County => County.county.toLowerCase() === searchValue);
         oldSelectedCountyData = countyOldData.filter(County => County.county.toLowerCase() === searchValue);
-        state.changeState('infoScreen');
+        state.changeState('statsCountyScreen');
+        graphs.countyTimeOverTimeData(searchValue);
     }
-
 }
 
 createAutoComplete = (currentList) => {
@@ -233,4 +235,18 @@ createAutoComplete = (currentList) => {
     });
 
     currentAutoPickerOptions = document.querySelectorAll('#' + searchState + 'AutoComplete button');
+}
+
+openStateOverTimeScreen = () => {
+    state.changeState('statsStateScreen');
+    graphs.stateOverTimeData(currentStatePick);
+}
+
+openCountryOverTimeScreen = () => {
+    state.changeState('statsCountryScreen');
+    graphs.countryOverTimeData();
+}
+
+changeState = (newPage) => {
+    state.changeState(newPage);
 }
