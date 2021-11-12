@@ -13,8 +13,8 @@ let currentUSData = {
         "testPositivityRatioDetails" : {
             "source" : "other"
         }, 
-        "caseDensity" : 23.2, 
-        "contactTracerCapacityRatio" : 0.17, 
+        "caseDensity" : 22.4, 
+        "contactTracerCapacityRatio" : 0.18, 
         "infectionRate" : 1.03, 
         "infectionRateCI90" : 0.1, 
         "icuCapacityRatio" : 0.77, 
@@ -31,8 +31,8 @@ let currentUSData = {
     }, 
     "cdcTransmissionLevel" : 3, 
     "actuals" : {
-        "cases" : 46757833, 
-        "deaths" : 758588, 
+        "cases" : 46822434, 
+        "deaths" : 759310, 
         "positiveTests" : 47469494, 
         "negativeTests" : 577678078, 
         "contactTracers" : 66210, 
@@ -46,8 +46,8 @@ let currentUSData = {
             "currentUsageTotal" : 62904, 
             "currentUsageCovid" : 11044
         }, 
-        "newCases" : 98390, 
-        "newDeaths" : 1637, 
+        "newCases" : 64601, 
+        "newDeaths" : 722, 
         "vaccinesDistributed" : 541361525, 
         "vaccinationsInitiated" : 224660453, 
         "vaccinationsCompleted" : 194382921, 
