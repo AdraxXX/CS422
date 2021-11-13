@@ -31,7 +31,7 @@ let goToCoordinates = (lat, lon, zoom) =>
 let zoomIntoState = (state) =>
 {
     const OWM_KEY = "f43aa4ad79f1da0a9a64c735cb5fbd0e"
-    let url = `http://api.openweathermap.org/geo/1.0/direct?q=${state}&limit=1&appid=${OWM_KEY}`
+    let url = `https://api.openweathermap.org/geo/1.0/direct?q=${state}&limit=1&appid=${OWM_KEY}`
     return fetch(url)
         .then( (response) =>
         {
