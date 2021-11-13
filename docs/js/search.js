@@ -193,7 +193,11 @@ backToStateSearch = () => {
 
 fireSearch = (searchValue) => {
     if(stateOldData == null || stateCurrentData == null){
-        getOldDataState(STATEABREVIATIONS[searchValue.toLowerCase()]);
+        currentStatePick = searchValue.toLowerCase();
+        getOldDataState(STATEABREVIATIONS[currentStatePick]);
+
+        // map.js
+        zoomIntoState(searchValue);
     }
     else{
 	    state.changeState('loadingScreen');
@@ -202,6 +206,25 @@ fireSearch = (searchValue) => {
         state.changeState('statsCountyScreen');
         graphs.countyTimeOverTimeData(searchValue);
     }
+}
+
+// Called by map.js
+fireSearchByClick = (stateCode, county) => {
+    if(stateOldData == null || stateCurrentData == null) {
+        let searchButton = document.querySelector("#showSearchButton");
+        searchToggle(searchButton);
+
+        // Simulate user inputs
+        let fullState = STATE_BY_ABBREVIATION[stateCode];
+        document.querySelector('#stateInput').textContent = fullState;
+        currentStatePick = fullState.toLowerCase();
+        globalCurrentSearch = fullState;
+
+        document.querySelector("#searchButton").click();
+        return;
+    }
+
+    fireSearch(county);
 }
 
 createAutoComplete = (currentList) => {
@@ -229,7 +252,12 @@ createAutoComplete = (currentList) => {
         newButton.innerHTML = stateUpperFirst;
         newButton.addEventListener('click', () =>{
             currentInput.value = stateUpperFirst;
-            currentCountyPick = currentCountyPick;
+            if(stateOldData == null || stateCurrentData == null) {
+                currentStatePick = stateUpperFirst;
+            }
+            else {
+                currentCountyPick = state;
+            }
         });
         autocomplete.appendChild(newButton);
     });

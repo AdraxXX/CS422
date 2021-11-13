@@ -114,6 +114,9 @@ const STATEABREVIATIONS = {
     'wyoming':'WY'
 }
 
+// from https://stackoverflow.com/questions/23013573/swap-key-with-value-in-object
+let STATE_BY_ABBREVIATION = Object.entries(STATEABREVIATIONS).reduce((acc, [key, value]) => (acc[value] = key, acc), {});
+
 let currentCountyOptions = null;
 let stateOldData = null;
 let stateCurrentData = null;
