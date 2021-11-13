@@ -207,6 +207,25 @@ fireSearch = (searchValue) => {
     }
 }
 
+// Called by map.js
+fireSearchByClick = (stateCode, county) => {
+    if(stateOldData == null || stateCurrentData == null) {
+        let searchButton = document.querySelector("#showSearchButton");
+        searchToggle(searchButton);
+
+        // Simulate user inputs
+        let fullState = STATE_BY_ABBREVIATION[stateCode];
+        document.querySelector('#stateInput').textContent = fullState;
+        currentStatePick = fullState.toLowerCase();
+        globalCurrentSearch = fullState;
+
+        document.querySelector("#searchButton").click();
+        return;
+    }
+
+    fireSearch(county);
+}
+
 createAutoComplete = (currentList) => {
     
     let currentInput = document.querySelector('#' + searchState + 'Input');

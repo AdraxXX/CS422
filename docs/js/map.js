@@ -30,8 +30,6 @@ let goToCoordinates = (lat, lon, zoom) =>
 
 let zoomIntoState = (state) =>
 {
-    console.log(state)
-
     const OWM_KEY = "f43aa4ad79f1da0a9a64c735cb5fbd0e"
     let url = `http://api.openweathermap.org/geo/1.0/direct?q=${state}&limit=1&appid=${OWM_KEY}`
     return fetch(url)
@@ -136,12 +134,27 @@ let addMapManipulations = () =>
         hoveredCounty = null;
     });
 
-    // Def don't need to keep this, just for example
     map.on('click', 'county-fills', (e) =>
     {
         let coords = e.lngLat;
-        addPopup([coords.lat, coords.lng], e.features[0].properties.NAME)
-        console.log(STATEABREVIATIONS[STATES[parseInt(e.features[0].properties.STATE)]])
+
+        let url = `https://geo.fcc.gov/api/census/area?lat=${coords.lat}&lon=${coords.lng}&format=json`
+        fetch(url)
+            .then( (response) =>
+            {
+                return response.json();
+            })
+            .then( (info) =>
+            {
+                let result = info.results[0];
+
+                let state = result['state_code'];
+                let county = `${result['county_name']} County`
+                console.log(county)
+
+                // goToCoordinates(coords.lat, coords.lng, 7)
+                fireSearchByClick(state, county.toLowerCase())
+            })
     });
 }
 
