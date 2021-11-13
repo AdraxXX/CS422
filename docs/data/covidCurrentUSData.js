@@ -18,8 +18,8 @@ let currentUSData = {
         "infectionRate" : 1.03, 
         "infectionRateCI90" : 0.1, 
         "icuCapacityRatio" : 0.77, 
-        "vaccinationsInitiatedRatio" : 0.678, 
-        "vaccinationsCompletedRatio" : 0.586
+        "vaccinationsInitiatedRatio" : 0.681, 
+        "vaccinationsCompletedRatio" : 0.587
     }, 
     "riskLevels" : {
         "overall" : 2, 
@@ -33,25 +33,25 @@ let currentUSData = {
     "actuals" : {
         "cases" : 46822434, 
         "deaths" : 759310, 
-        "positiveTests" : 47469494, 
-        "negativeTests" : 577678078, 
+        "positiveTests" : 47483033, 
+        "negativeTests" : 577827113, 
         "contactTracers" : 66210, 
         "hospitalBeds" : {
-            "capacity" : 767866, 
-            "currentUsageTotal" : 599181, 
-            "currentUsageCovid" : 46806
+            "capacity" : 771274, 
+            "currentUsageTotal" : 603678, 
+            "currentUsageCovid" : 46628
         }, 
         "icuBeds" : {
-            "capacity" : 82001, 
-            "currentUsageTotal" : 62904, 
-            "currentUsageCovid" : 11044
+            "capacity" : 82446, 
+            "currentUsageTotal" : 63144, 
+            "currentUsageCovid" : 11051
         }, 
         "newCases" : 64601, 
         "newDeaths" : 722, 
-        "vaccinesDistributed" : 541361525, 
-        "vaccinationsInitiated" : 224660453, 
-        "vaccinationsCompleted" : 194382921, 
-        "vaccinesAdministered" : 434486889, 
+        "vaccinesDistributed" : 551000705, 
+        "vaccinationsInitiated" : 225606197, 
+        "vaccinationsCompleted" : 194747839, 
+        "vaccinesAdministered" : 437352000, 
         "vaccinesAdministeredDemographics" : null, 
         "vaccinationsInitiatedDemographics" : null
     }, 
@@ -168,6 +168,6 @@ let currentUSData = {
         "vaccinationsInitiatedRatio" : null, 
         "vaccinationsCompletedRatio" : null
     }, 
-    "lastUpdatedDate" : "2021-11-12", 
+    "lastUpdatedDate" : "2021-11-13", 
     "url" : null
 }
