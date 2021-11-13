@@ -194,6 +194,9 @@ backToStateSearch = () => {
 fireSearch = (searchValue) => {
     if(stateOldData == null || stateCurrentData == null){
         getOldDataState(STATEABREVIATIONS[searchValue.toLowerCase()]);
+
+        // map.js
+        zoomIntoState(searchValue);
     }
     else{
 	    state.changeState('loadingScreen');

@@ -28,6 +28,24 @@ let goToCoordinates = (lat, lon, zoom) =>
     });
 }
 
+let zoomIntoState = (state) =>
+{
+    console.log(state)
+
+    const OWM_KEY = "f43aa4ad79f1da0a9a64c735cb5fbd0e"
+    let url = `http://api.openweathermap.org/geo/1.0/direct?q=${state}&limit=1&appid=${OWM_KEY}`
+    return fetch(url)
+        .then( (response) =>
+        {
+            return response.json();
+        })
+        .then( (info) =>
+        {
+            let result = info[0];
+            goToCoordinates(result['lat'], result['lon'], 5);
+        })
+}
+
 map.on('load', () =>
 {
     addMapData();
