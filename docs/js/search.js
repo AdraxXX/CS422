@@ -193,7 +193,8 @@ backToStateSearch = () => {
 
 fireSearch = (searchValue) => {
     if(stateOldData == null || stateCurrentData == null){
-        getOldDataState(STATEABREVIATIONS[searchValue.toLowerCase()]);
+        currentStatePick = searchValue.toLowerCase();
+        getOldDataState(STATEABREVIATIONS[currentStatePick]);
 
         // map.js
         zoomIntoState(searchValue);
@@ -251,7 +252,12 @@ createAutoComplete = (currentList) => {
         newButton.innerHTML = stateUpperFirst;
         newButton.addEventListener('click', () =>{
             currentInput.value = stateUpperFirst;
-            currentCountyPick = currentCountyPick;
+            if(stateOldData == null || stateCurrentData == null) {
+                currentStatePick = stateUpperFirst;
+            }
+            else {
+                currentCountyPick = state;
+            }
         });
         autocomplete.appendChild(newButton);
     });

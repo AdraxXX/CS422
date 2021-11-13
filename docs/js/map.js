@@ -40,7 +40,7 @@ let zoomIntoState = (state) =>
         .then( (info) =>
         {
             let result = info[0];
-            goToCoordinates(result['lat'], result['lon'], 5);
+            goToCoordinates(result['lat'], result['lon'], 5.5);
         })
 }
 
@@ -150,7 +150,6 @@ let addMapManipulations = () =>
 
                 let state = result['state_code'];
                 let county = `${result['county_name']} County`
-                console.log(county)
 
                 // goToCoordinates(coords.lat, coords.lng, 7)
                 fireSearchByClick(state, county.toLowerCase())
