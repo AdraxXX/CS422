@@ -10,6 +10,7 @@ let map = new maplibregl.Map(
     })
 
 let hoveredCounty = null;
+let hoveredState = null;
 
 let addPopup = ( latlon, msg ) =>
 {
@@ -52,17 +53,36 @@ map.on('load', () =>
 
     map.on('mouseenter', 'county-fills', () => { map.getCanvas().style.cursor = 'pointer'; });
     map.on('mouseleave', 'county-fills', () => { map.getCanvas().style.cursor = ''; });
+
+    map.on('mouseenter', 'state-fills', () => { map.getCanvas().style.cursor = 'pointer'; });
+    map.on('mouseleave', 'state-fills', () => { map.getCanvas().style.cursor = ''; });
+
 })
 
-let addMapData = () =>
+let curMapState = 'states';
+let updateMapState = (showCounties) =>
 {
-    map.addSource('counties',
-        {
-            'type': 'geojson',
-            'data': './data/gz_2010_us_050_00_5m.geojson',
-            // generateId: true // for next time if we switch dataset
-        });
+    if(!showCounties)
+    {
+        if(curMapState == 'states')
+            return;
 
+        removeCounties();
+        enableStatesGeo();
+        curMapState = 'states';
+        return;
+    }
+
+    if(curMapState == 'counties')
+        return;
+
+    removeStates();
+    enableCountiesGeo();
+    curMapState = 'counties';
+}
+
+let enableCountiesGeo = () =>
+{
     map.addLayer(
         {
             'id': 'county-fills',
@@ -96,8 +116,117 @@ let addMapData = () =>
         });
 }
 
+let enableStatesGeo = () =>
+{
+    map.addLayer
+    (
+        {
+            'id': 'state-fills',
+            'type': 'fill',
+            'source': 'states',
+            'layout': {},
+            'paint': {
+                'fill-color': 'green',
+                'fill-opacity': [
+                    'case',
+                    ['boolean', ['feature-state', 'hover'], false],
+                    0.25,
+                    0
+                ]
+            }
+        }
+    );
+
+    if(map.getLayer('state-borders'))
+        return;
+
+    map.addLayer
+    (
+        {
+            'id': 'state-borders',
+            'type': 'line',
+            'source': 'states',
+            'layout': {},
+            'paint':
+                {
+                    'line-color': 'red',
+                    'line-width': 2.5
+                }
+        }
+    );
+}
+
+let addMapData = () =>
+{
+    map.addSource('counties',
+        {
+            'type': 'geojson',
+            'data': './data/gz_2010_us_050_00_5m.geojson',
+            // generateId: true // for next time if we switch dataset
+        });
+
+    map.addSource('states',
+        {
+            'type': 'geojson',
+            'data': 'https://maplibre.org/maplibre-gl-js-docs/assets/us_states.geojson'
+        });
+
+
+    //enableCountiesGeo();
+    enableStatesGeo();
+}
+
+let removeCounties = () =>
+{
+    map.removeLayer('county-fills');
+    map.removeLayer('county-borders');
+}
+
+let removeStates = () =>
+{
+    map.removeLayer('state-fills');
+    // map.removeLayer('state-borders');
+}
+
 let addMapManipulations = () =>
 {
+    map.on('mousemove', 'state-fills', (e) =>
+    {
+        if(e.features.length == 0)
+            return;
+
+        if (hoveredState)
+        {
+            map.setFeatureState
+            (
+                { source: 'states', id: hoveredState },
+                { hover: false }
+            );
+        }
+
+        hoveredState = e.features[0].id;
+        map.setFeatureState
+        (
+                { source: 'states', id: hoveredState },
+                { hover: true }
+        );
+    });
+
+    map.on('mouseleave', 'state-fills', () =>
+    {
+        if (hoveredState)
+        {
+            map.setFeatureState
+            (
+                { source: 'states', id: hoveredState },
+                { hover: false }
+            );
+        }
+        hoveredState = null;
+    });
+
+    map.on('click', 'state-fills', (e) => { getClickInfo(e); });
+
     map.on('mousemove', 'county-fills', (e) =>
     {
         if(e.features.length === 0)
@@ -134,27 +263,29 @@ let addMapManipulations = () =>
         hoveredCounty = null;
     });
 
-    map.on('click', 'county-fills', (e) =>
-    {
-        let coords = e.lngLat;
+    map.on('click', 'county-fills', (e) => { getClickInfo(e); });
+}
 
-        let url = `https://geo.fcc.gov/api/census/area?lat=${coords.lat}&lon=${coords.lng}&format=json`
-        fetch(url)
-            .then( (response) =>
-            {
-                return response.json();
-            })
-            .then( (info) =>
-            {
-                let result = info.results[0];
+let getClickInfo = (e) =>
+{
+    let coords = e.lngLat;
 
-                let state = result['state_code'];
-                let county = `${result['county_name']} County`
+    let url = `https://geo.fcc.gov/api/census/area?lat=${coords.lat}&lon=${coords.lng}&format=json`
+    fetch(url)
+        .then( (response) =>
+        {
+            return response.json();
+        })
+        .then( (info) =>
+        {
+            let result = info.results[0];
 
-                // goToCoordinates(coords.lat, coords.lng, 7)
-                fireSearchByClick(state, county.toLowerCase())
-            })
-    });
+            let state = result['state_code'];
+            let county = `${result['county_name']} County`
+
+            // goToCoordinates(coords.lat, coords.lng, 7)
+            fireSearchByClick(state, county.toLowerCase())
+        })
 }
 
 /*let addMapControls = () =>

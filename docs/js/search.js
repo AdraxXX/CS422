@@ -111,6 +111,11 @@ document.querySelector('#countyInput').addEventListener("keypress", (e)=>{
     }
 });
 
+document.addEventListener("click", (e) =>
+{
+    updateMapState(!document.querySelector('#countyInput').classList.contains('hidden'));
+});
+
 document.querySelector('#countyInput').addEventListener("keyup", (e)=>{
     let key = e.key.toLowerCase();
     let currentInput = document.querySelector('#' + searchState + 'Input');
