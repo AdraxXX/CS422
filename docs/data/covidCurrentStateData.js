@@ -14,13 +14,13 @@ let currentAllStatesData = [
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 38.6, 
-            "contactTracerCapacityRatio" : 0.17, 
-            "infectionRate" : 0.85, 
+            "caseDensity" : 39.1, 
+            "contactTracerCapacityRatio" : 0.16, 
+            "infectionRate" : 0.84, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.79, 
-            "vaccinationsInitiatedRatio" : 0.625, 
-            "vaccinationsCompletedRatio" : 0.541
+            "icuCapacityRatio" : 0.81, 
+            "vaccinationsInitiatedRatio" : 0.628, 
+            "vaccinationsCompletedRatio" : 0.542
         }, 
         "riskLevels" : {
             "overall" : 3, 
@@ -28,31 +28,31 @@ let currentAllStatesData = [
             "caseDensity" : 3, 
             "contactTracerCapacityRatio" : 1, 
             "infectionRate" : 0, 
-            "icuCapacityRatio" : 1
+            "icuCapacityRatio" : 2
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 149836, 
-            "deaths" : 854, 
-            "positiveTests" : 153348, 
-            "negativeTests" : 2865642, 
+            "cases" : 150004, 
+            "deaths" : 856, 
+            "positiveTests" : 153384, 
+            "negativeTests" : 2866083, 
             "contactTracers" : 235, 
             "hospitalBeds" : {
-                "capacity" : 1109, 
-                "currentUsageTotal" : 760, 
-                "currentUsageCovid" : 66
+                "capacity" : 1399, 
+                "currentUsageTotal" : 985, 
+                "currentUsageCovid" : 85
             }, 
             "icuBeds" : {
-                "capacity" : 96, 
-                "currentUsageTotal" : 76, 
-                "currentUsageCovid" : 13
+                "capacity" : 124, 
+                "currentUsageTotal" : 100, 
+                "currentUsageCovid" : 16
             }, 
-            "newCases" : 720, 
-            "newDeaths" : 1, 
-            "vaccinesDistributed" : 1269085, 
-            "vaccinationsInitiated" : 456888, 
-            "vaccinationsCompleted" : 395581, 
-            "vaccinesAdministered" : 949474, 
+            "newCases" : 168, 
+            "newDeaths" : 2, 
+            "vaccinesDistributed" : 1272385, 
+            "vaccinationsInitiated" : 459412, 
+            "vaccinationsCompleted" : 396688, 
+            "vaccinesAdministered" : 957508, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -241,7 +241,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/alaska-ak"
     }, 
     {
@@ -255,17 +255,17 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 4903185, 
         "metrics" : {
-            "testPositivityRatio" : 0.053, 
+            "testPositivityRatio" : 0.054, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 6.2, 
-            "contactTracerCapacityRatio" : 0.27, 
-            "infectionRate" : 0.8, 
+            "caseDensity" : 5.8, 
+            "contactTracerCapacityRatio" : 0.29, 
+            "infectionRate" : 0.82, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.82, 
-            "vaccinationsInitiatedRatio" : 0.564, 
-            "vaccinationsCompletedRatio" : 0.461
+            "icuCapacityRatio" : 0.85, 
+            "vaccinationsInitiatedRatio" : 0.565, 
+            "vaccinationsCompletedRatio" : 0.462
         }, 
         "riskLevels" : {
             "overall" : 1, 
@@ -277,27 +277,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 1, 
         "actuals" : {
-            "cases" : 842719, 
-            "deaths" : 16116, 
-            "positiveTests" : 796428, 
-            "negativeTests" : 5477454, 
+            "cases" : 843196, 
+            "deaths" : 16119, 
+            "positiveTests" : 796639, 
+            "negativeTests" : 5481367, 
             "contactTracers" : 404, 
             "hospitalBeds" : {
-                "capacity" : 14704, 
-                "currentUsageTotal" : 10183, 
-                "currentUsageCovid" : 440
+                "capacity" : 15082, 
+                "currentUsageTotal" : 10890, 
+                "currentUsageCovid" : 445
             }, 
             "icuBeds" : {
-                "capacity" : 1559, 
-                "currentUsageTotal" : 1282, 
-                "currentUsageCovid" : 118
+                "capacity" : 1589, 
+                "currentUsageTotal" : 1345, 
+                "currentUsageCovid" : 115
             }, 
-            "newCases" : 176, 
-            "newDeaths" : 1, 
-            "vaccinesDistributed" : 7802940, 
-            "vaccinationsInitiated" : 2767489, 
-            "vaccinationsCompleted" : 2262464, 
-            "vaccinesAdministered" : 5229021, 
+            "newCases" : 477, 
+            "newDeaths" : 3, 
+            "vaccinesDistributed" : 7834540, 
+            "vaccinationsInitiated" : 2772024, 
+            "vaccinationsCompleted" : 2264466, 
+            "vaccinesAdministered" : 5242493, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -486,7 +486,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/alabama-al"
     }, 
     {
@@ -500,16 +500,16 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 3017804, 
         "metrics" : {
-            "testPositivityRatio" : 0.07, 
+            "testPositivityRatio" : 0.073, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 15.9, 
-            "contactTracerCapacityRatio" : 0.33, 
-            "infectionRate" : 0.94, 
+            "caseDensity" : 17.6, 
+            "contactTracerCapacityRatio" : 0.3, 
+            "infectionRate" : 0.99, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.68, 
-            "vaccinationsInitiatedRatio" : 0.604, 
+            "icuCapacityRatio" : 0.83, 
+            "vaccinationsInitiatedRatio" : 0.605, 
             "vaccinationsCompletedRatio" : 0.493
         }, 
         "riskLevels" : {
@@ -518,31 +518,31 @@ let currentAllStatesData = [
             "caseDensity" : 2, 
             "contactTracerCapacityRatio" : 1, 
             "infectionRate" : 1, 
-            "icuCapacityRatio" : 0
+            "icuCapacityRatio" : 2
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 527794, 
-            "deaths" : 8655, 
-            "positiveTests" : 326198, 
-            "negativeTests" : 3532238, 
+            "cases" : 528838, 
+            "deaths" : 8667, 
+            "positiveTests" : 326463, 
+            "negativeTests" : 3535554, 
             "contactTracers" : 790, 
             "hospitalBeds" : {
-                "capacity" : 5949, 
-                "currentUsageTotal" : 3822, 
-                "currentUsageCovid" : 350
+                "capacity" : 7994, 
+                "currentUsageTotal" : 5483, 
+                "currentUsageCovid" : 497
             }, 
             "icuBeds" : {
-                "capacity" : 703, 
-                "currentUsageTotal" : 475, 
-                "currentUsageCovid" : 109
+                "capacity" : 898, 
+                "currentUsageTotal" : 745, 
+                "currentUsageCovid" : 170
             }, 
-            "newCases" : 207, 
-            "newDeaths" : 2, 
-            "vaccinesDistributed" : 4839070, 
-            "vaccinationsInitiated" : 1823691, 
-            "vaccinationsCompleted" : 1487634, 
-            "vaccinesAdministered" : 3521460, 
+            "newCases" : 1044, 
+            "newDeaths" : 12, 
+            "vaccinesDistributed" : 4857070, 
+            "vaccinationsInitiated" : 1824522, 
+            "vaccinationsCompleted" : 1488357, 
+            "vaccinesAdministered" : 3524081, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -731,7 +731,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/arkansas-ar"
     }, 
     {
@@ -745,17 +745,17 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 7278717, 
         "metrics" : {
-            "testPositivityRatio" : 0.148, 
+            "testPositivityRatio" : 0.146, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 42.6, 
+            "caseDensity" : 42.4, 
             "contactTracerCapacityRatio" : 0.03, 
-            "infectionRate" : 0.96, 
+            "infectionRate" : 0.95, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.7, 
-            "vaccinationsInitiatedRatio" : 0.642, 
-            "vaccinationsCompletedRatio" : 0.546
+            "icuCapacityRatio" : 0.67, 
+            "vaccinationsInitiatedRatio" : 0.643, 
+            "vaccinationsCompletedRatio" : 0.547
         }, 
         "riskLevels" : {
             "overall" : 3, 
@@ -767,27 +767,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 1265468, 
-            "deaths" : 22230, 
-            "positiveTests" : 1281025, 
-            "negativeTests" : 10299806, 
+            "cases" : 1268439, 
+            "deaths" : 22307, 
+            "positiveTests" : 1282732, 
+            "negativeTests" : 10314051, 
             "contactTracers" : 396, 
             "hospitalBeds" : {
-                "capacity" : 13282, 
-                "currentUsageTotal" : 9756, 
-                "currentUsageCovid" : 2424
+                "capacity" : 15591, 
+                "currentUsageTotal" : 11452, 
+                "currentUsageCovid" : 2743
             }, 
             "icuBeds" : {
-                "capacity" : 1896, 
-                "currentUsageTotal" : 1333, 
-                "currentUsageCovid" : 552
+                "capacity" : 2196, 
+                "currentUsageTotal" : 1482, 
+                "currentUsageCovid" : 619
             }, 
-            "newCases" : 1961, 
-            "newDeaths" : 1, 
-            "vaccinesDistributed" : 11680640, 
-            "vaccinationsInitiated" : 4676063, 
-            "vaccinationsCompleted" : 3977260, 
-            "vaccinesAdministered" : 9580846, 
+            "newCases" : 2971, 
+            "newDeaths" : 77, 
+            "vaccinesDistributed" : 11729770, 
+            "vaccinationsInitiated" : 4680309, 
+            "vaccinationsCompleted" : 3979250, 
+            "vaccinesAdministered" : 9594424, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -967,7 +967,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/arizona-az"
     }, 
     {
@@ -985,13 +985,13 @@ let currentAllStatesData = [
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 13.2, 
-            "contactTracerCapacityRatio" : 0.41, 
-            "infectionRate" : 0.93, 
+            "caseDensity" : 11.5, 
+            "contactTracerCapacityRatio" : 0.46, 
+            "infectionRate" : 0.96, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.74, 
             "vaccinationsInitiatedRatio" : 0.788, 
-            "vaccinationsCompletedRatio" : 0.631
+            "vaccinationsCompletedRatio" : 0.632
         }, 
         "riskLevels" : {
             "overall" : 2, 
@@ -1003,27 +1003,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 2, 
         "actuals" : {
-            "cases" : 5080522, 
-            "deaths" : 74553, 
+            "cases" : 5085477, 
+            "deaths" : 74670, 
             "positiveTests" : 5068305, 
             "negativeTests" : 90587297, 
             "contactTracers" : 10600, 
             "hospitalBeds" : {
-                "capacity" : 54455, 
-                "currentUsageTotal" : 40623, 
-                "currentUsageCovid" : 3163
+                "capacity" : 60806, 
+                "currentUsageTotal" : 45661, 
+                "currentUsageCovid" : 3537
             }, 
             "icuBeds" : {
-                "capacity" : 6303, 
-                "currentUsageTotal" : 4656, 
-                "currentUsageCovid" : 766
+                "capacity" : 6979, 
+                "currentUsageTotal" : 5144, 
+                "currentUsageCovid" : 875
             }, 
-            "newCases" : 4572, 
-            "newDeaths" : 168, 
-            "vaccinesDistributed" : 70222965, 
-            "vaccinationsInitiated" : 31128095, 
-            "vaccinationsCompleted" : 24940240, 
-            "vaccinesAdministered" : 59522458, 
+            "newCases" : 4955, 
+            "newDeaths" : 117, 
+            "vaccinesDistributed" : 70629795, 
+            "vaccinationsInitiated" : 31147534, 
+            "vaccinationsCompleted" : 24958124, 
+            "vaccinesAdministered" : 59597608, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -1212,7 +1212,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/california-ca"
     }, 
     {
@@ -1226,16 +1226,16 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 5758736, 
         "metrics" : {
-            "testPositivityRatio" : 0.09, 
+            "testPositivityRatio" : 0.092, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
             "caseDensity" : 37.8, 
             "contactTracerCapacityRatio" : 0.12, 
-            "infectionRate" : 0.88, 
+            "infectionRate" : 0.87, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.79, 
-            "vaccinationsInitiatedRatio" : 0.714, 
+            "icuCapacityRatio" : 0.78, 
+            "vaccinationsInitiatedRatio" : 0.715, 
             "vaccinationsCompletedRatio" : 0.632
         }, 
         "riskLevels" : {
@@ -1248,27 +1248,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 831750, 
-            "deaths" : 9339, 
-            "positiveTests" : 833835, 
-            "negativeTests" : 10982519, 
+            "cases" : 833698, 
+            "deaths" : 9378, 
+            "positiveTests" : 836566, 
+            "negativeTests" : 11007932, 
             "contactTracers" : 1300, 
             "hospitalBeds" : {
-                "capacity" : 8607, 
-                "currentUsageTotal" : 6183, 
-                "currentUsageCovid" : 1167
+                "capacity" : 11110, 
+                "currentUsageTotal" : 7637, 
+                "currentUsageCovid" : 1507
             }, 
             "icuBeds" : {
-                "capacity" : 975, 
-                "currentUsageTotal" : 771, 
-                "currentUsageCovid" : 370
+                "capacity" : 1312, 
+                "currentUsageTotal" : 1023, 
+                "currentUsageCovid" : 528
             }, 
-            "newCases" : 4787, 
-            "newDeaths" : 50, 
-            "vaccinesDistributed" : 10087265, 
-            "vaccinationsInitiated" : 4110350, 
-            "vaccinationsCompleted" : 3637400, 
-            "vaccinesAdministered" : 8594706, 
+            "newCases" : 1948, 
+            "newDeaths" : 39, 
+            "vaccinesDistributed" : 10151485, 
+            "vaccinationsInitiated" : 4116507, 
+            "vaccinationsCompleted" : 3642399, 
+            "vaccinesAdministered" : 8613796, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -1462,7 +1462,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/colorado-co"
     }, 
     {
@@ -1480,13 +1480,13 @@ let currentAllStatesData = [
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 23.3, 
-            "contactTracerCapacityRatio" : 0.21, 
-            "infectionRate" : 1.17, 
+            "caseDensity" : 23.9, 
+            "contactTracerCapacityRatio" : 0.2, 
+            "infectionRate" : 1.16, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.36, 
-            "vaccinationsInitiatedRatio" : 0.839, 
-            "vaccinationsCompletedRatio" : 0.719
+            "icuCapacityRatio" : 0.56, 
+            "vaccinationsInitiatedRatio" : 0.841, 
+            "vaccinationsCompletedRatio" : 0.72
         }, 
         "riskLevels" : {
             "overall" : 2, 
@@ -1498,27 +1498,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 419961, 
-            "deaths" : 8865, 
+            "cases" : 420868, 
+            "deaths" : 8905, 
             "positiveTests" : 547454, 
             "negativeTests" : 11305648, 
             "contactTracers" : 860, 
             "hospitalBeds" : {
-                "capacity" : 446, 
-                "currentUsageTotal" : 358, 
-                "currentUsageCovid" : 2
+                "capacity" : 7893, 
+                "currentUsageTotal" : 5927, 
+                "currentUsageCovid" : 405
             }, 
             "icuBeds" : {
-                "capacity" : 22, 
-                "currentUsageTotal" : 8, 
-                "currentUsageCovid" : 1
+                "capacity" : 1025, 
+                "currentUsageTotal" : 579, 
+                "currentUsageCovid" : 77
             }, 
-            "newCases" : 2312, 
-            "newDeaths" : 0, 
-            "vaccinesDistributed" : 6789385, 
-            "vaccinationsInitiated" : 2991370, 
-            "vaccinationsCompleted" : 2563141, 
-            "vaccinesAdministered" : 5970563, 
+            "newCases" : 907, 
+            "newDeaths" : 41, 
+            "vaccinesDistributed" : 6803905, 
+            "vaccinationsInitiated" : 2997942, 
+            "vaccinationsCompleted" : 2567127, 
+            "vaccinesAdministered" : 5997289, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -1541,13 +1541,7 @@ let currentAllStatesData = [
                         "name" : "The New York Times"
                     }
                 ], 
-                "anomalies" : [
-                    {
-                        "date" : "2021-11-28", 
-                        "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 8864.0
-                    }
-                ]
+                "anomalies" : []
             }, 
             "positiveTests" : {
                 "sources" : [
@@ -1727,7 +1721,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/connecticut-ct"
     }, 
     {
@@ -1745,45 +1739,45 @@ let currentAllStatesData = [
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 10.3, 
-            "contactTracerCapacityRatio" : 0.74, 
-            "infectionRate" : 0.99, 
-            "infectionRateCI90" : 0.14, 
-            "icuCapacityRatio" : 0.7, 
-            "vaccinationsInitiatedRatio" : 0.815, 
-            "vaccinationsCompletedRatio" : 0.644
+            "caseDensity" : 9.7, 
+            "contactTracerCapacityRatio" : 0.78, 
+            "infectionRate" : 0.97, 
+            "infectionRateCI90" : 0.15, 
+            "icuCapacityRatio" : 0.75, 
+            "vaccinationsInitiatedRatio" : 0.816, 
+            "vaccinationsCompletedRatio" : 0.645
         }, 
         "riskLevels" : {
-            "overall" : 2, 
+            "overall" : 1, 
             "testPositivityRatio" : 0, 
-            "caseDensity" : 2, 
+            "caseDensity" : 1, 
             "contactTracerCapacityRatio" : 1, 
             "infectionRate" : 1, 
-            "icuCapacityRatio" : 0
+            "icuCapacityRatio" : 1
         }, 
         "cdcTransmissionLevel" : 2, 
         "actuals" : {
-            "cases" : 66857, 
+            "cases" : 66912, 
             "deaths" : 1196, 
-            "positiveTests" : 96352, 
-            "negativeTests" : 3220563, 
+            "positiveTests" : 96406, 
+            "negativeTests" : 3222796, 
             "contactTracers" : 268, 
             "hospitalBeds" : {
-                "capacity" : 3408, 
-                "currentUsageTotal" : 2371, 
-                "currentUsageCovid" : 85
+                "capacity" : 3439, 
+                "currentUsageTotal" : 2477, 
+                "currentUsageCovid" : 89
             }, 
             "icuBeds" : {
-                "capacity" : 327, 
-                "currentUsageTotal" : 229, 
+                "capacity" : 313, 
+                "currentUsageTotal" : 234, 
                 "currentUsageCovid" : 15
             }, 
-            "newCases" : 347, 
+            "newCases" : 55, 
             "newDeaths" : 0, 
-            "vaccinesDistributed" : 1449415, 
-            "vaccinationsInitiated" : 574924, 
-            "vaccinationsCompleted" : 454755, 
-            "vaccinesAdministered" : 1165383, 
+            "vaccinesDistributed" : 1459235, 
+            "vaccinationsInitiated" : 575893, 
+            "vaccinationsCompleted" : 455349, 
+            "vaccinesAdministered" : 1165881, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : {
                 "age" : {
@@ -2020,7 +2014,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/district_of_columbia-dc"
     }, 
     {
@@ -2034,17 +2028,17 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 973764, 
         "metrics" : {
-            "testPositivityRatio" : 0.08, 
+            "testPositivityRatio" : 0.078, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 33.4, 
+            "caseDensity" : 33.9, 
             "contactTracerCapacityRatio" : 0.13, 
-            "infectionRate" : 1.04, 
+            "infectionRate" : 1.02, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.77, 
-            "vaccinationsInitiatedRatio" : 0.714, 
-            "vaccinationsCompletedRatio" : 0.609
+            "icuCapacityRatio" : 0.82, 
+            "vaccinationsInitiatedRatio" : 0.731, 
+            "vaccinationsCompletedRatio" : 0.616
         }, 
         "riskLevels" : {
             "overall" : 3, 
@@ -2052,31 +2046,31 @@ let currentAllStatesData = [
             "caseDensity" : 3, 
             "contactTracerCapacityRatio" : 1, 
             "infectionRate" : 1, 
-            "icuCapacityRatio" : 1
+            "icuCapacityRatio" : 2
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 152904, 
-            "deaths" : 2173, 
-            "positiveTests" : 172379, 
-            "negativeTests" : 2705389, 
+            "cases" : 153190, 
+            "deaths" : 2178, 
+            "positiveTests" : 172684, 
+            "negativeTests" : 2708459, 
             "contactTracers" : 211, 
             "hospitalBeds" : {
-                "capacity" : 1183, 
-                "currentUsageTotal" : 878, 
-                "currentUsageCovid" : 106
+                "capacity" : 2882, 
+                "currentUsageTotal" : 2093, 
+                "currentUsageCovid" : 253
             }, 
             "icuBeds" : {
-                "capacity" : 73, 
-                "currentUsageTotal" : 56, 
-                "currentUsageCovid" : 8
+                "capacity" : 195, 
+                "currentUsageTotal" : 160, 
+                "currentUsageCovid" : 26
             }, 
-            "newCases" : 234, 
-            "newDeaths" : 0, 
-            "vaccinesDistributed" : 1847815, 
-            "vaccinationsInitiated" : 695704, 
-            "vaccinationsCompleted" : 593485, 
-            "vaccinesAdministered" : 1387562, 
+            "newCases" : 286, 
+            "newDeaths" : 5, 
+            "vaccinesDistributed" : 1859875, 
+            "vaccinationsInitiated" : 711525, 
+            "vaccinationsCompleted" : 599832, 
+            "vaccinesAdministered" : 1446819, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -2109,13 +2103,7 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : [
-                    {
-                        "date" : "2021-11-25", 
-                        "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 172380.0
-                    }
-                ]
+                "anomalies" : []
             }, 
             "negativeTests" : {
                 "sources" : [
@@ -2125,13 +2113,7 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : [
-                    {
-                        "date" : "2021-11-25", 
-                        "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 2705411.0
-                    }
-                ]
+                "anomalies" : []
             }, 
             "contactTracers" : {
                 "sources" : [
@@ -2213,18 +2195,7 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : [
-                    {
-                        "date" : "2021-11-25", 
-                        "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 172380.0
-                    }, 
-                    {
-                        "date" : "2021-11-25", 
-                        "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 2705411.0
-                    }
-                ]
+                "anomalies" : []
             }, 
             "caseDensity" : {
                 "sources" : [
@@ -2279,7 +2250,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/delaware-de"
     }, 
     {
@@ -2297,13 +2268,13 @@ let currentAllStatesData = [
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 6.5, 
-            "contactTracerCapacityRatio" : 0.37, 
-            "infectionRate" : 0.96, 
+            "caseDensity" : 7.3, 
+            "contactTracerCapacityRatio" : 0.33, 
+            "infectionRate" : 0.99, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.68, 
+            "icuCapacityRatio" : 0.71, 
             "vaccinationsInitiatedRatio" : 0.718, 
-            "vaccinationsCompletedRatio" : 0.613
+            "vaccinationsCompletedRatio" : 0.614
         }, 
         "riskLevels" : {
             "overall" : 1, 
@@ -2311,31 +2282,31 @@ let currentAllStatesData = [
             "caseDensity" : 1, 
             "contactTracerCapacityRatio" : 1, 
             "infectionRate" : 1, 
-            "icuCapacityRatio" : 0
+            "icuCapacityRatio" : 1
         }, 
-        "cdcTransmissionLevel" : 1, 
+        "cdcTransmissionLevel" : 2, 
         "actuals" : {
-            "cases" : 3685918, 
-            "deaths" : 61538, 
-            "positiveTests" : 4361778, 
-            "negativeTests" : 39262119, 
+            "cases" : 3687550, 
+            "deaths" : 61548, 
+            "positiveTests" : 4362929, 
+            "negativeTests" : 39306321, 
             "contactTracers" : 2600, 
             "hospitalBeds" : {
-                "capacity" : 35212, 
-                "currentUsageTotal" : 25008, 
-                "currentUsageCovid" : 719
+                "capacity" : 54583, 
+                "currentUsageTotal" : 40721, 
+                "currentUsageCovid" : 1265
             }, 
             "icuBeds" : {
-                "capacity" : 4105, 
-                "currentUsageTotal" : 2804, 
-                "currentUsageCovid" : 155
+                "capacity" : 6277, 
+                "currentUsageTotal" : 4472, 
+                "currentUsageCovid" : 249
             }, 
-            "newCases" : 1605, 
-            "newDeaths" : 391, 
-            "vaccinesDistributed" : 38410545, 
-            "vaccinationsInitiated" : 15412472, 
-            "vaccinationsCompleted" : 13172459, 
-            "vaccinesAdministered" : 30898413, 
+            "newCases" : 1632, 
+            "newDeaths" : 10, 
+            "vaccinesDistributed" : 38559025, 
+            "vaccinationsInitiated" : 15422450, 
+            "vaccinationsCompleted" : 13184332, 
+            "vaccinesAdministered" : 30948643, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : {
                 "age" : {
@@ -2544,7 +2515,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/florida-fl"
     }, 
     {
@@ -2558,17 +2529,17 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 10617423, 
         "metrics" : {
-            "testPositivityRatio" : 0.042, 
+            "testPositivityRatio" : 0.046, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 10.2, 
-            "contactTracerCapacityRatio" : 0.29, 
-            "infectionRate" : 1.02, 
+            "caseDensity" : 11.7, 
+            "contactTracerCapacityRatio" : 0.25, 
+            "infectionRate" : 1.06, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.78, 
-            "vaccinationsInitiatedRatio" : 0.587, 
-            "vaccinationsCompletedRatio" : 0.494
+            "icuCapacityRatio" : 0.8, 
+            "vaccinationsInitiatedRatio" : 0.591, 
+            "vaccinationsCompletedRatio" : 0.496
         }, 
         "riskLevels" : {
             "overall" : 2, 
@@ -2580,27 +2551,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 2, 
         "actuals" : {
-            "cases" : 1628600, 
-            "deaths" : 29350, 
-            "positiveTests" : 1258730, 
-            "negativeTests" : 11168390, 
+            "cases" : 1629989, 
+            "deaths" : 29387, 
+            "positiveTests" : 1259249, 
+            "negativeTests" : 11177499, 
             "contactTracers" : 1570, 
             "hospitalBeds" : {
-                "capacity" : 18621, 
-                "currentUsageTotal" : 14123, 
-                "currentUsageCovid" : 1063
+                "capacity" : 20071, 
+                "currentUsageTotal" : 15620, 
+                "currentUsageCovid" : 1153
             }, 
             "icuBeds" : {
-                "capacity" : 2356, 
-                "currentUsageTotal" : 1826, 
-                "currentUsageCovid" : 216
+                "capacity" : 2461, 
+                "currentUsageTotal" : 1958, 
+                "currentUsageCovid" : 230
             }, 
-            "newCases" : 1345, 
-            "newDeaths" : 112, 
-            "vaccinesDistributed" : 17296905, 
-            "vaccinationsInitiated" : 6237536, 
-            "vaccinationsCompleted" : 5248351, 
-            "vaccinesAdministered" : 12229399, 
+            "newCases" : 1389, 
+            "newDeaths" : 37, 
+            "vaccinesDistributed" : 17344405, 
+            "vaccinationsInitiated" : 6270058, 
+            "vaccinationsCompleted" : 5269572, 
+            "vaccinesAdministered" : 12365170, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -2789,7 +2760,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/georgia-ga"
     }, 
     {
@@ -2807,13 +2778,13 @@ let currentAllStatesData = [
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 6.1, 
-            "contactTracerCapacityRatio" : 0.7, 
-            "infectionRate" : 0.94, 
+            "caseDensity" : 6.3, 
+            "contactTracerCapacityRatio" : 0.67, 
+            "infectionRate" : 0.91, 
             "infectionRateCI90" : 0.13, 
-            "icuCapacityRatio" : 0.66, 
-            "vaccinationsInitiatedRatio" : 0.82, 
-            "vaccinationsCompletedRatio" : 0.609
+            "icuCapacityRatio" : 0.65, 
+            "vaccinationsInitiatedRatio" : 0.821, 
+            "vaccinationsCompletedRatio" : 0.61
         }, 
         "riskLevels" : {
             "overall" : 1, 
@@ -2825,27 +2796,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 1, 
         "actuals" : {
-            "cases" : 84685, 
+            "cases" : 84760, 
             "deaths" : 1015, 
             "positiveTests" : 92610, 
             "negativeTests" : 2544719, 
             "contactTracers" : 300, 
             "hospitalBeds" : {
-                "capacity" : 1781, 
-                "currentUsageTotal" : 1165, 
-                "currentUsageCovid" : 28
+                "capacity" : 2497, 
+                "currentUsageTotal" : 1782, 
+                "currentUsageCovid" : 57
             }, 
             "icuBeds" : {
-                "capacity" : 128, 
-                "currentUsageTotal" : 84, 
+                "capacity" : 209, 
+                "currentUsageTotal" : 136, 
                 "currentUsageCovid" : 10
             }, 
-            "newCases" : 70, 
+            "newCases" : 75, 
             "newDeaths" : 0, 
-            "vaccinesDistributed" : 2808570, 
-            "vaccinationsInitiated" : 1160757, 
-            "vaccinationsCompleted" : 862143, 
-            "vaccinesAdministered" : 2079818, 
+            "vaccinesDistributed" : 2816070, 
+            "vaccinationsInitiated" : 1162342, 
+            "vaccinationsCompleted" : 863884, 
+            "vaccinesAdministered" : 2084317, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -3025,7 +2996,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/hawaii-hi"
     }, 
     {
@@ -3039,17 +3010,17 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 3155070, 
         "metrics" : {
-            "testPositivityRatio" : 0.145, 
+            "testPositivityRatio" : 0.148, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 41.8, 
-            "contactTracerCapacityRatio" : 0.06, 
-            "infectionRate" : 0.99, 
+            "caseDensity" : 38.7, 
+            "contactTracerCapacityRatio" : 0.07, 
+            "infectionRate" : 0.98, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.81, 
-            "vaccinationsInitiatedRatio" : 0.622, 
-            "vaccinationsCompletedRatio" : 0.565
+            "icuCapacityRatio" : 0.84, 
+            "vaccinationsInitiatedRatio" : 0.626, 
+            "vaccinationsCompletedRatio" : 0.567
         }, 
         "riskLevels" : {
             "overall" : 3, 
@@ -3061,27 +3032,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 522858, 
+            "cases" : 525458, 
             "deaths" : 7354, 
-            "positiveTests" : 509968, 
-            "negativeTests" : 4235949, 
+            "positiveTests" : 510752, 
+            "negativeTests" : 4240003, 
             "contactTracers" : 403, 
             "hospitalBeds" : {
-                "capacity" : 7347, 
-                "currentUsageTotal" : 4840, 
-                "currentUsageCovid" : 785
+                "capacity" : 7323, 
+                "currentUsageTotal" : 5018, 
+                "currentUsageCovid" : 709
             }, 
             "icuBeds" : {
-                "capacity" : 615, 
-                "currentUsageTotal" : 496, 
-                "currentUsageCovid" : 152
+                "capacity" : 597, 
+                "currentUsageTotal" : 500, 
+                "currentUsageCovid" : 162
             }, 
-            "newCases" : 2540, 
+            "newCases" : 2600, 
             "newDeaths" : 0, 
-            "vaccinesDistributed" : 5284305, 
-            "vaccinationsInitiated" : 1963467, 
-            "vaccinationsCompleted" : 1782950, 
-            "vaccinesAdministered" : 4131341, 
+            "vaccinesDistributed" : 5293655, 
+            "vaccinationsInitiated" : 1975709, 
+            "vaccinationsCompleted" : 1790001, 
+            "vaccinesAdministered" : 4200551, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -3094,13 +3065,7 @@ let currentAllStatesData = [
                         "name" : "The New York Times"
                     }
                 ], 
-                "anomalies" : [
-                    {
-                        "date" : "2021-11-28", 
-                        "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 522858.0
-                    }
-                ]
+                "anomalies" : []
             }, 
             "deaths" : {
                 "sources" : [
@@ -3231,13 +3196,7 @@ let currentAllStatesData = [
                         "name" : "The New York Times"
                     }
                 ], 
-                "anomalies" : [
-                    {
-                        "date" : "2021-11-28", 
-                        "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 522858.0
-                    }
-                ]
+                "anomalies" : []
             }, 
             "contactTracerCapacityRatio" : {
                 "sources" : [
@@ -3257,13 +3216,7 @@ let currentAllStatesData = [
                         "name" : "The New York Times"
                     }
                 ], 
-                "anomalies" : [
-                    {
-                        "date" : "2021-11-28", 
-                        "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 522858.0
-                    }
-                ]
+                "anomalies" : []
             }, 
             "infectionRateCI90" : {
                 "sources" : [
@@ -3273,13 +3226,7 @@ let currentAllStatesData = [
                         "name" : "The New York Times"
                     }
                 ], 
-                "anomalies" : [
-                    {
-                        "date" : "2021-11-28", 
-                        "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 522858.0
-                    }
-                ]
+                "anomalies" : []
             }, 
             "icuCapacityRatio" : {
                 "sources" : [
@@ -3294,7 +3241,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/iowa-ia"
     }, 
     {
@@ -3308,15 +3255,15 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 1787065, 
         "metrics" : {
-            "testPositivityRatio" : 0.099, 
+            "testPositivityRatio" : 0.096, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
             "caseDensity" : 18.3, 
             "contactTracerCapacityRatio" : 0.15, 
-            "infectionRate" : 0.76, 
+            "infectionRate" : 0.8, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.66, 
+            "icuCapacityRatio" : 0.82, 
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
@@ -3326,27 +3273,27 @@ let currentAllStatesData = [
             "caseDensity" : 2, 
             "contactTracerCapacityRatio" : 1, 
             "infectionRate" : 0, 
-            "icuCapacityRatio" : 0
+            "icuCapacityRatio" : 2
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 306238, 
-            "deaths" : 3922, 
-            "positiveTests" : 397158, 
-            "negativeTests" : 2114622, 
+            "cases" : 306873, 
+            "deaths" : 3930, 
+            "positiveTests" : 397477, 
+            "negativeTests" : 2117362, 
             "contactTracers" : 250, 
             "hospitalBeds" : {
-                "capacity" : 1443, 
-                "currentUsageTotal" : 782, 
-                "currentUsageCovid" : 130
+                "capacity" : 2973, 
+                "currentUsageTotal" : 2029, 
+                "currentUsageCovid" : 309
             }, 
             "icuBeds" : {
-                "capacity" : 123, 
-                "currentUsageTotal" : 81, 
-                "currentUsageCovid" : 38
+                "capacity" : 289, 
+                "currentUsageTotal" : 238, 
+                "currentUsageCovid" : 90
             }, 
-            "newCases" : 448, 
-            "newDeaths" : 22, 
+            "newCases" : 635, 
+            "newDeaths" : 8, 
             "vaccinesDistributed" : null, 
             "vaccinationsInitiated" : null, 
             "vaccinationsCompleted" : null, 
@@ -3503,7 +3450,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/idaho-id"
     }, 
     {
@@ -3517,17 +3464,17 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 12671821, 
         "metrics" : {
-            "testPositivityRatio" : 0.052, 
+            "testPositivityRatio" : 0.055, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 36.3, 
-            "contactTracerCapacityRatio" : 0.17, 
-            "infectionRate" : 1.18, 
+            "caseDensity" : 43.6, 
+            "contactTracerCapacityRatio" : 0.14, 
+            "infectionRate" : 1.15, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.67, 
-            "vaccinationsInitiatedRatio" : 0.693, 
-            "vaccinationsCompletedRatio" : 0.616
+            "vaccinationsInitiatedRatio" : 0.694, 
+            "vaccinationsCompletedRatio" : 0.617
         }, 
         "riskLevels" : {
             "overall" : 3, 
@@ -3539,27 +3486,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 1809427, 
-            "deaths" : 29349, 
-            "positiveTests" : 1728478, 
-            "negativeTests" : 29686547, 
+            "cases" : 1815121, 
+            "deaths" : 29376, 
+            "positiveTests" : 1732034, 
+            "negativeTests" : 29729658, 
             "contactTracers" : 3800, 
             "hospitalBeds" : {
-                "capacity" : 23447, 
-                "currentUsageTotal" : 15827, 
-                "currentUsageCovid" : 1871
+                "capacity" : 27801, 
+                "currentUsageTotal" : 19345, 
+                "currentUsageCovid" : 2302
             }, 
             "icuBeds" : {
-                "capacity" : 2670, 
-                "currentUsageTotal" : 1777, 
-                "currentUsageCovid" : 354
+                "capacity" : 3209, 
+                "currentUsageTotal" : 2165, 
+                "currentUsageCovid" : 431
             }, 
-            "newCases" : 4629, 
-            "newDeaths" : 91, 
-            "vaccinesDistributed" : 21451285, 
-            "vaccinationsInitiated" : 8787416, 
-            "vaccinationsCompleted" : 7810084, 
-            "vaccinesAdministered" : 17881491, 
+            "newCases" : 5694, 
+            "newDeaths" : 27, 
+            "vaccinesDistributed" : 21492285, 
+            "vaccinationsInitiated" : 8799259, 
+            "vaccinationsCompleted" : 7821119, 
+            "vaccinesAdministered" : 17923603, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -3748,7 +3695,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/illinois-il"
     }, 
     {
@@ -3762,16 +3709,16 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 6732219, 
         "metrics" : {
-            "testPositivityRatio" : 0.146, 
+            "testPositivityRatio" : 0.152, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 42.0, 
+            "caseDensity" : 43.9, 
             "contactTracerCapacityRatio" : 0.11, 
-            "infectionRate" : 1.04, 
+            "infectionRate" : 1.06, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.75, 
-            "vaccinationsInitiatedRatio" : 0.556, 
+            "icuCapacityRatio" : 0.74, 
+            "vaccinationsInitiatedRatio" : 0.557, 
             "vaccinationsCompletedRatio" : 0.506
         }, 
         "riskLevels" : {
@@ -3784,27 +3731,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 1100348, 
-            "deaths" : 17438, 
-            "positiveTests" : 1152183, 
-            "negativeTests" : 10264646, 
+            "cases" : 1104408, 
+            "deaths" : 17557, 
+            "positiveTests" : 1155168, 
+            "negativeTests" : 10281732, 
             "contactTracers" : 1600, 
             "hospitalBeds" : {
-                "capacity" : 16213, 
-                "currentUsageTotal" : 10417, 
-                "currentUsageCovid" : 1856
+                "capacity" : 16849, 
+                "currentUsageTotal" : 10963, 
+                "currentUsageCovid" : 2125
             }, 
             "icuBeds" : {
-                "capacity" : 2192, 
-                "currentUsageTotal" : 1646, 
-                "currentUsageCovid" : 496
+                "capacity" : 2236, 
+                "currentUsageTotal" : 1661, 
+                "currentUsageCovid" : 548
             }, 
-            "newCases" : 12649, 
-            "newDeaths" : 52, 
-            "vaccinesDistributed" : 10075260, 
-            "vaccinationsInitiated" : 3745652, 
-            "vaccinationsCompleted" : 3404193, 
-            "vaccinesAdministered" : 7745184, 
+            "newCases" : 4060, 
+            "newDeaths" : 119, 
+            "vaccinesDistributed" : 10114580, 
+            "vaccinationsInitiated" : 3748072, 
+            "vaccinationsCompleted" : 3405083, 
+            "vaccinesAdministered" : 7753762, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -3984,7 +3931,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/indiana-in"
     }, 
     {
@@ -3998,17 +3945,17 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 2913314, 
         "metrics" : {
-            "testPositivityRatio" : 0.117, 
+            "testPositivityRatio" : 0.123, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 40.9, 
-            "contactTracerCapacityRatio" : 0.06, 
-            "infectionRate" : 1.04, 
+            "caseDensity" : 53.4, 
+            "contactTracerCapacityRatio" : 0.05, 
+            "infectionRate" : 0.98, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.77, 
-            "vaccinationsInitiatedRatio" : 0.659, 
-            "vaccinationsCompletedRatio" : 0.545
+            "vaccinationsInitiatedRatio" : 0.662, 
+            "vaccinationsCompletedRatio" : 0.546
         }, 
         "riskLevels" : {
             "overall" : 3, 
@@ -4020,27 +3967,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 466200, 
-            "deaths" : 6716, 
-            "positiveTests" : 419405, 
-            "negativeTests" : 3910716, 
+            "cases" : 466340, 
+            "deaths" : 6717, 
+            "positiveTests" : 420053, 
+            "negativeTests" : 3914577, 
             "contactTracers" : 359, 
             "hospitalBeds" : {
-                "capacity" : 4515, 
-                "currentUsageTotal" : 2679, 
-                "currentUsageCovid" : 346
+                "capacity" : 7630, 
+                "currentUsageTotal" : 4459, 
+                "currentUsageCovid" : 547
             }, 
             "icuBeds" : {
-                "capacity" : 492, 
-                "currentUsageTotal" : 381, 
-                "currentUsageCovid" : 88
+                "capacity" : 773, 
+                "currentUsageTotal" : 592, 
+                "currentUsageCovid" : 124
             }, 
-            "newCases" : 42, 
-            "newDeaths" : 12, 
-            "vaccinesDistributed" : 4770175, 
-            "vaccinationsInitiated" : 1919074, 
-            "vaccinationsCompleted" : 1586893, 
-            "vaccinesAdministered" : 3664261, 
+            "newCases" : 140, 
+            "newDeaths" : 1, 
+            "vaccinesDistributed" : 4796995, 
+            "vaccinationsInitiated" : 1929195, 
+            "vaccinationsCompleted" : 1592112, 
+            "vaccinesAdministered" : 3698563, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -4229,7 +4176,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/kansas-ks"
     }, 
     {
@@ -4243,16 +4190,16 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 4467673, 
         "metrics" : {
-            "testPositivityRatio" : 0.087, 
+            "testPositivityRatio" : 0.089, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 31.1, 
-            "contactTracerCapacityRatio" : 0.18, 
-            "infectionRate" : 1.03, 
+            "caseDensity" : 32.4, 
+            "contactTracerCapacityRatio" : 0.17, 
+            "infectionRate" : 1.06, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.83, 
-            "vaccinationsInitiatedRatio" : 0.602, 
+            "icuCapacityRatio" : 0.85, 
+            "vaccinationsInitiatedRatio" : 0.603, 
             "vaccinationsCompletedRatio" : 0.521
         }, 
         "riskLevels" : {
@@ -4265,27 +4212,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 787749, 
-            "deaths" : 11010, 
-            "positiveTests" : 760970, 
-            "negativeTests" : 6194706, 
+            "cases" : 790108, 
+            "deaths" : 11038, 
+            "positiveTests" : 762007, 
+            "negativeTests" : 6203643, 
             "contactTracers" : 1240, 
             "hospitalBeds" : {
-                "capacity" : 10590, 
-                "currentUsageTotal" : 7564, 
-                "currentUsageCovid" : 1113
+                "capacity" : 10497, 
+                "currentUsageTotal" : 7923, 
+                "currentUsageCovid" : 997
             }, 
             "icuBeds" : {
-                "capacity" : 1424, 
-                "currentUsageTotal" : 1183, 
-                "currentUsageCovid" : 212
+                "capacity" : 1420, 
+                "currentUsageTotal" : 1203, 
+                "currentUsageCovid" : 234
             }, 
-            "newCases" : 5504, 
-            "newDeaths" : 110, 
-            "vaccinesDistributed" : 7026525, 
-            "vaccinationsInitiated" : 2690247, 
-            "vaccinationsCompleted" : 2327338, 
-            "vaccinesAdministered" : 5410039, 
+            "newCases" : 2359, 
+            "newDeaths" : 28, 
+            "vaccinesDistributed" : 7050425, 
+            "vaccinationsInitiated" : 2691894, 
+            "vaccinationsCompleted" : 2328897, 
+            "vaccinesAdministered" : 5416861, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -4479,7 +4426,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/kentucky-ky"
     }, 
     {
@@ -4493,15 +4440,15 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 4648794, 
         "metrics" : {
-            "testPositivityRatio" : 0.029, 
+            "testPositivityRatio" : 0.03, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 7.0, 
-            "contactTracerCapacityRatio" : 0.49, 
-            "infectionRate" : 0.91, 
+            "caseDensity" : 6.7, 
+            "contactTracerCapacityRatio" : 0.51, 
+            "infectionRate" : 0.96, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.73, 
+            "icuCapacityRatio" : 0.74, 
             "vaccinationsInitiatedRatio" : 0.556, 
             "vaccinationsCompletedRatio" : 0.489
         }, 
@@ -4515,27 +4462,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 1, 
         "actuals" : {
-            "cases" : 770305, 
-            "deaths" : 14794, 
-            "positiveTests" : 708739, 
-            "negativeTests" : 8148742, 
+            "cases" : 770894, 
+            "deaths" : 14801, 
+            "positiveTests" : 709013, 
+            "negativeTests" : 8155845, 
             "contactTracers" : 800, 
             "hospitalBeds" : {
-                "capacity" : 12413, 
-                "currentUsageTotal" : 8380, 
-                "currentUsageCovid" : 196
+                "capacity" : 12472, 
+                "currentUsageTotal" : 8728, 
+                "currentUsageCovid" : 221
             }, 
             "icuBeds" : {
-                "capacity" : 1474, 
-                "currentUsageTotal" : 1083, 
-                "currentUsageCovid" : 81
+                "capacity" : 1480, 
+                "currentUsageTotal" : 1099, 
+                "currentUsageCovid" : 88
             }, 
-            "newCases" : 1254, 
-            "newDeaths" : 17, 
-            "vaccinesDistributed" : 6651150, 
-            "vaccinationsInitiated" : 2582742, 
-            "vaccinationsCompleted" : 2272068, 
-            "vaccinesAdministered" : 5212443, 
+            "newCases" : 589, 
+            "newDeaths" : 7, 
+            "vaccinesDistributed" : 6666280, 
+            "vaccinationsInitiated" : 2583849, 
+            "vaccinationsCompleted" : 2272670, 
+            "vaccinesAdministered" : 5216884, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -4729,7 +4676,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/louisiana-la"
     }, 
     {
@@ -4747,13 +4694,13 @@ let currentAllStatesData = [
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 36.5, 
-            "contactTracerCapacityRatio" : 0.19, 
+            "caseDensity" : 37.5, 
+            "contactTracerCapacityRatio" : 0.18, 
             "infectionRate" : 1.1, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.81, 
-            "vaccinationsInitiatedRatio" : 0.857, 
-            "vaccinationsCompletedRatio" : 0.711
+            "vaccinationsInitiatedRatio" : 0.858, 
+            "vaccinationsCompletedRatio" : 0.712
         }, 
         "riskLevels" : {
             "overall" : 3, 
@@ -4765,27 +4712,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 915495, 
-            "deaths" : 19373, 
+            "cases" : 919097, 
+            "deaths" : 19404, 
             "positiveTests" : 989758, 
             "negativeTests" : 31512909, 
             "contactTracers" : 2350, 
             "hospitalBeds" : {
-                "capacity" : 16173, 
-                "currentUsageTotal" : 13288, 
-                "currentUsageCovid" : 738
+                "capacity" : 16302, 
+                "currentUsageTotal" : 13531, 
+                "currentUsageCovid" : 780
             }, 
             "icuBeds" : {
-                "capacity" : 1269, 
-                "currentUsageTotal" : 1023, 
-                "currentUsageCovid" : 178
+                "capacity" : 1266, 
+                "currentUsageTotal" : 1029, 
+                "currentUsageCovid" : 189
             }, 
-            "newCases" : 5790, 
-            "newDeaths" : 22, 
-            "vaccinesDistributed" : 13320110, 
-            "vaccinationsInitiated" : 5906528, 
-            "vaccinationsCompleted" : 4901041, 
-            "vaccinesAdministered" : 11587086, 
+            "newCases" : 3602, 
+            "newDeaths" : 31, 
+            "vaccinesDistributed" : 13368740, 
+            "vaccinationsInitiated" : 5912695, 
+            "vaccinationsCompleted" : 4906398, 
+            "vaccinesAdministered" : 11610003, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -4995,7 +4942,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/massachusetts-ma"
     }, 
     {
@@ -5009,17 +4956,17 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 6045680, 
         "metrics" : {
-            "testPositivityRatio" : 0.05, 
+            "testPositivityRatio" : 0.052, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 14.3, 
-            "contactTracerCapacityRatio" : 0.32, 
-            "infectionRate" : 1.04, 
+            "caseDensity" : 15.5, 
+            "contactTracerCapacityRatio" : 0.3, 
+            "infectionRate" : 1.06, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.69, 
-            "vaccinationsInitiatedRatio" : 0.768, 
-            "vaccinationsCompletedRatio" : 0.675
+            "vaccinationsInitiatedRatio" : 0.769, 
+            "vaccinationsCompletedRatio" : 0.676
         }, 
         "riskLevels" : {
             "overall" : 2, 
@@ -5031,27 +4978,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 585132, 
-            "deaths" : 11190, 
-            "positiveTests" : 1213531, 
-            "negativeTests" : 14679553, 
+            "cases" : 586376, 
+            "deaths" : 11206, 
+            "positiveTests" : 1215097, 
+            "negativeTests" : 14696002, 
             "contactTracers" : 1400, 
             "hospitalBeds" : {
-                "capacity" : 8299, 
-                "currentUsageTotal" : 6502, 
-                "currentUsageCovid" : 701
+                "capacity" : 10358, 
+                "currentUsageTotal" : 8139, 
+                "currentUsageCovid" : 881
             }, 
             "icuBeds" : {
-                "capacity" : 1065, 
-                "currentUsageTotal" : 732, 
-                "currentUsageCovid" : 131
+                "capacity" : 1282, 
+                "currentUsageTotal" : 880, 
+                "currentUsageCovid" : 158
             }, 
-            "newCases" : 762, 
-            "newDeaths" : 4, 
-            "vaccinesDistributed" : 12106590, 
-            "vaccinationsInitiated" : 4645154, 
-            "vaccinationsCompleted" : 4079039, 
-            "vaccinesAdministered" : 9433095, 
+            "newCases" : 1244, 
+            "newDeaths" : 16, 
+            "vaccinesDistributed" : 12166700, 
+            "vaccinationsInitiated" : 4651829, 
+            "vaccinationsCompleted" : 4084425, 
+            "vaccinesAdministered" : 9457903, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -5240,7 +5187,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/maryland-md"
     }, 
     {
@@ -5258,13 +5205,13 @@ let currentAllStatesData = [
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 30.7, 
+            "caseDensity" : 28.8, 
             "contactTracerCapacityRatio" : 0.04, 
-            "infectionRate" : 0.83, 
+            "infectionRate" : 0.87, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.73, 
-            "vaccinationsInitiatedRatio" : 0.817, 
-            "vaccinationsCompletedRatio" : 0.721
+            "icuCapacityRatio" : 0.71, 
+            "vaccinationsInitiatedRatio" : 0.82, 
+            "vaccinationsCompletedRatio" : 0.723
         }, 
         "riskLevels" : {
             "overall" : 3, 
@@ -5276,27 +5223,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 118748, 
-            "deaths" : 1307, 
+            "cases" : 119662, 
+            "deaths" : 1324, 
             "positiveTests" : 101753, 
             "negativeTests" : 2955283, 
             "contactTracers" : 86, 
             "hospitalBeds" : {
-                "capacity" : 2077, 
-                "currentUsageTotal" : 1398, 
-                "currentUsageCovid" : 221
+                "capacity" : 2998, 
+                "currentUsageTotal" : 2152, 
+                "currentUsageCovid" : 338
             }, 
             "icuBeds" : {
-                "capacity" : 221, 
-                "currentUsageTotal" : 161, 
-                "currentUsageCovid" : 69
+                "capacity" : 337, 
+                "currentUsageTotal" : 239, 
+                "currentUsageCovid" : 101
             }, 
-            "newCases" : 259, 
-            "newDeaths" : 4, 
-            "vaccinesDistributed" : 2642860, 
-            "vaccinationsInitiated" : 1098208, 
-            "vaccinationsCompleted" : 969658, 
-            "vaccinesAdministered" : 2211874, 
+            "newCases" : 914, 
+            "newDeaths" : 17, 
+            "vaccinesDistributed" : 2665000, 
+            "vaccinationsInitiated" : 1102535, 
+            "vaccinationsCompleted" : 971808, 
+            "vaccinesAdministered" : 2235211, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -5485,7 +5432,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/maine-me"
     }, 
     {
@@ -5503,13 +5450,13 @@ let currentAllStatesData = [
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 81.6, 
+            "caseDensity" : 84.7, 
             "contactTracerCapacityRatio" : 0.02, 
-            "infectionRate" : 1.21, 
+            "infectionRate" : 1.2, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.87, 
-            "vaccinationsInitiatedRatio" : 0.609, 
-            "vaccinationsCompletedRatio" : 0.545
+            "icuCapacityRatio" : 0.89, 
+            "vaccinationsInitiatedRatio" : 0.612, 
+            "vaccinationsCompletedRatio" : 0.546
         }, 
         "riskLevels" : {
             "overall" : 5, 
@@ -5521,27 +5468,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 1424537, 
+            "cases" : 1444554, 
             "deaths" : 25369, 
-            "positiveTests" : 1563537, 
-            "negativeTests" : 17609254, 
+            "positiveTests" : 1568421, 
+            "negativeTests" : 17630763, 
             "contactTracers" : 1000, 
             "hospitalBeds" : {
-                "capacity" : 18925, 
-                "currentUsageTotal" : 15360, 
-                "currentUsageCovid" : 3779
+                "capacity" : 21818, 
+                "currentUsageTotal" : 18561, 
+                "currentUsageCovid" : 4437
             }, 
             "icuBeds" : {
-                "capacity" : 2315, 
-                "currentUsageTotal" : 2003, 
-                "currentUsageCovid" : 823
+                "capacity" : 2506, 
+                "currentUsageTotal" : 2218, 
+                "currentUsageCovid" : 922
             }, 
-            "newCases" : 18727, 
-            "newDeaths" : 156, 
-            "vaccinesDistributed" : 16365490, 
-            "vaccinationsInitiated" : 6085874, 
-            "vaccinationsCompleted" : 5439034, 
-            "vaccinesAdministered" : 12619775, 
+            "newCases" : 20017, 
+            "newDeaths" : 0, 
+            "vaccinesDistributed" : 16473840, 
+            "vaccinationsInitiated" : 6115092, 
+            "vaccinationsCompleted" : 5451997, 
+            "vaccinesAdministered" : 12750259, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -5556,9 +5503,9 @@ let currentAllStatesData = [
                 ], 
                 "anomalies" : [
                     {
-                        "date" : "2021-11-22", 
+                        "date" : "2021-11-24", 
                         "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 1424537.0
+                        "original_observation" : null
                     }
                 ]
             }, 
@@ -5702,9 +5649,9 @@ let currentAllStatesData = [
                 ], 
                 "anomalies" : [
                     {
-                        "date" : "2021-11-22", 
+                        "date" : "2021-11-24", 
                         "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 1424537.0
+                        "original_observation" : null
                     }
                 ]
             }, 
@@ -5728,9 +5675,9 @@ let currentAllStatesData = [
                 ], 
                 "anomalies" : [
                     {
-                        "date" : "2021-11-22", 
+                        "date" : "2021-11-24", 
                         "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 1424537.0
+                        "original_observation" : null
                     }
                 ]
             }, 
@@ -5744,9 +5691,9 @@ let currentAllStatesData = [
                 ], 
                 "anomalies" : [
                     {
-                        "date" : "2021-11-22", 
+                        "date" : "2021-11-24", 
                         "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 1424537.0
+                        "original_observation" : null
                     }
                 ]
             }, 
@@ -5763,7 +5710,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/michigan-mi"
     }, 
     {
@@ -5781,45 +5728,45 @@ let currentAllStatesData = [
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 60.3, 
+            "caseDensity" : 63.3, 
             "contactTracerCapacityRatio" : 0.06, 
-            "infectionRate" : 0.88, 
+            "infectionRate" : 1.01, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.83, 
-            "vaccinationsInitiatedRatio" : 0.687, 
-            "vaccinationsCompletedRatio" : 0.623
+            "icuCapacityRatio" : 0.8, 
+            "vaccinationsInitiatedRatio" : 0.69, 
+            "vaccinationsCompletedRatio" : 0.625
         }, 
         "riskLevels" : {
             "overall" : 3, 
             "testPositivityRatio" : 2, 
             "caseDensity" : 3, 
             "contactTracerCapacityRatio" : 2, 
-            "infectionRate" : 0, 
-            "icuCapacityRatio" : 2
+            "infectionRate" : 1, 
+            "icuCapacityRatio" : 1
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 899863, 
+            "cases" : 912494, 
             "deaths" : 9506, 
             "positiveTests" : 1296896, 
             "negativeTests" : 16365172, 
             "contactTracers" : 1028, 
             "hospitalBeds" : {
-                "capacity" : 9334, 
-                "currentUsageTotal" : 7269, 
-                "currentUsageCovid" : 1587
+                "capacity" : 9816, 
+                "currentUsageTotal" : 7754, 
+                "currentUsageCovid" : 1665
             }, 
             "icuBeds" : {
-                "capacity" : 970, 
-                "currentUsageTotal" : 805, 
-                "currentUsageCovid" : 347
+                "capacity" : 975, 
+                "currentUsageTotal" : 783, 
+                "currentUsageCovid" : 350
             }, 
-            "newCases" : 4510, 
-            "newDeaths" : 44, 
-            "vaccinesDistributed" : 9786020, 
-            "vaccinationsInitiated" : 3875845, 
-            "vaccinationsCompleted" : 3511341, 
-            "vaccinesAdministered" : 8151634, 
+            "newCases" : 12631, 
+            "newDeaths" : 0, 
+            "vaccinesDistributed" : 9858500, 
+            "vaccinationsInitiated" : 3893070, 
+            "vaccinationsCompleted" : 3523534, 
+            "vaccinesAdministered" : 8249174, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -5999,7 +5946,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/minnesota-mn"
     }, 
     {
@@ -6017,45 +5964,45 @@ let currentAllStatesData = [
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 29.3, 
+            "caseDensity" : 31.2, 
             "contactTracerCapacityRatio" : 0.01, 
-            "infectionRate" : 1.09, 
+            "infectionRate" : 1.12, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.74, 
-            "vaccinationsInitiatedRatio" : 0.595, 
-            "vaccinationsCompletedRatio" : 0.508
+            "icuCapacityRatio" : 0.78, 
+            "vaccinationsInitiatedRatio" : 0.597, 
+            "vaccinationsCompletedRatio" : 0.509
         }, 
         "riskLevels" : {
             "overall" : 3, 
             "testPositivityRatio" : 1, 
             "caseDensity" : 3, 
             "contactTracerCapacityRatio" : 2, 
-            "infectionRate" : 1, 
+            "infectionRate" : 2, 
             "icuCapacityRatio" : 1
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 919579, 
-            "deaths" : 15458, 
+            "cases" : 922361, 
+            "deaths" : 15533, 
             "positiveTests" : 957908, 
             "negativeTests" : 8139445, 
             "contactTracers" : 94, 
             "hospitalBeds" : {
-                "capacity" : 10368, 
-                "currentUsageTotal" : 7932, 
-                "currentUsageCovid" : 835
+                "capacity" : 14831, 
+                "currentUsageTotal" : 11208, 
+                "currentUsageCovid" : 1366
             }, 
             "icuBeds" : {
-                "capacity" : 1214, 
-                "currentUsageTotal" : 894, 
-                "currentUsageCovid" : 195
+                "capacity" : 1767, 
+                "currentUsageTotal" : 1375, 
+                "currentUsageCovid" : 332
             }, 
-            "newCases" : 5404, 
-            "newDeaths" : 8, 
-            "vaccinesDistributed" : 9252205, 
-            "vaccinationsInitiated" : 3653460, 
-            "vaccinationsCompleted" : 3120430, 
-            "vaccinesAdministered" : 7360098, 
+            "newCases" : 2782, 
+            "newDeaths" : 75, 
+            "vaccinesDistributed" : 9291315, 
+            "vaccinationsInitiated" : 3665290, 
+            "vaccinationsCompleted" : 3126000, 
+            "vaccinesAdministered" : 7400218, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -6253,7 +6200,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/missouri-mo"
     }, 
     {
@@ -6271,25 +6218,25 @@ let currentAllStatesData = [
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 52.0, 
+            "caseDensity" : 101.5, 
             "contactTracerCapacityRatio" : null, 
-            "infectionRate" : 1.48, 
-            "infectionRateCI90" : 0.37, 
+            "infectionRate" : 1.71, 
+            "infectionRateCI90" : 0.29, 
             "icuCapacityRatio" : null, 
-            "vaccinationsInitiatedRatio" : 0.744, 
-            "vaccinationsCompletedRatio" : 0.665
+            "vaccinationsInitiatedRatio" : 0.745, 
+            "vaccinationsCompletedRatio" : 0.667
         }, 
         "riskLevels" : {
-            "overall" : 3, 
+            "overall" : 5, 
             "testPositivityRatio" : 4, 
-            "caseDensity" : 3, 
+            "caseDensity" : 5, 
             "contactTracerCapacityRatio" : 4, 
             "infectionRate" : 3, 
             "icuCapacityRatio" : 4
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 669, 
+            "cases" : 855, 
             "deaths" : 3, 
             "positiveTests" : 564, 
             "negativeTests" : 54971, 
@@ -6304,12 +6251,12 @@ let currentAllStatesData = [
                 "currentUsageTotal" : null, 
                 "currentUsageCovid" : null
             }, 
-            "newCases" : 0, 
+            "newCases" : 186, 
             "newDeaths" : 0, 
             "vaccinesDistributed" : 100350, 
-            "vaccinationsInitiated" : 39865, 
-            "vaccinationsCompleted" : 35624, 
-            "vaccinesAdministered" : 81656, 
+            "vaccinationsInitiated" : 39962, 
+            "vaccinationsCompleted" : 35779, 
+            "vaccinesAdministered" : 82172, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -6471,7 +6418,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/northern_mariana_islands-mp"
     }, 
     {
@@ -6489,9 +6436,9 @@ let currentAllStatesData = [
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 8.1, 
-            "contactTracerCapacityRatio" : 0.17, 
-            "infectionRate" : 0.96, 
+            "caseDensity" : 9.5, 
+            "contactTracerCapacityRatio" : 0.14, 
+            "infectionRate" : 1.01, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.75, 
             "vaccinationsInitiatedRatio" : 0.537, 
@@ -6507,27 +6454,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 2, 
         "actuals" : {
-            "cases" : 513622, 
-            "deaths" : 10264, 
-            "positiveTests" : 244436, 
-            "negativeTests" : 1777502, 
+            "cases" : 514171, 
+            "deaths" : 10285, 
+            "positiveTests" : 244559, 
+            "negativeTests" : 1779390, 
             "contactTracers" : 200, 
             "hospitalBeds" : {
-                "capacity" : 4470, 
-                "currentUsageTotal" : 2694, 
-                "currentUsageCovid" : 124
+                "capacity" : 7462, 
+                "currentUsageTotal" : 4384, 
+                "currentUsageCovid" : 215
             }, 
             "icuBeds" : {
-                "capacity" : 492, 
-                "currentUsageTotal" : 371, 
-                "currentUsageCovid" : 31
+                "capacity" : 707, 
+                "currentUsageTotal" : 528, 
+                "currentUsageCovid" : 51
             }, 
-            "newCases" : 990, 
-            "newDeaths" : 2, 
-            "vaccinesDistributed" : 4436955, 
-            "vaccinationsInitiated" : 1598384, 
-            "vaccinationsCompleted" : 1395817, 
-            "vaccinesAdministered" : 3179627, 
+            "newCases" : 549, 
+            "newDeaths" : 21, 
+            "vaccinesDistributed" : 4457415, 
+            "vaccinationsInitiated" : 1598535, 
+            "vaccinationsCompleted" : 1395862, 
+            "vaccinesAdministered" : 3179628, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -6707,7 +6654,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/mississippi-ms"
     }, 
     {
@@ -6721,49 +6668,49 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 1068778, 
         "metrics" : {
-            "testPositivityRatio" : 0.087, 
+            "testPositivityRatio" : 0.088, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 25.7, 
+            "caseDensity" : 24.5, 
             "contactTracerCapacityRatio" : 0.15, 
-            "infectionRate" : 0.71, 
+            "infectionRate" : 0.76, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.73, 
-            "vaccinationsInitiatedRatio" : 0.597, 
-            "vaccinationsCompletedRatio" : 0.518
+            "icuCapacityRatio" : 0.74, 
+            "vaccinationsInitiatedRatio" : 0.598, 
+            "vaccinationsCompletedRatio" : 0.519
         }, 
         "riskLevels" : {
-            "overall" : 3, 
+            "overall" : 2, 
             "testPositivityRatio" : 1, 
-            "caseDensity" : 3, 
+            "caseDensity" : 2, 
             "contactTracerCapacityRatio" : 1, 
             "infectionRate" : 0, 
             "icuCapacityRatio" : 1
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 190631, 
-            "deaths" : 2639, 
-            "positiveTests" : 205799, 
-            "negativeTests" : 1497355, 
+            "cases" : 191222, 
+            "deaths" : 2672, 
+            "positiveTests" : 205809, 
+            "negativeTests" : 1497454, 
             "contactTracers" : 200, 
             "hospitalBeds" : {
-                "capacity" : 2388, 
-                "currentUsageTotal" : 1551, 
-                "currentUsageCovid" : 177
+                "capacity" : 2700, 
+                "currentUsageTotal" : 1829, 
+                "currentUsageCovid" : 217
             }, 
             "icuBeds" : {
-                "capacity" : 187, 
-                "currentUsageTotal" : 137, 
-                "currentUsageCovid" : 52
+                "capacity" : 222, 
+                "currentUsageTotal" : 164, 
+                "currentUsageCovid" : 61
             }, 
-            "newCases" : 421, 
-            "newDeaths" : 7, 
-            "vaccinesDistributed" : 1631855, 
-            "vaccinationsInitiated" : 637919, 
-            "vaccinationsCompleted" : 553881, 
-            "vaccinesAdministered" : 1320270, 
+            "newCases" : 591, 
+            "newDeaths" : 33, 
+            "vaccinesDistributed" : 1645705, 
+            "vaccinationsInitiated" : 638911, 
+            "vaccinationsCompleted" : 554307, 
+            "vaccinesAdministered" : 1324087, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -6952,7 +6899,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/montana-mt"
     }, 
     {
@@ -6966,17 +6913,17 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 10488084, 
         "metrics" : {
-            "testPositivityRatio" : 0.061, 
+            "testPositivityRatio" : 0.063, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 16.1, 
+            "caseDensity" : 17.0, 
             "contactTracerCapacityRatio" : 0.14, 
-            "infectionRate" : 1.01, 
+            "infectionRate" : 1.02, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.63, 
-            "vaccinationsInitiatedRatio" : 0.7, 
-            "vaccinationsCompletedRatio" : 0.541
+            "icuCapacityRatio" : 0.79, 
+            "vaccinationsInitiatedRatio" : 0.703, 
+            "vaccinationsCompletedRatio" : 0.542
         }, 
         "riskLevels" : {
             "overall" : 2, 
@@ -6984,31 +6931,31 @@ let currentAllStatesData = [
             "caseDensity" : 2, 
             "contactTracerCapacityRatio" : 1, 
             "infectionRate" : 1, 
-            "icuCapacityRatio" : 0
+            "icuCapacityRatio" : 1
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 1529807, 
-            "deaths" : 18734, 
-            "positiveTests" : 1502512, 
-            "negativeTests" : 15891624, 
+            "cases" : 1531840, 
+            "deaths" : 18760, 
+            "positiveTests" : 1504156, 
+            "negativeTests" : 15909488, 
             "contactTracers" : 1215, 
             "hospitalBeds" : {
-                "capacity" : 2018, 
-                "currentUsageTotal" : 1568, 
-                "currentUsageCovid" : 89
+                "capacity" : 21943, 
+                "currentUsageTotal" : 16760, 
+                "currentUsageCovid" : 1236
             }, 
             "icuBeds" : {
-                "capacity" : 223, 
-                "currentUsageTotal" : 141, 
-                "currentUsageCovid" : 22
+                "capacity" : 2235, 
+                "currentUsageTotal" : 1766, 
+                "currentUsageCovid" : 295
             }, 
-            "newCases" : 8154, 
-            "newDeaths" : 35, 
-            "vaccinesDistributed" : 17641080, 
-            "vaccinationsInitiated" : 7337427, 
-            "vaccinationsCompleted" : 5670789, 
-            "vaccinesAdministered" : 13472803, 
+            "newCases" : 2033, 
+            "newDeaths" : 26, 
+            "vaccinesDistributed" : 17711400, 
+            "vaccinationsInitiated" : 7371115, 
+            "vaccinationsCompleted" : 5686074, 
+            "vaccinesAdministered" : 13565247, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -7197,7 +7144,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/north_carolina-nc"
     }, 
     {
@@ -7211,49 +7158,49 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 762062, 
         "metrics" : {
-            "testPositivityRatio" : 0.095, 
+            "testPositivityRatio" : 0.096, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 51.5, 
-            "contactTracerCapacityRatio" : 0.25, 
-            "infectionRate" : 0.88, 
+            "caseDensity" : 54.8, 
+            "contactTracerCapacityRatio" : 0.24, 
+            "infectionRate" : 0.94, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.77, 
-            "vaccinationsInitiatedRatio" : 0.578, 
-            "vaccinationsCompletedRatio" : 0.487
+            "icuCapacityRatio" : 0.72, 
+            "vaccinationsInitiatedRatio" : 0.58, 
+            "vaccinationsCompletedRatio" : 0.488
         }, 
         "riskLevels" : {
             "overall" : 3, 
             "testPositivityRatio" : 1, 
             "caseDensity" : 3, 
             "contactTracerCapacityRatio" : 1, 
-            "infectionRate" : 0, 
+            "infectionRate" : 1, 
             "icuCapacityRatio" : 1
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 161491, 
-            "deaths" : 1915, 
-            "positiveTests" : 129569, 
-            "negativeTests" : 1873485, 
+            "cases" : 162332, 
+            "deaths" : 1930, 
+            "positiveTests" : 129765, 
+            "negativeTests" : 1874913, 
             "contactTracers" : 500, 
             "hospitalBeds" : {
-                "capacity" : 2047, 
-                "currentUsageTotal" : 1460, 
-                "currentUsageCovid" : 195
+                "capacity" : 2113, 
+                "currentUsageTotal" : 1615, 
+                "currentUsageCovid" : 261
             }, 
             "icuBeds" : {
-                "capacity" : 78, 
-                "currentUsageTotal" : 60, 
-                "currentUsageCovid" : 74
+                "capacity" : 202, 
+                "currentUsageTotal" : 146, 
+                "currentUsageCovid" : 70
             }, 
-            "newCases" : 151, 
-            "newDeaths" : 0, 
-            "vaccinesDistributed" : 1141360, 
-            "vaccinationsInitiated" : 440825, 
-            "vaccinationsCompleted" : 371126, 
-            "vaccinesAdministered" : 893809, 
+            "newCases" : 841, 
+            "newDeaths" : 15, 
+            "vaccinesDistributed" : 1147730, 
+            "vaccinationsInitiated" : 441631, 
+            "vaccinationsCompleted" : 371573, 
+            "vaccinesAdministered" : 896193, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -7433,7 +7380,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/north_dakota-nd"
     }, 
     {
@@ -7447,17 +7394,17 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 1934408, 
         "metrics" : {
-            "testPositivityRatio" : 0.176, 
+            "testPositivityRatio" : 0.181, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 38.1, 
-            "contactTracerCapacityRatio" : 0.27, 
-            "infectionRate" : 0.94, 
+            "caseDensity" : 39.8, 
+            "contactTracerCapacityRatio" : 0.26, 
+            "infectionRate" : 1.0, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.8, 
-            "vaccinationsInitiatedRatio" : 0.637, 
-            "vaccinationsCompletedRatio" : 0.572
+            "icuCapacityRatio" : 0.84, 
+            "vaccinationsInitiatedRatio" : 0.641, 
+            "vaccinationsCompletedRatio" : 0.574
         }, 
         "riskLevels" : {
             "overall" : 3, 
@@ -7465,31 +7412,31 @@ let currentAllStatesData = [
             "caseDensity" : 3, 
             "contactTracerCapacityRatio" : 1, 
             "infectionRate" : 1, 
-            "icuCapacityRatio" : 1
+            "icuCapacityRatio" : 2
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 308384, 
-            "deaths" : 2815, 
-            "positiveTests" : 305747, 
-            "negativeTests" : 2152817, 
+            "cases" : 309828, 
+            "deaths" : 2820, 
+            "positiveTests" : 305919, 
+            "negativeTests" : 2153419, 
             "contactTracers" : 1000, 
             "hospitalBeds" : {
-                "capacity" : 3876, 
-                "currentUsageTotal" : 2705, 
-                "currentUsageCovid" : 526
+                "capacity" : 4105, 
+                "currentUsageTotal" : 2995, 
+                "currentUsageCovid" : 571
             }, 
             "icuBeds" : {
-                "capacity" : 463, 
-                "currentUsageTotal" : 372, 
-                "currentUsageCovid" : 168
+                "capacity" : 499, 
+                "currentUsageTotal" : 420, 
+                "currentUsageCovid" : 173
             }, 
-            "newCases" : 3026, 
-            "newDeaths" : 2, 
-            "vaccinesDistributed" : 3128720, 
-            "vaccinationsInitiated" : 1232655, 
-            "vaccinationsCompleted" : 1106529, 
-            "vaccinesAdministered" : 2557916, 
+            "newCases" : 1444, 
+            "newDeaths" : 5, 
+            "vaccinesDistributed" : 3135320, 
+            "vaccinationsInitiated" : 1240506, 
+            "vaccinationsCompleted" : 1110485, 
+            "vaccinesAdministered" : 2597241, 
             "vaccinesAdministeredDemographics" : {
                 "age" : {
                     "0-19" : 525411, 
@@ -7734,7 +7681,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/nebraska-ne"
     }, 
     {
@@ -7748,21 +7695,21 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 1359711, 
         "metrics" : {
-            "testPositivityRatio" : 0.098, 
+            "testPositivityRatio" : 0.107, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 66.7, 
+            "caseDensity" : 70.0, 
             "contactTracerCapacityRatio" : 0.03, 
             "infectionRate" : 1.09, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.84, 
+            "icuCapacityRatio" : 0.82, 
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
         "riskLevels" : {
             "overall" : 3, 
-            "testPositivityRatio" : 1, 
+            "testPositivityRatio" : 2, 
             "caseDensity" : 3, 
             "contactTracerCapacityRatio" : 2, 
             "infectionRate" : 1, 
@@ -7770,23 +7717,23 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 160287, 
-            "deaths" : 1694, 
-            "positiveTests" : 133361, 
-            "negativeTests" : 2814073, 
+            "cases" : 161244, 
+            "deaths" : 1716, 
+            "positiveTests" : 134275, 
+            "negativeTests" : 2817950, 
             "contactTracers" : 140, 
             "hospitalBeds" : {
-                "capacity" : 2463, 
-                "currentUsageTotal" : 1909, 
-                "currentUsageCovid" : 345
+                "capacity" : 2790, 
+                "currentUsageTotal" : 2177, 
+                "currentUsageCovid" : 400
             }, 
             "icuBeds" : {
-                "capacity" : 202, 
-                "currentUsageTotal" : 169, 
-                "currentUsageCovid" : 79
+                "capacity" : 221, 
+                "currentUsageTotal" : 181, 
+                "currentUsageCovid" : 86
             }, 
-            "newCases" : 4576, 
-            "newDeaths" : 11, 
+            "newCases" : 957, 
+            "newDeaths" : 22, 
             "vaccinesDistributed" : null, 
             "vaccinationsInitiated" : null, 
             "vaccinationsCompleted" : null, 
@@ -7934,7 +7881,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/new_hampshire-nh"
     }, 
     {
@@ -7948,16 +7895,16 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 8882190, 
         "metrics" : {
-            "testPositivityRatio" : 0.054, 
+            "testPositivityRatio" : 0.055, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 25.6, 
-            "contactTracerCapacityRatio" : 0.26, 
-            "infectionRate" : 1.11, 
+            "caseDensity" : 26.6, 
+            "contactTracerCapacityRatio" : 0.25, 
+            "infectionRate" : 1.12, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.42, 
-            "vaccinationsInitiatedRatio" : 0.79, 
+            "icuCapacityRatio" : 0.44, 
+            "vaccinationsInitiatedRatio" : 0.791, 
             "vaccinationsCompletedRatio" : 0.678
         }, 
         "riskLevels" : {
@@ -7970,27 +7917,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 1249454, 
-            "deaths" : 28348, 
-            "positiveTests" : 1247875, 
-            "negativeTests" : 18692816, 
+            "cases" : 1252705, 
+            "deaths" : 28390, 
+            "positiveTests" : 1249931, 
+            "negativeTests" : 18720164, 
             "contactTracers" : 3000, 
             "hospitalBeds" : {
-                "capacity" : 21339, 
-                "currentUsageTotal" : 13567, 
-                "currentUsageCovid" : 980
+                "capacity" : 21738, 
+                "currentUsageTotal" : 14401, 
+                "currentUsageCovid" : 1113
             }, 
             "icuBeds" : {
-                "capacity" : 2876, 
-                "currentUsageTotal" : 1216, 
-                "currentUsageCovid" : 157
+                "capacity" : 2932, 
+                "currentUsageTotal" : 1292, 
+                "currentUsageCovid" : 168
             }, 
-            "newCases" : 2241, 
-            "newDeaths" : 9, 
-            "vaccinesDistributed" : 16918645, 
-            "vaccinationsInitiated" : 7017967, 
-            "vaccinationsCompleted" : 6017811, 
-            "vaccinesAdministered" : 13464109, 
+            "newCases" : 3251, 
+            "newDeaths" : 42, 
+            "vaccinesDistributed" : 17008125, 
+            "vaccinationsInitiated" : 7028706, 
+            "vaccinationsCompleted" : 6023574, 
+            "vaccinesAdministered" : 13498900, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -8170,7 +8117,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/new_jersey-nj"
     }, 
     {
@@ -8184,49 +8131,49 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 2096829, 
         "metrics" : {
-            "testPositivityRatio" : 0.207, 
+            "testPositivityRatio" : 0.194, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 51.5, 
+            "caseDensity" : 51.2, 
             "contactTracerCapacityRatio" : 0.07, 
-            "infectionRate" : 0.95, 
+            "infectionRate" : 0.96, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.81, 
-            "vaccinationsInitiatedRatio" : 0.765, 
+            "icuCapacityRatio" : 0.89, 
+            "vaccinationsInitiatedRatio" : 0.766, 
             "vaccinationsCompletedRatio" : 0.635
         }, 
         "riskLevels" : {
             "overall" : 3, 
-            "testPositivityRatio" : 3, 
+            "testPositivityRatio" : 2, 
             "caseDensity" : 3, 
             "contactTracerCapacityRatio" : 2, 
             "infectionRate" : 1, 
-            "icuCapacityRatio" : 2
+            "icuCapacityRatio" : 3
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 313139, 
-            "deaths" : 5357, 
-            "positiveTests" : 541343, 
-            "negativeTests" : 3757563, 
+            "cases" : 314264, 
+            "deaths" : 5369, 
+            "positiveTests" : 542897, 
+            "negativeTests" : 3765266, 
             "contactTracers" : 375, 
             "hospitalBeds" : {
-                "capacity" : 4085, 
-                "currentUsageTotal" : 2829, 
-                "currentUsageCovid" : 659
+                "capacity" : 4040, 
+                "currentUsageTotal" : 3125, 
+                "currentUsageCovid" : 687
             }, 
             "icuBeds" : {
-                "capacity" : 462, 
-                "currentUsageTotal" : 376, 
-                "currentUsageCovid" : 187
+                "capacity" : 469, 
+                "currentUsageTotal" : 419, 
+                "currentUsageCovid" : 212
             }, 
-            "newCases" : 4987, 
-            "newDeaths" : 45, 
-            "vaccinesDistributed" : 3599385, 
-            "vaccinationsInitiated" : 1604264, 
-            "vaccinationsCompleted" : 1330974, 
-            "vaccinesAdministered" : 3120748, 
+            "newCases" : 1125, 
+            "newDeaths" : 12, 
+            "vaccinesDistributed" : 3618895, 
+            "vaccinationsInitiated" : 1605513, 
+            "vaccinationsCompleted" : 1331844, 
+            "vaccinesAdministered" : 3125326, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -8406,7 +8353,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/new_mexico-nm"
     }, 
     {
@@ -8424,45 +8371,45 @@ let currentAllStatesData = [
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 15.5, 
-            "contactTracerCapacityRatio" : 0.25, 
-            "infectionRate" : 0.89, 
+            "caseDensity" : 16.6, 
+            "contactTracerCapacityRatio" : 0.23, 
+            "infectionRate" : 0.94, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.79, 
+            "icuCapacityRatio" : 0.78, 
             "vaccinationsInitiatedRatio" : 0.664, 
-            "vaccinationsCompletedRatio" : 0.544
+            "vaccinationsCompletedRatio" : 0.545
         }, 
         "riskLevels" : {
             "overall" : 2, 
             "testPositivityRatio" : 1, 
             "caseDensity" : 2, 
             "contactTracerCapacityRatio" : 1, 
-            "infectionRate" : 0, 
+            "infectionRate" : 1, 
             "icuCapacityRatio" : 1
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 469743, 
-            "deaths" : 7985, 
-            "positiveTests" : 593192, 
-            "negativeTests" : 4109090, 
+            "cases" : 470641, 
+            "deaths" : 8017, 
+            "positiveTests" : 593466, 
+            "negativeTests" : 4111646, 
             "contactTracers" : 600, 
             "hospitalBeds" : {
-                "capacity" : 2768, 
-                "currentUsageTotal" : 2286, 
-                "currentUsageCovid" : 231
+                "capacity" : 8324, 
+                "currentUsageTotal" : 6408, 
+                "currentUsageCovid" : 680
             }, 
             "icuBeds" : {
-                "capacity" : 312, 
-                "currentUsageTotal" : 248, 
-                "currentUsageCovid" : 67
+                "capacity" : 807, 
+                "currentUsageTotal" : 626, 
+                "currentUsageCovid" : 153
             }, 
-            "newCases" : 1969, 
-            "newDeaths" : 13, 
-            "vaccinesDistributed" : 4757360, 
-            "vaccinationsInitiated" : 2044888, 
-            "vaccinationsCompleted" : 1676662, 
-            "vaccinesAdministered" : 3956125, 
+            "newCases" : 898, 
+            "newDeaths" : 32, 
+            "vaccinesDistributed" : 4774470, 
+            "vaccinationsInitiated" : 2046546, 
+            "vaccinationsCompleted" : 1678794, 
+            "vaccinesAdministered" : 3963229, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -8642,7 +8589,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/nevada-nv"
     }, 
     {
@@ -8656,17 +8603,17 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 19453561, 
         "metrics" : {
-            "testPositivityRatio" : 0.046, 
+            "testPositivityRatio" : 0.048, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 31.9, 
-            "contactTracerCapacityRatio" : 0.31, 
-            "infectionRate" : 1.05, 
+            "caseDensity" : 32.7, 
+            "contactTracerCapacityRatio" : 0.3, 
+            "infectionRate" : 1.04, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.71, 
-            "vaccinationsInitiatedRatio" : 0.781, 
-            "vaccinationsCompletedRatio" : 0.684
+            "icuCapacityRatio" : 0.7, 
+            "vaccinationsInitiatedRatio" : 0.782, 
+            "vaccinationsCompletedRatio" : 0.685
         }, 
         "riskLevels" : {
             "overall" : 3, 
@@ -8674,31 +8621,31 @@ let currentAllStatesData = [
             "caseDensity" : 3, 
             "contactTracerCapacityRatio" : 1, 
             "infectionRate" : 1, 
-            "icuCapacityRatio" : 1
+            "icuCapacityRatio" : 0
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 2721968, 
-            "deaths" : 56993, 
-            "positiveTests" : 2978227, 
-            "negativeTests" : 62437933, 
+            "cases" : 2728612, 
+            "deaths" : 57049, 
+            "positiveTests" : 2983570, 
+            "negativeTests" : 62528241, 
             "contactTracers" : 9620, 
             "hospitalBeds" : {
-                "capacity" : 35121, 
-                "currentUsageTotal" : 26608, 
-                "currentUsageCovid" : 2239
+                "capacity" : 43939, 
+                "currentUsageTotal" : 34154, 
+                "currentUsageCovid" : 3260
             }, 
             "icuBeds" : {
-                "capacity" : 3886, 
-                "currentUsageTotal" : 2774, 
-                "currentUsageCovid" : 414
+                "capacity" : 4853, 
+                "currentUsageTotal" : 3380, 
+                "currentUsageCovid" : 570
             }, 
-            "newCases" : 8156, 
-            "newDeaths" : 49, 
-            "vaccinesDistributed" : 35466565, 
-            "vaccinationsInitiated" : 15198267, 
-            "vaccinationsCompleted" : 13313936, 
-            "vaccinesAdministered" : 29854124, 
+            "newCases" : 6644, 
+            "newDeaths" : 56, 
+            "vaccinesDistributed" : 35666865, 
+            "vaccinationsInitiated" : 15220070, 
+            "vaccinationsCompleted" : 13324752, 
+            "vaccinesAdministered" : 29921538, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -8887,7 +8834,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/new_york-ny"
     }, 
     {
@@ -8901,15 +8848,15 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 11689100, 
         "metrics" : {
-            "testPositivityRatio" : 0.133, 
+            "testPositivityRatio" : 0.132, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 44.3, 
+            "caseDensity" : 45.0, 
             "contactTracerCapacityRatio" : 0.06, 
             "infectionRate" : 1.03, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.78, 
+            "icuCapacityRatio" : 0.79, 
             "vaccinationsInitiatedRatio" : 0.584, 
             "vaccinationsCompletedRatio" : 0.53
         }, 
@@ -8923,27 +8870,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 1683472, 
-            "deaths" : 26483, 
-            "positiveTests" : 1434896, 
-            "negativeTests" : 16165666, 
+            "cases" : 1690217, 
+            "deaths" : 26587, 
+            "positiveTests" : 1437922, 
+            "negativeTests" : 16183655, 
             "contactTracers" : 1659, 
             "hospitalBeds" : {
-                "capacity" : 26525, 
-                "currentUsageTotal" : 19389, 
-                "currentUsageCovid" : 3753
+                "capacity" : 28181, 
+                "currentUsageTotal" : 21458, 
+                "currentUsageCovid" : 4199
             }, 
             "icuBeds" : {
-                "capacity" : 3722, 
-                "currentUsageTotal" : 2899, 
-                "currentUsageCovid" : 913
+                "capacity" : 3900, 
+                "currentUsageTotal" : 3095, 
+                "currentUsageCovid" : 980
             }, 
-            "newCases" : 5731, 
-            "newDeaths" : 0, 
-            "vaccinesDistributed" : 18175315, 
-            "vaccinationsInitiated" : 6820747, 
-            "vaccinationsCompleted" : 6196181, 
-            "vaccinesAdministered" : 14396558, 
+            "newCases" : 6745, 
+            "newDeaths" : 104, 
+            "vaccinesDistributed" : 18234375, 
+            "vaccinationsInitiated" : 6824256, 
+            "vaccinationsCompleted" : 6200220, 
+            "vaccinesAdministered" : 14419053, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -9137,7 +9084,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/ohio-oh"
     }, 
     {
@@ -9151,15 +9098,15 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 3956971, 
         "metrics" : {
-            "testPositivityRatio" : 0.093, 
+            "testPositivityRatio" : 0.098, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 17.2, 
-            "contactTracerCapacityRatio" : 0.21, 
-            "infectionRate" : 1.03, 
+            "caseDensity" : 19.0, 
+            "contactTracerCapacityRatio" : 0.19, 
+            "infectionRate" : 1.05, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.79, 
+            "icuCapacityRatio" : 0.81, 
             "vaccinationsInitiatedRatio" : 0.628, 
             "vaccinationsCompletedRatio" : 0.515
         }, 
@@ -9169,31 +9116,31 @@ let currentAllStatesData = [
             "caseDensity" : 2, 
             "contactTracerCapacityRatio" : 1, 
             "infectionRate" : 1, 
-            "icuCapacityRatio" : 1
+            "icuCapacityRatio" : 2
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 666040, 
+            "cases" : 666927, 
             "deaths" : 10879, 
-            "positiveTests" : 626513, 
-            "negativeTests" : 2599647, 
+            "positiveTests" : 627247, 
+            "negativeTests" : 2604836, 
             "contactTracers" : 700, 
             "hospitalBeds" : {
-                "capacity" : 5660, 
-                "currentUsageTotal" : 3614, 
-                "currentUsageCovid" : 375
+                "capacity" : 8425, 
+                "currentUsageTotal" : 5791, 
+                "currentUsageCovid" : 558
             }, 
             "icuBeds" : {
-                "capacity" : 639, 
-                "currentUsageTotal" : 503, 
-                "currentUsageCovid" : 127
+                "capacity" : 874, 
+                "currentUsageTotal" : 706, 
+                "currentUsageCovid" : 154
             }, 
-            "newCases" : 3820, 
+            "newCases" : 887, 
             "newDeaths" : 0, 
-            "vaccinesDistributed" : 5991910, 
-            "vaccinationsInitiated" : 2484400, 
-            "vaccinationsCompleted" : 2037198, 
-            "vaccinesAdministered" : 4872320, 
+            "vaccinesDistributed" : 6019250, 
+            "vaccinationsInitiated" : 2485988, 
+            "vaccinationsCompleted" : 2039094, 
+            "vaccinesAdministered" : 4878303, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -9406,7 +9353,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/oklahoma-ok"
     }, 
     {
@@ -9420,16 +9367,16 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 4217737, 
         "metrics" : {
-            "testPositivityRatio" : 0.048, 
+            "testPositivityRatio" : 0.051, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 14.5, 
+            "caseDensity" : 15.1, 
             "contactTracerCapacityRatio" : 0.21, 
-            "infectionRate" : 0.88, 
+            "infectionRate" : 0.92, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.74, 
-            "vaccinationsInitiatedRatio" : 0.714, 
+            "icuCapacityRatio" : 0.72, 
+            "vaccinationsInitiatedRatio" : 0.715, 
             "vaccinationsCompletedRatio" : 0.64
         }, 
         "riskLevels" : {
@@ -9437,32 +9384,32 @@ let currentAllStatesData = [
             "testPositivityRatio" : 1, 
             "caseDensity" : 2, 
             "contactTracerCapacityRatio" : 1, 
-            "infectionRate" : 0, 
+            "infectionRate" : 1, 
             "icuCapacityRatio" : 1
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 390066, 
-            "deaths" : 5142, 
-            "positiveTests" : 344775, 
-            "negativeTests" : 5332177, 
+            "cases" : 391099, 
+            "deaths" : 5161, 
+            "positiveTests" : 345291, 
+            "negativeTests" : 5339175, 
             "contactTracers" : 656, 
             "hospitalBeds" : {
-                "capacity" : 6261, 
-                "currentUsageTotal" : 4930, 
-                "currentUsageCovid" : 484
+                "capacity" : 6866, 
+                "currentUsageTotal" : 5221, 
+                "currentUsageCovid" : 531
             }, 
             "icuBeds" : {
-                "capacity" : 697, 
-                "currentUsageTotal" : 515, 
-                "currentUsageCovid" : 75
+                "capacity" : 752, 
+                "currentUsageTotal" : 541, 
+                "currentUsageCovid" : 89
             }, 
-            "newCases" : 2581, 
-            "newDeaths" : 26, 
-            "vaccinesDistributed" : 7953005, 
-            "vaccinationsInitiated" : 3011855, 
-            "vaccinationsCompleted" : 2698260, 
-            "vaccinesAdministered" : 6193364, 
+            "newCases" : 1033, 
+            "newDeaths" : 19, 
+            "vaccinesDistributed" : 7983905, 
+            "vaccinationsInitiated" : 3013928, 
+            "vaccinationsCompleted" : 2699697, 
+            "vaccinesAdministered" : 6201116, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -9651,7 +9598,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/oregon-or"
     }, 
     {
@@ -9665,17 +9612,17 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 12801989, 
         "metrics" : {
-            "testPositivityRatio" : 0.123, 
+            "testPositivityRatio" : 0.125, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 43.9, 
+            "caseDensity" : 44.6, 
             "contactTracerCapacityRatio" : 0.05, 
-            "infectionRate" : 1.04, 
+            "infectionRate" : 1.02, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.83, 
-            "vaccinationsInitiatedRatio" : 0.815, 
-            "vaccinationsCompletedRatio" : 0.583
+            "icuCapacityRatio" : 0.84, 
+            "vaccinationsInitiatedRatio" : 0.817, 
+            "vaccinationsCompletedRatio" : 0.584
         }, 
         "riskLevels" : {
             "overall" : 3, 
@@ -9687,27 +9634,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 1731154, 
-            "deaths" : 33308, 
-            "positiveTests" : 1697765, 
-            "negativeTests" : 19039941, 
+            "cases" : 1736920, 
+            "deaths" : 33421, 
+            "positiveTests" : 1701869, 
+            "negativeTests" : 19063918, 
             "contactTracers" : 1508, 
             "hospitalBeds" : {
-                "capacity" : 27041, 
-                "currentUsageTotal" : 22209, 
-                "currentUsageCovid" : 3929
+                "capacity" : 28280, 
+                "currentUsageTotal" : 23743, 
+                "currentUsageCovid" : 4362
             }, 
             "icuBeds" : {
-                "capacity" : 3369, 
-                "currentUsageTotal" : 2804, 
-                "currentUsageCovid" : 823
+                "capacity" : 3448, 
+                "currentUsageTotal" : 2911, 
+                "currentUsageCovid" : 879
             }, 
-            "newCases" : 5252, 
-            "newDeaths" : 25, 
-            "vaccinesDistributed" : 23598985, 
-            "vaccinationsInitiated" : 10435081, 
-            "vaccinationsCompleted" : 7469481, 
-            "vaccinesAdministered" : 18263881, 
+            "newCases" : 5766, 
+            "newDeaths" : 113, 
+            "vaccinesDistributed" : 23777055, 
+            "vaccinationsInitiated" : 10455826, 
+            "vaccinationsCompleted" : 7478745, 
+            "vaccinesAdministered" : 18310906, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : {
                 "age" : {
@@ -9944,7 +9891,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/pennsylvania-pa"
     }, 
     {
@@ -9958,21 +9905,21 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 3193694, 
         "metrics" : {
-            "testPositivityRatio" : 0.03, 
+            "testPositivityRatio" : 0.031, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 2.3, 
+            "caseDensity" : 2.4, 
             "contactTracerCapacityRatio" : null, 
-            "infectionRate" : 0.85, 
+            "infectionRate" : 0.79, 
             "infectionRateCI90" : 0.14, 
-            "icuCapacityRatio" : 0.61, 
-            "vaccinationsInitiatedRatio" : 0.848, 
+            "icuCapacityRatio" : 0.63, 
+            "vaccinationsInitiatedRatio" : 0.849, 
             "vaccinationsCompletedRatio" : 0.741
         }, 
         "riskLevels" : {
             "overall" : 1, 
-            "testPositivityRatio" : 0, 
+            "testPositivityRatio" : 1, 
             "caseDensity" : 1, 
             "contactTracerCapacityRatio" : 4, 
             "infectionRate" : 0, 
@@ -9980,27 +9927,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 1, 
         "actuals" : {
-            "cases" : 221614, 
-            "deaths" : 3269, 
-            "positiveTests" : 120730, 
-            "negativeTests" : 1710802, 
+            "cases" : 221629, 
+            "deaths" : 3270, 
+            "positiveTests" : 120765, 
+            "negativeTests" : 1711931, 
             "contactTracers" : 10, 
             "hospitalBeds" : {
-                "capacity" : 9190, 
-                "currentUsageTotal" : 5064, 
-                "currentUsageCovid" : 51
+                "capacity" : 9145, 
+                "currentUsageTotal" : 5069, 
+                "currentUsageCovid" : 49
             }, 
             "icuBeds" : {
-                "capacity" : 655, 
-                "currentUsageTotal" : 397, 
+                "capacity" : 640, 
+                "currentUsageTotal" : 401, 
                 "currentUsageCovid" : 0
             }, 
-            "newCases" : 63, 
-            "newDeaths" : 0, 
-            "vaccinesDistributed" : 6002340, 
-            "vaccinationsInitiated" : 2707316, 
-            "vaccinationsCompleted" : 2365625, 
-            "vaccinesAdministered" : 5397347, 
+            "newCases" : 15, 
+            "newDeaths" : 1, 
+            "vaccinesDistributed" : 6007140, 
+            "vaccinationsInitiated" : 2710218, 
+            "vaccinationsCompleted" : 2365975, 
+            "vaccinesAdministered" : 5402867, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -10194,7 +10141,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/puerto_rico-pr"
     }, 
     {
@@ -10208,17 +10155,17 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 1059361, 
         "metrics" : {
-            "testPositivityRatio" : 0.046, 
+            "testPositivityRatio" : 0.048, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 46.4, 
+            "caseDensity" : 48.9, 
             "contactTracerCapacityRatio" : 0.08, 
-            "infectionRate" : 1.13, 
+            "infectionRate" : 1.17, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.89, 
-            "vaccinationsInitiatedRatio" : 0.83, 
-            "vaccinationsCompletedRatio" : 0.725
+            "icuCapacityRatio" : 0.86, 
+            "vaccinationsInitiatedRatio" : 0.832, 
+            "vaccinationsCompletedRatio" : 0.726
         }, 
         "riskLevels" : {
             "overall" : 3, 
@@ -10230,27 +10177,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 190975, 
-            "deaths" : 2927, 
-            "positiveTests" : 228150, 
-            "negativeTests" : 5088978, 
+            "cases" : 191763, 
+            "deaths" : 2932, 
+            "positiveTests" : 228650, 
+            "negativeTests" : 5098468, 
             "contactTracers" : 200, 
             "hospitalBeds" : {
-                "capacity" : 0, 
-                "currentUsageTotal" : 0, 
-                "currentUsageCovid" : 304
+                "capacity" : 2319, 
+                "currentUsageTotal" : 1984, 
+                "currentUsageCovid" : 162
             }, 
             "icuBeds" : {
-                "capacity" : 0, 
-                "currentUsageTotal" : 0, 
-                "currentUsageCovid" : 2
+                "capacity" : 129, 
+                "currentUsageTotal" : 111, 
+                "currentUsageCovid" : 25
             }, 
-            "newCases" : 2414, 
-            "newDeaths" : 12, 
-            "vaccinesDistributed" : 2020495, 
-            "vaccinationsInitiated" : 878795, 
-            "vaccinationsCompleted" : 767741, 
-            "vaccinesAdministered" : 1743231, 
+            "newCases" : 788, 
+            "newDeaths" : 5, 
+            "vaccinesDistributed" : 2041815, 
+            "vaccinationsInitiated" : 881393, 
+            "vaccinationsCompleted" : 768877, 
+            "vaccinesAdministered" : 1746372, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -10439,7 +10386,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/rhode_island-ri"
     }, 
     {
@@ -10453,16 +10400,16 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 5148714, 
         "metrics" : {
-            "testPositivityRatio" : 0.044, 
+            "testPositivityRatio" : 0.045, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 10.8, 
+            "caseDensity" : 10.9, 
             "contactTracerCapacityRatio" : 0.28, 
-            "infectionRate" : 0.98, 
+            "infectionRate" : 0.97, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.64, 
-            "vaccinationsInitiatedRatio" : 0.602, 
+            "icuCapacityRatio" : 0.7, 
+            "vaccinationsInitiatedRatio" : 0.603, 
             "vaccinationsCompletedRatio" : 0.514
         }, 
         "riskLevels" : {
@@ -10475,27 +10422,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 2, 
         "actuals" : {
-            "cases" : 917833, 
-            "deaths" : 14209, 
-            "positiveTests" : 957067, 
-            "negativeTests" : 8916259, 
+            "cases" : 918321, 
+            "deaths" : 14210, 
+            "positiveTests" : 957412, 
+            "negativeTests" : 8923085, 
             "contactTracers" : 775, 
             "hospitalBeds" : {
-                "capacity" : 7642, 
-                "currentUsageTotal" : 5383, 
-                "currentUsageCovid" : 316
+                "capacity" : 10576, 
+                "currentUsageTotal" : 7885, 
+                "currentUsageCovid" : 426
             }, 
             "icuBeds" : {
-                "capacity" : 934, 
-                "currentUsageTotal" : 596, 
-                "currentUsageCovid" : 78
+                "capacity" : 1298, 
+                "currentUsageTotal" : 912, 
+                "currentUsageCovid" : 109
             }, 
-            "newCases" : 2162, 
-            "newDeaths" : 23, 
-            "vaccinesDistributed" : 8300135, 
-            "vaccinationsInitiated" : 3100338, 
-            "vaccinationsCompleted" : 2644436, 
-            "vaccinesAdministered" : 6186384, 
+            "newCases" : 488, 
+            "newDeaths" : 1, 
+            "vaccinesDistributed" : 8315745, 
+            "vaccinationsInitiated" : 3102884, 
+            "vaccinationsCompleted" : 2646396, 
+            "vaccinesAdministered" : 6194615, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -10684,7 +10631,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/south_carolina-sc"
     }, 
     {
@@ -10698,49 +10645,49 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 884659, 
         "metrics" : {
-            "testPositivityRatio" : 0.156, 
+            "testPositivityRatio" : 0.159, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 33.5, 
-            "contactTracerCapacityRatio" : 0.24, 
-            "infectionRate" : 0.84, 
+            "caseDensity" : 40.2, 
+            "contactTracerCapacityRatio" : 0.2, 
+            "infectionRate" : 1.0, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.61, 
-            "vaccinationsInitiatedRatio" : 0.666, 
-            "vaccinationsCompletedRatio" : 0.544
+            "icuCapacityRatio" : 0.63, 
+            "vaccinationsInitiatedRatio" : 0.67, 
+            "vaccinationsCompletedRatio" : 0.546
         }, 
         "riskLevels" : {
             "overall" : 3, 
             "testPositivityRatio" : 2, 
             "caseDensity" : 3, 
             "contactTracerCapacityRatio" : 1, 
-            "infectionRate" : 0, 
+            "infectionRate" : 1, 
             "icuCapacityRatio" : 0
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 164867, 
-            "deaths" : 2328, 
-            "positiveTests" : 112140, 
-            "negativeTests" : 778697, 
+            "cases" : 166208, 
+            "deaths" : 2334, 
+            "positiveTests" : 112302, 
+            "negativeTests" : 779404, 
             "contactTracers" : 350, 
             "hospitalBeds" : {
-                "capacity" : 2394, 
-                "currentUsageTotal" : 1457, 
-                "currentUsageCovid" : 231
+                "capacity" : 2550, 
+                "currentUsageTotal" : 1557, 
+                "currentUsageCovid" : 239
             }, 
             "icuBeds" : {
-                "capacity" : 241, 
-                "currentUsageTotal" : 148, 
-                "currentUsageCovid" : 67
+                "capacity" : 246, 
+                "currentUsageTotal" : 156, 
+                "currentUsageCovid" : 64
             }, 
-            "newCases" : 575, 
-            "newDeaths" : 8, 
-            "vaccinesDistributed" : 1484805, 
-            "vaccinationsInitiated" : 589519, 
-            "vaccinationsCompleted" : 481463, 
-            "vaccinesAdministered" : 1140967, 
+            "newCases" : 1341, 
+            "newDeaths" : 6, 
+            "vaccinesDistributed" : 1489515, 
+            "vaccinationsInitiated" : 592615, 
+            "vaccinationsCompleted" : 483369, 
+            "vaccinesAdministered" : 1149804, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -10920,7 +10867,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/south_dakota-sd"
     }, 
     {
@@ -10938,12 +10885,12 @@ let currentAllStatesData = [
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 15.2, 
-            "contactTracerCapacityRatio" : 0.24, 
-            "infectionRate" : 0.96, 
+            "caseDensity" : 16.6, 
+            "contactTracerCapacityRatio" : 0.22, 
+            "infectionRate" : 1.01, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.66, 
-            "vaccinationsInitiatedRatio" : 0.567, 
+            "icuCapacityRatio" : 0.65, 
+            "vaccinationsInitiatedRatio" : 0.568, 
             "vaccinationsCompletedRatio" : 0.495
         }, 
         "riskLevels" : {
@@ -10956,27 +10903,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 1284623, 
-            "deaths" : 16860, 
+            "cases" : 1286770, 
+            "deaths" : 16903, 
             "positiveTests" : 1082839, 
             "negativeTests" : 8135105, 
             "contactTracers" : 1226, 
             "hospitalBeds" : {
-                "capacity" : 13303, 
-                "currentUsageTotal" : 9169, 
-                "currentUsageCovid" : 732
+                "capacity" : 18162, 
+                "currentUsageTotal" : 12211, 
+                "currentUsageCovid" : 915
             }, 
             "icuBeds" : {
-                "capacity" : 1794, 
-                "currentUsageTotal" : 1182, 
-                "currentUsageCovid" : 193
+                "capacity" : 2384, 
+                "currentUsageTotal" : 1539, 
+                "currentUsageCovid" : 235
             }, 
-            "newCases" : 4148, 
-            "newDeaths" : 34, 
-            "vaccinesDistributed" : 10212170, 
-            "vaccinationsInitiated" : 3873071, 
-            "vaccinationsCompleted" : 3379781, 
-            "vaccinesAdministered" : 8141958, 
+            "newCases" : 2147, 
+            "newDeaths" : 43, 
+            "vaccinesDistributed" : 10250410, 
+            "vaccinationsInitiated" : 3881413, 
+            "vaccinationsCompleted" : 3383804, 
+            "vaccinesAdministered" : 8175906, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -11184,7 +11131,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/tennessee-tn"
     }, 
     {
@@ -11198,49 +11145,49 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 28995881, 
         "metrics" : {
-            "testPositivityRatio" : 0.059, 
+            "testPositivityRatio" : 0.064, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 11.2, 
-            "contactTracerCapacityRatio" : 0.23, 
-            "infectionRate" : 0.98, 
+            "caseDensity" : 20.4, 
+            "contactTracerCapacityRatio" : 0.13, 
+            "infectionRate" : 1.13, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.87, 
-            "vaccinationsInitiatedRatio" : 0.64, 
-            "vaccinationsCompletedRatio" : 0.546
+            "icuCapacityRatio" : 0.83, 
+            "vaccinationsInitiatedRatio" : 0.641, 
+            "vaccinationsCompletedRatio" : 0.547
         }, 
         "riskLevels" : {
             "overall" : 2, 
             "testPositivityRatio" : 1, 
             "caseDensity" : 2, 
             "contactTracerCapacityRatio" : 1, 
-            "infectionRate" : 1, 
-            "icuCapacityRatio" : 3
+            "infectionRate" : 2, 
+            "icuCapacityRatio" : 2
         }, 
-        "cdcTransmissionLevel" : 2, 
+        "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 4282237, 
-            "deaths" : 74069, 
-            "positiveTests" : 4526655, 
-            "negativeTests" : 34203413, 
+            "cases" : 4288344, 
+            "deaths" : 74145, 
+            "positiveTests" : 4529685, 
+            "negativeTests" : 34246409, 
             "contactTracers" : 3722, 
             "hospitalBeds" : {
-                "capacity" : 58106, 
-                "currentUsageTotal" : 41701, 
-                "currentUsageCovid" : 3359
+                "capacity" : 58816, 
+                "currentUsageTotal" : 42484, 
+                "currentUsageCovid" : 3367
             }, 
             "icuBeds" : {
-                "capacity" : 6224, 
-                "currentUsageTotal" : 5403, 
-                "currentUsageCovid" : 938
+                "capacity" : 6613, 
+                "currentUsageTotal" : 5519, 
+                "currentUsageCovid" : 940
             }, 
-            "newCases" : 3958, 
-            "newDeaths" : 146, 
-            "vaccinesDistributed" : 48860105, 
-            "vaccinationsInitiated" : 18563346, 
-            "vaccinationsCompleted" : 15842958, 
-            "vaccinesAdministered" : 37168693, 
+            "newCases" : 6107, 
+            "newDeaths" : 76, 
+            "vaccinesDistributed" : 49037875, 
+            "vaccinationsInitiated" : 18584093, 
+            "vaccinationsCompleted" : 15861342, 
+            "vaccinesAdministered" : 37245206, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -11273,13 +11220,7 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : [
-                    {
-                        "date" : "2021-11-25", 
-                        "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 4526661.0
-                    }
-                ]
+                "anomalies" : []
             }, 
             "negativeTests" : {
                 "sources" : [
@@ -11291,9 +11232,9 @@ let currentAllStatesData = [
                 ], 
                 "anomalies" : [
                     {
-                        "date" : "2021-11-25", 
+                        "date" : "2021-11-26", 
                         "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 34203477.0
+                        "original_observation" : 34246927.0
                     }
                 ]
             }, 
@@ -11388,14 +11329,9 @@ let currentAllStatesData = [
                 ], 
                 "anomalies" : [
                     {
-                        "date" : "2021-11-25", 
+                        "date" : "2021-11-26", 
                         "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 34203477.0
-                    }, 
-                    {
-                        "date" : "2021-11-25", 
-                        "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 4526661.0
+                        "original_observation" : 34246927.0
                     }
                 ]
             }, 
@@ -11452,7 +11388,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/texas-tx"
     }, 
     {
@@ -11470,7 +11406,7 @@ let currentAllStatesData = [
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 35.0, 
+            "caseDensity" : 35.2, 
             "contactTracerCapacityRatio" : null, 
             "infectionRate" : 0.89, 
             "infectionRateCI90" : 0.1, 
@@ -11488,10 +11424,10 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 594738, 
-            "deaths" : 3508, 
-            "positiveTests" : 666946, 
-            "negativeTests" : 5068735, 
+            "cases" : 595933, 
+            "deaths" : 3528, 
+            "positiveTests" : 667590, 
+            "negativeTests" : 5074434, 
             "contactTracers" : 1200, 
             "hospitalBeds" : {
                 "capacity" : 5571, 
@@ -11503,11 +11439,11 @@ let currentAllStatesData = [
                 "currentUsageTotal" : 421, 
                 "currentUsageCovid" : 188
             }, 
-            "newCases" : 2480, 
-            "newDeaths" : 21, 
-            "vaccinesDistributed" : 4969270, 
-            "vaccinationsInitiated" : 2048134, 
-            "vaccinationsCompleted" : 1772762, 
+            "newCases" : 1195, 
+            "newDeaths" : 20, 
+            "vaccinesDistributed" : 4982170, 
+            "vaccinationsInitiated" : 2048267, 
+            "vaccinationsCompleted" : 1772790, 
             "vaccinesAdministered" : 4016039, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
@@ -11688,7 +11624,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/utah-ut"
     }, 
     {
@@ -11702,16 +11638,16 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 8535519, 
         "metrics" : {
-            "testPositivityRatio" : 0.066, 
+            "testPositivityRatio" : 0.068, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 16.1, 
+            "caseDensity" : 16.7, 
             "contactTracerCapacityRatio" : 0.22, 
-            "infectionRate" : 1.01, 
+            "infectionRate" : 1.02, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.69, 
-            "vaccinationsInitiatedRatio" : 0.755, 
+            "vaccinationsInitiatedRatio" : 0.756, 
             "vaccinationsCompletedRatio" : 0.649
         }, 
         "riskLevels" : {
@@ -11724,27 +11660,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 967209, 
-            "deaths" : 14684, 
-            "positiveTests" : 1225936, 
-            "negativeTests" : 10270705, 
+            "cases" : 969116, 
+            "deaths" : 14710, 
+            "positiveTests" : 1226997, 
+            "negativeTests" : 10280393, 
             "contactTracers" : 1547, 
             "hospitalBeds" : {
-                "capacity" : 16632, 
-                "currentUsageTotal" : 11475, 
-                "currentUsageCovid" : 946
+                "capacity" : 17140, 
+                "currentUsageTotal" : 12363, 
+                "currentUsageCovid" : 1053
             }, 
             "icuBeds" : {
-                "capacity" : 1877, 
-                "currentUsageTotal" : 1302, 
-                "currentUsageCovid" : 220
+                "capacity" : 1904, 
+                "currentUsageTotal" : 1319, 
+                "currentUsageCovid" : 226
             }, 
-            "newCases" : 3470, 
-            "newDeaths" : 49, 
-            "vaccinesDistributed" : 15561375, 
-            "vaccinationsInitiated" : 6444314, 
-            "vaccinationsCompleted" : 5537205, 
-            "vaccinesAdministered" : 13075460, 
+            "newCases" : 1907, 
+            "newDeaths" : 26, 
+            "vaccinesDistributed" : 15628535, 
+            "vaccinationsInitiated" : 6451445, 
+            "vaccinationsCompleted" : 5542940, 
+            "vaccinesAdministered" : 13100880, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -11924,7 +11860,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/virginia-va"
     }, 
     {
@@ -11938,16 +11874,16 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 623989, 
         "metrics" : {
-            "testPositivityRatio" : 0.041, 
+            "testPositivityRatio" : 0.045, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 50.2, 
-            "contactTracerCapacityRatio" : 0.03, 
-            "infectionRate" : 0.99, 
+            "caseDensity" : 42.3, 
+            "contactTracerCapacityRatio" : 0.04, 
+            "infectionRate" : 0.92, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.88, 
-            "vaccinationsInitiatedRatio" : 0.854, 
+            "icuCapacityRatio" : 0.91, 
+            "vaccinationsInitiatedRatio" : 0.855, 
             "vaccinationsCompletedRatio" : 0.729
         }, 
         "riskLevels" : {
@@ -11960,27 +11896,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 49801, 
+            "cases" : 50014, 
             "deaths" : 410, 
-            "positiveTests" : 67076, 
-            "negativeTests" : 2619845, 
+            "positiveTests" : 67489, 
+            "negativeTests" : 2625895, 
             "contactTracers" : 53, 
             "hospitalBeds" : {
-                "capacity" : 1234, 
-                "currentUsageTotal" : 851, 
-                "currentUsageCovid" : 67
+                "capacity" : 1235, 
+                "currentUsageTotal" : 899, 
+                "currentUsageCovid" : 82
             }, 
             "icuBeds" : {
-                "capacity" : 89, 
-                "currentUsageTotal" : 78, 
-                "currentUsageCovid" : 22
+                "capacity" : 92, 
+                "currentUsageTotal" : 84, 
+                "currentUsageCovid" : 23
             }, 
-            "newCases" : 1681, 
-            "newDeaths" : 4, 
-            "vaccinesDistributed" : 1295970, 
-            "vaccinationsInitiated" : 532935, 
-            "vaccinationsCompleted" : 454670, 
-            "vaccinesAdministered" : 1119023, 
+            "newCases" : 213, 
+            "newDeaths" : 0, 
+            "vaccinesDistributed" : 1301670, 
+            "vaccinationsInitiated" : 533218, 
+            "vaccinationsCompleted" : 454783, 
+            "vaccinesAdministered" : 1120308, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -12169,7 +12105,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/vermont-vt"
     }, 
     {
@@ -12183,17 +12119,17 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 7614893, 
         "metrics" : {
-            "testPositivityRatio" : 0.09, 
+            "testPositivityRatio" : 0.089, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 13.1, 
-            "contactTracerCapacityRatio" : 0.43, 
-            "infectionRate" : 0.83, 
+            "caseDensity" : 13.5, 
+            "contactTracerCapacityRatio" : 0.41, 
+            "infectionRate" : 0.85, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.74, 
-            "vaccinationsInitiatedRatio" : 0.725, 
-            "vaccinationsCompletedRatio" : 0.649
+            "icuCapacityRatio" : 0.78, 
+            "vaccinationsInitiatedRatio" : 0.729, 
+            "vaccinationsCompletedRatio" : 0.65
         }, 
         "riskLevels" : {
             "overall" : 2, 
@@ -12205,27 +12141,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 2, 
         "actuals" : {
-            "cases" : 775613, 
-            "deaths" : 9313, 
-            "positiveTests" : 602175, 
-            "negativeTests" : 8879889, 
+            "cases" : 776973, 
+            "deaths" : 9349, 
+            "positiveTests" : 604068, 
+            "negativeTests" : 8898271, 
             "contactTracers" : 2122, 
             "hospitalBeds" : {
-                "capacity" : 8893, 
-                "currentUsageTotal" : 7307, 
-                "currentUsageCovid" : 709
+                "capacity" : 10963, 
+                "currentUsageTotal" : 8784, 
+                "currentUsageCovid" : 914
             }, 
             "icuBeds" : {
-                "capacity" : 1014, 
-                "currentUsageTotal" : 746, 
-                "currentUsageCovid" : 154
+                "capacity" : 1198, 
+                "currentUsageTotal" : 931, 
+                "currentUsageCovid" : 199
             }, 
-            "newCases" : 4727, 
-            "newDeaths" : 57, 
-            "vaccinesDistributed" : 13915795, 
-            "vaccinationsInitiated" : 5520316, 
-            "vaccinationsCompleted" : 4939606, 
-            "vaccinesAdministered" : 11268717, 
+            "newCases" : 1360, 
+            "newDeaths" : 36, 
+            "vaccinesDistributed" : 13976625, 
+            "vaccinationsInitiated" : 5552276, 
+            "vaccinationsCompleted" : 4953066, 
+            "vaccinesAdministered" : 11377078, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -12260,9 +12196,9 @@ let currentAllStatesData = [
                 ], 
                 "anomalies" : [
                     {
-                        "date" : "2021-11-24", 
+                        "date" : "2021-11-25", 
                         "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 602175.0
+                        "original_observation" : 604068.0
                     }
                 ]
             }, 
@@ -12278,7 +12214,7 @@ let currentAllStatesData = [
                     {
                         "date" : "2021-11-24", 
                         "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 8879901.0
+                        "original_observation" : 8898301.0
                     }
                 ]
             }, 
@@ -12384,12 +12320,12 @@ let currentAllStatesData = [
                     {
                         "date" : "2021-11-24", 
                         "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 602175.0
+                        "original_observation" : 8898301.0
                     }, 
                     {
-                        "date" : "2021-11-24", 
+                        "date" : "2021-11-25", 
                         "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 8879901.0
+                        "original_observation" : 604068.0
                     }
                 ]
             }, 
@@ -12446,7 +12382,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/washington-wa"
     }, 
     {
@@ -12460,15 +12396,15 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 5822434, 
         "metrics" : {
-            "testPositivityRatio" : 0.122, 
+            "testPositivityRatio" : 0.123, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 52.8, 
+            "caseDensity" : 54.9, 
             "contactTracerCapacityRatio" : 0.04, 
-            "infectionRate" : 0.98, 
+            "infectionRate" : 1.01, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.67, 
+            "icuCapacityRatio" : 0.7, 
             "vaccinationsInitiatedRatio" : 0.658, 
             "vaccinationsCompletedRatio" : 0.595
         }, 
@@ -12482,56 +12418,56 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 974396, 
-            "deaths" : 9955, 
-            "positiveTests" : 1018767, 
-            "negativeTests" : 11929809, 
+            "cases" : 980261, 
+            "deaths" : 10006, 
+            "positiveTests" : 1020762, 
+            "negativeTests" : 11943609, 
             "contactTracers" : 600, 
             "hospitalBeds" : {
-                "capacity" : 11952, 
-                "currentUsageTotal" : 8299, 
-                "currentUsageCovid" : 1506
+                "capacity" : 12440, 
+                "currentUsageTotal" : 8838, 
+                "currentUsageCovid" : 1562
             }, 
             "icuBeds" : {
-                "capacity" : 1478, 
-                "currentUsageTotal" : 997, 
-                "currentUsageCovid" : 385
+                "capacity" : 1557, 
+                "currentUsageTotal" : 1084, 
+                "currentUsageCovid" : 410
             }, 
-            "newCases" : 6581, 
-            "newDeaths" : 11, 
-            "vaccinesDistributed" : 9222535, 
-            "vaccinationsInitiated" : 3830306, 
-            "vaccinationsCompleted" : 3462365, 
-            "vaccinesAdministered" : 8186207, 
+            "newCases" : 5865, 
+            "newDeaths" : 51, 
+            "vaccinesDistributed" : 9291735, 
+            "vaccinationsInitiated" : 3832519, 
+            "vaccinationsCompleted" : 3464470, 
+            "vaccinesAdministered" : 8194809, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : {
                 "age" : {
-                    "12-15" : 147909, 
-                    "16-17" : 79664, 
-                    "18-24" : 298000, 
-                    "25-34" : 439964, 
-                    "35-44" : 473649, 
-                    "45-54" : 479697, 
-                    "55-64" : 620726, 
-                    "65_plus" : 889042
+                    "12-15" : 148032, 
+                    "16-17" : 79709, 
+                    "18-24" : 298285, 
+                    "25-34" : 440402, 
+                    "35-44" : 473979, 
+                    "45-54" : 479997, 
+                    "55-64" : 620999, 
+                    "65_plus" : 889340
                 }, 
                 "race" : {
-                    "asian" : 109532, 
-                    "black" : 159000, 
-                    "native_american" : 33614, 
-                    "other" : 270611, 
-                    "unknown" : 147722, 
-                    "white" : 2708402
+                    "asian" : 109654, 
+                    "black" : 159258, 
+                    "native_american" : 33585, 
+                    "other" : 267809, 
+                    "unknown" : 147107, 
+                    "white" : 2713560
                 }, 
                 "ethnicity" : {
-                    "hispanic" : 205732, 
-                    "non-hispanic" : 3079988, 
+                    "hispanic" : 206042, 
+                    "non-hispanic" : 3082409, 
                     "unknown" : 93312
                 }, 
                 "sex" : {
-                    "female" : 1813266, 
-                    "male" : 1598944, 
-                    "unknown" : 16671
+                    "female" : 1814401, 
+                    "male" : 1599920, 
+                    "unknown" : 16652
                 }
             }
         }, 
@@ -12720,7 +12656,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/wisconsin-wi"
     }, 
     {
@@ -12734,15 +12670,15 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 1792147, 
         "metrics" : {
-            "testPositivityRatio" : 0.105, 
+            "testPositivityRatio" : 0.107, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 35.8, 
-            "contactTracerCapacityRatio" : 0.08, 
-            "infectionRate" : 0.94, 
+            "caseDensity" : 46.4, 
+            "contactTracerCapacityRatio" : 0.06, 
+            "infectionRate" : 0.98, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.53, 
+            "icuCapacityRatio" : 0.83, 
             "vaccinationsInitiatedRatio" : 0.539, 
             "vaccinationsCompletedRatio" : 0.415
         }, 
@@ -12752,31 +12688,31 @@ let currentAllStatesData = [
             "caseDensity" : 3, 
             "contactTracerCapacityRatio" : 2, 
             "infectionRate" : 1, 
-            "icuCapacityRatio" : 0
+            "icuCapacityRatio" : 2
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 294014, 
-            "deaths" : 4837, 
-            "positiveTests" : 325916, 
-            "negativeTests" : 3688600, 
+            "cases" : 294794, 
+            "deaths" : 4868, 
+            "positiveTests" : 326324, 
+            "negativeTests" : 3691362, 
             "contactTracers" : 248, 
             "hospitalBeds" : {
-                "capacity" : 611, 
-                "currentUsageTotal" : 411, 
-                "currentUsageCovid" : 35
+                "capacity" : 5788, 
+                "currentUsageTotal" : 4394, 
+                "currentUsageCovid" : 612
             }, 
             "icuBeds" : {
-                "capacity" : 60, 
-                "currentUsageTotal" : 32, 
-                "currentUsageCovid" : 12
+                "capacity" : 663, 
+                "currentUsageTotal" : 550, 
+                "currentUsageCovid" : 188
             }, 
-            "newCases" : 3105, 
-            "newDeaths" : 20, 
-            "vaccinesDistributed" : 3371505, 
-            "vaccinationsInitiated" : 966073, 
-            "vaccinationsCompleted" : 744422, 
-            "vaccinesAdministered" : 1690796, 
+            "newCases" : 780, 
+            "newDeaths" : 31, 
+            "vaccinesDistributed" : 3379485, 
+            "vaccinationsInitiated" : 966272, 
+            "vaccinationsCompleted" : 744500, 
+            "vaccinesAdministered" : 1690860, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -12965,7 +12901,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/west_virginia-wv"
     }, 
     {
@@ -12983,13 +12919,13 @@ let currentAllStatesData = [
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 25.2, 
+            "caseDensity" : 25.6, 
             "contactTracerCapacityRatio" : 0.07, 
-            "infectionRate" : 0.76, 
+            "infectionRate" : 0.79, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.49, 
-            "vaccinationsInitiatedRatio" : 0.535, 
-            "vaccinationsCompletedRatio" : 0.455
+            "vaccinationsInitiatedRatio" : 0.536, 
+            "vaccinationsCompletedRatio" : 0.456
         }, 
         "riskLevels" : {
             "overall" : 3, 
@@ -13001,27 +12937,27 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 110824, 
-            "deaths" : 1347, 
-            "positiveTests" : 85429, 
-            "negativeTests" : 1071614, 
+            "cases" : 111089, 
+            "deaths" : 1428, 
+            "positiveTests" : 85546, 
+            "negativeTests" : 1072944, 
             "contactTracers" : 50, 
             "hospitalBeds" : {
-                "capacity" : 1298, 
-                "currentUsageTotal" : 581, 
-                "currentUsageCovid" : 115
+                "capacity" : 1603, 
+                "currentUsageTotal" : 747, 
+                "currentUsageCovid" : 131
             }, 
             "icuBeds" : {
-                "capacity" : 122, 
-                "currentUsageTotal" : 60, 
-                "currentUsageCovid" : 17
+                "capacity" : 139, 
+                "currentUsageTotal" : 68, 
+                "currentUsageCovid" : 20
             }, 
-            "newCases" : 560, 
-            "newDeaths" : 0, 
-            "vaccinesDistributed" : 812765, 
-            "vaccinationsInitiated" : 309914, 
-            "vaccinationsCompleted" : 263454, 
-            "vaccinesAdministered" : 630922, 
+            "newCases" : 265, 
+            "newDeaths" : 81, 
+            "vaccinesDistributed" : 813665, 
+            "vaccinationsInitiated" : 310481, 
+            "vaccinationsCompleted" : 263763, 
+            "vaccinesAdministered" : 632809, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null
         }, 
@@ -13215,7 +13151,7 @@ let currentAllStatesData = [
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null
         }, 
-        "lastUpdatedDate" : "2021-11-30", 
+        "lastUpdatedDate" : "2021-12-01", 
         "url" : "https://covidactnow.org/us/wyoming-wy"
     }
 ]
