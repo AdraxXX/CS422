@@ -84,6 +84,7 @@
 
 #hideSearchButton {
     background-color: rgb(211, 156, 159);
+    margin-left: 1em !important;
 }
 
 #hideSearchButton:hover{
