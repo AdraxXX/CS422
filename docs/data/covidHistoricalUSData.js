@@ -13,13 +13,13 @@ let historicalUSData = {
         "testPositivityRatioDetails" : {
             "source" : "other"
         }, 
-        "caseDensity" : 35.8, 
+        "caseDensity" : 35.7, 
         "contactTracerCapacityRatio" : 0.11, 
         "infectionRate" : 1.11, 
         "infectionRateCI90" : 0.1, 
         "icuCapacityRatio" : 0.77, 
-        "vaccinationsInitiatedRatio" : 0.712, 
-        "vaccinationsCompletedRatio" : 0.601
+        "vaccinationsInitiatedRatio" : 0.713, 
+        "vaccinationsCompletedRatio" : 0.602
     }, 
     "riskLevels" : {
         "overall" : 3, 
@@ -31,27 +31,27 @@ let historicalUSData = {
     }, 
     "cdcTransmissionLevel" : 3, 
     "actuals" : {
-        "cases" : 49242271, 
-        "deaths" : 788315, 
-        "positiveTests" : 50428866, 
-        "negativeTests" : 617836149, 
+        "cases" : 49350074, 
+        "deaths" : 790040, 
+        "positiveTests" : 50440220, 
+        "negativeTests" : 617962814, 
         "contactTracers" : 66210, 
         "hospitalBeds" : {
-            "capacity" : 705112, 
-            "currentUsageTotal" : 541032, 
-            "currentUsageCovid" : 59414
+            "capacity" : 711685, 
+            "currentUsageTotal" : 545992, 
+            "currentUsageCovid" : 61953
         }, 
         "icuBeds" : {
-            "capacity" : 80134, 
-            "currentUsageTotal" : 61985, 
-            "currentUsageCovid" : 13676
+            "capacity" : 81355, 
+            "currentUsageTotal" : 62436, 
+            "currentUsageCovid" : 14096
         }, 
-        "newCases" : 197449, 
-        "newDeaths" : 1351, 
-        "vaccinesDistributed" : 580074805, 
-        "vaccinationsInitiated" : 236018871, 
-        "vaccinationsCompleted" : 199313022, 
-        "vaccinesAdministered" : 471700443, 
+        "newCases" : 107803, 
+        "newDeaths" : 1725, 
+        "vaccinesDistributed" : 582057445, 
+        "vaccinationsInitiated" : 236363835, 
+        "vaccinationsCompleted" : 199687439, 
+        "vaccinesAdministered" : 473243228, 
         "vaccinesAdministeredDemographics" : null, 
         "vaccinationsInitiatedDemographics" : null
     }, 
@@ -168,7 +168,7 @@ let historicalUSData = {
         "vaccinationsInitiatedRatio" : null, 
         "vaccinationsCompletedRatio" : null
     }, 
-    "lastUpdatedDate" : "2021-12-07", 
+    "lastUpdatedDate" : "2021-12-08", 
     "url" : null, 
     "metricsTimeseries" : [
         {
@@ -6853,7 +6853,7 @@ let historicalUSData = {
             "date" : "2021-11-17"
         }, 
         {
-            "testPositivityRatio" : 0.06, 
+            "testPositivityRatio" : 0.061, 
             "caseDensity" : 29.2, 
             "contactTracerCapacityRatio" : 0.14, 
             "infectionRate" : 1.03, 
@@ -6878,7 +6878,7 @@ let historicalUSData = {
             "testPositivityRatio" : 0.061, 
             "caseDensity" : 27.9, 
             "contactTracerCapacityRatio" : 0.14, 
-            "infectionRate" : 1.04, 
+            "infectionRate" : 1.03, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.76, 
             "vaccinationsInitiatedRatio" : 0.693, 
@@ -6919,7 +6919,7 @@ let historicalUSData = {
             "date" : "2021-11-23"
         }, 
         {
-            "testPositivityRatio" : 0.065, 
+            "testPositivityRatio" : 0.066, 
             "caseDensity" : 29.0, 
             "contactTracerCapacityRatio" : 0.14, 
             "infectionRate" : 1.06, 
@@ -6966,7 +6966,7 @@ let historicalUSData = {
             "testPositivityRatio" : 0.074, 
             "caseDensity" : 21.7, 
             "contactTracerCapacityRatio" : 0.18, 
-            "infectionRate" : 1.1, 
+            "infectionRate" : 1.09, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.74, 
             "vaccinationsInitiatedRatio" : null, 
@@ -6977,7 +6977,7 @@ let historicalUSData = {
             "testPositivityRatio" : 0.076, 
             "caseDensity" : 24.1, 
             "contactTracerCapacityRatio" : 0.17, 
-            "infectionRate" : 1.11, 
+            "infectionRate" : 1.1, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.75, 
             "vaccinationsInitiatedRatio" : 0.702, 
@@ -6988,7 +6988,7 @@ let historicalUSData = {
             "testPositivityRatio" : 0.079, 
             "caseDensity" : 24.8, 
             "contactTracerCapacityRatio" : 0.16, 
-            "infectionRate" : 1.12, 
+            "infectionRate" : 1.11, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.78, 
             "vaccinationsInitiatedRatio" : 0.704, 
@@ -6999,7 +6999,7 @@ let historicalUSData = {
             "testPositivityRatio" : 0.083, 
             "caseDensity" : 25.7, 
             "contactTracerCapacityRatio" : 0.16, 
-            "infectionRate" : 1.13, 
+            "infectionRate" : 1.12, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.79, 
             "vaccinationsInitiatedRatio" : 0.705, 
@@ -7010,7 +7010,7 @@ let historicalUSData = {
             "testPositivityRatio" : null, 
             "caseDensity" : 30.3, 
             "contactTracerCapacityRatio" : 0.13, 
-            "infectionRate" : 1.14, 
+            "infectionRate" : 1.13, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.79, 
             "vaccinationsInitiatedRatio" : 0.707, 
@@ -7021,7 +7021,7 @@ let historicalUSData = {
             "testPositivityRatio" : null, 
             "caseDensity" : 34.7, 
             "contactTracerCapacityRatio" : 0.12, 
-            "infectionRate" : 1.15, 
+            "infectionRate" : 1.14, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.79, 
             "vaccinationsInitiatedRatio" : 0.708, 
@@ -7032,7 +7032,7 @@ let historicalUSData = {
             "testPositivityRatio" : null, 
             "caseDensity" : 36.2, 
             "contactTracerCapacityRatio" : 0.11, 
-            "infectionRate" : 1.15, 
+            "infectionRate" : 1.14, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.78, 
             "vaccinationsInitiatedRatio" : 0.71, 
@@ -7043,9 +7043,9 @@ let historicalUSData = {
             "testPositivityRatio" : null, 
             "caseDensity" : 36.6, 
             "contactTracerCapacityRatio" : 0.11, 
-            "infectionRate" : 1.16, 
+            "infectionRate" : 1.15, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.77, 
+            "icuCapacityRatio" : 0.76, 
             "vaccinationsInitiatedRatio" : 0.711, 
             "vaccinationsCompletedRatio" : 0.6, 
             "date" : "2021-12-05"
@@ -7054,12 +7054,23 @@ let historicalUSData = {
             "testPositivityRatio" : null, 
             "caseDensity" : 35.8, 
             "contactTracerCapacityRatio" : 0.11, 
-            "infectionRate" : 1.16, 
+            "infectionRate" : 1.15, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.77, 
             "vaccinationsInitiatedRatio" : 0.712, 
             "vaccinationsCompletedRatio" : 0.601, 
             "date" : "2021-12-06"
+        }, 
+        {
+            "testPositivityRatio" : null, 
+            "caseDensity" : 35.7, 
+            "contactTracerCapacityRatio" : 0.11, 
+            "infectionRate" : 1.15, 
+            "infectionRateCI90" : 0.1, 
+            "icuCapacityRatio" : 0.77, 
+            "vaccinationsInitiatedRatio" : 0.713, 
+            "vaccinationsCompletedRatio" : 0.602, 
+            "date" : "2021-12-07"
         }, 
         {
             "testPositivityRatio" : null, 
@@ -7070,7 +7081,7 @@ let historicalUSData = {
             "icuCapacityRatio" : null, 
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null, 
-            "date" : "2021-12-07"
+            "date" : "2021-12-08"
         }
     ], 
     "actualsTimeseries" : [
@@ -8596,7 +8607,7 @@ let historicalUSData = {
             "cases" : 163955, 
             "deaths" : 3368, 
             "positiveTests" : 233492, 
-            "negativeTests" : 1154759, 
+            "negativeTests" : 1154760, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -8618,7 +8629,7 @@ let historicalUSData = {
             "cases" : 188461, 
             "deaths" : 4304, 
             "positiveTests" : 263765, 
-            "negativeTests" : 1266453, 
+            "negativeTests" : 1266454, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -8640,7 +8651,7 @@ let historicalUSData = {
             "cases" : 215391, 
             "deaths" : 5325, 
             "positiveTests" : 296793, 
-            "negativeTests" : 1386146, 
+            "negativeTests" : 1386147, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -8662,7 +8673,7 @@ let historicalUSData = {
             "cases" : 245108, 
             "deaths" : 6541, 
             "positiveTests" : 331064, 
-            "negativeTests" : 1513224, 
+            "negativeTests" : 1513225, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -8684,7 +8695,7 @@ let historicalUSData = {
             "cases" : 277426, 
             "deaths" : 7932, 
             "positiveTests" : 365929, 
-            "negativeTests" : 1647290, 
+            "negativeTests" : 1647291, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -8706,7 +8717,7 @@ let historicalUSData = {
             "cases" : 312525, 
             "deaths" : 9488, 
             "positiveTests" : 396668, 
-            "negativeTests" : 1764048, 
+            "negativeTests" : 1764049, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -8728,7 +8739,7 @@ let historicalUSData = {
             "cases" : 338141, 
             "deaths" : 10856, 
             "positiveTests" : 425439, 
-            "negativeTests" : 1873597, 
+            "negativeTests" : 1873598, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -8750,7 +8761,7 @@ let historicalUSData = {
             "cases" : 369057, 
             "deaths" : 12382, 
             "positiveTests" : 456158, 
-            "negativeTests" : 1985511, 
+            "negativeTests" : 1985513, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -8772,7 +8783,7 @@ let historicalUSData = {
             "cases" : 399394, 
             "deaths" : 14616, 
             "positiveTests" : 490555, 
-            "negativeTests" : 2130598, 
+            "negativeTests" : 2130600, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -8794,7 +8805,7 @@ let historicalUSData = {
             "cases" : 431214, 
             "deaths" : 16701, 
             "positiveTests" : 525294, 
-            "negativeTests" : 2263673, 
+            "negativeTests" : 2263675, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -8816,7 +8827,7 @@ let historicalUSData = {
             "cases" : 465913, 
             "deaths" : 18821, 
             "positiveTests" : 561193, 
-            "negativeTests" : 2401246, 
+            "negativeTests" : 2401248, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -8838,7 +8849,7 @@ let historicalUSData = {
             "cases" : 499386, 
             "deaths" : 21084, 
             "positiveTests" : 596629, 
-            "negativeTests" : 2537211, 
+            "negativeTests" : 2537213, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -8860,7 +8871,7 @@ let historicalUSData = {
             "cases" : 531106, 
             "deaths" : 23168, 
             "positiveTests" : 633593, 
-            "negativeTests" : 2710177, 
+            "negativeTests" : 2710179, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -8882,7 +8893,7 @@ let historicalUSData = {
             "cases" : 558249, 
             "deaths" : 24849, 
             "positiveTests" : 657299, 
-            "negativeTests" : 2797748, 
+            "negativeTests" : 2797750, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -8904,7 +8915,7 @@ let historicalUSData = {
             "cases" : 584018, 
             "deaths" : 26613, 
             "positiveTests" : 680929, 
-            "negativeTests" : 2887934, 
+            "negativeTests" : 2887936, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -8926,7 +8937,7 @@ let historicalUSData = {
             "cases" : 610709, 
             "deaths" : 29318, 
             "positiveTests" : 711297, 
-            "negativeTests" : 3019657, 
+            "negativeTests" : 3019659, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -8947,8 +8958,8 @@ let historicalUSData = {
         {
             "cases" : 640742, 
             "deaths" : 32070, 
-            "positiveTests" : 745043, 
-            "negativeTests" : 3157731, 
+            "positiveTests" : 745044, 
+            "negativeTests" : 3157733, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -8969,8 +8980,8 @@ let historicalUSData = {
         {
             "cases" : 672355, 
             "deaths" : 34419, 
-            "positiveTests" : 779325, 
-            "negativeTests" : 3307206, 
+            "positiveTests" : 779326, 
+            "negativeTests" : 3307208, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -8991,8 +9002,8 @@ let historicalUSData = {
         {
             "cases" : 703864, 
             "deaths" : 36708, 
-            "positiveTests" : 813159, 
-            "negativeTests" : 3471221, 
+            "positiveTests" : 813160, 
+            "negativeTests" : 3471223, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9013,8 +9024,8 @@ let historicalUSData = {
         {
             "cases" : 732262, 
             "deaths" : 38659, 
-            "positiveTests" : 841867, 
-            "negativeTests" : 3609380, 
+            "positiveTests" : 841868, 
+            "negativeTests" : 3609382, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9035,8 +9046,8 @@ let historicalUSData = {
         {
             "cases" : 757596, 
             "deaths" : 40179, 
-            "positiveTests" : 864578, 
-            "negativeTests" : 3720559, 
+            "positiveTests" : 864579, 
+            "negativeTests" : 3720561, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9057,8 +9068,8 @@ let historicalUSData = {
         {
             "cases" : 784991, 
             "deaths" : 42016, 
-            "positiveTests" : 891012, 
-            "negativeTests" : 3854027, 
+            "positiveTests" : 891014, 
+            "negativeTests" : 3854029, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9079,8 +9090,8 @@ let historicalUSData = {
         {
             "cases" : 810505, 
             "deaths" : 44688, 
-            "positiveTests" : 924975, 
-            "negativeTests" : 4040668, 
+            "positiveTests" : 924977, 
+            "negativeTests" : 4040670, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9101,8 +9112,8 @@ let historicalUSData = {
         {
             "cases" : 839336, 
             "deaths" : 47059, 
-            "positiveTests" : 961259, 
-            "negativeTests" : 4239532, 
+            "positiveTests" : 961261, 
+            "negativeTests" : 4239534, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9123,8 +9134,8 @@ let historicalUSData = {
         {
             "cases" : 873112, 
             "deaths" : 49228, 
-            "positiveTests" : 997054, 
-            "negativeTests" : 4436114, 
+            "positiveTests" : 997056, 
+            "negativeTests" : 4436116, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9145,8 +9156,8 @@ let historicalUSData = {
         {
             "cases" : 909853, 
             "deaths" : 51360, 
-            "positiveTests" : 1035756, 
-            "negativeTests" : 4656051, 
+            "positiveTests" : 1035758, 
+            "negativeTests" : 4656053, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9167,8 +9178,8 @@ let historicalUSData = {
         {
             "cases" : 944261, 
             "deaths" : 53327, 
-            "positiveTests" : 1068217, 
-            "negativeTests" : 4842510, 
+            "positiveTests" : 1068219, 
+            "negativeTests" : 4842512, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9189,8 +9200,8 @@ let historicalUSData = {
         {
             "cases" : 970996, 
             "deaths" : 54580, 
-            "positiveTests" : 1094830, 
-            "negativeTests" : 4986552, 
+            "positiveTests" : 1094833, 
+            "negativeTests" : 4986554, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9211,8 +9222,8 @@ let historicalUSData = {
         {
             "cases" : 994193, 
             "deaths" : 56022, 
-            "positiveTests" : 1126616, 
-            "negativeTests" : 5179470, 
+            "positiveTests" : 1126619, 
+            "negativeTests" : 5179472, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9233,8 +9244,8 @@ let historicalUSData = {
         {
             "cases" : 1018844, 
             "deaths" : 58416, 
-            "positiveTests" : 1160706, 
-            "negativeTests" : 5413933, 
+            "positiveTests" : 1160709, 
+            "negativeTests" : 5413935, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9255,8 +9266,8 @@ let historicalUSData = {
         {
             "cases" : 1045399, 
             "deaths" : 60930, 
-            "positiveTests" : 1200814, 
-            "negativeTests" : 5667378, 
+            "positiveTests" : 1200817, 
+            "negativeTests" : 5667380, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9277,8 +9288,8 @@ let historicalUSData = {
         {
             "cases" : 1075756, 
             "deaths" : 63140, 
-            "positiveTests" : 1242631, 
-            "negativeTests" : 5946842, 
+            "positiveTests" : 1242634, 
+            "negativeTests" : 5946845, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9299,8 +9310,8 @@ let historicalUSData = {
         {
             "cases" : 1109726, 
             "deaths" : 64902, 
-            "positiveTests" : 1285310, 
-            "negativeTests" : 6239021, 
+            "positiveTests" : 1285314, 
+            "negativeTests" : 6239024, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9321,8 +9332,8 @@ let historicalUSData = {
         {
             "cases" : 1139200, 
             "deaths" : 66485, 
-            "positiveTests" : 1316460, 
-            "negativeTests" : 6474703, 
+            "positiveTests" : 1316464, 
+            "negativeTests" : 6474706, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9343,8 +9354,8 @@ let historicalUSData = {
         {
             "cases" : 1165340, 
             "deaths" : 67816, 
-            "positiveTests" : 1340915, 
-            "negativeTests" : 6664887, 
+            "positiveTests" : 1340919, 
+            "negativeTests" : 6664890, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9365,8 +9376,8 @@ let historicalUSData = {
         {
             "cases" : 1187302, 
             "deaths" : 68905, 
-            "positiveTests" : 1367892, 
-            "negativeTests" : 6887731, 
+            "positiveTests" : 1367896, 
+            "negativeTests" : 6887735, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9387,8 +9398,8 @@ let historicalUSData = {
         {
             "cases" : 1211011, 
             "deaths" : 71139, 
-            "positiveTests" : 1403131, 
-            "negativeTests" : 7170817, 
+            "positiveTests" : 1403135, 
+            "negativeTests" : 7170821, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9409,8 +9420,8 @@ let historicalUSData = {
         {
             "cases" : 1235517, 
             "deaths" : 73847, 
-            "positiveTests" : 1441172, 
-            "negativeTests" : 7490927, 
+            "positiveTests" : 1441176, 
+            "negativeTests" : 7490931, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9431,8 +9442,8 @@ let historicalUSData = {
         {
             "cases" : 1263995, 
             "deaths" : 75805, 
-            "positiveTests" : 1478257, 
-            "negativeTests" : 7815116, 
+            "positiveTests" : 1478261, 
+            "negativeTests" : 7815120, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9453,8 +9464,8 @@ let historicalUSData = {
         {
             "cases" : 1291643, 
             "deaths" : 77380, 
-            "positiveTests" : 1516172, 
-            "negativeTests" : 8179589, 
+            "positiveTests" : 1516176, 
+            "negativeTests" : 8179593, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9475,8 +9486,8 @@ let historicalUSData = {
         {
             "cases" : 1316511, 
             "deaths" : 78834, 
-            "positiveTests" : 1545874, 
-            "negativeTests" : 8484454, 
+            "positiveTests" : 1545878, 
+            "negativeTests" : 8484458, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9497,8 +9508,8 @@ let historicalUSData = {
         {
             "cases" : 1336828, 
             "deaths" : 79766, 
-            "positiveTests" : 1567514, 
-            "negativeTests" : 8711113, 
+            "positiveTests" : 1567518, 
+            "negativeTests" : 8711117, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9519,8 +9530,8 @@ let historicalUSData = {
         {
             "cases" : 1354449, 
             "deaths" : 80748, 
-            "positiveTests" : 1593359, 
-            "negativeTests" : 9004242, 
+            "positiveTests" : 1593363, 
+            "negativeTests" : 9004247, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9541,8 +9552,8 @@ let historicalUSData = {
         {
             "cases" : 1376749, 
             "deaths" : 82400, 
-            "positiveTests" : 1627701, 
-            "negativeTests" : 9390592, 
+            "positiveTests" : 1627705, 
+            "negativeTests" : 9390597, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9563,8 +9574,8 @@ let historicalUSData = {
         {
             "cases" : 1397894, 
             "deaths" : 84168, 
-            "positiveTests" : 1664276, 
-            "negativeTests" : 9802996, 
+            "positiveTests" : 1664280, 
+            "negativeTests" : 9803001, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9585,8 +9596,8 @@ let historicalUSData = {
         {
             "cases" : 1424856, 
             "deaths" : 85906, 
-            "positiveTests" : 1700992, 
-            "negativeTests" : 10215159, 
+            "positiveTests" : 1700996, 
+            "negativeTests" : 10215164, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9607,8 +9618,8 @@ let historicalUSData = {
         {
             "cases" : 1451093, 
             "deaths" : 87499, 
-            "positiveTests" : 1736675, 
-            "negativeTests" : 10623820, 
+            "positiveTests" : 1736679, 
+            "negativeTests" : 10623825, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9629,8 +9640,8 @@ let historicalUSData = {
         {
             "cases" : 1474752, 
             "deaths" : 88724, 
-            "positiveTests" : 1765225, 
-            "negativeTests" : 10960146, 
+            "positiveTests" : 1765229, 
+            "negativeTests" : 10960151, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9651,8 +9662,8 @@ let historicalUSData = {
         {
             "cases" : 1493766, 
             "deaths" : 89568, 
-            "positiveTests" : 1791711, 
-            "negativeTests" : 11237292, 
+            "positiveTests" : 1791715, 
+            "negativeTests" : 11237297, 
             "contactTracers" : null, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9673,8 +9684,8 @@ let historicalUSData = {
         {
             "cases" : 1515593, 
             "deaths" : 90414, 
-            "positiveTests" : 1817897, 
-            "negativeTests" : 11563010, 
+            "positiveTests" : 1817901, 
+            "negativeTests" : 11563015, 
             "contactTracers" : 22363, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9695,8 +9706,8 @@ let historicalUSData = {
         {
             "cases" : 1536570, 
             "deaths" : 91934, 
-            "positiveTests" : 1849526, 
-            "negativeTests" : 11964259, 
+            "positiveTests" : 1849530, 
+            "negativeTests" : 11964265, 
             "contactTracers" : 22788, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9717,8 +9728,8 @@ let historicalUSData = {
         {
             "cases" : 1559640, 
             "deaths" : 93411, 
-            "positiveTests" : 1883752, 
-            "negativeTests" : 12391806, 
+            "positiveTests" : 1883756, 
+            "negativeTests" : 12391812, 
             "contactTracers" : 23143, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9739,8 +9750,8 @@ let historicalUSData = {
         {
             "cases" : 1585373, 
             "deaths" : 94722, 
-            "positiveTests" : 1916743, 
-            "negativeTests" : 12817253, 
+            "positiveTests" : 1916747, 
+            "negativeTests" : 12817259, 
             "contactTracers" : 23919, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9761,8 +9772,8 @@ let historicalUSData = {
         {
             "cases" : 1609172, 
             "deaths" : 96010, 
-            "positiveTests" : 1951490, 
-            "negativeTests" : 13273102, 
+            "positiveTests" : 1951494, 
+            "negativeTests" : 13273108, 
             "contactTracers" : 22864, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9783,8 +9794,8 @@ let historicalUSData = {
         {
             "cases" : 1631440, 
             "deaths" : 97060, 
-            "positiveTests" : 1977344, 
-            "negativeTests" : 13635842, 
+            "positiveTests" : 1977348, 
+            "negativeTests" : 13635848, 
             "contactTracers" : 23818, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9805,8 +9816,8 @@ let historicalUSData = {
         {
             "cases" : 1651471, 
             "deaths" : 97680, 
-            "positiveTests" : 2000677, 
-            "negativeTests" : 13957384, 
+            "positiveTests" : 2000681, 
+            "negativeTests" : 13957390, 
             "contactTracers" : 23818, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9827,8 +9838,8 @@ let historicalUSData = {
         {
             "cases" : 1670571, 
             "deaths" : 98190, 
-            "positiveTests" : 2022253, 
-            "negativeTests" : 14263901, 
+            "positiveTests" : 2022257, 
+            "negativeTests" : 14263907, 
             "contactTracers" : 23818, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9849,8 +9860,8 @@ let historicalUSData = {
         {
             "cases" : 1689467, 
             "deaths" : 98937, 
-            "positiveTests" : 2053754, 
-            "negativeTests" : 14692265, 
+            "positiveTests" : 2053759, 
+            "negativeTests" : 14692271, 
             "contactTracers" : 23818, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9871,8 +9882,8 @@ let historicalUSData = {
         {
             "cases" : 1708211, 
             "deaths" : 100422, 
-            "positiveTests" : 2089320, 
-            "negativeTests" : 15208349, 
+            "positiveTests" : 2089325, 
+            "negativeTests" : 15208355, 
             "contactTracers" : 24403, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9893,8 +9904,8 @@ let historicalUSData = {
         {
             "cases" : 1730723, 
             "deaths" : 101622, 
-            "positiveTests" : 2124969, 
-            "negativeTests" : 15707114, 
+            "positiveTests" : 2124974, 
+            "negativeTests" : 15707120, 
             "contactTracers" : 24722, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9915,8 +9926,8 @@ let historicalUSData = {
         {
             "cases" : 1755271, 
             "deaths" : 102812, 
-            "positiveTests" : 2160023, 
-            "negativeTests" : 16216035, 
+            "positiveTests" : 2160028, 
+            "negativeTests" : 16216042, 
             "contactTracers" : 24722, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9937,8 +9948,8 @@ let historicalUSData = {
         {
             "cases" : 1778668, 
             "deaths" : 103775, 
-            "positiveTests" : 2188774, 
-            "negativeTests" : 16639818, 
+            "positiveTests" : 2188779, 
+            "negativeTests" : 16639825, 
             "contactTracers" : 24722, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9959,8 +9970,8 @@ let historicalUSData = {
         {
             "cases" : 1799302, 
             "deaths" : 104379, 
-            "positiveTests" : 2210281, 
-            "negativeTests" : 16990563, 
+            "positiveTests" : 2210286, 
+            "negativeTests" : 16990571, 
             "contactTracers" : 24722, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -9981,8 +9992,8 @@ let historicalUSData = {
         {
             "cases" : 1821199, 
             "deaths" : 105113, 
-            "positiveTests" : 2236268, 
-            "negativeTests" : 17402584, 
+            "positiveTests" : 2236273, 
+            "negativeTests" : 17402593, 
             "contactTracers" : 24722, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10003,8 +10014,8 @@ let historicalUSData = {
         {
             "cases" : 1841990, 
             "deaths" : 106195, 
-            "positiveTests" : 2266277, 
-            "negativeTests" : 17893119, 
+            "positiveTests" : 2266282, 
+            "negativeTests" : 17893128, 
             "contactTracers" : 24120, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10025,8 +10036,8 @@ let historicalUSData = {
         {
             "cases" : 1861977, 
             "deaths" : 107184, 
-            "positiveTests" : 2301584, 
-            "negativeTests" : 18438547, 
+            "positiveTests" : 2301589, 
+            "negativeTests" : 18438556, 
             "contactTracers" : 24420, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10047,8 +10058,8 @@ let historicalUSData = {
         {
             "cases" : 1883593, 
             "deaths" : 108192, 
-            "positiveTests" : 2340607, 
-            "negativeTests" : 19016257, 
+            "positiveTests" : 2340612, 
+            "negativeTests" : 19016267, 
             "contactTracers" : 25005, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10069,8 +10080,8 @@ let historicalUSData = {
         {
             "cases" : 1912302, 
             "deaths" : 109304, 
-            "positiveTests" : 2373466, 
-            "negativeTests" : 19554632, 
+            "positiveTests" : 2373471, 
+            "negativeTests" : 19554643, 
             "contactTracers" : 25005, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10091,8 +10102,8 @@ let historicalUSData = {
         {
             "cases" : 1934818, 
             "deaths" : 110032, 
-            "positiveTests" : 2399108, 
-            "negativeTests" : 19992034, 
+            "positiveTests" : 2399113, 
+            "negativeTests" : 19992045, 
             "contactTracers" : 24967, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10113,8 +10124,8 @@ let historicalUSData = {
         {
             "cases" : 1953434, 
             "deaths" : 110422, 
-            "positiveTests" : 2420064, 
-            "negativeTests" : 20375766, 
+            "positiveTests" : 2420069, 
+            "negativeTests" : 20375777, 
             "contactTracers" : 24967, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10135,8 +10146,8 @@ let historicalUSData = {
         {
             "cases" : 1971641, 
             "deaths" : 111144, 
-            "positiveTests" : 2447354, 
-            "negativeTests" : 20796779, 
+            "positiveTests" : 2447359, 
+            "negativeTests" : 20796790, 
             "contactTracers" : 24967, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10157,8 +10168,8 @@ let historicalUSData = {
         {
             "cases" : 1990446, 
             "deaths" : 112174, 
-            "positiveTests" : 2478842, 
-            "negativeTests" : 21324516, 
+            "positiveTests" : 2478847, 
+            "negativeTests" : 21324528, 
             "contactTracers" : 24967, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10179,8 +10190,8 @@ let historicalUSData = {
         {
             "cases" : 2013298, 
             "deaths" : 113103, 
-            "positiveTests" : 2514918, 
-            "negativeTests" : 21915733, 
+            "positiveTests" : 2514923, 
+            "negativeTests" : 21915745, 
             "contactTracers" : 24967, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10201,8 +10212,8 @@ let historicalUSData = {
         {
             "cases" : 2036500, 
             "deaths" : 113980, 
-            "positiveTests" : 2552365, 
-            "negativeTests" : 22491930, 
+            "positiveTests" : 2552370, 
+            "negativeTests" : 22491943, 
             "contactTracers" : 37481, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10223,8 +10234,8 @@ let historicalUSData = {
         {
             "cases" : 2061993, 
             "deaths" : 114759, 
-            "positiveTests" : 2588210, 
-            "negativeTests" : 23071451, 
+            "positiveTests" : 2588215, 
+            "negativeTests" : 23071464, 
             "contactTracers" : 37481, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10245,8 +10256,8 @@ let historicalUSData = {
         {
             "cases" : 2087327, 
             "deaths" : 115451, 
-            "positiveTests" : 2619416, 
-            "negativeTests" : 23570662, 
+            "positiveTests" : 2619421, 
+            "negativeTests" : 23570675, 
             "contactTracers" : 37481, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10267,8 +10278,8 @@ let historicalUSData = {
         {
             "cases" : 2106457, 
             "deaths" : 115768, 
-            "positiveTests" : 2646161, 
-            "negativeTests" : 23956066, 
+            "positiveTests" : 2646166, 
+            "negativeTests" : 23956079, 
             "contactTracers" : 37481, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10289,8 +10300,8 @@ let historicalUSData = {
         {
             "cases" : 2126574, 
             "deaths" : 116216, 
-            "positiveTests" : 2681841, 
-            "negativeTests" : 24425765, 
+            "positiveTests" : 2681846, 
+            "negativeTests" : 24425778, 
             "contactTracers" : 37481, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10311,8 +10322,8 @@ let historicalUSData = {
         {
             "cases" : 2151459, 
             "deaths" : 116985, 
-            "positiveTests" : 2730472, 
-            "negativeTests" : 25048678, 
+            "positiveTests" : 2730477, 
+            "negativeTests" : 25048692, 
             "contactTracers" : 39373, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10333,8 +10344,8 @@ let historicalUSData = {
         {
             "cases" : 2177114, 
             "deaths" : 117746, 
-            "positiveTests" : 2782754, 
-            "negativeTests" : 25700967, 
+            "positiveTests" : 2782759, 
+            "negativeTests" : 25700984, 
             "contactTracers" : 39373, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10355,8 +10366,8 @@ let historicalUSData = {
         {
             "cases" : 2205173, 
             "deaths" : 118473, 
-            "positiveTests" : 2837706, 
-            "negativeTests" : 26346367, 
+            "positiveTests" : 2837711, 
+            "negativeTests" : 26346384, 
             "contactTracers" : 40662, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10377,8 +10388,8 @@ let historicalUSData = {
         {
             "cases" : 2236009, 
             "deaths" : 119171, 
-            "positiveTests" : 2892607, 
-            "negativeTests" : 26994201, 
+            "positiveTests" : 2892612, 
+            "negativeTests" : 26994218, 
             "contactTracers" : 40807, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10399,8 +10410,8 @@ let historicalUSData = {
         {
             "cases" : 2268034, 
             "deaths" : 119717, 
-            "positiveTests" : 2937138, 
-            "negativeTests" : 27532501, 
+            "positiveTests" : 2937143, 
+            "negativeTests" : 27532518, 
             "contactTracers" : 40958, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10421,8 +10432,8 @@ let historicalUSData = {
         {
             "cases" : 2294413, 
             "deaths" : 119974, 
-            "positiveTests" : 2969797, 
-            "negativeTests" : 27920243, 
+            "positiveTests" : 2969802, 
+            "negativeTests" : 27920261, 
             "contactTracers" : 40958, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10443,8 +10454,8 @@ let historicalUSData = {
         {
             "cases" : 2324879, 
             "deaths" : 120334, 
-            "positiveTests" : 3016079, 
-            "negativeTests" : 28420823, 
+            "positiveTests" : 3016084, 
+            "negativeTests" : 28420841, 
             "contactTracers" : 43832, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10465,8 +10476,8 @@ let historicalUSData = {
         {
             "cases" : 2359939, 
             "deaths" : 121167, 
-            "positiveTests" : 3070705, 
-            "negativeTests" : 29065339, 
+            "positiveTests" : 3070710, 
+            "negativeTests" : 29065358, 
             "contactTracers" : 43840, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10487,8 +10498,8 @@ let historicalUSData = {
         {
             "cases" : 2396928, 
             "deaths" : 121934, 
-            "positiveTests" : 3131679, 
-            "negativeTests" : 29769550, 
+            "positiveTests" : 3131685, 
+            "negativeTests" : 29769569, 
             "contactTracers" : 44193, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10509,8 +10520,8 @@ let historicalUSData = {
         {
             "cases" : 2438101, 
             "deaths" : 124400, 
-            "positiveTests" : 3198936, 
-            "negativeTests" : 30472112, 
+            "positiveTests" : 3198943, 
+            "negativeTests" : 30472132, 
             "contactTracers" : 48364, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10531,8 +10542,8 @@ let historicalUSData = {
         {
             "cases" : 2483629, 
             "deaths" : 125033, 
-            "positiveTests" : 3275331, 
-            "negativeTests" : 31203671, 
+            "positiveTests" : 3275338, 
+            "negativeTests" : 31203691, 
             "contactTracers" : 48364, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10553,8 +10564,8 @@ let historicalUSData = {
         {
             "cases" : 2525928, 
             "deaths" : 125544, 
-            "positiveTests" : 3337620, 
-            "negativeTests" : 31833165, 
+            "positiveTests" : 3337628, 
+            "negativeTests" : 31833186, 
             "contactTracers" : 48503, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10575,8 +10586,8 @@ let historicalUSData = {
         {
             "cases" : 2565436, 
             "deaths" : 125815, 
-            "positiveTests" : 3389199, 
-            "negativeTests" : 32346558, 
+            "positiveTests" : 3389207, 
+            "negativeTests" : 32346579, 
             "contactTracers" : 48503, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10597,8 +10608,8 @@ let historicalUSData = {
         {
             "cases" : 2604932, 
             "deaths" : 126162, 
-            "positiveTests" : 3454035, 
-            "negativeTests" : 32945227, 
+            "positiveTests" : 3454044, 
+            "negativeTests" : 32945248, 
             "contactTracers" : 48503, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10619,8 +10630,8 @@ let historicalUSData = {
         {
             "cases" : 2653321, 
             "deaths" : 127462, 
-            "positiveTests" : 3535658, 
-            "negativeTests" : 33717811, 
+            "positiveTests" : 3535667, 
+            "negativeTests" : 33717832, 
             "contactTracers" : 48511, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10641,8 +10652,8 @@ let historicalUSData = {
         {
             "cases" : 2703296, 
             "deaths" : 128104, 
-            "positiveTests" : 3626136, 
-            "negativeTests" : 34509705, 
+            "positiveTests" : 3626145, 
+            "negativeTests" : 34509726, 
             "contactTracers" : 50439, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10663,8 +10674,8 @@ let historicalUSData = {
         {
             "cases" : 2758855, 
             "deaths" : 128827, 
-            "positiveTests" : 3715429, 
-            "negativeTests" : 35276688, 
+            "positiveTests" : 3715438, 
+            "negativeTests" : 35276709, 
             "contactTracers" : 50439, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10685,8 +10696,8 @@ let historicalUSData = {
         {
             "cases" : 2816009, 
             "deaths" : 129418, 
-            "positiveTests" : 3797871, 
-            "negativeTests" : 35993060, 
+            "positiveTests" : 3797881, 
+            "negativeTests" : 35993082, 
             "contactTracers" : 50439, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10707,8 +10718,8 @@ let historicalUSData = {
         {
             "cases" : 2866015, 
             "deaths" : 129679, 
-            "positiveTests" : 3862348, 
-            "negativeTests" : 36547680, 
+            "positiveTests" : 3862358, 
+            "negativeTests" : 36547702, 
             "contactTracers" : 50439, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10729,8 +10740,8 @@ let historicalUSData = {
         {
             "cases" : 2910782, 
             "deaths" : 129941, 
-            "positiveTests" : 3921587, 
-            "negativeTests" : 37014343, 
+            "positiveTests" : 3921597, 
+            "negativeTests" : 37014365, 
             "contactTracers" : 50439, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10751,8 +10762,8 @@ let historicalUSData = {
         {
             "cases" : 2958098, 
             "deaths" : 130332, 
-            "positiveTests" : 4000655, 
-            "negativeTests" : 37658948, 
+            "positiveTests" : 4000665, 
+            "negativeTests" : 37658971, 
             "contactTracers" : 50047, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10773,8 +10784,8 @@ let historicalUSData = {
         {
             "cases" : 3012182, 
             "deaths" : 131290, 
-            "positiveTests" : 4092660, 
-            "negativeTests" : 38468313, 
+            "positiveTests" : 4092670, 
+            "negativeTests" : 38468336, 
             "contactTracers" : 50076, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10795,8 +10806,8 @@ let historicalUSData = {
         {
             "cases" : 3071637, 
             "deaths" : 132238, 
-            "positiveTests" : 4195117, 
-            "negativeTests" : 39343902, 
+            "positiveTests" : 4195128, 
+            "negativeTests" : 39343925, 
             "contactTracers" : 50083, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10817,8 +10828,8 @@ let historicalUSData = {
         {
             "cases" : 3131526, 
             "deaths" : 133079, 
-            "positiveTests" : 4300030, 
-            "negativeTests" : 40247714, 
+            "positiveTests" : 4300041, 
+            "negativeTests" : 40247738, 
             "contactTracers" : 50083, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10839,8 +10850,8 @@ let historicalUSData = {
         {
             "cases" : 3199753, 
             "deaths" : 133907, 
-            "positiveTests" : 4403384, 
-            "negativeTests" : 41157570, 
+            "positiveTests" : 4403395, 
+            "negativeTests" : 41157594, 
             "contactTracers" : 50083, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10861,8 +10872,8 @@ let historicalUSData = {
         {
             "cases" : 3260474, 
             "deaths" : 134582, 
-            "positiveTests" : 4490629, 
-            "negativeTests" : 41908407, 
+            "positiveTests" : 4490640, 
+            "negativeTests" : 41908432, 
             "contactTracers" : 50083, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10883,8 +10894,8 @@ let historicalUSData = {
         {
             "cases" : 3318279, 
             "deaths" : 134977, 
-            "positiveTests" : 4565092, 
-            "negativeTests" : 42529999, 
+            "positiveTests" : 4565103, 
+            "negativeTests" : 42530024, 
             "contactTracers" : 50063, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10905,8 +10916,8 @@ let historicalUSData = {
         {
             "cases" : 3379846, 
             "deaths" : 135402, 
-            "positiveTests" : 4655430, 
-            "negativeTests" : 43305295, 
+            "positiveTests" : 4655441, 
+            "negativeTests" : 43305320, 
             "contactTracers" : 50063, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10927,8 +10938,8 @@ let historicalUSData = {
         {
             "cases" : 3445448, 
             "deaths" : 136356, 
-            "positiveTests" : 4756128, 
-            "negativeTests" : 44205799, 
+            "positiveTests" : 4756139, 
+            "negativeTests" : 44205824, 
             "contactTracers" : 50063, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10949,8 +10960,8 @@ let historicalUSData = {
         {
             "cases" : 3513790, 
             "deaths" : 137327, 
-            "positiveTests" : 4858002, 
-            "negativeTests" : 45135964, 
+            "positiveTests" : 4858013, 
+            "negativeTests" : 45135990, 
             "contactTracers" : 50063, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10971,8 +10982,8 @@ let historicalUSData = {
         {
             "cases" : 3589477, 
             "deaths" : 138285, 
-            "positiveTests" : 4957762, 
-            "negativeTests" : 46062094, 
+            "positiveTests" : 4957773, 
+            "negativeTests" : 46062120, 
             "contactTracers" : 50063, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -10993,8 +11004,8 @@ let historicalUSData = {
         {
             "cases" : 3660400, 
             "deaths" : 139186, 
-            "positiveTests" : 5060348, 
-            "negativeTests" : 47003017, 
+            "positiveTests" : 5060359, 
+            "negativeTests" : 47003043, 
             "contactTracers" : 53103, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11015,8 +11026,8 @@ let historicalUSData = {
         {
             "cases" : 3722851, 
             "deaths" : 139961, 
-            "positiveTests" : 5147961, 
-            "negativeTests" : 47825078, 
+            "positiveTests" : 5147972, 
+            "negativeTests" : 47825104, 
             "contactTracers" : 52098, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11037,8 +11048,8 @@ let historicalUSData = {
         {
             "cases" : 3785126, 
             "deaths" : 140373, 
-            "positiveTests" : 5214821, 
-            "negativeTests" : 48474466, 
+            "positiveTests" : 5214832, 
+            "negativeTests" : 48474492, 
             "contactTracers" : 52098, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11059,8 +11070,8 @@ let historicalUSData = {
         {
             "cases" : 3845014, 
             "deaths" : 140904, 
-            "positiveTests" : 5304305, 
-            "negativeTests" : 49288708, 
+            "positiveTests" : 5304316, 
+            "negativeTests" : 49288735, 
             "contactTracers" : 52098, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11081,8 +11092,8 @@ let historicalUSData = {
         {
             "cases" : 3910291, 
             "deaths" : 142031, 
-            "positiveTests" : 5402697, 
-            "negativeTests" : 50222882, 
+            "positiveTests" : 5402708, 
+            "negativeTests" : 50222910, 
             "contactTracers" : 52120, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11103,8 +11114,8 @@ let historicalUSData = {
         {
             "cases" : 3980030, 
             "deaths" : 143167, 
-            "positiveTests" : 5503830, 
-            "negativeTests" : 51225188, 
+            "positiveTests" : 5503841, 
+            "negativeTests" : 51225217, 
             "contactTracers" : 52120, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11125,8 +11136,8 @@ let historicalUSData = {
         {
             "cases" : 4050036, 
             "deaths" : 144283, 
-            "positiveTests" : 5602795, 
-            "negativeTests" : 52204267, 
+            "positiveTests" : 5602807, 
+            "negativeTests" : 52204296, 
             "contactTracers" : 53473, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11147,8 +11158,8 @@ let historicalUSData = {
         {
             "cases" : 4123561, 
             "deaths" : 145429, 
-            "positiveTests" : 5698745, 
-            "negativeTests" : 53177343, 
+            "positiveTests" : 5698757, 
+            "negativeTests" : 53177373, 
             "contactTracers" : 52191, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11169,8 +11180,8 @@ let historicalUSData = {
         {
             "cases" : 4190337, 
             "deaths" : 146313, 
-            "positiveTests" : 5779779, 
-            "negativeTests" : 53972645, 
+            "positiveTests" : 5779791, 
+            "negativeTests" : 53972675, 
             "contactTracers" : 52191, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11191,8 +11202,8 @@ let historicalUSData = {
         {
             "cases" : 4244554, 
             "deaths" : 146753, 
-            "positiveTests" : 5841202, 
-            "negativeTests" : 54584322, 
+            "positiveTests" : 5841214, 
+            "negativeTests" : 54584353, 
             "contactTracers" : 52191, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11213,8 +11224,8 @@ let historicalUSData = {
         {
             "cases" : 4303735, 
             "deaths" : 148449, 
-            "positiveTests" : 5911673, 
-            "negativeTests" : 55305048, 
+            "positiveTests" : 5911685, 
+            "negativeTests" : 55305079, 
             "contactTracers" : 52191, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11235,8 +11246,8 @@ let historicalUSData = {
         {
             "cases" : 4366851, 
             "deaths" : 149776, 
-            "positiveTests" : 5992263, 
-            "negativeTests" : 56188864, 
+            "positiveTests" : 5992275, 
+            "negativeTests" : 56188895, 
             "contactTracers" : 52191, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11257,8 +11268,8 @@ let historicalUSData = {
         {
             "cases" : 4433633, 
             "deaths" : 151172, 
-            "positiveTests" : 6080095, 
-            "negativeTests" : 57138063, 
+            "positiveTests" : 6080107, 
+            "negativeTests" : 57138095, 
             "contactTracers" : 52191, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11279,8 +11290,8 @@ let historicalUSData = {
         {
             "cases" : 4502581, 
             "deaths" : 152433, 
-            "positiveTests" : 6169157, 
-            "negativeTests" : 58083518, 
+            "positiveTests" : 6169170, 
+            "negativeTests" : 58083551, 
             "contactTracers" : 52340, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11301,8 +11312,8 @@ let historicalUSData = {
         {
             "cases" : 4571669, 
             "deaths" : 153862, 
-            "positiveTests" : 6250583, 
-            "negativeTests" : 58989457, 
+            "positiveTests" : 6250596, 
+            "negativeTests" : 58989491, 
             "contactTracers" : 52340, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11323,8 +11334,8 @@ let historicalUSData = {
         {
             "cases" : 4628497, 
             "deaths" : 154917, 
-            "positiveTests" : 6311419, 
-            "negativeTests" : 59718831, 
+            "positiveTests" : 6311432, 
+            "negativeTests" : 59718865, 
             "contactTracers" : 52340, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11345,8 +11356,8 @@ let historicalUSData = {
         {
             "cases" : 4679291, 
             "deaths" : 155337, 
-            "positiveTests" : 6357857, 
-            "negativeTests" : 60295185, 
+            "positiveTests" : 6357870, 
+            "negativeTests" : 60295220, 
             "contactTracers" : 52340, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11367,8 +11378,8 @@ let historicalUSData = {
         {
             "cases" : 4726775, 
             "deaths" : 155945, 
-            "positiveTests" : 6419657, 
-            "negativeTests" : 61007727, 
+            "positiveTests" : 6419670, 
+            "negativeTests" : 61007764, 
             "contactTracers" : 52340, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11389,8 +11400,8 @@ let historicalUSData = {
         {
             "cases" : 4780324, 
             "deaths" : 157301, 
-            "positiveTests" : 6486460, 
-            "negativeTests" : 61821604, 
+            "positiveTests" : 6486473, 
+            "negativeTests" : 61821641, 
             "contactTracers" : 52917, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11411,8 +11422,8 @@ let historicalUSData = {
         {
             "cases" : 4834047, 
             "deaths" : 158554, 
-            "positiveTests" : 6558166, 
-            "negativeTests" : 62712314, 
+            "positiveTests" : 6558179, 
+            "negativeTests" : 62712351, 
             "contactTracers" : 52917, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11433,8 +11444,8 @@ let historicalUSData = {
         {
             "cases" : 4891561, 
             "deaths" : 159625, 
-            "positiveTests" : 6629211, 
-            "negativeTests" : 63628583, 
+            "positiveTests" : 6629224, 
+            "negativeTests" : 63628620, 
             "contactTracers" : 52917, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11455,8 +11466,8 @@ let historicalUSData = {
         {
             "cases" : 4952718, 
             "deaths" : 160981, 
-            "positiveTests" : 6701283, 
-            "negativeTests" : 64569017, 
+            "positiveTests" : 6701296, 
+            "negativeTests" : 64569054, 
             "contactTracers" : 54142, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11477,8 +11488,8 @@ let historicalUSData = {
         {
             "cases" : 5007958, 
             "deaths" : 161947, 
-            "positiveTests" : 6756092, 
-            "negativeTests" : 65327389, 
+            "positiveTests" : 6756105, 
+            "negativeTests" : 65327426, 
             "contactTracers" : 54142, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11499,8 +11510,8 @@ let historicalUSData = {
         {
             "cases" : 5056438, 
             "deaths" : 162486, 
-            "positiveTests" : 6798402, 
-            "negativeTests" : 65909800, 
+            "positiveTests" : 6798415, 
+            "negativeTests" : 65909837, 
             "contactTracers" : 54142, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11521,8 +11532,8 @@ let historicalUSData = {
         {
             "cases" : 5103611, 
             "deaths" : 163023, 
-            "positiveTests" : 6852946, 
-            "negativeTests" : 66637448, 
+            "positiveTests" : 6852959, 
+            "negativeTests" : 66637486, 
             "contactTracers" : 54142, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11543,8 +11554,8 @@ let historicalUSData = {
         {
             "cases" : 5156968, 
             "deaths" : 164474, 
-            "positiveTests" : 6913059, 
-            "negativeTests" : 67483154, 
+            "positiveTests" : 6913072, 
+            "negativeTests" : 67483192, 
             "contactTracers" : 59000, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11565,8 +11576,8 @@ let historicalUSData = {
         {
             "cases" : 5211246, 
             "deaths" : 165952, 
-            "positiveTests" : 6978500, 
-            "negativeTests" : 68443113, 
+            "positiveTests" : 6978513, 
+            "negativeTests" : 68443151, 
             "contactTracers" : 59000, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11587,8 +11598,8 @@ let historicalUSData = {
         {
             "cases" : 5265307, 
             "deaths" : 167165, 
-            "positiveTests" : 7040720, 
-            "negativeTests" : 69358058, 
+            "positiveTests" : 7040733, 
+            "negativeTests" : 69358096, 
             "contactTracers" : 59044, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11609,8 +11620,8 @@ let historicalUSData = {
         {
             "cases" : 5324784, 
             "deaths" : 168341, 
-            "positiveTests" : 7098695, 
-            "negativeTests" : 70258600, 
+            "positiveTests" : 7098708, 
+            "negativeTests" : 70258639, 
             "contactTracers" : 59044, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11631,8 +11642,8 @@ let historicalUSData = {
         {
             "cases" : 5375527, 
             "deaths" : 169400, 
-            "positiveTests" : 7144460, 
-            "negativeTests" : 70978089, 
+            "positiveTests" : 7144473, 
+            "negativeTests" : 70978128, 
             "contactTracers" : 59044, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11653,8 +11664,8 @@ let historicalUSData = {
         {
             "cases" : 5417664, 
             "deaths" : 169914, 
-            "positiveTests" : 7178356, 
-            "negativeTests" : 71515183, 
+            "positiveTests" : 7178369, 
+            "negativeTests" : 71515222, 
             "contactTracers" : 59044, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11675,8 +11686,8 @@ let historicalUSData = {
         {
             "cases" : 5455187, 
             "deaths" : 170449, 
-            "positiveTests" : 7221015, 
-            "negativeTests" : 72147262, 
+            "positiveTests" : 7221028, 
+            "negativeTests" : 72147302, 
             "contactTracers" : 59044, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11697,8 +11708,8 @@ let historicalUSData = {
         {
             "cases" : 5498420, 
             "deaths" : 171798, 
-            "positiveTests" : 7273006, 
-            "negativeTests" : 72988071, 
+            "positiveTests" : 7273019, 
+            "negativeTests" : 72988112, 
             "contactTracers" : 59044, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11719,8 +11730,8 @@ let historicalUSData = {
         {
             "cases" : 5541433, 
             "deaths" : 173093, 
-            "positiveTests" : 7328802, 
-            "negativeTests" : 73934470, 
+            "positiveTests" : 7328815, 
+            "negativeTests" : 73934511, 
             "contactTracers" : 59044, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11741,8 +11752,8 @@ let historicalUSData = {
         {
             "cases" : 5587462, 
             "deaths" : 174136, 
-            "positiveTests" : 7383996, 
-            "negativeTests" : 74872384, 
+            "positiveTests" : 7384009, 
+            "negativeTests" : 74872427, 
             "contactTracers" : 59044, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11763,8 +11774,8 @@ let historicalUSData = {
         {
             "cases" : 5636491, 
             "deaths" : 175297, 
-            "positiveTests" : 7439307, 
-            "negativeTests" : 75779551, 
+            "positiveTests" : 7439320, 
+            "negativeTests" : 75779595, 
             "contactTracers" : 59044, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11785,8 +11796,8 @@ let historicalUSData = {
         {
             "cases" : 5681517, 
             "deaths" : 176247, 
-            "positiveTests" : 7482063, 
-            "negativeTests" : 76528438, 
+            "positiveTests" : 7482077, 
+            "negativeTests" : 76528482, 
             "contactTracers" : 59010, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11807,8 +11818,8 @@ let historicalUSData = {
         {
             "cases" : 5713850, 
             "deaths" : 176693, 
-            "positiveTests" : 7512742, 
-            "negativeTests" : 77057769, 
+            "positiveTests" : 7512756, 
+            "negativeTests" : 77057813, 
             "contactTracers" : 59010, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11829,8 +11840,8 @@ let historicalUSData = {
         {
             "cases" : 5754254, 
             "deaths" : 177197, 
-            "positiveTests" : 7551016, 
-            "negativeTests" : 77684248, 
+            "positiveTests" : 7551030, 
+            "negativeTests" : 77684293, 
             "contactTracers" : 59010, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11851,8 +11862,8 @@ let historicalUSData = {
         {
             "cases" : 5793437, 
             "deaths" : 178410, 
-            "positiveTests" : 7600451, 
-            "negativeTests" : 78537965, 
+            "positiveTests" : 7600465, 
+            "negativeTests" : 78538011, 
             "contactTracers" : 59010, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11873,8 +11884,8 @@ let historicalUSData = {
         {
             "cases" : 5838756, 
             "deaths" : 179603, 
-            "positiveTests" : 7658984, 
-            "negativeTests" : 79494224, 
+            "positiveTests" : 7658998, 
+            "negativeTests" : 79494271, 
             "contactTracers" : 59010, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11895,8 +11906,8 @@ let historicalUSData = {
         {
             "cases" : 5884368, 
             "deaths" : 180729, 
-            "positiveTests" : 7713130, 
-            "negativeTests" : 80458376, 
+            "positiveTests" : 7713144, 
+            "negativeTests" : 80458423, 
             "contactTracers" : 59010, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11917,8 +11928,8 @@ let historicalUSData = {
         {
             "cases" : 5930932, 
             "deaths" : 181739, 
-            "positiveTests" : 7769190, 
-            "negativeTests" : 81387106, 
+            "positiveTests" : 7769204, 
+            "negativeTests" : 81387155, 
             "contactTracers" : 59010, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11939,8 +11950,8 @@ let historicalUSData = {
         {
             "cases" : 5975541, 
             "deaths" : 182610, 
-            "positiveTests" : 7811241, 
-            "negativeTests" : 82141624, 
+            "positiveTests" : 7811255, 
+            "negativeTests" : 82141673, 
             "contactTracers" : 59010, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11961,8 +11972,8 @@ let historicalUSData = {
         {
             "cases" : 6008970, 
             "deaths" : 182984, 
-            "positiveTests" : 7842744, 
-            "negativeTests" : 82723571, 
+            "positiveTests" : 7842758, 
+            "negativeTests" : 82723620, 
             "contactTracers" : 59010, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -11983,8 +11994,8 @@ let historicalUSData = {
         {
             "cases" : 6045457, 
             "deaths" : 183472, 
-            "positiveTests" : 7880436, 
-            "negativeTests" : 83345777, 
+            "positiveTests" : 7880450, 
+            "negativeTests" : 83345826, 
             "contactTracers" : 59010, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12005,8 +12016,8 @@ let historicalUSData = {
         {
             "cases" : 6089506, 
             "deaths" : 184563, 
-            "positiveTests" : 7928878, 
-            "negativeTests" : 84203018, 
+            "positiveTests" : 7928892, 
+            "negativeTests" : 84203067, 
             "contactTracers" : 59010, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12027,8 +12038,8 @@ let historicalUSData = {
         {
             "cases" : 6121950, 
             "deaths" : 185639, 
-            "positiveTests" : 7983010, 
-            "negativeTests" : 85173537, 
+            "positiveTests" : 7983024, 
+            "negativeTests" : 85173588, 
             "contactTracers" : 59373, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12049,8 +12060,8 @@ let historicalUSData = {
         {
             "cases" : 6168347, 
             "deaths" : 186717, 
-            "positiveTests" : 8036502, 
-            "negativeTests" : 86150222, 
+            "positiveTests" : 8036516, 
+            "negativeTests" : 86150274, 
             "contactTracers" : 59373, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12071,8 +12082,8 @@ let historicalUSData = {
         {
             "cases" : 6220448, 
             "deaths" : 187697, 
-            "positiveTests" : 8086546, 
-            "negativeTests" : 87097458, 
+            "positiveTests" : 8086560, 
+            "negativeTests" : 87097510, 
             "contactTracers" : 59373, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12093,8 +12104,8 @@ let historicalUSData = {
         {
             "cases" : 6262701, 
             "deaths" : 188409, 
-            "positiveTests" : 8126528, 
-            "negativeTests" : 87872161, 
+            "positiveTests" : 8126542, 
+            "negativeTests" : 87872213, 
             "contactTracers" : 59373, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12115,8 +12126,8 @@ let historicalUSData = {
         {
             "cases" : 6292699, 
             "deaths" : 188820, 
-            "positiveTests" : 8154827, 
-            "negativeTests" : 88408571, 
+            "positiveTests" : 8154841, 
+            "negativeTests" : 88408623, 
             "contactTracers" : 59373, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12137,8 +12148,8 @@ let historicalUSData = {
         {
             "cases" : 6317865, 
             "deaths" : 189083, 
-            "positiveTests" : 8176827, 
-            "negativeTests" : 88800437, 
+            "positiveTests" : 8176841, 
+            "negativeTests" : 88800489, 
             "contactTracers" : 59373, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12159,8 +12170,8 @@ let historicalUSData = {
         {
             "cases" : 6346807, 
             "deaths" : 189541, 
-            "positiveTests" : 8208888, 
-            "negativeTests" : 89430885, 
+            "positiveTests" : 8208902, 
+            "negativeTests" : 89430937, 
             "contactTracers" : 59373, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12181,8 +12192,8 @@ let historicalUSData = {
         {
             "cases" : 6380139, 
             "deaths" : 190716, 
-            "positiveTests" : 8255029, 
-            "negativeTests" : 90341776, 
+            "positiveTests" : 8255043, 
+            "negativeTests" : 90341828, 
             "contactTracers" : 59373, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12203,8 +12214,8 @@ let historicalUSData = {
         {
             "cases" : 6418200, 
             "deaths" : 191631, 
-            "positiveTests" : 8304345, 
-            "negativeTests" : 91378420, 
+            "positiveTests" : 8304359, 
+            "negativeTests" : 91378472, 
             "contactTracers" : 59373, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12225,8 +12236,8 @@ let historicalUSData = {
         {
             "cases" : 6465767, 
             "deaths" : 192858, 
-            "positiveTests" : 8351786, 
-            "negativeTests" : 92428982, 
+            "positiveTests" : 8351800, 
+            "negativeTests" : 92429034, 
             "contactTracers" : 59373, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12247,8 +12258,8 @@ let historicalUSData = {
         {
             "cases" : 6504871, 
             "deaths" : 193559, 
-            "positiveTests" : 8391861, 
-            "negativeTests" : 93253083, 
+            "positiveTests" : 8391875, 
+            "negativeTests" : 93253135, 
             "contactTracers" : 59373, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12269,8 +12280,8 @@ let historicalUSData = {
         {
             "cases" : 6538214, 
             "deaths" : 193958, 
-            "positiveTests" : 8420967, 
-            "negativeTests" : 93850793, 
+            "positiveTests" : 8420981, 
+            "negativeTests" : 93850845, 
             "contactTracers" : 59373, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12291,8 +12302,8 @@ let historicalUSData = {
         {
             "cases" : 6575101, 
             "deaths" : 194408, 
-            "positiveTests" : 8455445, 
-            "negativeTests" : 94523363, 
+            "positiveTests" : 8455459, 
+            "negativeTests" : 94523415, 
             "contactTracers" : 59373, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12313,8 +12324,8 @@ let historicalUSData = {
         {
             "cases" : 6614318, 
             "deaths" : 195689, 
-            "positiveTests" : 8499084, 
-            "negativeTests" : 95445353, 
+            "positiveTests" : 8499098, 
+            "negativeTests" : 95445407, 
             "contactTracers" : 59373, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12335,8 +12346,8 @@ let historicalUSData = {
         {
             "cases" : 6653586, 
             "deaths" : 196686, 
-            "positiveTests" : 8550609, 
-            "negativeTests" : 96531541, 
+            "positiveTests" : 8550623, 
+            "negativeTests" : 96531595, 
             "contactTracers" : 59373, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12357,8 +12368,8 @@ let historicalUSData = {
         {
             "cases" : 6698896, 
             "deaths" : 197535, 
-            "positiveTests" : 8603565, 
-            "negativeTests" : 97634355, 
+            "positiveTests" : 8603580, 
+            "negativeTests" : 97634411, 
             "contactTracers" : 59373, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12379,8 +12390,8 @@ let historicalUSData = {
         {
             "cases" : 6747783, 
             "deaths" : 198484, 
-            "positiveTests" : 8656251, 
-            "negativeTests" : 98809089, 
+            "positiveTests" : 8656266, 
+            "negativeTests" : 98809147, 
             "contactTracers" : 59373, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12401,8 +12412,8 @@ let historicalUSData = {
         {
             "cases" : 6789594, 
             "deaths" : 199154, 
-            "positiveTests" : 8697723, 
-            "negativeTests" : 99704796, 
+            "positiveTests" : 8697738, 
+            "negativeTests" : 99704855, 
             "contactTracers" : 59760, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12423,8 +12434,8 @@ let historicalUSData = {
         {
             "cases" : 6825950, 
             "deaths" : 199367, 
-            "positiveTests" : 8727759, 
-            "negativeTests" : 100297988, 
+            "positiveTests" : 8727774, 
+            "negativeTests" : 100298047, 
             "contactTracers" : 59760, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12445,8 +12456,8 @@ let historicalUSData = {
         {
             "cases" : 6880902, 
             "deaths" : 199797, 
-            "positiveTests" : 8764565, 
-            "negativeTests" : 101009596, 
+            "positiveTests" : 8764580, 
+            "negativeTests" : 101009655, 
             "contactTracers" : 59892, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12467,8 +12478,8 @@ let historicalUSData = {
         {
             "cases" : 6918293, 
             "deaths" : 200738, 
-            "positiveTests" : 8812112, 
-            "negativeTests" : 101990094, 
+            "positiveTests" : 8812127, 
+            "negativeTests" : 101990154, 
             "contactTracers" : 59903, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12489,8 +12500,8 @@ let historicalUSData = {
         {
             "cases" : 6959842, 
             "deaths" : 201828, 
-            "positiveTests" : 8866492, 
-            "negativeTests" : 103138529, 
+            "positiveTests" : 8866507, 
+            "negativeTests" : 103138589, 
             "contactTracers" : 59903, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12511,8 +12522,8 @@ let historicalUSData = {
         {
             "cases" : 7005046, 
             "deaths" : 202713, 
-            "positiveTests" : 8921093, 
-            "negativeTests" : 104284183, 
+            "positiveTests" : 8921109, 
+            "negativeTests" : 104284243, 
             "contactTracers" : 60757, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12533,8 +12544,8 @@ let historicalUSData = {
         {
             "cases" : 7059627, 
             "deaths" : 203566, 
-            "positiveTests" : 8973203, 
-            "negativeTests" : 105359786, 
+            "positiveTests" : 8973220, 
+            "negativeTests" : 105359849, 
             "contactTracers" : 60757, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12555,8 +12566,8 @@ let historicalUSData = {
         {
             "cases" : 7102322, 
             "deaths" : 204335, 
-            "positiveTests" : 9016831, 
-            "negativeTests" : 106253456, 
+            "positiveTests" : 9016848, 
+            "negativeTests" : 106253519, 
             "contactTracers" : 60757, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12577,8 +12588,8 @@ let historicalUSData = {
         {
             "cases" : 7139620, 
             "deaths" : 204602, 
-            "positiveTests" : 9048469, 
-            "negativeTests" : 106818287, 
+            "positiveTests" : 9048486, 
+            "negativeTests" : 106818350, 
             "contactTracers" : 60757, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12599,8 +12610,8 @@ let historicalUSData = {
         {
             "cases" : 7176980, 
             "deaths" : 204952, 
-            "positiveTests" : 9086015, 
-            "negativeTests" : 107447257, 
+            "positiveTests" : 9086032, 
+            "negativeTests" : 107447320, 
             "contactTracers" : 60757, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12621,8 +12632,8 @@ let historicalUSData = {
         {
             "cases" : 7220677, 
             "deaths" : 205878, 
-            "positiveTests" : 9133414, 
-            "negativeTests" : 108383085, 
+            "positiveTests" : 9133431, 
+            "negativeTests" : 108383150, 
             "contactTracers" : 60757, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12643,8 +12654,8 @@ let historicalUSData = {
         {
             "cases" : 7262735, 
             "deaths" : 206852, 
-            "positiveTests" : 9189605, 
-            "negativeTests" : 109525973, 
+            "positiveTests" : 9189622, 
+            "negativeTests" : 109526038, 
             "contactTracers" : 60757, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12665,8 +12676,8 @@ let historicalUSData = {
         {
             "cases" : 7309153, 
             "deaths" : 207699, 
-            "positiveTests" : 9246615, 
-            "negativeTests" : 110691363, 
+            "positiveTests" : 9246632, 
+            "negativeTests" : 110691429, 
             "contactTracers" : 60757, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12687,8 +12698,8 @@ let historicalUSData = {
         {
             "cases" : 7362733, 
             "deaths" : 208564, 
-            "positiveTests" : 9302378, 
-            "negativeTests" : 111825450, 
+            "positiveTests" : 9302395, 
+            "negativeTests" : 111825518, 
             "contactTracers" : 60757, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12709,8 +12720,8 @@ let historicalUSData = {
         {
             "cases" : 7410512, 
             "deaths" : 209273, 
-            "positiveTests" : 9347281, 
-            "negativeTests" : 112754966, 
+            "positiveTests" : 9347298, 
+            "negativeTests" : 112755034, 
             "contactTracers" : 60757, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12731,8 +12742,8 @@ let historicalUSData = {
         {
             "cases" : 7445575, 
             "deaths" : 209606, 
-            "positiveTests" : 9379571, 
-            "negativeTests" : 113362820, 
+            "positiveTests" : 9379588, 
+            "negativeTests" : 113362888, 
             "contactTracers" : 60757, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12753,8 +12764,8 @@ let historicalUSData = {
         {
             "cases" : 7507988, 
             "deaths" : 210035, 
-            "positiveTests" : 9420761, 
-            "negativeTests" : 114127491, 
+            "positiveTests" : 9420778, 
+            "negativeTests" : 114127559, 
             "contactTracers" : 60757, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12775,8 +12786,8 @@ let historicalUSData = {
         {
             "cases" : 7550850, 
             "deaths" : 210756, 
-            "positiveTests" : 9477902, 
-            "negativeTests" : 115295943, 
+            "positiveTests" : 9477919, 
+            "negativeTests" : 115296012, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12797,8 +12808,8 @@ let historicalUSData = {
         {
             "cases" : 7603867, 
             "deaths" : 211752, 
-            "positiveTests" : 9544799, 
-            "negativeTests" : 116639530, 
+            "positiveTests" : 9544816, 
+            "negativeTests" : 116639600, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12819,8 +12830,8 @@ let historicalUSData = {
         {
             "cases" : 7660249, 
             "deaths" : 212680, 
-            "positiveTests" : 9614088, 
-            "negativeTests" : 117997191, 
+            "positiveTests" : 9614105, 
+            "negativeTests" : 117997262, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12841,8 +12852,8 @@ let historicalUSData = {
         {
             "cases" : 7719211, 
             "deaths" : 213595, 
-            "positiveTests" : 9684256, 
-            "negativeTests" : 119324190, 
+            "positiveTests" : 9684273, 
+            "negativeTests" : 119324261, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12863,8 +12874,8 @@ let historicalUSData = {
         {
             "cases" : 7770859, 
             "deaths" : 214187, 
-            "positiveTests" : 9742121, 
-            "negativeTests" : 120366141, 
+            "positiveTests" : 9742138, 
+            "negativeTests" : 120366212, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12885,8 +12896,8 @@ let historicalUSData = {
         {
             "cases" : 7815642, 
             "deaths" : 214606, 
-            "positiveTests" : 9786731, 
-            "negativeTests" : 121067836, 
+            "positiveTests" : 9786748, 
+            "negativeTests" : 121067907, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12907,8 +12918,8 @@ let historicalUSData = {
         {
             "cases" : 7863658, 
             "deaths" : 214957, 
-            "positiveTests" : 9839186, 
-            "negativeTests" : 121821501, 
+            "positiveTests" : 9839203, 
+            "negativeTests" : 121821572, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12929,8 +12940,8 @@ let historicalUSData = {
         {
             "cases" : 7918051, 
             "deaths" : 215783, 
-            "positiveTests" : 9902989, 
-            "negativeTests" : 122818631, 
+            "positiveTests" : 9903007, 
+            "negativeTests" : 122818703, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12951,8 +12962,8 @@ let historicalUSData = {
         {
             "cases" : 7977904, 
             "deaths" : 216792, 
-            "positiveTests" : 9972802, 
-            "negativeTests" : 123971071, 
+            "positiveTests" : 9972820, 
+            "negativeTests" : 123971144, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
                 "capacity" : null, 
@@ -12973,8 +12984,8 @@ let historicalUSData = {
         {
             "cases" : 8043257, 
             "deaths" : 217585, 
-            "positiveTests" : 10045528, 
-            "negativeTests" : 125198684, 
+            "positiveTests" : 10045546, 
+            "negativeTests" : 125198757, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
                 "capacity" : 767633, 
@@ -12995,12 +13006,12 @@ let historicalUSData = {
         {
             "cases" : 8113721, 
             "deaths" : 218476, 
-            "positiveTests" : 10119466, 
-            "negativeTests" : 126445799, 
+            "positiveTests" : 10119484, 
+            "negativeTests" : 126445873, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
                 "capacity" : 769527, 
-                "currentUsageTotal" : 547985, 
+                "currentUsageTotal" : 547982, 
                 "currentUsageCovid" : 42502
             }, 
             "icuBeds" : {
@@ -13017,11 +13028,11 @@ let historicalUSData = {
         {
             "cases" : 8166482, 
             "deaths" : 219154, 
-            "positiveTests" : 10183050, 
-            "negativeTests" : 127490961, 
+            "positiveTests" : 10183068, 
+            "negativeTests" : 127491035, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
-                "capacity" : 769707, 
+                "capacity" : 769831, 
                 "currentUsageTotal" : 530661, 
                 "currentUsageCovid" : 43789
             }, 
@@ -13039,11 +13050,11 @@ let historicalUSData = {
         {
             "cases" : 8214364, 
             "deaths" : 219541, 
-            "positiveTests" : 10232636, 
-            "negativeTests" : 128206101, 
+            "positiveTests" : 10232654, 
+            "negativeTests" : 128206175, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
-                "capacity" : 769823, 
+                "capacity" : 769694, 
                 "currentUsageTotal" : 515420, 
                 "currentUsageCovid" : 42238
             }, 
@@ -13061,13 +13072,13 @@ let historicalUSData = {
         {
             "cases" : 8279804, 
             "deaths" : 220058, 
-            "positiveTests" : 10291295, 
-            "negativeTests" : 129017448, 
+            "positiveTests" : 10291313, 
+            "negativeTests" : 129017522, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
-                "capacity" : 766789, 
-                "currentUsageTotal" : 513868, 
-                "currentUsageCovid" : 43512
+                "capacity" : 766903, 
+                "currentUsageTotal" : 513870, 
+                "currentUsageCovid" : 43511
             }, 
             "icuBeds" : {
                 "capacity" : 83537, 
@@ -13083,18 +13094,18 @@ let historicalUSData = {
         {
             "cases" : 8340398, 
             "deaths" : 220987, 
-            "positiveTests" : 10368837, 
-            "negativeTests" : 130207433, 
+            "positiveTests" : 10368855, 
+            "negativeTests" : 130207508, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
-                "capacity" : 781201, 
-                "currentUsageTotal" : 536550, 
-                "currentUsageCovid" : 44755
+                "capacity" : 781101, 
+                "currentUsageTotal" : 536554, 
+                "currentUsageCovid" : 44761
             }, 
             "icuBeds" : {
                 "capacity" : 83746, 
-                "currentUsageTotal" : 59330, 
-                "currentUsageCovid" : 9877
+                "currentUsageTotal" : 59326, 
+                "currentUsageCovid" : 9876
             }, 
             "newCases" : 60594, 
             "newDeaths" : 929, 
@@ -13105,18 +13116,18 @@ let historicalUSData = {
         {
             "cases" : 8404635, 
             "deaths" : 222195, 
-            "positiveTests" : 10459994, 
-            "negativeTests" : 131588661, 
+            "positiveTests" : 10460013, 
+            "negativeTests" : 131588738, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
-                "capacity" : 792631, 
-                "currentUsageTotal" : 556406, 
-                "currentUsageCovid" : 45614
+                "capacity" : 792009, 
+                "currentUsageTotal" : 555918, 
+                "currentUsageCovid" : 45561
             }, 
             "icuBeds" : {
-                "capacity" : 83905, 
-                "currentUsageTotal" : 59721, 
-                "currentUsageCovid" : 10100
+                "capacity" : 83843, 
+                "currentUsageTotal" : 59646, 
+                "currentUsageCovid" : 10084
             }, 
             "newCases" : 64237, 
             "newDeaths" : 1208, 
@@ -13127,18 +13138,18 @@ let historicalUSData = {
         {
             "cases" : 8479765, 
             "deaths" : 223023, 
-            "positiveTests" : 10555765, 
-            "negativeTests" : 133018493, 
+            "positiveTests" : 10555785, 
+            "negativeTests" : 133018570, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
-                "capacity" : 797095, 
-                "currentUsageTotal" : 558432, 
-                "currentUsageCovid" : 45547
+                "capacity" : 797050, 
+                "currentUsageTotal" : 558451, 
+                "currentUsageCovid" : 45556
             }, 
             "icuBeds" : {
-                "capacity" : 84239, 
+                "capacity" : 84226, 
                 "currentUsageTotal" : 59686, 
-                "currentUsageCovid" : 10271
+                "currentUsageCovid" : 10273
             }, 
             "newCases" : 75130, 
             "newDeaths" : 828, 
@@ -13149,18 +13160,18 @@ let historicalUSData = {
         {
             "cases" : 8565062, 
             "deaths" : 223953, 
-            "positiveTests" : 10650775, 
-            "negativeTests" : 134382997, 
+            "positiveTests" : 10650797, 
+            "negativeTests" : 134383076, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 796641, 
+                "capacity" : 796557, 
                 "currentUsageTotal" : 555109, 
-                "currentUsageCovid" : 45808
+                "currentUsageCovid" : 45807
             }, 
             "icuBeds" : {
                 "capacity" : 84675, 
                 "currentUsageTotal" : 60220, 
-                "currentUsageCovid" : 10341
+                "currentUsageCovid" : 10340
             }, 
             "newCases" : 85297, 
             "newDeaths" : 930, 
@@ -13171,18 +13182,18 @@ let historicalUSData = {
         {
             "cases" : 8643641, 
             "deaths" : 224825, 
-            "positiveTests" : 10731771, 
-            "negativeTests" : 135476942, 
+            "positiveTests" : 10731794, 
+            "negativeTests" : 135477021, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 795590, 
+                "capacity" : 795598, 
                 "currentUsageTotal" : 536425, 
                 "currentUsageCovid" : 46034
             }, 
             "icuBeds" : {
-                "capacity" : 84095, 
+                "capacity" : 84108, 
                 "currentUsageTotal" : 58460, 
-                "currentUsageCovid" : 10350
+                "currentUsageCovid" : 10351
             }, 
             "newCases" : 78579, 
             "newDeaths" : 872, 
@@ -13193,11 +13204,11 @@ let historicalUSData = {
         {
             "cases" : 8703356, 
             "deaths" : 225164, 
-            "positiveTests" : 10794215, 
-            "negativeTests" : 136204989, 
+            "positiveTests" : 10794238, 
+            "negativeTests" : 136205068, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 804912, 
+                "capacity" : 805004, 
                 "currentUsageTotal" : 529353, 
                 "currentUsageCovid" : 46746
             }, 
@@ -13215,18 +13226,18 @@ let historicalUSData = {
         {
             "cases" : 8777994, 
             "deaths" : 225701, 
-            "positiveTests" : 10867059, 
-            "negativeTests" : 137082924, 
+            "positiveTests" : 10867082, 
+            "negativeTests" : 137083005, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 782243, 
-                "currentUsageTotal" : 512025, 
-                "currentUsageCovid" : 48166
+                "capacity" : 782226, 
+                "currentUsageTotal" : 511909, 
+                "currentUsageCovid" : 48156
             }, 
             "icuBeds" : {
-                "capacity" : 85252, 
-                "currentUsageTotal" : 57814, 
-                "currentUsageCovid" : 10825
+                "capacity" : 85245, 
+                "currentUsageTotal" : 57803, 
+                "currentUsageCovid" : 10823
             }, 
             "newCases" : 74638, 
             "newDeaths" : 537, 
@@ -13237,8 +13248,8 @@ let historicalUSData = {
         {
             "cases" : 8852381, 
             "deaths" : 226684, 
-            "positiveTests" : 10960003, 
-            "negativeTests" : 138323673, 
+            "positiveTests" : 10960026, 
+            "negativeTests" : 138323754, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 782450, 
@@ -13248,7 +13259,7 @@ let historicalUSData = {
             "icuBeds" : {
                 "capacity" : 85967, 
                 "currentUsageTotal" : 60425, 
-                "currentUsageCovid" : 11131
+                "currentUsageCovid" : 11128
             }, 
             "newCases" : 74387, 
             "newDeaths" : 983, 
@@ -13259,8 +13270,8 @@ let historicalUSData = {
         {
             "cases" : 8934263, 
             "deaths" : 227702, 
-            "positiveTests" : 11066667, 
-            "negativeTests" : 139716357, 
+            "positiveTests" : 11066691, 
+            "negativeTests" : 139716441, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 844523, 
@@ -13281,18 +13292,18 @@ let historicalUSData = {
         {
             "cases" : 9024932, 
             "deaths" : 228706, 
-            "positiveTests" : 11175927, 
-            "negativeTests" : 141088148, 
+            "positiveTests" : 11175951, 
+            "negativeTests" : 141088233, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 799285, 
-                "currentUsageTotal" : 569015, 
-                "currentUsageCovid" : 51547
+                "capacity" : 799255, 
+                "currentUsageTotal" : 569012, 
+                "currentUsageCovid" : 51545
             }, 
             "icuBeds" : {
-                "capacity" : 86587, 
-                "currentUsageTotal" : 61858, 
-                "currentUsageCovid" : 11502
+                "capacity" : 86597, 
+                "currentUsageTotal" : 61860, 
+                "currentUsageCovid" : 11503
             }, 
             "newCases" : 90669, 
             "newDeaths" : 1004, 
@@ -13303,8 +13314,8 @@ let historicalUSData = {
         {
             "cases" : 9124800, 
             "deaths" : 229674, 
-            "positiveTests" : 11287242, 
-            "negativeTests" : 142472704, 
+            "positiveTests" : 11287266, 
+            "negativeTests" : 142472792, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 786573, 
@@ -13313,8 +13324,8 @@ let historicalUSData = {
             }, 
             "icuBeds" : {
                 "capacity" : 86167, 
-                "currentUsageTotal" : 61534, 
-                "currentUsageCovid" : 11564
+                "currentUsageTotal" : 61539, 
+                "currentUsageCovid" : 11561
             }, 
             "newCases" : 99868, 
             "newDeaths" : 968, 
@@ -13325,8 +13336,8 @@ let historicalUSData = {
         {
             "cases" : 9209007, 
             "deaths" : 230512, 
-            "positiveTests" : 11384598, 
-            "negativeTests" : 143590687, 
+            "positiveTests" : 11384622, 
+            "negativeTests" : 143590775, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 774066, 
@@ -13335,8 +13346,8 @@ let historicalUSData = {
             }, 
             "icuBeds" : {
                 "capacity" : 85794, 
-                "currentUsageTotal" : 60082, 
-                "currentUsageCovid" : 11607
+                "currentUsageTotal" : 60087, 
+                "currentUsageCovid" : 11604
             }, 
             "newCases" : 84207, 
             "newDeaths" : 838, 
@@ -13347,18 +13358,18 @@ let historicalUSData = {
         {
             "cases" : 9283202, 
             "deaths" : 230940, 
-            "positiveTests" : 11464745, 
-            "negativeTests" : 144406019, 
+            "positiveTests" : 11464769, 
+            "negativeTests" : 144406107, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 777327, 
-                "currentUsageTotal" : 526778, 
-                "currentUsageCovid" : 53068
+                "currentUsageTotal" : 526775, 
+                "currentUsageCovid" : 53066
             }, 
             "icuBeds" : {
                 "capacity" : 85693, 
-                "currentUsageTotal" : 58732, 
-                "currentUsageCovid" : 11855
+                "currentUsageTotal" : 58738, 
+                "currentUsageCovid" : 11852
             }, 
             "newCases" : 74195, 
             "newDeaths" : 428, 
@@ -13369,8 +13380,8 @@ let historicalUSData = {
         {
             "cases" : 9377208, 
             "deaths" : 231480, 
-            "positiveTests" : 11559675, 
-            "negativeTests" : 145323137, 
+            "positiveTests" : 11559699, 
+            "negativeTests" : 145323225, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 753193, 
@@ -13379,8 +13390,8 @@ let historicalUSData = {
             }, 
             "icuBeds" : {
                 "capacity" : 85919, 
-                "currentUsageTotal" : 58812, 
-                "currentUsageCovid" : 12386
+                "currentUsageTotal" : 58817, 
+                "currentUsageCovid" : 12383
             }, 
             "newCases" : 94006, 
             "newDeaths" : 540, 
@@ -13391,8 +13402,8 @@ let historicalUSData = {
         {
             "cases" : 9469624, 
             "deaths" : 232610, 
-            "positiveTests" : 11677992, 
-            "negativeTests" : 146565039, 
+            "positiveTests" : 11678016, 
+            "negativeTests" : 146565129, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 754516, 
@@ -13401,8 +13412,8 @@ let historicalUSData = {
             }, 
             "icuBeds" : {
                 "capacity" : 86426, 
-                "currentUsageTotal" : 61426, 
-                "currentUsageCovid" : 12753
+                "currentUsageTotal" : 61431, 
+                "currentUsageCovid" : 12750
             }, 
             "newCases" : 92416, 
             "newDeaths" : 1130, 
@@ -13413,8 +13424,8 @@ let historicalUSData = {
         {
             "cases" : 9577702, 
             "deaths" : 234226, 
-            "positiveTests" : 11820305, 
-            "negativeTests" : 148051195, 
+            "positiveTests" : 11820329, 
+            "negativeTests" : 148051285, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 791784, 
@@ -13435,12 +13446,12 @@ let historicalUSData = {
         {
             "cases" : 9699051, 
             "deaths" : 235334, 
-            "positiveTests" : 11975139, 
-            "negativeTests" : 149588176, 
+            "positiveTests" : 11975163, 
+            "negativeTests" : 149588267, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 794873, 
-                "currentUsageTotal" : 573357, 
+                "capacity" : 794871, 
+                "currentUsageTotal" : 573355, 
                 "currentUsageCovid" : 61160
             }, 
             "icuBeds" : {
@@ -13457,8 +13468,8 @@ let historicalUSData = {
         {
             "cases" : 9831874, 
             "deaths" : 236582, 
-            "positiveTests" : 12130023, 
-            "negativeTests" : 151106628, 
+            "positiveTests" : 12130047, 
+            "negativeTests" : 151106719, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 794317, 
@@ -13479,8 +13490,8 @@ let historicalUSData = {
         {
             "cases" : 9957805, 
             "deaths" : 237589, 
-            "positiveTests" : 12273122, 
-            "negativeTests" : 152415739, 
+            "positiveTests" : 12273146, 
+            "negativeTests" : 152415831, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 795148, 
@@ -13501,8 +13512,8 @@ let historicalUSData = {
         {
             "cases" : 10061218, 
             "deaths" : 238053, 
-            "positiveTests" : 12386886, 
-            "negativeTests" : 153310928, 
+            "positiveTests" : 12386910, 
+            "negativeTests" : 153311021, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 792356, 
@@ -13523,12 +13534,12 @@ let historicalUSData = {
         {
             "cases" : 10191667, 
             "deaths" : 238798, 
-            "positiveTests" : 12533149, 
-            "negativeTests" : 154385358, 
+            "positiveTests" : 12533173, 
+            "negativeTests" : 154385454, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 756411, 
-                "currentUsageTotal" : 524899, 
+                "capacity" : 756412, 
+                "currentUsageTotal" : 524900, 
                 "currentUsageCovid" : 67376
             }, 
             "icuBeds" : {
@@ -13545,8 +13556,8 @@ let historicalUSData = {
         {
             "cases" : 10331417, 
             "deaths" : 240262, 
-            "positiveTests" : 12700089, 
-            "negativeTests" : 155753434, 
+            "positiveTests" : 12700113, 
+            "negativeTests" : 155753533, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 763507, 
@@ -13567,8 +13578,8 @@ let historicalUSData = {
         {
             "cases" : 10474295, 
             "deaths" : 241693, 
-            "positiveTests" : 12894667, 
-            "negativeTests" : 157345907, 
+            "positiveTests" : 12894692, 
+            "negativeTests" : 157346008, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 810984, 
@@ -13589,18 +13600,18 @@ let historicalUSData = {
         {
             "cases" : 10637946, 
             "deaths" : 242865, 
-            "positiveTests" : 13096649, 
-            "negativeTests" : 158992939, 
+            "positiveTests" : 13096674, 
+            "negativeTests" : 158993041, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 812471, 
-                "currentUsageTotal" : 600020, 
-                "currentUsageCovid" : 76331
+                "capacity" : 812590, 
+                "currentUsageTotal" : 600131, 
+                "currentUsageCovid" : 76345
             }, 
             "icuBeds" : {
-                "capacity" : 87920, 
-                "currentUsageTotal" : 64960, 
-                "currentUsageCovid" : 15592
+                "capacity" : 87940, 
+                "currentUsageTotal" : 64974, 
+                "currentUsageCovid" : 15594
             }, 
             "newCases" : 163651, 
             "newDeaths" : 1172, 
@@ -13611,18 +13622,18 @@ let historicalUSData = {
         {
             "cases" : 10819442, 
             "deaths" : 244255, 
-            "positiveTests" : 13295924, 
-            "negativeTests" : 160693603, 
+            "positiveTests" : 13295950, 
+            "negativeTests" : 160693705, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 815286, 
-                "currentUsageTotal" : 597942, 
-                "currentUsageCovid" : 77066
+                "capacity" : 815384, 
+                "currentUsageTotal" : 597861, 
+                "currentUsageCovid" : 76998
             }, 
             "icuBeds" : {
-                "capacity" : 87925, 
-                "currentUsageTotal" : 64816, 
-                "currentUsageCovid" : 15869
+                "capacity" : 87969, 
+                "currentUsageTotal" : 64829, 
+                "currentUsageCovid" : 15871
             }, 
             "newCases" : 181496, 
             "newDeaths" : 1390, 
@@ -13633,12 +13644,12 @@ let historicalUSData = {
         {
             "cases" : 10978475, 
             "deaths" : 245465, 
-            "positiveTests" : 13461985, 
-            "negativeTests" : 162121492, 
+            "positiveTests" : 13462011, 
+            "negativeTests" : 162121599, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 811842, 
-                "currentUsageTotal" : 574717, 
+                "currentUsageTotal" : 574714, 
                 "currentUsageCovid" : 77797
             }, 
             "icuBeds" : {
@@ -13655,12 +13666,12 @@ let historicalUSData = {
         {
             "cases" : 11113661, 
             "deaths" : 246088, 
-            "positiveTests" : 13596330, 
-            "negativeTests" : 163181412, 
+            "positiveTests" : 13596356, 
+            "negativeTests" : 163181519, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 806476, 
-                "currentUsageTotal" : 559148, 
+                "currentUsageTotal" : 559145, 
                 "currentUsageCovid" : 79886
             }, 
             "icuBeds" : {
@@ -13677,12 +13688,12 @@ let historicalUSData = {
         {
             "cases" : 11280224, 
             "deaths" : 246884, 
-            "positiveTests" : 13757775, 
-            "negativeTests" : 164508090, 
+            "positiveTests" : 13757801, 
+            "negativeTests" : 164508198, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 773938, 
-                "currentUsageTotal" : 538143, 
+                "currentUsageTotal" : 538140, 
                 "currentUsageCovid" : 83418
             }, 
             "icuBeds" : {
@@ -13699,12 +13710,12 @@ let historicalUSData = {
         {
             "cases" : 11441855, 
             "deaths" : 248491, 
-            "positiveTests" : 13952411, 
-            "negativeTests" : 166213936, 
+            "positiveTests" : 13952437, 
+            "negativeTests" : 166214045, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 773913, 
-                "currentUsageTotal" : 558476, 
+                "currentUsageTotal" : 558473, 
                 "currentUsageCovid" : 85872
             }, 
             "icuBeds" : {
@@ -13721,8 +13732,8 @@ let historicalUSData = {
         {
             "cases" : 11614135, 
             "deaths" : 250415, 
-            "positiveTests" : 14163383, 
-            "negativeTests" : 168096804, 
+            "positiveTests" : 14163409, 
+            "negativeTests" : 168096913, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 819855, 
@@ -13743,8 +13754,8 @@ let historicalUSData = {
         {
             "cases" : 11801643, 
             "deaths" : 252376, 
-            "positiveTests" : 14375942, 
-            "negativeTests" : 169954552, 
+            "positiveTests" : 14375968, 
+            "negativeTests" : 169954662, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 820182, 
@@ -13765,8 +13776,8 @@ let historicalUSData = {
         {
             "cases" : 12000502, 
             "deaths" : 254333, 
-            "positiveTests" : 14582860, 
-            "negativeTests" : 171892505, 
+            "positiveTests" : 14582886, 
+            "negativeTests" : 171892615, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 814287, 
@@ -13787,8 +13798,8 @@ let historicalUSData = {
         {
             "cases" : 12172435, 
             "deaths" : 255758, 
-            "positiveTests" : 14760302, 
-            "negativeTests" : 173566728, 
+            "positiveTests" : 14760328, 
+            "negativeTests" : 173566839, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 809520, 
@@ -13809,8 +13820,8 @@ let historicalUSData = {
         {
             "cases" : 12313229, 
             "deaths" : 256601, 
-            "positiveTests" : 14901805, 
-            "negativeTests" : 174842718, 
+            "positiveTests" : 14901831, 
+            "negativeTests" : 174842829, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 806379, 
@@ -13831,8 +13842,8 @@ let historicalUSData = {
         {
             "cases" : 12492852, 
             "deaths" : 257639, 
-            "positiveTests" : 15069079, 
-            "negativeTests" : 176344630, 
+            "positiveTests" : 15069105, 
+            "negativeTests" : 176344745, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 767491, 
@@ -13853,8 +13864,8 @@ let historicalUSData = {
         {
             "cases" : 12670710, 
             "deaths" : 259848, 
-            "positiveTests" : 15263607, 
-            "negativeTests" : 178116194, 
+            "positiveTests" : 15263633, 
+            "negativeTests" : 178116312, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 771058, 
@@ -13875,8 +13886,8 @@ let historicalUSData = {
         {
             "cases" : 12851300, 
             "deaths" : 262161, 
-            "positiveTests" : 15482651, 
-            "negativeTests" : 180115583, 
+            "positiveTests" : 15482677, 
+            "negativeTests" : 180115710, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 811692, 
@@ -13897,8 +13908,8 @@ let historicalUSData = {
         {
             "cases" : 12954294, 
             "deaths" : 263339, 
-            "positiveTests" : 15642357, 
-            "negativeTests" : 181457680, 
+            "positiveTests" : 15642383, 
+            "negativeTests" : 181457811, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 809068, 
@@ -13919,8 +13930,8 @@ let historicalUSData = {
         {
             "cases" : 13160133, 
             "deaths" : 264751, 
-            "positiveTests" : 15813032, 
-            "negativeTests" : 182793961, 
+            "positiveTests" : 15813058, 
+            "negativeTests" : 182794095, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 803879, 
@@ -13941,8 +13952,8 @@ let historicalUSData = {
         {
             "cases" : 13311541, 
             "deaths" : 265943, 
-            "positiveTests" : 15968807, 
-            "negativeTests" : 183982056, 
+            "positiveTests" : 15968833, 
+            "negativeTests" : 183982193, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 803538, 
@@ -13963,8 +13974,8 @@ let historicalUSData = {
         {
             "cases" : 13447663, 
             "deaths" : 266761, 
-            "positiveTests" : 16113970, 
-            "negativeTests" : 184984734, 
+            "positiveTests" : 16113996, 
+            "negativeTests" : 184984872, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 802853, 
@@ -13985,8 +13996,8 @@ let historicalUSData = {
         {
             "cases" : 13615321, 
             "deaths" : 268031, 
-            "positiveTests" : 16295209, 
-            "negativeTests" : 186264146, 
+            "positiveTests" : 16295235, 
+            "negativeTests" : 186264287, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 763518, 
@@ -14007,8 +14018,8 @@ let historicalUSData = {
         {
             "cases" : 13799549, 
             "deaths" : 270639, 
-            "positiveTests" : 16513918, 
-            "negativeTests" : 187883406, 
+            "positiveTests" : 16513944, 
+            "negativeTests" : 187883547, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 769201, 
@@ -14029,8 +14040,8 @@ let historicalUSData = {
         {
             "cases" : 14000721, 
             "deaths" : 273525, 
-            "positiveTests" : 16765619, 
-            "negativeTests" : 189724282, 
+            "positiveTests" : 16765645, 
+            "negativeTests" : 189724425, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 813155, 
@@ -14051,8 +14062,8 @@ let historicalUSData = {
         {
             "cases" : 14218459, 
             "deaths" : 276381, 
-            "positiveTests" : 17022941, 
-            "negativeTests" : 191608572, 
+            "positiveTests" : 17022967, 
+            "negativeTests" : 191608718, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 815778, 
@@ -14073,8 +14084,8 @@ let historicalUSData = {
         {
             "cases" : 14449827, 
             "deaths" : 279018, 
-            "positiveTests" : 17268821, 
-            "negativeTests" : 193475006, 
+            "positiveTests" : 17268847, 
+            "negativeTests" : 193475152, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 815783, 
@@ -14095,8 +14106,8 @@ let historicalUSData = {
         {
             "cases" : 14655535, 
             "deaths" : 281208, 
-            "positiveTests" : 17465931, 
-            "negativeTests" : 194964764, 
+            "positiveTests" : 17465957, 
+            "negativeTests" : 194964911, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 810714, 
@@ -14117,8 +14128,8 @@ let historicalUSData = {
         {
             "cases" : 14827456, 
             "deaths" : 282319, 
-            "positiveTests" : 17629212, 
-            "negativeTests" : 196090899, 
+            "positiveTests" : 17629238, 
+            "negativeTests" : 196091047, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 807110, 
@@ -14139,8 +14150,8 @@ let historicalUSData = {
         {
             "cases" : 15031979, 
             "deaths" : 283853, 
-            "positiveTests" : 17814245, 
-            "negativeTests" : 197441618, 
+            "positiveTests" : 17814271, 
+            "negativeTests" : 197441766, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 765402, 
@@ -14161,8 +14172,8 @@ let historicalUSData = {
         {
             "cases" : 15251693, 
             "deaths" : 286674, 
-            "positiveTests" : 18032997, 
-            "negativeTests" : 199132732, 
+            "positiveTests" : 18033023, 
+            "negativeTests" : 199132883, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 769419, 
@@ -14183,8 +14194,8 @@ let historicalUSData = {
         {
             "cases" : 15471409, 
             "deaths" : 289830, 
-            "positiveTests" : 18279258, 
-            "negativeTests" : 201005313, 
+            "positiveTests" : 18279284, 
+            "negativeTests" : 201005465, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 814607, 
@@ -14205,8 +14216,8 @@ let historicalUSData = {
         {
             "cases" : 15696634, 
             "deaths" : 292771, 
-            "positiveTests" : 18530245, 
-            "negativeTests" : 202930751, 
+            "positiveTests" : 18530272, 
+            "negativeTests" : 202930905, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 816430, 
@@ -14227,8 +14238,8 @@ let historicalUSData = {
         {
             "cases" : 15977147, 
             "deaths" : 295726, 
-            "positiveTests" : 18765447, 
-            "negativeTests" : 204746734, 
+            "positiveTests" : 18765474, 
+            "negativeTests" : 204746892, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 815700, 
@@ -14249,8 +14260,8 @@ let historicalUSData = {
         {
             "cases" : 16184679, 
             "deaths" : 297981, 
-            "positiveTests" : 18972468, 
-            "negativeTests" : 206256370, 
+            "positiveTests" : 18972495, 
+            "negativeTests" : 206256528, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 812659, 
@@ -14271,8 +14282,8 @@ let historicalUSData = {
         {
             "cases" : 16368898, 
             "deaths" : 299338, 
-            "positiveTests" : 19137317, 
-            "negativeTests" : 207336761, 
+            "positiveTests" : 19137345, 
+            "negativeTests" : 207336919, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 808686, 
@@ -14293,8 +14304,8 @@ let historicalUSData = {
         {
             "cases" : 16569783, 
             "deaths" : 301016, 
-            "positiveTests" : 19326486, 
-            "negativeTests" : 208636972, 
+            "positiveTests" : 19326515, 
+            "negativeTests" : 208637136, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 766345, 
@@ -14319,8 +14330,8 @@ let historicalUSData = {
         {
             "cases" : 16772936, 
             "deaths" : 304041, 
-            "positiveTests" : 19561595, 
-            "negativeTests" : 210340816, 
+            "positiveTests" : 19561625, 
+            "negativeTests" : 210340986, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 769990, 
@@ -14345,8 +14356,8 @@ let historicalUSData = {
         {
             "cases" : 17017763, 
             "deaths" : 307652, 
-            "positiveTests" : 19798859, 
-            "negativeTests" : 212174878, 
+            "positiveTests" : 19798891, 
+            "negativeTests" : 212175048, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 818437, 
@@ -14371,8 +14382,8 @@ let historicalUSData = {
         {
             "cases" : 17255472, 
             "deaths" : 310950, 
-            "positiveTests" : 20039989, 
-            "negativeTests" : 213980127, 
+            "positiveTests" : 20040024, 
+            "negativeTests" : 213980297, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 819487, 
@@ -14397,8 +14408,8 @@ let historicalUSData = {
         {
             "cases" : 17506662, 
             "deaths" : 313820, 
-            "positiveTests" : 20278247, 
-            "negativeTests" : 215757300, 
+            "positiveTests" : 20278282, 
+            "negativeTests" : 215757471, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 819505, 
@@ -14423,8 +14434,8 @@ let historicalUSData = {
         {
             "cases" : 17700567, 
             "deaths" : 316381, 
-            "positiveTests" : 20473131, 
-            "negativeTests" : 217268070, 
+            "positiveTests" : 20473166, 
+            "negativeTests" : 217268241, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 816146, 
@@ -14449,8 +14460,8 @@ let historicalUSData = {
         {
             "cases" : 17880478, 
             "deaths" : 317810, 
-            "positiveTests" : 20632525, 
-            "negativeTests" : 218380542, 
+            "positiveTests" : 20632560, 
+            "negativeTests" : 218380713, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 812728, 
@@ -14475,8 +14486,8 @@ let historicalUSData = {
         {
             "cases" : 18081996, 
             "deaths" : 319773, 
-            "positiveTests" : 20823412, 
-            "negativeTests" : 219712917, 
+            "positiveTests" : 20823447, 
+            "negativeTests" : 219713088, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 767226, 
@@ -14501,8 +14512,8 @@ let historicalUSData = {
         {
             "cases" : 18283633, 
             "deaths" : 323012, 
-            "positiveTests" : 21051132, 
-            "negativeTests" : 221466614, 
+            "positiveTests" : 21051167, 
+            "negativeTests" : 221466786, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 775907, 
@@ -14527,8 +14538,8 @@ let historicalUSData = {
         {
             "cases" : 18511396, 
             "deaths" : 326424, 
-            "positiveTests" : 21306686, 
-            "negativeTests" : 223483403, 
+            "positiveTests" : 21306721, 
+            "negativeTests" : 223483579, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 817486, 
@@ -14553,8 +14564,8 @@ let historicalUSData = {
         {
             "cases" : 18704907, 
             "deaths" : 329248, 
-            "positiveTests" : 21528166, 
-            "negativeTests" : 225147201, 
+            "positiveTests" : 21528201, 
+            "negativeTests" : 225147377, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 808623, 
@@ -14579,8 +14590,8 @@ let historicalUSData = {
         {
             "cases" : 18805838, 
             "deaths" : 330377, 
-            "positiveTests" : 21671278, 
-            "negativeTests" : 226076886, 
+            "positiveTests" : 21671313, 
+            "negativeTests" : 226077064, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 803214, 
@@ -14605,8 +14616,8 @@ let historicalUSData = {
         {
             "cases" : 19022699, 
             "deaths" : 332023, 
-            "positiveTests" : 21813251, 
-            "negativeTests" : 226923762, 
+            "positiveTests" : 21813286, 
+            "negativeTests" : 226923940, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 803039, 
@@ -14631,8 +14642,8 @@ let historicalUSData = {
         {
             "cases" : 19174788, 
             "deaths" : 333253, 
-            "positiveTests" : 21961467, 
-            "negativeTests" : 227717556, 
+            "positiveTests" : 21961503, 
+            "negativeTests" : 227717734, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 803979, 
@@ -14657,8 +14668,8 @@ let historicalUSData = {
         {
             "cases" : 19363798, 
             "deaths" : 335152, 
-            "positiveTests" : 22160872, 
-            "negativeTests" : 228804912, 
+            "positiveTests" : 22160908, 
+            "negativeTests" : 228805092, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 758631, 
@@ -14683,8 +14694,8 @@ let historicalUSData = {
         {
             "cases" : 19564828, 
             "deaths" : 338780, 
-            "positiveTests" : 22433598, 
-            "negativeTests" : 230391298, 
+            "positiveTests" : 22433634, 
+            "negativeTests" : 230391479, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 765100, 
@@ -14709,8 +14720,8 @@ let historicalUSData = {
         {
             "cases" : 19793777, 
             "deaths" : 342588, 
-            "positiveTests" : 22740063, 
-            "negativeTests" : 232264694, 
+            "positiveTests" : 22740101, 
+            "negativeTests" : 232264878, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 816775, 
@@ -14735,8 +14746,8 @@ let historicalUSData = {
         {
             "cases" : 20024801, 
             "deaths" : 346050, 
-            "positiveTests" : 23024103, 
-            "negativeTests" : 233897096, 
+            "positiveTests" : 23024141, 
+            "negativeTests" : 233897284, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 814403, 
@@ -14761,8 +14772,8 @@ let historicalUSData = {
         {
             "cases" : 20172049, 
             "deaths" : 347970, 
-            "positiveTests" : 23218551, 
-            "negativeTests" : 234952697, 
+            "positiveTests" : 23218591, 
+            "negativeTests" : 234952885, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 810860, 
@@ -14787,8 +14798,8 @@ let historicalUSData = {
         {
             "cases" : 20463659, 
             "deaths" : 350343, 
-            "positiveTests" : 23392414, 
-            "negativeTests" : 235892956, 
+            "positiveTests" : 23392454, 
+            "negativeTests" : 235893146, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 809583, 
@@ -14813,8 +14824,8 @@ let historicalUSData = {
         {
             "cases" : 20665439, 
             "deaths" : 351694, 
-            "positiveTests" : 23560602, 
-            "negativeTests" : 236771584, 
+            "positiveTests" : 23560642, 
+            "negativeTests" : 236771774, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 808283, 
@@ -14839,8 +14850,8 @@ let historicalUSData = {
         {
             "cases" : 20917269, 
             "deaths" : 353743, 
-            "positiveTests" : 23777284, 
-            "negativeTests" : 237958040, 
+            "positiveTests" : 23777324, 
+            "negativeTests" : 237958233, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 762125, 
@@ -14865,8 +14876,8 @@ let historicalUSData = {
         {
             "cases" : 21152285, 
             "deaths" : 357432, 
-            "positiveTests" : 24054654, 
-            "negativeTests" : 239646863, 
+            "positiveTests" : 24054694, 
+            "negativeTests" : 239647057, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 766445, 
@@ -14891,8 +14902,8 @@ let historicalUSData = {
         {
             "cases" : 21408251, 
             "deaths" : 361396, 
-            "positiveTests" : 24364664, 
-            "negativeTests" : 241665991, 
+            "positiveTests" : 24364704, 
+            "negativeTests" : 241666186, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 818822, 
@@ -14917,8 +14928,8 @@ let historicalUSData = {
         {
             "cases" : 21688585, 
             "deaths" : 365509, 
-            "positiveTests" : 24662419, 
-            "negativeTests" : 243620736, 
+            "positiveTests" : 24662461, 
+            "negativeTests" : 243620933, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 818738, 
@@ -14943,8 +14954,8 @@ let historicalUSData = {
         {
             "cases" : 21989362, 
             "deaths" : 369404, 
-            "positiveTests" : 24932953, 
-            "negativeTests" : 245493551, 
+            "positiveTests" : 24932999, 
+            "negativeTests" : 245493749, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 813158, 
@@ -14969,8 +14980,8 @@ let historicalUSData = {
         {
             "cases" : 22241281, 
             "deaths" : 372663, 
-            "positiveTests" : 25150279, 
-            "negativeTests" : 246988508, 
+            "positiveTests" : 25150325, 
+            "negativeTests" : 246988706, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 810957, 
@@ -14995,8 +15006,8 @@ let historicalUSData = {
         {
             "cases" : 22449576, 
             "deaths" : 374440, 
-            "positiveTests" : 25313523, 
-            "negativeTests" : 247990619, 
+            "positiveTests" : 25313570, 
+            "negativeTests" : 247990819, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 808538, 
@@ -15021,8 +15032,8 @@ let historicalUSData = {
         {
             "cases" : 22675892, 
             "deaths" : 376488, 
-            "positiveTests" : 25510846, 
-            "negativeTests" : 249318203, 
+            "positiveTests" : 25510896, 
+            "negativeTests" : 249318405, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 760954, 
@@ -15047,8 +15058,8 @@ let historicalUSData = {
         {
             "cases" : 22905869, 
             "deaths" : 380894, 
-            "positiveTests" : 25743236, 
-            "negativeTests" : 251116294, 
+            "positiveTests" : 25743286, 
+            "negativeTests" : 251116496, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 763473, 
@@ -15073,8 +15084,8 @@ let historicalUSData = {
         {
             "cases" : 23135194, 
             "deaths" : 384824, 
-            "positiveTests" : 25973891, 
-            "negativeTests" : 252996024, 
+            "positiveTests" : 25973943, 
+            "negativeTests" : 252996228, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 815788, 
@@ -15099,8 +15110,8 @@ let historicalUSData = {
         {
             "cases" : 23374716, 
             "deaths" : 388804, 
-            "positiveTests" : 26202934, 
-            "negativeTests" : 254848927, 
+            "positiveTests" : 26202986, 
+            "negativeTests" : 254849132, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 814972, 
@@ -15125,8 +15136,8 @@ let historicalUSData = {
         {
             "cases" : 23614569, 
             "deaths" : 392553, 
-            "positiveTests" : 26424174, 
-            "negativeTests" : 256669411, 
+            "positiveTests" : 26424228, 
+            "negativeTests" : 256669617, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 814528, 
@@ -15151,8 +15162,8 @@ let historicalUSData = {
         {
             "cases" : 23816762, 
             "deaths" : 395894, 
-            "positiveTests" : 26600881, 
-            "negativeTests" : 258084240, 
+            "positiveTests" : 26600944, 
+            "negativeTests" : 258084447, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 811913, 
@@ -15177,8 +15188,8 @@ let historicalUSData = {
         {
             "cases" : 23986856, 
             "deaths" : 397624, 
-            "positiveTests" : 26732360, 
-            "negativeTests" : 259025482, 
+            "positiveTests" : 26732423, 
+            "negativeTests" : 259025690, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 807528, 
@@ -15203,8 +15214,8 @@ let historicalUSData = {
         {
             "cases" : 24127989, 
             "deaths" : 399065, 
-            "positiveTests" : 26878678, 
-            "negativeTests" : 260170955, 
+            "positiveTests" : 26878741, 
+            "negativeTests" : 260171164, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 758796, 
@@ -15229,8 +15240,8 @@ let historicalUSData = {
         {
             "cases" : 24314933, 
             "deaths" : 401836, 
-            "positiveTests" : 27061458, 
-            "negativeTests" : 261798371, 
+            "positiveTests" : 27061524, 
+            "negativeTests" : 261798582, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 763181, 
@@ -15255,8 +15266,8 @@ let historicalUSData = {
         {
             "cases" : 24500421, 
             "deaths" : 406216, 
-            "positiveTests" : 27262350, 
-            "negativeTests" : 263731566, 
+            "positiveTests" : 27262416, 
+            "negativeTests" : 263731778, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 814812, 
@@ -15281,8 +15292,8 @@ let historicalUSData = {
         {
             "cases" : 24690903, 
             "deaths" : 410351, 
-            "positiveTests" : 27454356, 
-            "negativeTests" : 265597567, 
+            "positiveTests" : 27454424, 
+            "negativeTests" : 265597783, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 813741, 
@@ -15307,8 +15318,8 @@ let historicalUSData = {
         {
             "cases" : 24882468, 
             "deaths" : 414082, 
-            "positiveTests" : 27630747, 
-            "negativeTests" : 267349307, 
+            "positiveTests" : 27630816, 
+            "negativeTests" : 267349524, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 812950, 
@@ -15333,8 +15344,8 @@ let historicalUSData = {
         {
             "cases" : 25050385, 
             "deaths" : 417404, 
-            "positiveTests" : 27781184, 
-            "negativeTests" : 268747055, 
+            "positiveTests" : 27781254, 
+            "negativeTests" : 268747273, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 809366, 
@@ -15359,8 +15370,8 @@ let historicalUSData = {
         {
             "cases" : 25180061, 
             "deaths" : 419219, 
-            "positiveTests" : 27892548, 
-            "negativeTests" : 269640246, 
+            "positiveTests" : 27892618, 
+            "negativeTests" : 269640464, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 807056, 
@@ -15385,8 +15396,8 @@ let historicalUSData = {
         {
             "cases" : 25336637, 
             "deaths" : 421126, 
-            "positiveTests" : 28019363, 
-            "negativeTests" : 270749851, 
+            "positiveTests" : 28019435, 
+            "negativeTests" : 270750069, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 758681, 
@@ -15411,8 +15422,8 @@ let historicalUSData = {
         {
             "cases" : 25487275, 
             "deaths" : 425224, 
-            "positiveTests" : 28172549, 
-            "negativeTests" : 272382814, 
+            "positiveTests" : 28172625, 
+            "negativeTests" : 272383034, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 762419, 
@@ -15437,8 +15448,8 @@ let historicalUSData = {
         {
             "cases" : 25643045, 
             "deaths" : 429326, 
-            "positiveTests" : 28340042, 
-            "negativeTests" : 274283615, 
+            "positiveTests" : 28340119, 
+            "negativeTests" : 274283839, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 814939, 
@@ -15463,8 +15474,8 @@ let historicalUSData = {
         {
             "cases" : 25809220, 
             "deaths" : 433194, 
-            "positiveTests" : 28494009, 
-            "negativeTests" : 276041156, 
+            "positiveTests" : 28494086, 
+            "negativeTests" : 276041381, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 812654, 
@@ -15489,8 +15500,8 @@ let historicalUSData = {
         {
             "cases" : 25973835, 
             "deaths" : 436794, 
-            "positiveTests" : 28644051, 
-            "negativeTests" : 277740468, 
+            "positiveTests" : 28644129, 
+            "negativeTests" : 277740693, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 811394, 
@@ -15515,8 +15526,8 @@ let historicalUSData = {
         {
             "cases" : 26107635, 
             "deaths" : 439435, 
-            "positiveTests" : 28766327, 
-            "negativeTests" : 279060598, 
+            "positiveTests" : 28766405, 
+            "negativeTests" : 279060827, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 808386, 
@@ -15541,8 +15552,8 @@ let historicalUSData = {
         {
             "cases" : 26221430, 
             "deaths" : 441299, 
-            "positiveTests" : 28855374, 
-            "negativeTests" : 279919570, 
+            "positiveTests" : 28855452, 
+            "negativeTests" : 279919807, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 803529, 
@@ -15567,8 +15578,8 @@ let historicalUSData = {
         {
             "cases" : 26363284, 
             "deaths" : 443249, 
-            "positiveTests" : 28945054, 
-            "negativeTests" : 280863580, 
+            "positiveTests" : 28945139, 
+            "negativeTests" : 280864121, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 755554, 
@@ -15593,8 +15604,8 @@ let historicalUSData = {
         {
             "cases" : 26478540, 
             "deaths" : 446860, 
-            "positiveTests" : 29063562, 
-            "negativeTests" : 282378246, 
+            "positiveTests" : 29063649, 
+            "negativeTests" : 282379038, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 758805, 
@@ -15619,8 +15630,8 @@ let historicalUSData = {
         {
             "cases" : 26598723, 
             "deaths" : 450703, 
-            "positiveTests" : 29191224, 
-            "negativeTests" : 284121698, 
+            "positiveTests" : 29191323, 
+            "negativeTests" : 284122696, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 810553, 
@@ -15645,8 +15656,8 @@ let historicalUSData = {
         {
             "cases" : 26724359, 
             "deaths" : 455820, 
-            "positiveTests" : 29320913, 
-            "negativeTests" : 285924634, 
+            "positiveTests" : 29321028, 
+            "negativeTests" : 285925754, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 809873, 
@@ -15671,8 +15682,8 @@ let historicalUSData = {
         {
             "cases" : 26853860, 
             "deaths" : 459390, 
-            "positiveTests" : 29445186, 
-            "negativeTests" : 287633297, 
+            "positiveTests" : 29445309, 
+            "negativeTests" : 287634599, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 808180, 
@@ -15697,8 +15708,8 @@ let historicalUSData = {
         {
             "cases" : 26958807, 
             "deaths" : 462052, 
-            "positiveTests" : 29543335, 
-            "negativeTests" : 288868074, 
+            "positiveTests" : 29543464, 
+            "negativeTests" : 288869405, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 804983, 
@@ -15723,8 +15734,8 @@ let historicalUSData = {
         {
             "cases" : 27046088, 
             "deaths" : 463353, 
-            "positiveTests" : 29615876, 
-            "negativeTests" : 289623452, 
+            "positiveTests" : 29616010, 
+            "negativeTests" : 289624851, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 798987, 
@@ -15749,8 +15760,8 @@ let historicalUSData = {
         {
             "cases" : 27139070, 
             "deaths" : 464936, 
-            "positiveTests" : 29692863, 
-            "negativeTests" : 290593274, 
+            "positiveTests" : 29693007, 
+            "negativeTests" : 290594884, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 752246, 
@@ -15775,8 +15786,8 @@ let historicalUSData = {
         {
             "cases" : 27235460, 
             "deaths" : 468106, 
-            "positiveTests" : 29793461, 
-            "negativeTests" : 292188836, 
+            "positiveTests" : 29793611, 
+            "negativeTests" : 292190618, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 759815, 
@@ -15801,8 +15812,8 @@ let historicalUSData = {
         {
             "cases" : 27330435, 
             "deaths" : 471360, 
-            "positiveTests" : 29885322, 
-            "negativeTests" : 293739651, 
+            "positiveTests" : 29885483, 
+            "negativeTests" : 293741592, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 809036, 
@@ -15827,8 +15838,8 @@ let historicalUSData = {
         {
             "cases" : 27436075, 
             "deaths" : 475238, 
-            "positiveTests" : 29968852, 
-            "negativeTests" : 295076730, 
+            "positiveTests" : 29969020, 
+            "negativeTests" : 295078795, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 808084, 
@@ -15853,8 +15864,8 @@ let historicalUSData = {
         {
             "cases" : 27535702, 
             "deaths" : 480701, 
-            "positiveTests" : 30056335, 
-            "negativeTests" : 296404642, 
+            "positiveTests" : 30056508, 
+            "negativeTests" : 296406872, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 805905, 
@@ -15879,8 +15890,8 @@ let historicalUSData = {
         {
             "cases" : 27620354, 
             "deaths" : 484073, 
-            "positiveTests" : 30125816, 
-            "negativeTests" : 297437605, 
+            "positiveTests" : 30125990, 
+            "negativeTests" : 297439875, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 800713, 
@@ -15905,8 +15916,8 @@ let historicalUSData = {
         {
             "cases" : 27684134, 
             "deaths" : 485154, 
-            "positiveTests" : 30173566, 
-            "negativeTests" : 298054304, 
+            "positiveTests" : 30173742, 
+            "negativeTests" : 298056610, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 796315, 
@@ -15931,8 +15942,8 @@ let historicalUSData = {
         {
             "cases" : 27739406, 
             "deaths" : 486148, 
-            "positiveTests" : 30224211, 
-            "negativeTests" : 298803737, 
+            "positiveTests" : 30224396, 
+            "negativeTests" : 298806195, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 748125, 
@@ -15957,8 +15968,8 @@ let historicalUSData = {
         {
             "cases" : 27803946, 
             "deaths" : 487855, 
-            "positiveTests" : 30289312, 
-            "negativeTests" : 299990805, 
+            "positiveTests" : 30289502, 
+            "negativeTests" : 299993434, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 751453, 
@@ -15983,8 +15994,8 @@ let historicalUSData = {
         {
             "cases" : 27874107, 
             "deaths" : 490326, 
-            "positiveTests" : 30361268, 
-            "negativeTests" : 301391332, 
+            "positiveTests" : 30361465, 
+            "negativeTests" : 301394088, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 804234, 
@@ -16009,8 +16020,8 @@ let historicalUSData = {
         {
             "cases" : 27945898, 
             "deaths" : 492951, 
-            "positiveTests" : 30430235, 
-            "negativeTests" : 302738247, 
+            "positiveTests" : 30430436, 
+            "negativeTests" : 302741111, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 804101, 
@@ -16035,8 +16046,8 @@ let historicalUSData = {
         {
             "cases" : 28023910, 
             "deaths" : 495572, 
-            "positiveTests" : 30496027, 
-            "negativeTests" : 304027803, 
+            "positiveTests" : 30496233, 
+            "negativeTests" : 304030798, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 804202, 
@@ -16061,8 +16072,8 @@ let historicalUSData = {
         {
             "cases" : 28093630, 
             "deaths" : 497403, 
-            "positiveTests" : 30553962, 
-            "negativeTests" : 305028425, 
+            "positiveTests" : 30554175, 
+            "negativeTests" : 305031443, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 801074, 
@@ -16087,8 +16098,8 @@ let historicalUSData = {
         {
             "cases" : 28148810, 
             "deaths" : 498650, 
-            "positiveTests" : 30601622, 
-            "negativeTests" : 305664537, 
+            "positiveTests" : 30601836, 
+            "negativeTests" : 305667611, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 798513, 
@@ -16113,8 +16124,8 @@ let historicalUSData = {
         {
             "cases" : 28208276, 
             "deaths" : 500104, 
-            "positiveTests" : 30660195, 
-            "negativeTests" : 306647430, 
+            "positiveTests" : 30660422, 
+            "negativeTests" : 306650691, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 752692, 
@@ -16139,8 +16150,8 @@ let historicalUSData = {
         {
             "cases" : 28280189, 
             "deaths" : 502432, 
-            "positiveTests" : 30734381, 
-            "negativeTests" : 308221135, 
+            "positiveTests" : 30734613, 
+            "negativeTests" : 308224545, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 757489, 
@@ -16165,8 +16176,8 @@ let historicalUSData = {
         {
             "cases" : 28354383, 
             "deaths" : 505642, 
-            "positiveTests" : 30809181, 
-            "negativeTests" : 309837330, 
+            "positiveTests" : 30809420, 
+            "negativeTests" : 309840853, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 808831, 
@@ -16191,8 +16202,8 @@ let historicalUSData = {
         {
             "cases" : 28432264, 
             "deaths" : 508107, 
-            "positiveTests" : 30880043, 
-            "negativeTests" : 311380529, 
+            "positiveTests" : 30880287, 
+            "negativeTests" : 311384131, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 806233, 
@@ -16217,8 +16228,8 @@ let historicalUSData = {
         {
             "cases" : 28510582, 
             "deaths" : 510283, 
-            "positiveTests" : 30945054, 
-            "negativeTests" : 312795194, 
+            "positiveTests" : 30945301, 
+            "negativeTests" : 312798966, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 805424, 
@@ -16243,8 +16254,8 @@ let historicalUSData = {
         {
             "cases" : 28573256, 
             "deaths" : 511850, 
-            "positiveTests" : 30996527, 
-            "negativeTests" : 313819384, 
+            "positiveTests" : 30996777, 
+            "negativeTests" : 313823177, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 802773, 
@@ -16269,8 +16280,8 @@ let historicalUSData = {
         {
             "cases" : 28624161, 
             "deaths" : 512979, 
-            "positiveTests" : 31034676, 
-            "negativeTests" : 314414967, 
+            "positiveTests" : 31034928, 
+            "negativeTests" : 314418805, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 798558, 
@@ -16295,8 +16306,8 @@ let historicalUSData = {
         {
             "cases" : 28680857, 
             "deaths" : 514404, 
-            "positiveTests" : 31083236, 
-            "negativeTests" : 315362985, 
+            "positiveTests" : 31083494, 
+            "negativeTests" : 315367007, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 743309, 
@@ -16321,8 +16332,8 @@ let historicalUSData = {
         {
             "cases" : 28738501, 
             "deaths" : 515710, 
-            "positiveTests" : 31145482, 
-            "negativeTests" : 316914579, 
+            "positiveTests" : 31145745, 
+            "negativeTests" : 316918737, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 747214, 
@@ -16347,8 +16358,8 @@ let historicalUSData = {
         {
             "cases" : 28805113, 
             "deaths" : 518079, 
-            "positiveTests" : 31209491, 
-            "negativeTests" : 318591322, 
+            "positiveTests" : 31209762, 
+            "negativeTests" : 318595589, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 799765, 
@@ -16373,8 +16384,8 @@ let historicalUSData = {
         {
             "cases" : 28872395, 
             "deaths" : 520028, 
-            "positiveTests" : 31269916, 
-            "negativeTests" : 320086956, 
+            "positiveTests" : 31270189, 
+            "negativeTests" : 320091306, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 806653, 
@@ -16399,8 +16410,8 @@ let historicalUSData = {
         {
             "cases" : 28938090, 
             "deaths" : 522511, 
-            "positiveTests" : 31327323, 
-            "negativeTests" : 321463037, 
+            "positiveTests" : 31327605, 
+            "negativeTests" : 321467516, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 805919, 
@@ -16425,8 +16436,8 @@ let historicalUSData = {
         {
             "cases" : 28994675, 
             "deaths" : 523970, 
-            "positiveTests" : 31376030, 
-            "negativeTests" : 322481267, 
+            "positiveTests" : 31376314, 
+            "negativeTests" : 322485770, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 801184, 
@@ -16451,8 +16462,8 @@ let historicalUSData = {
         {
             "cases" : 29034739, 
             "deaths" : 524646, 
-            "positiveTests" : 31411741, 
-            "negativeTests" : 323056127, 
+            "positiveTests" : 31412027, 
+            "negativeTests" : 323060667, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 798370, 
@@ -16477,8 +16488,8 @@ let historicalUSData = {
         {
             "cases" : 29129252, 
             "deaths" : 525466, 
-            "positiveTests" : 31457336, 
-            "negativeTests" : 323990183, 
+            "positiveTests" : 31457628, 
+            "negativeTests" : 323994888, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 749726, 
@@ -16503,8 +16514,8 @@ let historicalUSData = {
         {
             "cases" : 29185151, 
             "deaths" : 527351, 
-            "positiveTests" : 31515124, 
-            "negativeTests" : 325474677, 
+            "positiveTests" : 31515423, 
+            "negativeTests" : 325479520, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 752627, 
@@ -16529,8 +16540,8 @@ let historicalUSData = {
         {
             "cases" : 29243346, 
             "deaths" : 528825, 
-            "positiveTests" : 31574521, 
-            "negativeTests" : 327032991, 
+            "positiveTests" : 31574826, 
+            "negativeTests" : 327037949, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 805986, 
@@ -16555,8 +16566,8 @@ let historicalUSData = {
         {
             "cases" : 29305733, 
             "deaths" : 530349, 
-            "positiveTests" : 31632444, 
-            "negativeTests" : 328476221, 
+            "positiveTests" : 31632753, 
+            "negativeTests" : 328481266, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 805112, 
@@ -16581,8 +16592,8 @@ let historicalUSData = {
         {
             "cases" : 29369899, 
             "deaths" : 532054, 
-            "positiveTests" : 31691397, 
-            "negativeTests" : 329817222, 
+            "positiveTests" : 31691711, 
+            "negativeTests" : 329822402, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 803737, 
@@ -16607,8 +16618,8 @@ let historicalUSData = {
         {
             "cases" : 29419456, 
             "deaths" : 533928, 
-            "positiveTests" : 31740572, 
-            "negativeTests" : 330793392, 
+            "positiveTests" : 31740890, 
+            "negativeTests" : 330798592, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 800767, 
@@ -16633,8 +16644,8 @@ let historicalUSData = {
         {
             "cases" : 29457445, 
             "deaths" : 534497, 
-            "positiveTests" : 31775509, 
-            "negativeTests" : 331337937, 
+            "positiveTests" : 31775828, 
+            "negativeTests" : 331343172, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 796018, 
@@ -16659,8 +16670,8 @@ let historicalUSData = {
         {
             "cases" : 29514609, 
             "deaths" : 535246, 
-            "positiveTests" : 31822349, 
-            "negativeTests" : 332242541, 
+            "positiveTests" : 31822674, 
+            "negativeTests" : 332247884, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 747113, 
@@ -16685,8 +16696,8 @@ let historicalUSData = {
         {
             "cases" : 29569140, 
             "deaths" : 536491, 
-            "positiveTests" : 31881022, 
-            "negativeTests" : 333685170, 
+            "positiveTests" : 31881349, 
+            "negativeTests" : 333690622, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 751049, 
@@ -16711,8 +16722,8 @@ let historicalUSData = {
         {
             "cases" : 29628071, 
             "deaths" : 537668, 
-            "positiveTests" : 31943287, 
-            "negativeTests" : 335242096, 
+            "positiveTests" : 31943619, 
+            "negativeTests" : 335247601, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 803171, 
@@ -16737,8 +16748,8 @@ let historicalUSData = {
         {
             "cases" : 29688541, 
             "deaths" : 539226, 
-            "positiveTests" : 32004593, 
-            "negativeTests" : 336657063, 
+            "positiveTests" : 32004926, 
+            "negativeTests" : 336662584, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 803582, 
@@ -16763,8 +16774,8 @@ let historicalUSData = {
         {
             "cases" : 29749164, 
             "deaths" : 540740, 
-            "positiveTests" : 32062957, 
-            "negativeTests" : 337940372, 
+            "positiveTests" : 32063295, 
+            "negativeTests" : 337945973, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 802252, 
@@ -16789,8 +16800,8 @@ let historicalUSData = {
         {
             "cases" : 29803589, 
             "deaths" : 541512, 
-            "positiveTests" : 32111867, 
-            "negativeTests" : 338876443, 
+            "positiveTests" : 32112205, 
+            "negativeTests" : 338882054, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 799345, 
@@ -16815,8 +16826,8 @@ let historicalUSData = {
         {
             "cases" : 29837782, 
             "deaths" : 541960, 
-            "positiveTests" : 32150751, 
-            "negativeTests" : 339444548, 
+            "positiveTests" : 32151091, 
+            "negativeTests" : 339450164, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 796101, 
@@ -16841,8 +16852,8 @@ let historicalUSData = {
         {
             "cases" : 29892498, 
             "deaths" : 542608, 
-            "positiveTests" : 32200486, 
-            "negativeTests" : 340364564, 
+            "positiveTests" : 32200826, 
+            "negativeTests" : 340370273, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 746527, 
@@ -16867,8 +16878,8 @@ let historicalUSData = {
         {
             "cases" : 29949244, 
             "deaths" : 543501, 
-            "positiveTests" : 32266194, 
-            "negativeTests" : 341829877, 
+            "positiveTests" : 32266540, 
+            "negativeTests" : 341835641, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 750634, 
@@ -16893,8 +16904,8 @@ let historicalUSData = {
         {
             "cases" : 30029147, 
             "deaths" : 545091, 
-            "positiveTests" : 32336927, 
-            "negativeTests" : 343418109, 
+            "positiveTests" : 32337274, 
+            "negativeTests" : 343423916, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 804150, 
@@ -16919,8 +16930,8 @@ let historicalUSData = {
         {
             "cases" : 30098263, 
             "deaths" : 546361, 
-            "positiveTests" : 32405283, 
-            "negativeTests" : 344797594, 
+            "positiveTests" : 32405631, 
+            "negativeTests" : 344803429, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 804494, 
@@ -16945,8 +16956,8 @@ let historicalUSData = {
         {
             "cases" : 30172762, 
             "deaths" : 547621, 
-            "positiveTests" : 32475631, 
-            "negativeTests" : 346101513, 
+            "positiveTests" : 32475984, 
+            "negativeTests" : 346107454, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 802990, 
@@ -16971,8 +16982,8 @@ let historicalUSData = {
         {
             "cases" : 30233462, 
             "deaths" : 548401, 
-            "positiveTests" : 32534893, 
-            "negativeTests" : 347040177, 
+            "positiveTests" : 32535246, 
+            "negativeTests" : 347046130, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 800000, 
@@ -16997,8 +17008,8 @@ let historicalUSData = {
         {
             "cases" : 30277977, 
             "deaths" : 548891, 
-            "positiveTests" : 32579927, 
-            "negativeTests" : 347618105, 
+            "positiveTests" : 32580280, 
+            "negativeTests" : 347624061, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 796025, 
@@ -17023,8 +17034,8 @@ let historicalUSData = {
         {
             "cases" : 30348716, 
             "deaths" : 549576, 
-            "positiveTests" : 32637449, 
-            "negativeTests" : 348569767, 
+            "positiveTests" : 32637811, 
+            "negativeTests" : 348575801, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 746991, 
@@ -17049,8 +17060,8 @@ let historicalUSData = {
         {
             "cases" : 30410950, 
             "deaths" : 550523, 
-            "positiveTests" : 32712591, 
-            "negativeTests" : 350025488, 
+            "positiveTests" : 32712961, 
+            "negativeTests" : 350031583, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 750680, 
@@ -17075,8 +17086,8 @@ let historicalUSData = {
         {
             "cases" : 30478886, 
             "deaths" : 551658, 
-            "positiveTests" : 32787942, 
-            "negativeTests" : 351529918, 
+            "positiveTests" : 32788315, 
+            "negativeTests" : 351536070, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 804452, 
@@ -17101,8 +17112,8 @@ let historicalUSData = {
         {
             "cases" : 30556079, 
             "deaths" : 552615, 
-            "positiveTests" : 32860756, 
-            "negativeTests" : 352899558, 
+            "positiveTests" : 32861131, 
+            "negativeTests" : 352905740, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 801597, 
@@ -17127,8 +17138,8 @@ let historicalUSData = {
         {
             "cases" : 30624668, 
             "deaths" : 553571, 
-            "positiveTests" : 32932126, 
-            "negativeTests" : 354171752, 
+            "positiveTests" : 32932508, 
+            "negativeTests" : 354178024, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 801789, 
@@ -17153,8 +17164,8 @@ let historicalUSData = {
         {
             "cases" : 30688804, 
             "deaths" : 554324, 
-            "positiveTests" : 32991993, 
-            "negativeTests" : 355081399, 
+            "positiveTests" : 32992375, 
+            "negativeTests" : 355087681, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 797018, 
@@ -17179,8 +17190,8 @@ let historicalUSData = {
         {
             "cases" : 30725627, 
             "deaths" : 554596, 
-            "positiveTests" : 33035835, 
-            "negativeTests" : 355601137, 
+            "positiveTests" : 33036217, 
+            "negativeTests" : 355607425, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 793313, 
@@ -17205,8 +17216,8 @@ let historicalUSData = {
         {
             "cases" : 30802221, 
             "deaths" : 555126, 
-            "positiveTests" : 32191863, 
-            "negativeTests" : 346253321, 
+            "positiveTests" : 32192256, 
+            "negativeTests" : 346259708, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 750152, 
@@ -17231,8 +17242,8 @@ let historicalUSData = {
         {
             "cases" : 30864193, 
             "deaths" : 556035, 
-            "positiveTests" : 32268280, 
-            "negativeTests" : 347727269, 
+            "positiveTests" : 32268675, 
+            "negativeTests" : 347733709, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 755440, 
@@ -17257,8 +17268,8 @@ let historicalUSData = {
         {
             "cases" : 30937283, 
             "deaths" : 558606, 
-            "positiveTests" : 33250666, 
-            "negativeTests" : 359548778, 
+            "positiveTests" : 33251068, 
+            "negativeTests" : 359555275, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 800692, 
@@ -17283,8 +17294,8 @@ let historicalUSData = {
         {
             "cases" : 31017741, 
             "deaths" : 559608, 
-            "positiveTests" : 33329190, 
-            "negativeTests" : 360984735, 
+            "positiveTests" : 33329595, 
+            "negativeTests" : 360991265, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 801248, 
@@ -17309,8 +17320,8 @@ let historicalUSData = {
         {
             "cases" : 31099323, 
             "deaths" : 560554, 
-            "positiveTests" : 33404348, 
-            "negativeTests" : 362359253, 
+            "positiveTests" : 33404762, 
+            "negativeTests" : 362365884, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 799802, 
@@ -17335,8 +17346,8 @@ let historicalUSData = {
         {
             "cases" : 31164081, 
             "deaths" : 561258, 
-            "positiveTests" : 33467641, 
-            "negativeTests" : 363305587, 
+            "positiveTests" : 33468055, 
+            "negativeTests" : 363312225, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 799230, 
@@ -17361,8 +17372,8 @@ let historicalUSData = {
         {
             "cases" : 31212058, 
             "deaths" : 561559, 
-            "positiveTests" : 33516642, 
-            "negativeTests" : 363900495, 
+            "positiveTests" : 33517056, 
+            "negativeTests" : 363907134, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 795169, 
@@ -17387,8 +17398,8 @@ let historicalUSData = {
         {
             "cases" : 31283990, 
             "deaths" : 562024, 
-            "positiveTests" : 33577698, 
-            "negativeTests" : 364893750, 
+            "positiveTests" : 33578118, 
+            "negativeTests" : 364900444, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 746137, 
@@ -17413,8 +17424,8 @@ let historicalUSData = {
         {
             "cases" : 31361311, 
             "deaths" : 563007, 
-            "positiveTests" : 33654196, 
-            "negativeTests" : 366427584, 
+            "positiveTests" : 33654621, 
+            "negativeTests" : 366434330, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 748962, 
@@ -17439,8 +17450,8 @@ let historicalUSData = {
         {
             "cases" : 31437061, 
             "deaths" : 563942, 
-            "positiveTests" : 33735014, 
-            "negativeTests" : 368018477, 
+            "positiveTests" : 33735443, 
+            "negativeTests" : 368025291, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 805153, 
@@ -17465,8 +17476,8 @@ let historicalUSData = {
         {
             "cases" : 31510755, 
             "deaths" : 564859, 
-            "positiveTests" : 33810018, 
-            "negativeTests" : 369425272, 
+            "positiveTests" : 33810449, 
+            "negativeTests" : 369432114, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 803979, 
@@ -17491,8 +17502,8 @@ let historicalUSData = {
         {
             "cases" : 31589109, 
             "deaths" : 565794, 
-            "positiveTests" : 33882873, 
-            "negativeTests" : 370804912, 
+            "positiveTests" : 33883306, 
+            "negativeTests" : 370811831, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 803548, 
@@ -17517,8 +17528,8 @@ let historicalUSData = {
         {
             "cases" : 31642983, 
             "deaths" : 566471, 
-            "positiveTests" : 33938937, 
-            "negativeTests" : 371755267, 
+            "positiveTests" : 33939371, 
+            "negativeTests" : 371762199, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 798598, 
@@ -17543,8 +17554,8 @@ let historicalUSData = {
         {
             "cases" : 31684382, 
             "deaths" : 566829, 
-            "positiveTests" : 33981483, 
-            "negativeTests" : 372324463, 
+            "positiveTests" : 33981918, 
+            "negativeTests" : 372331396, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 794657, 
@@ -17569,8 +17580,8 @@ let historicalUSData = {
         {
             "cases" : 31754642, 
             "deaths" : 567314, 
-            "positiveTests" : 34036008, 
-            "negativeTests" : 373287332, 
+            "positiveTests" : 34036446, 
+            "negativeTests" : 373294308, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 745600, 
@@ -17595,8 +17606,8 @@ let historicalUSData = {
         {
             "cases" : 31815666, 
             "deaths" : 568146, 
-            "positiveTests" : 34104413, 
-            "negativeTests" : 374783192, 
+            "positiveTests" : 34104854, 
+            "negativeTests" : 374790210, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 749097, 
@@ -17621,8 +17632,8 @@ let historicalUSData = {
         {
             "cases" : 31878161, 
             "deaths" : 568986, 
-            "positiveTests" : 34173830, 
-            "negativeTests" : 376362954, 
+            "positiveTests" : 34174271, 
+            "negativeTests" : 376370015, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 803764, 
@@ -17647,8 +17658,8 @@ let historicalUSData = {
         {
             "cases" : 31944402, 
             "deaths" : 569897, 
-            "positiveTests" : 34238285, 
-            "negativeTests" : 377792595, 
+            "positiveTests" : 34238728, 
+            "negativeTests" : 377799670, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 802515, 
@@ -17673,8 +17684,8 @@ let historicalUSData = {
         {
             "cases" : 32008186, 
             "deaths" : 570770, 
-            "positiveTests" : 34299023, 
-            "negativeTests" : 379139823, 
+            "positiveTests" : 34299472, 
+            "negativeTests" : 379146964, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 802090, 
@@ -17699,8 +17710,8 @@ let historicalUSData = {
         {
             "cases" : 32058654, 
             "deaths" : 571495, 
-            "positiveTests" : 34347083, 
-            "negativeTests" : 380084164, 
+            "positiveTests" : 34347535, 
+            "negativeTests" : 380091311, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 800350, 
@@ -17725,8 +17736,8 @@ let historicalUSData = {
         {
             "cases" : 32092245, 
             "deaths" : 571777, 
-            "positiveTests" : 34383662, 
-            "negativeTests" : 380636691, 
+            "positiveTests" : 34384114, 
+            "negativeTests" : 380643839, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 796307, 
@@ -17751,8 +17762,8 @@ let historicalUSData = {
         {
             "cases" : 32139580, 
             "deaths" : 572256, 
-            "positiveTests" : 34431569, 
-            "negativeTests" : 381585529, 
+            "positiveTests" : 34432022, 
+            "negativeTests" : 381592751, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 743613, 
@@ -17777,8 +17788,8 @@ let historicalUSData = {
         {
             "cases" : 32191457, 
             "deaths" : 572969, 
-            "positiveTests" : 34491691, 
-            "negativeTests" : 383097107, 
+            "positiveTests" : 34492146, 
+            "negativeTests" : 383104371, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 747615, 
@@ -17803,8 +17814,8 @@ let historicalUSData = {
         {
             "cases" : 32246275, 
             "deaths" : 573903, 
-            "positiveTests" : 34551697, 
-            "negativeTests" : 384608193, 
+            "positiveTests" : 34552158, 
+            "negativeTests" : 384615500, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 802587, 
@@ -17829,8 +17840,8 @@ let historicalUSData = {
         {
             "cases" : 32303857, 
             "deaths" : 574777, 
-            "positiveTests" : 34609766, 
-            "negativeTests" : 385966098, 
+            "positiveTests" : 34610228, 
+            "negativeTests" : 385973412, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 803229, 
@@ -17855,8 +17866,8 @@ let historicalUSData = {
         {
             "cases" : 32362374, 
             "deaths" : 575637, 
-            "positiveTests" : 34661970, 
-            "negativeTests" : 387226589, 
+            "positiveTests" : 34662434, 
+            "negativeTests" : 387233934, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 801480, 
@@ -17881,8 +17892,8 @@ let historicalUSData = {
         {
             "cases" : 32407133, 
             "deaths" : 576352, 
-            "positiveTests" : 34703557, 
-            "negativeTests" : 388087658, 
+            "positiveTests" : 34704021, 
+            "negativeTests" : 388095010, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 797240, 
@@ -17907,8 +17918,8 @@ let historicalUSData = {
         {
             "cases" : 32436765, 
             "deaths" : 576664, 
-            "positiveTests" : 34734472, 
-            "negativeTests" : 388578355, 
+            "positiveTests" : 34734936, 
+            "negativeTests" : 388585709, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 793647, 
@@ -17933,8 +17944,8 @@ let historicalUSData = {
         {
             "cases" : 32486709, 
             "deaths" : 577123, 
-            "positiveTests" : 34773644, 
-            "negativeTests" : 389434279, 
+            "positiveTests" : 34774113, 
+            "negativeTests" : 389441650, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 743607, 
@@ -17959,8 +17970,8 @@ let historicalUSData = {
         {
             "cases" : 32527664, 
             "deaths" : 578030, 
-            "positiveTests" : 34821470, 
-            "negativeTests" : 390806966, 
+            "positiveTests" : 34821939, 
+            "negativeTests" : 390814347, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 748399, 
@@ -17985,8 +17996,8 @@ let historicalUSData = {
         {
             "cases" : 32572383, 
             "deaths" : 578806, 
-            "positiveTests" : 34869727, 
-            "negativeTests" : 392286776, 
+            "positiveTests" : 34870196, 
+            "negativeTests" : 392294169, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 805056, 
@@ -18011,8 +18022,8 @@ let historicalUSData = {
         {
             "cases" : 32620077, 
             "deaths" : 579638, 
-            "positiveTests" : 34915303, 
-            "negativeTests" : 393548927, 
+            "positiveTests" : 34915773, 
+            "negativeTests" : 393556328, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 805033, 
@@ -18037,8 +18048,8 @@ let historicalUSData = {
         {
             "cases" : 32667570, 
             "deaths" : 580450, 
-            "positiveTests" : 34956739, 
-            "negativeTests" : 394682712, 
+            "positiveTests" : 34957212, 
+            "negativeTests" : 394690164, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 799367, 
@@ -18063,8 +18074,8 @@ let historicalUSData = {
         {
             "cases" : 32701236, 
             "deaths" : 581054, 
-            "positiveTests" : 34989074, 
-            "negativeTests" : 395501627, 
+            "positiveTests" : 34989548, 
+            "negativeTests" : 395509094, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 795832, 
@@ -18089,8 +18100,8 @@ let historicalUSData = {
         {
             "cases" : 32723564, 
             "deaths" : 581300, 
-            "positiveTests" : 35011713, 
-            "negativeTests" : 395963099, 
+            "positiveTests" : 35012188, 
+            "negativeTests" : 395970566, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 791067, 
@@ -18115,8 +18126,8 @@ let historicalUSData = {
         {
             "cases" : 32760121, 
             "deaths" : 581670, 
-            "positiveTests" : 35042611, 
-            "negativeTests" : 396790463, 
+            "positiveTests" : 35043086, 
+            "negativeTests" : 396797937, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 738681, 
@@ -18141,8 +18152,8 @@ let historicalUSData = {
         {
             "cases" : 32794162, 
             "deaths" : 582363, 
-            "positiveTests" : 35081376, 
-            "negativeTests" : 398086098, 
+            "positiveTests" : 35081851, 
+            "negativeTests" : 398093585, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 743379, 
@@ -18167,8 +18178,8 @@ let historicalUSData = {
         {
             "cases" : 32829645, 
             "deaths" : 583211, 
-            "positiveTests" : 35118633, 
-            "negativeTests" : 399391358, 
+            "positiveTests" : 35119109, 
+            "negativeTests" : 399398855, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 797139, 
@@ -18193,8 +18204,8 @@ let historicalUSData = {
         {
             "cases" : 32868084, 
             "deaths" : 583991, 
-            "positiveTests" : 35154095, 
-            "negativeTests" : 400548748, 
+            "positiveTests" : 35154571, 
+            "negativeTests" : 400556257, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 798920, 
@@ -18219,8 +18230,8 @@ let historicalUSData = {
         {
             "cases" : 32909065, 
             "deaths" : 584723, 
-            "positiveTests" : 35186268, 
-            "negativeTests" : 401599679, 
+            "positiveTests" : 35186745, 
+            "negativeTests" : 401607261, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 797456, 
@@ -18245,8 +18256,8 @@ let historicalUSData = {
         {
             "cases" : 32938115, 
             "deaths" : 585282, 
-            "positiveTests" : 35211505, 
-            "negativeTests" : 402360920, 
+            "positiveTests" : 35211982, 
+            "negativeTests" : 402368509, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 793937, 
@@ -18271,8 +18282,8 @@ let historicalUSData = {
         {
             "cases" : 32954825, 
             "deaths" : 585574, 
-            "positiveTests" : 35230123, 
-            "negativeTests" : 402795464, 
+            "positiveTests" : 35230600, 
+            "negativeTests" : 402803054, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 789866, 
@@ -18297,8 +18308,8 @@ let historicalUSData = {
         {
             "cases" : 32984032, 
             "deaths" : 585958, 
-            "positiveTests" : 35254866, 
-            "negativeTests" : 403567344, 
+            "positiveTests" : 35255343, 
+            "negativeTests" : 403574944, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 739848, 
@@ -18323,8 +18334,8 @@ let historicalUSData = {
         {
             "cases" : 33011895, 
             "deaths" : 586825, 
-            "positiveTests" : 35285500, 
-            "negativeTests" : 404749362, 
+            "positiveTests" : 35285978, 
+            "negativeTests" : 404756964, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 744441, 
@@ -18349,8 +18360,8 @@ let historicalUSData = {
         {
             "cases" : 33040689, 
             "deaths" : 587500, 
-            "positiveTests" : 35314425, 
-            "negativeTests" : 405898396, 
+            "positiveTests" : 35314904, 
+            "negativeTests" : 405906009, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 798296, 
@@ -18375,8 +18386,8 @@ let historicalUSData = {
         {
             "cases" : 33070307, 
             "deaths" : 588154, 
-            "positiveTests" : 35340515, 
-            "negativeTests" : 406879237, 
+            "positiveTests" : 35340994, 
+            "negativeTests" : 406886856, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 801111, 
@@ -18401,8 +18412,8 @@ let historicalUSData = {
         {
             "cases" : 33099318, 
             "deaths" : 588850, 
-            "positiveTests" : 35365196, 
-            "negativeTests" : 407837416, 
+            "positiveTests" : 35365677, 
+            "negativeTests" : 407845113, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 799601, 
@@ -18427,8 +18438,8 @@ let historicalUSData = {
         {
             "cases" : 33117634, 
             "deaths" : 589329, 
-            "positiveTests" : 35384684, 
-            "negativeTests" : 408526621, 
+            "positiveTests" : 35385165, 
+            "negativeTests" : 408534330, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 798230, 
@@ -18453,8 +18464,8 @@ let historicalUSData = {
         {
             "cases" : 33131784, 
             "deaths" : 589518, 
-            "positiveTests" : 35398846, 
-            "negativeTests" : 408920670, 
+            "positiveTests" : 35399327, 
+            "negativeTests" : 408928380, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 792219, 
@@ -18479,8 +18490,8 @@ let historicalUSData = {
         {
             "cases" : 33157412, 
             "deaths" : 589935, 
-            "positiveTests" : 35420033, 
-            "negativeTests" : 409610573, 
+            "positiveTests" : 35420514, 
+            "negativeTests" : 409618291, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 740115, 
@@ -18505,8 +18516,8 @@ let historicalUSData = {
         {
             "cases" : 33180250, 
             "deaths" : 590635, 
-            "positiveTests" : 35442771, 
-            "negativeTests" : 410660399, 
+            "positiveTests" : 35443253, 
+            "negativeTests" : 410668125, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 744656, 
@@ -18531,8 +18542,8 @@ let historicalUSData = {
         {
             "cases" : 33203636, 
             "deaths" : 591601, 
-            "positiveTests" : 35464980, 
-            "negativeTests" : 411686265, 
+            "positiveTests" : 35465462, 
+            "negativeTests" : 411693998, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 797678, 
@@ -18557,8 +18568,8 @@ let historicalUSData = {
         {
             "cases" : 33231383, 
             "deaths" : 592942, 
-            "positiveTests" : 35485632, 
-            "negativeTests" : 412591373, 
+            "positiveTests" : 35486114, 
+            "negativeTests" : 412599108, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 797711, 
@@ -18583,8 +18594,8 @@ let historicalUSData = {
         {
             "cases" : 33253407, 
             "deaths" : 593701, 
-            "positiveTests" : 35503422, 
-            "negativeTests" : 413410110, 
+            "positiveTests" : 35503904, 
+            "negativeTests" : 413417863, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 797391, 
@@ -18609,8 +18620,8 @@ let historicalUSData = {
         {
             "cases" : 33264967, 
             "deaths" : 594040, 
-            "positiveTests" : 35517405, 
-            "negativeTests" : 413974448, 
+            "positiveTests" : 35517887, 
+            "negativeTests" : 413982202, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 792315, 
@@ -18635,8 +18646,8 @@ let historicalUSData = {
         {
             "cases" : 33272409, 
             "deaths" : 594171, 
-            "positiveTests" : 35527641, 
-            "negativeTests" : 414323863, 
+            "positiveTests" : 35528123, 
+            "negativeTests" : 414331617, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 791156, 
@@ -18661,8 +18672,8 @@ let historicalUSData = {
         {
             "cases" : 33277912, 
             "deaths" : 594321, 
-            "positiveTests" : 35536817, 
-            "negativeTests" : 414630458, 
+            "positiveTests" : 35537299, 
+            "negativeTests" : 414638213, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 739214, 
@@ -18687,8 +18698,8 @@ let historicalUSData = {
         {
             "cases" : 33300482, 
             "deaths" : 594827, 
-            "positiveTests" : 35550939, 
-            "negativeTests" : 415323552, 
+            "positiveTests" : 35551421, 
+            "negativeTests" : 415331313, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 739711, 
@@ -18713,8 +18724,8 @@ let historicalUSData = {
         {
             "cases" : 33317340, 
             "deaths" : 595421, 
-            "positiveTests" : 35569038, 
-            "negativeTests" : 416413888, 
+            "positiveTests" : 35569520, 
+            "negativeTests" : 416421660, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 797469, 
@@ -18739,8 +18750,8 @@ let historicalUSData = {
         {
             "cases" : 33336811, 
             "deaths" : 596037, 
-            "positiveTests" : 35586646, 
-            "negativeTests" : 417383552, 
+            "positiveTests" : 35587129, 
+            "negativeTests" : 417391330, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 797614, 
@@ -18765,8 +18776,8 @@ let historicalUSData = {
         {
             "cases" : 33312812, 
             "deaths" : 596176, 
-            "positiveTests" : 35602500, 
-            "negativeTests" : 418235857, 
+            "positiveTests" : 35602983, 
+            "negativeTests" : 418243679, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 797524, 
@@ -18791,8 +18802,8 @@ let historicalUSData = {
         {
             "cases" : 33323260, 
             "deaths" : 596551, 
-            "positiveTests" : 35614809, 
-            "negativeTests" : 418839287, 
+            "positiveTests" : 35615293, 
+            "negativeTests" : 418847114, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 794348, 
@@ -18817,8 +18828,8 @@ let historicalUSData = {
         {
             "cases" : 33329413, 
             "deaths" : 596803, 
-            "positiveTests" : 35623979, 
-            "negativeTests" : 419198416, 
+            "positiveTests" : 35624463, 
+            "negativeTests" : 419206244, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 791337, 
@@ -18843,8 +18854,8 @@ let historicalUSData = {
         {
             "cases" : 33348865, 
             "deaths" : 597139, 
-            "positiveTests" : 35636721, 
-            "negativeTests" : 419828803, 
+            "positiveTests" : 35637205, 
+            "negativeTests" : 419836633, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 741271, 
@@ -18869,8 +18880,8 @@ let historicalUSData = {
         {
             "cases" : 33363050, 
             "deaths" : 597514, 
-            "positiveTests" : 35650825, 
-            "negativeTests" : 420698715, 
+            "positiveTests" : 35651310, 
+            "negativeTests" : 420706559, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 744468, 
@@ -18895,8 +18906,8 @@ let historicalUSData = {
         {
             "cases" : 33383714, 
             "deaths" : 598086, 
-            "positiveTests" : 35665375, 
-            "negativeTests" : 421549562, 
+            "positiveTests" : 35665860, 
+            "negativeTests" : 421557414, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 799059, 
@@ -18921,8 +18932,8 @@ let historicalUSData = {
         {
             "cases" : 33399513, 
             "deaths" : 598546, 
-            "positiveTests" : 35678528, 
-            "negativeTests" : 422319759, 
+            "positiveTests" : 35679013, 
+            "negativeTests" : 422327616, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 798110, 
@@ -18947,8 +18958,8 @@ let historicalUSData = {
         {
             "cases" : 33416340, 
             "deaths" : 599063, 
-            "positiveTests" : 35690892, 
-            "negativeTests" : 423069783, 
+            "positiveTests" : 35691377, 
+            "negativeTests" : 423077687, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 798215, 
@@ -18973,8 +18984,8 @@ let historicalUSData = {
         {
             "cases" : 33424619, 
             "deaths" : 599233, 
-            "positiveTests" : 35701173, 
-            "negativeTests" : 423615713, 
+            "positiveTests" : 35701660, 
+            "negativeTests" : 423623626, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 796694, 
@@ -18999,8 +19010,8 @@ let historicalUSData = {
         {
             "cases" : 33431406, 
             "deaths" : 599328, 
-            "positiveTests" : 35708853, 
-            "negativeTests" : 423952865, 
+            "positiveTests" : 35709340, 
+            "negativeTests" : 423960780, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 792490, 
@@ -19025,8 +19036,8 @@ let historicalUSData = {
         {
             "cases" : 33446525, 
             "deaths" : 599538, 
-            "positiveTests" : 35719969, 
-            "negativeTests" : 424537655, 
+            "positiveTests" : 35720456, 
+            "negativeTests" : 424545579, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 741071, 
@@ -19051,8 +19062,8 @@ let historicalUSData = {
         {
             "cases" : 33458397, 
             "deaths" : 599990, 
-            "positiveTests" : 35733236, 
-            "negativeTests" : 425353479, 
+            "positiveTests" : 35733723, 
+            "negativeTests" : 425361407, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 744032, 
@@ -19077,8 +19088,8 @@ let historicalUSData = {
         {
             "cases" : 33472808, 
             "deaths" : 600414, 
-            "positiveTests" : 35746239, 
-            "negativeTests" : 426127965, 
+            "positiveTests" : 35746726, 
+            "negativeTests" : 426135898, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 797150, 
@@ -19103,8 +19114,8 @@ let historicalUSData = {
         {
             "cases" : 33484995, 
             "deaths" : 600702, 
-            "positiveTests" : 35758632, 
-            "negativeTests" : 426836319, 
+            "positiveTests" : 35759119, 
+            "negativeTests" : 426844263, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 795133, 
@@ -19129,8 +19140,8 @@ let historicalUSData = {
         {
             "cases" : 33497695, 
             "deaths" : 601171, 
-            "positiveTests" : 35771411, 
-            "negativeTests" : 427512595, 
+            "positiveTests" : 35771898, 
+            "negativeTests" : 427520565, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 789111, 
@@ -19155,8 +19166,8 @@ let historicalUSData = {
         {
             "cases" : 33505275, 
             "deaths" : 601340, 
-            "positiveTests" : 35781798, 
-            "negativeTests" : 427996187, 
+            "positiveTests" : 35782285, 
+            "negativeTests" : 428004167, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 788739, 
@@ -19181,8 +19192,8 @@ let historicalUSData = {
         {
             "cases" : 33509338, 
             "deaths" : 601430, 
-            "positiveTests" : 35789397, 
-            "negativeTests" : 428319915, 
+            "positiveTests" : 35789884, 
+            "negativeTests" : 428327895, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 785726, 
@@ -19207,8 +19218,8 @@ let historicalUSData = {
         {
             "cases" : 33525182, 
             "deaths" : 601718, 
-            "positiveTests" : 35800272, 
-            "negativeTests" : 428874850, 
+            "positiveTests" : 35800759, 
+            "negativeTests" : 428882833, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 734721, 
@@ -19233,8 +19244,8 @@ let historicalUSData = {
         {
             "cases" : 33537943, 
             "deaths" : 602150, 
-            "positiveTests" : 35814114, 
-            "negativeTests" : 429638708, 
+            "positiveTests" : 35814601, 
+            "negativeTests" : 429646694, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 738937, 
@@ -19259,8 +19270,8 @@ let historicalUSData = {
         {
             "cases" : 33551974, 
             "deaths" : 602548, 
-            "positiveTests" : 35828142, 
-            "negativeTests" : 430384528, 
+            "positiveTests" : 35828629, 
+            "negativeTests" : 430392520, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 795947, 
@@ -19285,8 +19296,8 @@ let historicalUSData = {
         {
             "cases" : 33566669, 
             "deaths" : 602903, 
-            "positiveTests" : 35841574, 
-            "negativeTests" : 431060330, 
+            "positiveTests" : 35842061, 
+            "negativeTests" : 431068328, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 796577, 
@@ -19311,8 +19322,8 @@ let historicalUSData = {
         {
             "cases" : 33581632, 
             "deaths" : 603361, 
-            "positiveTests" : 35855732, 
-            "negativeTests" : 431714601, 
+            "positiveTests" : 35856220, 
+            "negativeTests" : 431722618, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 794487, 
@@ -19337,8 +19348,8 @@ let historicalUSData = {
         {
             "cases" : 33588423, 
             "deaths" : 603487, 
-            "positiveTests" : 35867474, 
-            "negativeTests" : 432192563, 
+            "positiveTests" : 35867962, 
+            "negativeTests" : 432200589, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 789967, 
@@ -19363,8 +19374,8 @@ let historicalUSData = {
         {
             "cases" : 33592510, 
             "deaths" : 603583, 
-            "positiveTests" : 35877240, 
-            "negativeTests" : 432519083, 
+            "positiveTests" : 35877728, 
+            "negativeTests" : 432527109, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 787026, 
@@ -19389,8 +19400,8 @@ let historicalUSData = {
         {
             "cases" : 33608058, 
             "deaths" : 603744, 
-            "positiveTests" : 35891089, 
-            "negativeTests" : 433052465, 
+            "positiveTests" : 35891578, 
+            "negativeTests" : 433060497, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 728981, 
@@ -19415,8 +19426,8 @@ let historicalUSData = {
         {
             "cases" : 33623787, 
             "deaths" : 604123, 
-            "positiveTests" : 35907763, 
-            "negativeTests" : 433728349, 
+            "positiveTests" : 35908252, 
+            "negativeTests" : 433736398, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 733198, 
@@ -19441,8 +19452,8 @@ let historicalUSData = {
         {
             "cases" : 33639764, 
             "deaths" : 604446, 
-            "positiveTests" : 35925073, 
-            "negativeTests" : 434384162, 
+            "positiveTests" : 35925563, 
+            "negativeTests" : 434392218, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 795746, 
@@ -19467,8 +19478,8 @@ let historicalUSData = {
         {
             "cases" : 33704723, 
             "deaths" : 604693, 
-            "positiveTests" : 35942384, 
-            "negativeTests" : 435007493, 
+            "positiveTests" : 35942874, 
+            "negativeTests" : 435015556, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 795455, 
@@ -19493,8 +19504,8 @@ let historicalUSData = {
         {
             "cases" : 33725159, 
             "deaths" : 604959, 
-            "positiveTests" : 35959680, 
-            "negativeTests" : 435588047, 
+            "positiveTests" : 35960170, 
+            "negativeTests" : 435596121, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 793655, 
@@ -19519,8 +19530,8 @@ let historicalUSData = {
         {
             "cases" : 33729152, 
             "deaths" : 605045, 
-            "positiveTests" : 35974312, 
-            "negativeTests" : 436018536, 
+            "positiveTests" : 35974802, 
+            "negativeTests" : 436026625, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 788777, 
@@ -19545,8 +19556,8 @@ let historicalUSData = {
         {
             "cases" : 33732074, 
             "deaths" : 605082, 
-            "positiveTests" : 35983880, 
-            "negativeTests" : 436268407, 
+            "positiveTests" : 35984370, 
+            "negativeTests" : 436276496, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 786168, 
@@ -19571,8 +19582,8 @@ let historicalUSData = {
         {
             "cases" : 33736665, 
             "deaths" : 605123, 
-            "positiveTests" : 35996580, 
-            "negativeTests" : 436561732, 
+            "positiveTests" : 35997070, 
+            "negativeTests" : 436569823, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 725176, 
@@ -19597,8 +19608,8 @@ let historicalUSData = {
         {
             "cases" : 33763742, 
             "deaths" : 605440, 
-            "positiveTests" : 36016537, 
-            "negativeTests" : 437131187, 
+            "positiveTests" : 36017027, 
+            "negativeTests" : 437139286, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 727332, 
@@ -19623,8 +19634,8 @@ let historicalUSData = {
         {
             "cases" : 33793961, 
             "deaths" : 605762, 
-            "positiveTests" : 36042803, 
-            "negativeTests" : 437880828, 
+            "positiveTests" : 36043293, 
+            "negativeTests" : 437888932, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 793494, 
@@ -19649,8 +19660,8 @@ let historicalUSData = {
         {
             "cases" : 33843194, 
             "deaths" : 606128, 
-            "positiveTests" : 36070794, 
-            "negativeTests" : 438574249, 
+            "positiveTests" : 36071284, 
+            "negativeTests" : 438582367, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 795084, 
@@ -19675,8 +19686,8 @@ let historicalUSData = {
         {
             "cases" : 33878529, 
             "deaths" : 606535, 
-            "positiveTests" : 36099085, 
-            "negativeTests" : 439208868, 
+            "positiveTests" : 36099575, 
+            "negativeTests" : 439217008, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 794779, 
@@ -19701,8 +19712,8 @@ let historicalUSData = {
         {
             "cases" : 33886287, 
             "deaths" : 606623, 
-            "positiveTests" : 36122816, 
-            "negativeTests" : 439670386, 
+            "positiveTests" : 36123307, 
+            "negativeTests" : 439678539, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 790082, 
@@ -19727,8 +19738,8 @@ let historicalUSData = {
         {
             "cases" : 33891830, 
             "deaths" : 606653, 
-            "positiveTests" : 36143387, 
-            "negativeTests" : 439990756, 
+            "positiveTests" : 36143878, 
+            "negativeTests" : 439998909, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 787716, 
@@ -19753,8 +19764,8 @@ let historicalUSData = {
         {
             "cases" : 33927213, 
             "deaths" : 606926, 
-            "positiveTests" : 36174919, 
-            "negativeTests" : 440544718, 
+            "positiveTests" : 36175413, 
+            "negativeTests" : 440552875, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 730793, 
@@ -19779,8 +19790,8 @@ let historicalUSData = {
         {
             "cases" : 33970195, 
             "deaths" : 607358, 
-            "positiveTests" : 36211422, 
-            "negativeTests" : 441244535, 
+            "positiveTests" : 36211917, 
+            "negativeTests" : 441252695, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 735592, 
@@ -19805,8 +19816,8 @@ let historicalUSData = {
         {
             "cases" : 34008250, 
             "deaths" : 607751, 
-            "positiveTests" : 36250444, 
-            "negativeTests" : 441962475, 
+            "positiveTests" : 36250942, 
+            "negativeTests" : 441970641, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 796812, 
@@ -19831,8 +19842,8 @@ let historicalUSData = {
         {
             "cases" : 34044268, 
             "deaths" : 608089, 
-            "positiveTests" : 36292905, 
-            "negativeTests" : 442685809, 
+            "positiveTests" : 36293403, 
+            "negativeTests" : 442693977, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 797701, 
@@ -19857,8 +19868,8 @@ let historicalUSData = {
         {
             "cases" : 34096492, 
             "deaths" : 608446, 
-            "positiveTests" : 36336301, 
-            "negativeTests" : 443364472, 
+            "positiveTests" : 36336802, 
+            "negativeTests" : 443372652, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 797028, 
@@ -19883,8 +19894,8 @@ let historicalUSData = {
         {
             "cases" : 34108937, 
             "deaths" : 608529, 
-            "positiveTests" : 36371640, 
-            "negativeTests" : 443853722, 
+            "positiveTests" : 36372144, 
+            "negativeTests" : 443861914, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 793174, 
@@ -19909,8 +19920,8 @@ let historicalUSData = {
         {
             "cases" : 34117964, 
             "deaths" : 608566, 
-            "positiveTests" : 36404357, 
-            "negativeTests" : 444216461, 
+            "positiveTests" : 36404863, 
+            "negativeTests" : 444224654, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 790968, 
@@ -19935,8 +19946,8 @@ let historicalUSData = {
         {
             "cases" : 34177146, 
             "deaths" : 608797, 
-            "positiveTests" : 36451756, 
-            "negativeTests" : 444825336, 
+            "positiveTests" : 36452266, 
+            "negativeTests" : 444833534, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 731754, 
@@ -19961,8 +19972,8 @@ let historicalUSData = {
         {
             "cases" : 34239257, 
             "deaths" : 609097, 
-            "positiveTests" : 36514366, 
-            "negativeTests" : 445660207, 
+            "positiveTests" : 36514877, 
+            "negativeTests" : 445668408, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 734546, 
@@ -19987,8 +19998,8 @@ let historicalUSData = {
         {
             "cases" : 34299048, 
             "deaths" : 609494, 
-            "positiveTests" : 36581258, 
-            "negativeTests" : 446517634, 
+            "positiveTests" : 36581769, 
+            "negativeTests" : 446525842, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 799395, 
@@ -20013,8 +20024,8 @@ let historicalUSData = {
         {
             "cases" : 34364548, 
             "deaths" : 609856, 
-            "positiveTests" : 36649949, 
-            "negativeTests" : 447361956, 
+            "positiveTests" : 36650460, 
+            "negativeTests" : 447370169, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 797575, 
@@ -20039,8 +20050,8 @@ let historicalUSData = {
         {
             "cases" : 34447610, 
             "deaths" : 610299, 
-            "positiveTests" : 36720610, 
-            "negativeTests" : 448168879, 
+            "positiveTests" : 36721122, 
+            "negativeTests" : 448177156, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 798155, 
@@ -20065,8 +20076,8 @@ let historicalUSData = {
         {
             "cases" : 34469200, 
             "deaths" : 610400, 
-            "positiveTests" : 36779865, 
-            "negativeTests" : 448760966, 
+            "positiveTests" : 36780381, 
+            "negativeTests" : 448769256, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 794182, 
@@ -20091,8 +20102,8 @@ let historicalUSData = {
         {
             "cases" : 34483033, 
             "deaths" : 610449, 
-            "positiveTests" : 36831980, 
-            "negativeTests" : 449198750, 
+            "positiveTests" : 36832497, 
+            "negativeTests" : 449207040, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 791281, 
@@ -20117,8 +20128,8 @@ let historicalUSData = {
         {
             "cases" : 34576119, 
             "deaths" : 610722, 
-            "positiveTests" : 36909811, 
-            "negativeTests" : 449902777, 
+            "positiveTests" : 36910328, 
+            "negativeTests" : 449911093, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 740249, 
@@ -20143,8 +20154,8 @@ let historicalUSData = {
         {
             "cases" : 34682937, 
             "deaths" : 611206, 
-            "positiveTests" : 37004264, 
-            "negativeTests" : 450839632, 
+            "positiveTests" : 37004787, 
+            "negativeTests" : 450847992, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 742526, 
@@ -20169,8 +20180,8 @@ let historicalUSData = {
         {
             "cases" : 34767898, 
             "deaths" : 611701, 
-            "positiveTests" : 37105486, 
-            "negativeTests" : 451838715, 
+            "positiveTests" : 37106017, 
+            "negativeTests" : 451847126, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 798156, 
@@ -20195,8 +20206,8 @@ let historicalUSData = {
         {
             "cases" : 34866192, 
             "deaths" : 612104, 
-            "positiveTests" : 37208367, 
-            "negativeTests" : 452838729, 
+            "positiveTests" : 37208901, 
+            "negativeTests" : 452847168, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 797715, 
@@ -20221,8 +20232,8 @@ let historicalUSData = {
         {
             "cases" : 34988866, 
             "deaths" : 612775, 
-            "positiveTests" : 37313733, 
-            "negativeTests" : 453777357, 
+            "positiveTests" : 37314269, 
+            "negativeTests" : 453785846, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 795554, 
@@ -20247,8 +20258,8 @@ let historicalUSData = {
         {
             "cases" : 35018564, 
             "deaths" : 612919, 
-            "positiveTests" : 37397728, 
-            "negativeTests" : 454455409, 
+            "positiveTests" : 37398269, 
+            "negativeTests" : 454463922, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 793019, 
@@ -20273,8 +20284,8 @@ let historicalUSData = {
         {
             "cases" : 35041458, 
             "deaths" : 612982, 
-            "positiveTests" : 37467472, 
-            "negativeTests" : 454951513, 
+            "positiveTests" : 37468014, 
+            "negativeTests" : 454960033, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 789861, 
@@ -20299,8 +20310,8 @@ let historicalUSData = {
         {
             "cases" : 35177628, 
             "deaths" : 613440, 
-            "positiveTests" : 37572605, 
-            "negativeTests" : 455809190, 
+            "positiveTests" : 37573152, 
+            "negativeTests" : 455817719, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 738936, 
@@ -20325,8 +20336,8 @@ let historicalUSData = {
         {
             "cases" : 35327939, 
             "deaths" : 614109, 
-            "positiveTests" : 37696768, 
-            "negativeTests" : 456945302, 
+            "positiveTests" : 37697320, 
+            "negativeTests" : 456953842, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 744259, 
@@ -20351,8 +20362,8 @@ let historicalUSData = {
         {
             "cases" : 35440283, 
             "deaths" : 614834, 
-            "positiveTests" : 37825659, 
-            "negativeTests" : 458132325, 
+            "positiveTests" : 37826216, 
+            "negativeTests" : 458140877, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 797903, 
@@ -20377,8 +20388,8 @@ let historicalUSData = {
         {
             "cases" : 35567255, 
             "deaths" : 615408, 
-            "positiveTests" : 37959785, 
-            "negativeTests" : 459362881, 
+            "positiveTests" : 37960351, 
+            "negativeTests" : 459371441, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 796488, 
@@ -20403,8 +20414,8 @@ let historicalUSData = {
         {
             "cases" : 35735606, 
             "deaths" : 616257, 
-            "positiveTests" : 38092155, 
-            "negativeTests" : 460547910, 
+            "positiveTests" : 38092729, 
+            "negativeTests" : 460556532, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 795780, 
@@ -20429,8 +20440,8 @@ let historicalUSData = {
         {
             "cases" : 35777721, 
             "deaths" : 616463, 
-            "positiveTests" : 38198289, 
-            "negativeTests" : 461438710, 
+            "positiveTests" : 38198868, 
+            "negativeTests" : 461447362, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 790160, 
@@ -20455,8 +20466,8 @@ let historicalUSData = {
         {
             "cases" : 35813789, 
             "deaths" : 616594, 
-            "positiveTests" : 38286639, 
-            "negativeTests" : 462062948, 
+            "positiveTests" : 38287223, 
+            "negativeTests" : 462071602, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 788827, 
@@ -20481,8 +20492,8 @@ let historicalUSData = {
         {
             "cases" : 35992480, 
             "deaths" : 617314, 
-            "positiveTests" : 38412924, 
-            "negativeTests" : 463064290, 
+            "positiveTests" : 38413513, 
+            "negativeTests" : 463072961, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 739857, 
@@ -20507,8 +20518,8 @@ let historicalUSData = {
         {
             "cases" : 36154571, 
             "deaths" : 618363, 
-            "positiveTests" : 38559387, 
-            "negativeTests" : 464344723, 
+            "positiveTests" : 38559988, 
+            "negativeTests" : 464353456, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 743788, 
@@ -20533,8 +20544,8 @@ let historicalUSData = {
         {
             "cases" : 36310148, 
             "deaths" : 618701, 
-            "positiveTests" : 38713689, 
-            "negativeTests" : 465713294, 
+            "positiveTests" : 38714314, 
+            "negativeTests" : 465722183, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 795805, 
@@ -20559,8 +20570,8 @@ let historicalUSData = {
         {
             "cases" : 36448857, 
             "deaths" : 619723, 
-            "positiveTests" : 38867748, 
-            "negativeTests" : 467079932, 
+            "positiveTests" : 38868384, 
+            "negativeTests" : 467088839, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 795267, 
@@ -20585,8 +20596,8 @@ let historicalUSData = {
         {
             "cases" : 36636249, 
             "deaths" : 620809, 
-            "positiveTests" : 39016003, 
-            "negativeTests" : 468450411, 
+            "positiveTests" : 39016652, 
+            "negativeTests" : 468459367, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 795803, 
@@ -20611,8 +20622,8 @@ let historicalUSData = {
         {
             "cases" : 36686066, 
             "deaths" : 621051, 
-            "positiveTests" : 39132881, 
-            "negativeTests" : 469457451, 
+            "positiveTests" : 39133532, 
+            "negativeTests" : 469466426, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 792549, 
@@ -20637,8 +20648,8 @@ let historicalUSData = {
         {
             "cases" : 36729884, 
             "deaths" : 621228, 
-            "positiveTests" : 39229676, 
-            "negativeTests" : 470151772, 
+            "positiveTests" : 39230331, 
+            "negativeTests" : 470160751, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 790218, 
@@ -20663,8 +20674,8 @@ let historicalUSData = {
         {
             "cases" : 36989377, 
             "deaths" : 622244, 
-            "positiveTests" : 39371218, 
-            "negativeTests" : 471283682, 
+            "positiveTests" : 39371879, 
+            "negativeTests" : 471292733, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 738684, 
@@ -20689,8 +20700,8 @@ let historicalUSData = {
         {
             "cases" : 37133674, 
             "deaths" : 623237, 
-            "positiveTests" : 39532429, 
-            "negativeTests" : 472722523, 
+            "positiveTests" : 39533101, 
+            "negativeTests" : 472731617, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 744852, 
@@ -20715,8 +20726,8 @@ let historicalUSData = {
         {
             "cases" : 37298285, 
             "deaths" : 624365, 
-            "positiveTests" : 39311333, 
-            "negativeTests" : 467052783, 
+            "positiveTests" : 39312013, 
+            "negativeTests" : 467061918, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 795814, 
@@ -20741,8 +20752,8 @@ let historicalUSData = {
         {
             "cases" : 37458037, 
             "deaths" : 626099, 
-            "positiveTests" : 39468128, 
-            "negativeTests" : 468499565, 
+            "positiveTests" : 39468811, 
+            "negativeTests" : 468508713, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 794343, 
@@ -20767,8 +20778,8 @@ let historicalUSData = {
         {
             "cases" : 37657643, 
             "deaths" : 627631, 
-            "positiveTests" : 39617496, 
-            "negativeTests" : 469849241, 
+            "positiveTests" : 39618197, 
+            "negativeTests" : 469858468, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 794237, 
@@ -20793,8 +20804,8 @@ let historicalUSData = {
         {
             "cases" : 37737034, 
             "deaths" : 628100, 
-            "positiveTests" : 39737562, 
-            "negativeTests" : 470874364, 
+            "positiveTests" : 39738279, 
+            "negativeTests" : 470883614, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 790477, 
@@ -20819,8 +20830,8 @@ let historicalUSData = {
         {
             "cases" : 37777607, 
             "deaths" : 628285, 
-            "positiveTests" : 39837262, 
-            "negativeTests" : 471592808, 
+            "positiveTests" : 39837999, 
+            "negativeTests" : 471602059, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 787760, 
@@ -20845,8 +20856,8 @@ let historicalUSData = {
         {
             "cases" : 38043754, 
             "deaths" : 629644, 
-            "positiveTests" : 39982633, 
-            "negativeTests" : 472712357, 
+            "positiveTests" : 39983387, 
+            "negativeTests" : 472721685, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 739157, 
@@ -20871,8 +20882,8 @@ let historicalUSData = {
         {
             "cases" : 38193951, 
             "deaths" : 631057, 
-            "positiveTests" : 40152156, 
-            "negativeTests" : 474305806, 
+            "positiveTests" : 40152934, 
+            "negativeTests" : 474315236, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 740939, 
@@ -20897,8 +20908,8 @@ let historicalUSData = {
         {
             "cases" : 38364887, 
             "deaths" : 632522, 
-            "positiveTests" : 40337012, 
-            "negativeTests" : 476014863, 
+            "positiveTests" : 40337803, 
+            "negativeTests" : 476024340, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 794633, 
@@ -20923,8 +20934,8 @@ let historicalUSData = {
         {
             "cases" : 38552648, 
             "deaths" : 634735, 
-            "positiveTests" : 40515744, 
-            "negativeTests" : 477744717, 
+            "positiveTests" : 40516539, 
+            "negativeTests" : 477754205, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 796089, 
@@ -20949,8 +20960,8 @@ let historicalUSData = {
         {
             "cases" : 38748559, 
             "deaths" : 636509, 
-            "positiveTests" : 40684891, 
-            "negativeTests" : 479413921, 
+            "positiveTests" : 40685721, 
+            "negativeTests" : 479423481, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 794862, 
@@ -20975,8 +20986,8 @@ let historicalUSData = {
         {
             "cases" : 38833818, 
             "deaths" : 637076, 
-            "positiveTests" : 40813701, 
-            "negativeTests" : 480691063, 
+            "positiveTests" : 40814543, 
+            "negativeTests" : 480700642, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 791879, 
@@ -21001,8 +21012,8 @@ let historicalUSData = {
         {
             "cases" : 38875976, 
             "deaths" : 637356, 
-            "positiveTests" : 40916634, 
-            "negativeTests" : 481552123, 
+            "positiveTests" : 40917486, 
+            "negativeTests" : 481561717, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 788293, 
@@ -21027,8 +21038,8 @@ let historicalUSData = {
         {
             "cases" : 39156379, 
             "deaths" : 639081, 
-            "positiveTests" : 41067535, 
-            "negativeTests" : 482813850, 
+            "positiveTests" : 41068407, 
+            "negativeTests" : 482823533, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 737063, 
@@ -21053,8 +21064,8 @@ let historicalUSData = {
         {
             "cases" : 39316629, 
             "deaths" : 640519, 
-            "positiveTests" : 41244564, 
-            "negativeTests" : 484573591, 
+            "positiveTests" : 41245451, 
+            "negativeTests" : 484583401, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 738608, 
@@ -21079,8 +21090,8 @@ let historicalUSData = {
         {
             "cases" : 39527624, 
             "deaths" : 642454, 
-            "positiveTests" : 41421315, 
-            "negativeTests" : 486419787, 
+            "positiveTests" : 41422217, 
+            "negativeTests" : 486429637, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 793908, 
@@ -21105,8 +21116,8 @@ let historicalUSData = {
         {
             "cases" : 39703320, 
             "deaths" : 645391, 
-            "positiveTests" : 41590027, 
-            "negativeTests" : 488201148, 
+            "positiveTests" : 41590946, 
+            "negativeTests" : 488211095, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 793088, 
@@ -21131,8 +21142,8 @@ let historicalUSData = {
         {
             "cases" : 39894795, 
             "deaths" : 647370, 
-            "positiveTests" : 41749327, 
-            "negativeTests" : 489895160, 
+            "positiveTests" : 41750262, 
+            "negativeTests" : 489905153, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 791852, 
@@ -21157,8 +21168,8 @@ let historicalUSData = {
         {
             "cases" : 39960849, 
             "deaths" : 647896, 
-            "positiveTests" : 41874575, 
-            "negativeTests" : 491117512, 
+            "positiveTests" : 41875519, 
+            "negativeTests" : 491127529, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 787228, 
@@ -21183,12 +21194,12 @@ let historicalUSData = {
         {
             "cases" : 40005266, 
             "deaths" : 648273, 
-            "positiveTests" : 41976425, 
-            "negativeTests" : 492001336, 
+            "positiveTests" : 41977387, 
+            "negativeTests" : 492011388, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
-                "capacity" : 784393, 
-                "currentUsageTotal" : 581696, 
+                "capacity" : 784398, 
+                "currentUsageTotal" : 581697, 
                 "currentUsageCovid" : 100999
             }, 
             "icuBeds" : {
@@ -21209,8 +21220,8 @@ let historicalUSData = {
         {
             "cases" : 40082242, 
             "deaths" : 648788, 
-            "positiveTests" : 42063456, 
-            "negativeTests" : 492732196, 
+            "positiveTests" : 42064420, 
+            "negativeTests" : 492742278, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 732505, 
@@ -21235,8 +21246,8 @@ let historicalUSData = {
         {
             "cases" : 40383380, 
             "deaths" : 651014, 
-            "positiveTests" : 42197187, 
-            "negativeTests" : 493985786, 
+            "positiveTests" : 42198164, 
+            "negativeTests" : 493995976, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 733239, 
@@ -21261,8 +21272,8 @@ let historicalUSData = {
         {
             "cases" : 40567569, 
             "deaths" : 653216, 
-            "positiveTests" : 42363721, 
-            "negativeTests" : 495842684, 
+            "positiveTests" : 42364704, 
+            "negativeTests" : 495852932, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 791519, 
@@ -21287,8 +21298,8 @@ let historicalUSData = {
         {
             "cases" : 40738140, 
             "deaths" : 656448, 
-            "positiveTests" : 42527876, 
-            "negativeTests" : 497730906, 
+            "positiveTests" : 42528875, 
+            "negativeTests" : 497741217, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 793059, 
@@ -21313,8 +21324,8 @@ let historicalUSData = {
         {
             "cases" : 40914456, 
             "deaths" : 658865, 
-            "positiveTests" : 42685493, 
-            "negativeTests" : 499615879, 
+            "positiveTests" : 42686511, 
+            "negativeTests" : 499626275, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 792890, 
@@ -21339,8 +21350,8 @@ let historicalUSData = {
         {
             "cases" : 40988382, 
             "deaths" : 659556, 
-            "positiveTests" : 42807381, 
-            "negativeTests" : 501011938, 
+            "positiveTests" : 42808413, 
+            "negativeTests" : 501022383, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 787297, 
@@ -21365,8 +21376,8 @@ let historicalUSData = {
         {
             "cases" : 41027940, 
             "deaths" : 659854, 
-            "positiveTests" : 42903358, 
-            "negativeTests" : 501891234, 
+            "positiveTests" : 42904401, 
+            "negativeTests" : 501901725, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 783966, 
@@ -21391,8 +21402,8 @@ let historicalUSData = {
         {
             "cases" : 41312998, 
             "deaths" : 661579, 
-            "positiveTests" : 43034029, 
-            "negativeTests" : 503222257, 
+            "positiveTests" : 43035083, 
+            "negativeTests" : 503232845, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 734933, 
@@ -21417,8 +21428,8 @@ let historicalUSData = {
         {
             "cases" : 41465694, 
             "deaths" : 664235, 
-            "positiveTests" : 43178054, 
-            "negativeTests" : 504942728, 
+            "positiveTests" : 43179114, 
+            "negativeTests" : 504953452, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 737986, 
@@ -21443,8 +21454,8 @@ let historicalUSData = {
         {
             "cases" : 41635889, 
             "deaths" : 666816, 
-            "positiveTests" : 43329485, 
-            "negativeTests" : 506875764, 
+            "positiveTests" : 43330562, 
+            "negativeTests" : 506886607, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 791581, 
@@ -21469,8 +21480,8 @@ let historicalUSData = {
         {
             "cases" : 41790772, 
             "deaths" : 670234, 
-            "positiveTests" : 43468896, 
-            "negativeTests" : 508703093, 
+            "positiveTests" : 43469983, 
+            "negativeTests" : 508714038, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 792427, 
@@ -21495,8 +21506,8 @@ let historicalUSData = {
         {
             "cases" : 41957710, 
             "deaths" : 672813, 
-            "positiveTests" : 43600612, 
-            "negativeTests" : 510447338, 
+            "positiveTests" : 43601711, 
+            "negativeTests" : 510458395, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 790834, 
@@ -21521,8 +21532,8 @@ let historicalUSData = {
         {
             "cases" : 42025890, 
             "deaths" : 673637, 
-            "positiveTests" : 43703013, 
-            "negativeTests" : 511713908, 
+            "positiveTests" : 43704124, 
+            "negativeTests" : 511725015, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 787771, 
@@ -21547,8 +21558,8 @@ let historicalUSData = {
         {
             "cases" : 42065846, 
             "deaths" : 673939, 
-            "positiveTests" : 43788874, 
-            "negativeTests" : 512569133, 
+            "positiveTests" : 43789989, 
+            "negativeTests" : 512580295, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 782948, 
@@ -21573,8 +21584,8 @@ let historicalUSData = {
         {
             "cases" : 42274012, 
             "deaths" : 676191, 
-            "positiveTests" : 43893964, 
-            "negativeTests" : 513750653, 
+            "positiveTests" : 43895087, 
+            "negativeTests" : 513761949, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 731097, 
@@ -21599,8 +21610,8 @@ let historicalUSData = {
         {
             "cases" : 42403987, 
             "deaths" : 678556, 
-            "positiveTests" : 44016535, 
-            "negativeTests" : 515508409, 
+            "positiveTests" : 44017670, 
+            "negativeTests" : 515519855, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 737827, 
@@ -21625,8 +21636,8 @@ let historicalUSData = {
         {
             "cases" : 42551480, 
             "deaths" : 681343, 
-            "positiveTests" : 44144419, 
-            "negativeTests" : 517403153, 
+            "positiveTests" : 44145570, 
+            "negativeTests" : 517414692, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 789818, 
@@ -21651,8 +21662,8 @@ let historicalUSData = {
         {
             "cases" : 42679344, 
             "deaths" : 684498, 
-            "positiveTests" : 44264248, 
-            "negativeTests" : 519238054, 
+            "positiveTests" : 44265411, 
+            "negativeTests" : 519249745, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 789126, 
@@ -21677,8 +21688,8 @@ let historicalUSData = {
         {
             "cases" : 42819355, 
             "deaths" : 687247, 
-            "positiveTests" : 44379554, 
-            "negativeTests" : 520999607, 
+            "positiveTests" : 44380736, 
+            "negativeTests" : 521011412, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 788989, 
@@ -21703,8 +21714,8 @@ let historicalUSData = {
         {
             "cases" : 42870947, 
             "deaths" : 687876, 
-            "positiveTests" : 44468944, 
-            "negativeTests" : 522233059, 
+            "positiveTests" : 44470133, 
+            "negativeTests" : 522244924, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 785225, 
@@ -21729,8 +21740,8 @@ let historicalUSData = {
         {
             "cases" : 42905182, 
             "deaths" : 688178, 
-            "positiveTests" : 44537646, 
-            "negativeTests" : 523021316, 
+            "positiveTests" : 44538839, 
+            "negativeTests" : 523033294, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 780900, 
@@ -21755,8 +21766,8 @@ let historicalUSData = {
         {
             "cases" : 43099971, 
             "deaths" : 690559, 
-            "positiveTests" : 44627912, 
-            "negativeTests" : 524106993, 
+            "positiveTests" : 44629116, 
+            "negativeTests" : 524119098, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 731189, 
@@ -21781,8 +21792,8 @@ let historicalUSData = {
         {
             "cases" : 43213311, 
             "deaths" : 692741, 
-            "positiveTests" : 44740842, 
-            "negativeTests" : 525828348, 
+            "positiveTests" : 44742060, 
+            "negativeTests" : 525840601, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 734384, 
@@ -21807,8 +21818,8 @@ let historicalUSData = {
         {
             "cases" : 43341823, 
             "deaths" : 695244, 
-            "positiveTests" : 44856330, 
-            "negativeTests" : 527683209, 
+            "positiveTests" : 44857558, 
+            "negativeTests" : 527695570, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 788117, 
@@ -21833,8 +21844,8 @@ let historicalUSData = {
         {
             "cases" : 43458032, 
             "deaths" : 697988, 
-            "positiveTests" : 44963412, 
-            "negativeTests" : 529468404, 
+            "positiveTests" : 44964649, 
+            "negativeTests" : 529480871, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 788222, 
@@ -21859,8 +21870,8 @@ let historicalUSData = {
         {
             "cases" : 43583808, 
             "deaths" : 700429, 
-            "positiveTests" : 45063827, 
-            "negativeTests" : 531153966, 
+            "positiveTests" : 45065080, 
+            "negativeTests" : 531166565, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 786881, 
@@ -21885,8 +21896,8 @@ let historicalUSData = {
         {
             "cases" : 43628030, 
             "deaths" : 701077, 
-            "positiveTests" : 45143492, 
-            "negativeTests" : 532364908, 
+            "positiveTests" : 45144758, 
+            "negativeTests" : 532377573, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 783618, 
@@ -21911,8 +21922,8 @@ let historicalUSData = {
         {
             "cases" : 43653869, 
             "deaths" : 701326, 
-            "positiveTests" : 45202974, 
-            "negativeTests" : 533087520, 
+            "positiveTests" : 45204249, 
+            "negativeTests" : 533100303, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 779005, 
@@ -21937,8 +21948,8 @@ let historicalUSData = {
         {
             "cases" : 43826566, 
             "deaths" : 703362, 
-            "positiveTests" : 45285185, 
-            "negativeTests" : 534236255, 
+            "positiveTests" : 45286480, 
+            "negativeTests" : 534249210, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 730344, 
@@ -21963,8 +21974,8 @@ let historicalUSData = {
         {
             "cases" : 43925168, 
             "deaths" : 705394, 
-            "positiveTests" : 45384963, 
-            "negativeTests" : 535943684, 
+            "positiveTests" : 45386273, 
+            "negativeTests" : 535956864, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 733553, 
@@ -21989,8 +22000,8 @@ let historicalUSData = {
         {
             "cases" : 44051123, 
             "deaths" : 707924, 
-            "positiveTests" : 45490395, 
-            "negativeTests" : 537778550, 
+            "positiveTests" : 45491721, 
+            "negativeTests" : 537791866, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 787692, 
@@ -22015,8 +22026,8 @@ let historicalUSData = {
         {
             "cases" : 44156525, 
             "deaths" : 710378, 
-            "positiveTests" : 45586985, 
-            "negativeTests" : 539542726, 
+            "positiveTests" : 45588325, 
+            "negativeTests" : 539556161, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 788369, 
@@ -22041,8 +22052,8 @@ let historicalUSData = {
         {
             "cases" : 44269451, 
             "deaths" : 712822, 
-            "positiveTests" : 45677454, 
-            "negativeTests" : 541202327, 
+            "positiveTests" : 45678807, 
+            "negativeTests" : 541215911, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 786134, 
@@ -22067,8 +22078,8 @@ let historicalUSData = {
         {
             "cases" : 44306785, 
             "deaths" : 713325, 
-            "positiveTests" : 45750902, 
-            "negativeTests" : 542342065, 
+            "positiveTests" : 45752261, 
+            "negativeTests" : 542355706, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 782244, 
@@ -22093,8 +22104,8 @@ let historicalUSData = {
         {
             "cases" : 44329824, 
             "deaths" : 713806, 
-            "positiveTests" : 45804766, 
-            "negativeTests" : 542995422, 
+            "positiveTests" : 45806135, 
+            "negativeTests" : 543009182, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 777979, 
@@ -22119,8 +22130,8 @@ let historicalUSData = {
         {
             "cases" : 44453504, 
             "deaths" : 714969, 
-            "positiveTests" : 45874245, 
-            "negativeTests" : 544043776, 
+            "positiveTests" : 45875625, 
+            "negativeTests" : 544057668, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 726609, 
@@ -22145,8 +22156,8 @@ let historicalUSData = {
         {
             "cases" : 44565080, 
             "deaths" : 717501, 
-            "positiveTests" : 45961337, 
-            "negativeTests" : 545574434, 
+            "positiveTests" : 45962722, 
+            "negativeTests" : 545588379, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 730138, 
@@ -22171,8 +22182,8 @@ let historicalUSData = {
         {
             "cases" : 44671637, 
             "deaths" : 719735, 
-            "positiveTests" : 46050755, 
-            "negativeTests" : 547298720, 
+            "positiveTests" : 46052152, 
+            "negativeTests" : 547312785, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 787647, 
@@ -22197,8 +22208,8 @@ let historicalUSData = {
         {
             "cases" : 44760606, 
             "deaths" : 721766, 
-            "positiveTests" : 46135288, 
-            "negativeTests" : 549042157, 
+            "positiveTests" : 46136696, 
+            "negativeTests" : 549056347, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 788560, 
@@ -22223,8 +22234,8 @@ let historicalUSData = {
         {
             "cases" : 44859166, 
             "deaths" : 723931, 
-            "positiveTests" : 46212585, 
-            "negativeTests" : 550643152, 
+            "positiveTests" : 46214011, 
+            "negativeTests" : 550657475, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 787095, 
@@ -22249,8 +22260,8 @@ let historicalUSData = {
         {
             "cases" : 44892707, 
             "deaths" : 724317, 
-            "positiveTests" : 46276457, 
-            "negativeTests" : 551753621, 
+            "positiveTests" : 46277894, 
+            "negativeTests" : 551768016, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 782323, 
@@ -22275,8 +22286,8 @@ let historicalUSData = {
         {
             "cases" : 44914859, 
             "deaths" : 724499, 
-            "positiveTests" : 46322592, 
-            "negativeTests" : 552385543, 
+            "positiveTests" : 46324047, 
+            "negativeTests" : 552400060, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 779128, 
@@ -22301,8 +22312,8 @@ let historicalUSData = {
         {
             "cases" : 45036892, 
             "deaths" : 726389, 
-            "positiveTests" : 46383774, 
-            "negativeTests" : 553501007, 
+            "positiveTests" : 46385244, 
+            "negativeTests" : 553515678, 
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 727433, 
@@ -22327,8 +22338,8 @@ let historicalUSData = {
         {
             "cases" : 45120575, 
             "deaths" : 728407, 
-            "positiveTests" : 46460501, 
-            "negativeTests" : 555100164, 
+            "positiveTests" : 46461990, 
+            "negativeTests" : 555115033, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 726328, 
@@ -22353,8 +22364,8 @@ let historicalUSData = {
         {
             "cases" : 45207197, 
             "deaths" : 731512, 
-            "positiveTests" : 46545949, 
-            "negativeTests" : 556857544, 
+            "positiveTests" : 46547450, 
+            "negativeTests" : 556872549, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 781736, 
@@ -22379,8 +22390,8 @@ let historicalUSData = {
         {
             "cases" : 45289143, 
             "deaths" : 733385, 
-            "positiveTests" : 46626126, 
-            "negativeTests" : 558574049, 
+            "positiveTests" : 46627640, 
+            "negativeTests" : 558589274, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 781960, 
@@ -22405,8 +22416,8 @@ let historicalUSData = {
         {
             "cases" : 45376439, 
             "deaths" : 735515, 
-            "positiveTests" : 46697996, 
-            "negativeTests" : 560077851, 
+            "positiveTests" : 46699517, 
+            "negativeTests" : 560093246, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 781771, 
@@ -22431,8 +22442,8 @@ let historicalUSData = {
         {
             "cases" : 45406263, 
             "deaths" : 735964, 
-            "positiveTests" : 46756641, 
-            "negativeTests" : 561095744, 
+            "positiveTests" : 46758171, 
+            "negativeTests" : 561111189, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 778946, 
@@ -22457,8 +22468,8 @@ let historicalUSData = {
         {
             "cases" : 45423365, 
             "deaths" : 736112, 
-            "positiveTests" : 46799561, 
-            "negativeTests" : 561668471, 
+            "positiveTests" : 46801097, 
+            "negativeTests" : 561683990, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 775685, 
@@ -22483,8 +22494,8 @@ let historicalUSData = {
         {
             "cases" : 45528926, 
             "deaths" : 737526, 
-            "positiveTests" : 46856442, 
-            "negativeTests" : 562728802, 
+            "positiveTests" : 46857999, 
+            "negativeTests" : 562744677, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 721948, 
@@ -22509,8 +22520,8 @@ let historicalUSData = {
         {
             "cases" : 45616349, 
             "deaths" : 739259, 
-            "positiveTests" : 46933639, 
-            "negativeTests" : 564293713, 
+            "positiveTests" : 46935207, 
+            "negativeTests" : 564309901, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 725240, 
@@ -22535,8 +22546,8 @@ let historicalUSData = {
         {
             "cases" : 45710893, 
             "deaths" : 741277, 
-            "positiveTests" : 47013518, 
-            "negativeTests" : 565973465, 
+            "positiveTests" : 47015106, 
+            "negativeTests" : 565989860, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 780350, 
@@ -22561,8 +22572,8 @@ let historicalUSData = {
         {
             "cases" : 45797078, 
             "deaths" : 743050, 
-            "positiveTests" : 47085840, 
-            "negativeTests" : 567547434, 
+            "positiveTests" : 47087448, 
+            "negativeTests" : 567564034, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 781332, 
@@ -22587,8 +22598,8 @@ let historicalUSData = {
         {
             "cases" : 45885801, 
             "deaths" : 745075, 
-            "positiveTests" : 47155890, 
-            "negativeTests" : 568989178, 
+            "positiveTests" : 47157519, 
+            "negativeTests" : 569006004, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 778567, 
@@ -22613,8 +22624,8 @@ let historicalUSData = {
         {
             "cases" : 45915212, 
             "deaths" : 745378, 
-            "positiveTests" : 47212195, 
-            "negativeTests" : 569956680, 
+            "positiveTests" : 47213839, 
+            "negativeTests" : 569973610, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 774990, 
@@ -22639,8 +22650,8 @@ let historicalUSData = {
         {
             "cases" : 45934095, 
             "deaths" : 745535, 
-            "positiveTests" : 47252944, 
-            "negativeTests" : 570508793, 
+            "positiveTests" : 47254590, 
+            "negativeTests" : 570525817, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 769061, 
@@ -22665,8 +22676,8 @@ let historicalUSData = {
         {
             "cases" : 46058665, 
             "deaths" : 746688, 
-            "positiveTests" : 47880069, 
-            "negativeTests" : 579977907, 
+            "positiveTests" : 47881729, 
+            "negativeTests" : 579995309, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 716735, 
@@ -22691,8 +22702,8 @@ let historicalUSData = {
         {
             "cases" : 46135608, 
             "deaths" : 748197, 
-            "positiveTests" : 47960921, 
-            "negativeTests" : 581518143, 
+            "positiveTests" : 47962602, 
+            "negativeTests" : 581535943, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 723588, 
@@ -22717,8 +22728,8 @@ let historicalUSData = {
         {
             "cases" : 46220452, 
             "deaths" : 750077, 
-            "positiveTests" : 48048686, 
-            "negativeTests" : 583305636, 
+            "positiveTests" : 48050388, 
+            "negativeTests" : 583323844, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 778709, 
@@ -22743,8 +22754,8 @@ let historicalUSData = {
         {
             "cases" : 46303539, 
             "deaths" : 751203, 
-            "positiveTests" : 48134278, 
-            "negativeTests" : 584956435, 
+            "positiveTests" : 48136002, 
+            "negativeTests" : 584974932, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 778786, 
@@ -22769,8 +22780,8 @@ let historicalUSData = {
         {
             "cases" : 46395307, 
             "deaths" : 753517, 
-            "positiveTests" : 48214738, 
-            "negativeTests" : 586450940, 
+            "positiveTests" : 48216489, 
+            "negativeTests" : 586469773, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 778601, 
@@ -22795,8 +22806,8 @@ let historicalUSData = {
         {
             "cases" : 46427246, 
             "deaths" : 753919, 
-            "positiveTests" : 48282346, 
-            "negativeTests" : 587486599, 
+            "positiveTests" : 48284118, 
+            "negativeTests" : 587505580, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 773951, 
@@ -22821,8 +22832,8 @@ let historicalUSData = {
         {
             "cases" : 46449331, 
             "deaths" : 754051, 
-            "positiveTests" : 48335583, 
-            "negativeTests" : 588257760, 
+            "positiveTests" : 48337368, 
+            "negativeTests" : 588276798, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 771092, 
@@ -22847,8 +22858,8 @@ let historicalUSData = {
         {
             "cases" : 46575792, 
             "deaths" : 755273, 
-            "positiveTests" : 48405948, 
-            "negativeTests" : 589402518, 
+            "positiveTests" : 48407762, 
+            "negativeTests" : 589421818, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 719730, 
@@ -22873,8 +22884,8 @@ let historicalUSData = {
         {
             "cases" : 46658771, 
             "deaths" : 756951, 
-            "positiveTests" : 48501550, 
-            "negativeTests" : 591139851, 
+            "positiveTests" : 48503425, 
+            "negativeTests" : 591159499, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 724824, 
@@ -22899,8 +22910,8 @@ let historicalUSData = {
         {
             "cases" : 46757833, 
             "deaths" : 758588, 
-            "positiveTests" : 48601348, 
-            "negativeTests" : 592827003, 
+            "positiveTests" : 48603331, 
+            "negativeTests" : 592846871, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 779303, 
@@ -22925,11 +22936,11 @@ let historicalUSData = {
         {
             "cases" : 46822434, 
             "deaths" : 759310, 
-            "positiveTests" : 48693313, 
-            "negativeTests" : 594435074, 
+            "positiveTests" : 48695383, 
+            "negativeTests" : 594455152, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 779048, 
+                "capacity" : 779053, 
                 "currentUsageTotal" : 608261, 
                 "currentUsageCovid" : 46774
             }, 
@@ -22951,12 +22962,12 @@ let historicalUSData = {
         {
             "cases" : 46951785, 
             "deaths" : 761374, 
-            "positiveTests" : 48780998, 
-            "negativeTests" : 595801543, 
+            "positiveTests" : 48783116, 
+            "negativeTests" : 595822024, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 776747, 
-                "currentUsageTotal" : 602674, 
+                "currentUsageTotal" : 601887, 
                 "currentUsageCovid" : 46624
             }, 
             "icuBeds" : {
@@ -22977,12 +22988,12 @@ let historicalUSData = {
         {
             "cases" : 47013182, 
             "deaths" : 761838, 
-            "positiveTests" : 48854673, 
-            "negativeTests" : 596824049, 
+            "positiveTests" : 48856835, 
+            "negativeTests" : 596844709, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 773468, 
-                "currentUsageTotal" : 583745, 
+                "capacity" : 774322, 
+                "currentUsageTotal" : 584528, 
                 "currentUsageCovid" : 46483
             }, 
             "icuBeds" : {
@@ -23003,8 +23014,8 @@ let historicalUSData = {
         {
             "cases" : 47036791, 
             "deaths" : 761980, 
-            "positiveTests" : 48909988, 
-            "negativeTests" : 597534646, 
+            "positiveTests" : 48912191, 
+            "negativeTests" : 597555389, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 770738, 
@@ -23029,8 +23040,8 @@ let historicalUSData = {
         {
             "cases" : 47185415, 
             "deaths" : 763178, 
-            "positiveTests" : 48988321, 
-            "negativeTests" : 598684704, 
+            "positiveTests" : 48990585, 
+            "negativeTests" : 598705796, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 718320, 
@@ -23055,16 +23066,16 @@ let historicalUSData = {
         {
             "cases" : 47275900, 
             "deaths" : 764603, 
-            "positiveTests" : 49090307, 
-            "negativeTests" : 600392971, 
+            "positiveTests" : 49092654, 
+            "negativeTests" : 600414482, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 724806, 
-                "currentUsageTotal" : 562998, 
-                "currentUsageCovid" : 49251
+                "capacity" : 724800, 
+                "currentUsageTotal" : 562991, 
+                "currentUsageCovid" : 49248
             }, 
             "icuBeds" : {
-                "capacity" : 82262, 
+                "capacity" : 82263, 
                 "currentUsageTotal" : 62897, 
                 "currentUsageCovid" : 11401
             }, 
@@ -23081,8 +23092,8 @@ let historicalUSData = {
         {
             "cases" : 47390257, 
             "deaths" : 766206, 
-            "positiveTests" : 49200099, 
-            "negativeTests" : 602204666, 
+            "positiveTests" : 49203114, 
+            "negativeTests" : 602226477, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 779759, 
@@ -23107,8 +23118,8 @@ let historicalUSData = {
         {
             "cases" : 47500530, 
             "deaths" : 769434, 
-            "positiveTests" : 49305762, 
-            "negativeTests" : 603949051, 
+            "positiveTests" : 49309073, 
+            "negativeTests" : 603971227, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 779955, 
@@ -23133,8 +23144,8 @@ let historicalUSData = {
         {
             "cases" : 47620178, 
             "deaths" : 771430, 
-            "positiveTests" : 49404786, 
-            "negativeTests" : 605478909, 
+            "positiveTests" : 49408337, 
+            "negativeTests" : 605501601, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 778003, 
@@ -23159,8 +23170,8 @@ let historicalUSData = {
         {
             "cases" : 47661242, 
             "deaths" : 771745, 
-            "positiveTests" : 49483547, 
-            "negativeTests" : 606520238, 
+            "positiveTests" : 49487135, 
+            "negativeTests" : 606543299, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 773225, 
@@ -23185,8 +23196,8 @@ let historicalUSData = {
         {
             "cases" : 47692614, 
             "deaths" : 771871, 
-            "positiveTests" : 49547151, 
-            "negativeTests" : 607203757, 
+            "positiveTests" : 49550784, 
+            "negativeTests" : 607226976, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 771308, 
@@ -23211,8 +23222,8 @@ let historicalUSData = {
         {
             "cases" : 47851512, 
             "deaths" : 773106, 
-            "positiveTests" : 49627767, 
-            "negativeTests" : 608253440, 
+            "positiveTests" : 49631515, 
+            "negativeTests" : 608277267, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 718060, 
@@ -23237,8 +23248,8 @@ let historicalUSData = {
         {
             "cases" : 47944283, 
             "deaths" : 774580, 
-            "positiveTests" : 49728222, 
-            "negativeTests" : 609741819, 
+            "positiveTests" : 49732104, 
+            "negativeTests" : 609766163, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 723265, 
@@ -23263,8 +23274,8 @@ let historicalUSData = {
         {
             "cases" : 48064175, 
             "deaths" : 776197, 
-            "positiveTests" : 49834309, 
-            "negativeTests" : 611255244, 
+            "positiveTests" : 49838361, 
+            "negativeTests" : 611282475, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 766664, 
@@ -23289,8 +23300,8 @@ let historicalUSData = {
         {
             "cases" : 48095028, 
             "deaths" : 776574, 
-            "positiveTests" : 49893112, 
-            "negativeTests" : 611934764, 
+            "positiveTests" : 49897237, 
+            "negativeTests" : 611963819, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 769828, 
@@ -23315,18 +23326,18 @@ let historicalUSData = {
         {
             "cases" : 48146553, 
             "deaths" : 777118, 
-            "positiveTests" : 49954105, 
-            "negativeTests" : 612610724, 
+            "positiveTests" : 49958347, 
+            "negativeTests" : 612642825, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 765227, 
-                "currentUsageTotal" : 544989, 
-                "currentUsageCovid" : 53145
+                "capacity" : 765244, 
+                "currentUsageTotal" : 545010, 
+                "currentUsageCovid" : 53169
             }, 
             "icuBeds" : {
                 "capacity" : 82069, 
-                "currentUsageTotal" : 59964, 
-                "currentUsageCovid" : 12573
+                "currentUsageTotal" : 59963, 
+                "currentUsageCovid" : 12574
             }, 
             "newCases" : 51525, 
             "newDeaths" : 544, 
@@ -23341,17 +23352,17 @@ let historicalUSData = {
         {
             "cases" : 48171232, 
             "deaths" : 777310, 
-            "positiveTests" : 50031887, 
-            "negativeTests" : 613408625, 
+            "positiveTests" : 50036254, 
+            "negativeTests" : 613441494, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 765084, 
-                "currentUsageTotal" : 547064, 
-                "currentUsageCovid" : 54419
+                "capacity" : 765114, 
+                "currentUsageTotal" : 547083, 
+                "currentUsageCovid" : 54418
             }, 
             "icuBeds" : {
-                "capacity" : 82214, 
-                "currentUsageTotal" : 60320, 
+                "capacity" : 82199, 
+                "currentUsageTotal" : 60322, 
                 "currentUsageCovid" : 12765
             }, 
             "newCases" : 24679, 
@@ -23367,17 +23378,17 @@ let historicalUSData = {
         {
             "cases" : 48195182, 
             "deaths" : 777417, 
-            "positiveTests" : 50100139, 
-            "negativeTests" : 614103177, 
+            "positiveTests" : 50104638, 
+            "negativeTests" : 614137075, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 765018, 
-                "currentUsageTotal" : 552800, 
+                "capacity" : 765044, 
+                "currentUsageTotal" : 552846, 
                 "currentUsageCovid" : 55800
             }, 
             "icuBeds" : {
                 "capacity" : 82089, 
-                "currentUsageTotal" : 60611, 
+                "currentUsageTotal" : 60612, 
                 "currentUsageCovid" : 13025
             }, 
             "newCases" : 23950, 
@@ -23393,18 +23404,18 @@ let historicalUSData = {
         {
             "cases" : 48411494, 
             "deaths" : 779293, 
-            "positiveTests" : 50197324, 
-            "negativeTests" : 615192007, 
+            "positiveTests" : 50202441, 
+            "negativeTests" : 615240661, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 715558, 
-                "currentUsageTotal" : 530226, 
-                "currentUsageCovid" : 57200
+                "capacity" : 715581, 
+                "currentUsageTotal" : 530266, 
+                "currentUsageCovid" : 57197
             }, 
             "icuBeds" : {
                 "capacity" : 81452, 
                 "currentUsageTotal" : 61037, 
-                "currentUsageCovid" : 13191
+                "currentUsageCovid" : 13192
             }, 
             "newCases" : 216312, 
             "newDeaths" : 1876, 
@@ -23419,18 +23430,18 @@ let historicalUSData = {
         {
             "cases" : 48520788, 
             "deaths" : 780848, 
-            "positiveTests" : 50316083, 
-            "negativeTests" : 616607225, 
+            "positiveTests" : 50323972, 
+            "negativeTests" : 616693574, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 724068, 
-                "currentUsageTotal" : 558858, 
-                "currentUsageCovid" : 58179
+                "capacity" : 723286, 
+                "currentUsageTotal" : 559121, 
+                "currentUsageCovid" : 58141
             }, 
             "icuBeds" : {
-                "capacity" : 82049, 
-                "currentUsageTotal" : 63843, 
-                "currentUsageCovid" : 13349
+                "capacity" : 82098, 
+                "currentUsageTotal" : 63855, 
+                "currentUsageCovid" : 13356
             }, 
             "newCases" : 109294, 
             "newDeaths" : 1555, 
@@ -23445,18 +23456,18 @@ let historicalUSData = {
         {
             "cases" : 48660145, 
             "deaths" : 782814, 
-            "positiveTests" : 50428866, 
-            "negativeTests" : 617836149, 
+            "positiveTests" : 50440220, 
+            "negativeTests" : 617962814, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 776305, 
-                "currentUsageTotal" : 608837, 
-                "currentUsageCovid" : 58494
+                "capacity" : 776948, 
+                "currentUsageTotal" : 609671, 
+                "currentUsageCovid" : 58516
             }, 
             "icuBeds" : {
-                "capacity" : 82513, 
-                "currentUsageTotal" : 64884, 
-                "currentUsageCovid" : 13468
+                "capacity" : 82506, 
+                "currentUsageTotal" : 64881, 
+                "currentUsageCovid" : 13476
             }, 
             "newCases" : 139357, 
             "newDeaths" : 1966, 
@@ -23475,14 +23486,14 @@ let historicalUSData = {
             "negativeTests" : null, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 773424, 
-                "currentUsageTotal" : 608688, 
-                "currentUsageCovid" : 58831
+                "capacity" : 776834, 
+                "currentUsageTotal" : 610950, 
+                "currentUsageCovid" : 58997
             }, 
             "icuBeds" : {
-                "capacity" : 82246, 
-                "currentUsageTotal" : 64940, 
-                "currentUsageCovid" : 13605
+                "capacity" : 82357, 
+                "currentUsageTotal" : 64999, 
+                "currentUsageCovid" : 13586
             }, 
             "newCases" : 138719, 
             "newDeaths" : 1350, 
@@ -23501,14 +23512,14 @@ let historicalUSData = {
             "negativeTests" : null, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 775487, 
-                "currentUsageTotal" : 611663, 
-                "currentUsageCovid" : 59550
+                "capacity" : 776727, 
+                "currentUsageTotal" : 611934, 
+                "currentUsageCovid" : 59704
             }, 
             "icuBeds" : {
-                "capacity" : 82246, 
-                "currentUsageTotal" : 64956, 
-                "currentUsageCovid" : 13653
+                "capacity" : 82392, 
+                "currentUsageTotal" : 65059, 
+                "currentUsageCovid" : 13698
             }, 
             "newCases" : 153245, 
             "newDeaths" : 2149, 
@@ -23527,14 +23538,14 @@ let historicalUSData = {
             "negativeTests" : null, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 769590, 
-                "currentUsageTotal" : 596959, 
-                "currentUsageCovid" : 59684
+                "capacity" : 770730, 
+                "currentUsageTotal" : 593625, 
+                "currentUsageCovid" : 59728
             }, 
             "icuBeds" : {
-                "capacity" : 81907, 
-                "currentUsageTotal" : 63958, 
-                "currentUsageCovid" : 13745
+                "capacity" : 81605, 
+                "currentUsageTotal" : 63270, 
+                "currentUsageCovid" : 13749
             }, 
             "newCases" : 58141, 
             "newDeaths" : 490, 
@@ -23553,14 +23564,14 @@ let historicalUSData = {
             "negativeTests" : null, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 763372, 
-                "currentUsageTotal" : 584213, 
-                "currentUsageCovid" : 60126
+                "capacity" : 765936, 
+                "currentUsageTotal" : 579732, 
+                "currentUsageCovid" : 60649
             }, 
             "icuBeds" : {
-                "capacity" : 81166, 
-                "currentUsageTotal" : 62718, 
-                "currentUsageCovid" : 13790
+                "capacity" : 81481, 
+                "currentUsageTotal" : 62159, 
+                "currentUsageCovid" : 13938
             }, 
             "newCases" : 34572, 
             "newDeaths" : 161, 
@@ -23579,14 +23590,14 @@ let historicalUSData = {
             "negativeTests" : null, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 705112, 
-                "currentUsageTotal" : 541032, 
-                "currentUsageCovid" : 59414
+                "capacity" : 714172, 
+                "currentUsageTotal" : 547834, 
+                "currentUsageCovid" : 62089
             }, 
             "icuBeds" : {
-                "capacity" : 80134, 
-                "currentUsageTotal" : 61985, 
-                "currentUsageCovid" : 13676
+                "capacity" : 81461, 
+                "currentUsageTotal" : 62510, 
+                "currentUsageCovid" : 14116
             }, 
             "newCases" : 197449, 
             "newDeaths" : 1351, 
@@ -23597,6 +23608,32 @@ let historicalUSData = {
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null, 
             "date" : "2021-12-06"
+        }, 
+        {
+            "cases" : 49350074, 
+            "deaths" : 790040, 
+            "positiveTests" : null, 
+            "negativeTests" : null, 
+            "contactTracers" : 66210, 
+            "hospitalBeds" : {
+                "capacity" : 711685, 
+                "currentUsageTotal" : 545992, 
+                "currentUsageCovid" : 61953
+            }, 
+            "icuBeds" : {
+                "capacity" : 81355, 
+                "currentUsageTotal" : 62436, 
+                "currentUsageCovid" : 14096
+            }, 
+            "newCases" : 107803, 
+            "newDeaths" : 1725, 
+            "vaccinesDistributed" : 582057445, 
+            "vaccinationsInitiated" : 236363835, 
+            "vaccinationsCompleted" : 199687439, 
+            "vaccinesAdministered" : 473243228, 
+            "vaccinesAdministeredDemographics" : null, 
+            "vaccinationsInitiatedDemographics" : null, 
+            "date" : "2021-12-07"
         }, 
         {
             "cases" : null, 
@@ -23622,7 +23659,7 @@ let historicalUSData = {
             "vaccinesAdministered" : null, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null, 
-            "date" : "2021-12-07"
+            "date" : "2021-12-08"
         }
     ], 
     "riskLevelsTimeseries" : [
@@ -27060,6 +27097,11 @@ let historicalUSData = {
             "overall" : 3, 
             "caseDensity" : 3, 
             "date" : "2021-12-07"
+        }, 
+        {
+            "overall" : 3, 
+            "caseDensity" : 3, 
+            "date" : "2021-12-08"
         }
     ], 
     "cdcTransmissionLevelTimeseries" : [
@@ -29809,6 +29851,10 @@ let historicalUSData = {
         }, 
         {
             "date" : "2021-12-07", 
+            "cdcTransmissionLevel" : 3
+        }, 
+        {
+            "date" : "2021-12-08", 
             "cdcTransmissionLevel" : 3
         }
     ]
