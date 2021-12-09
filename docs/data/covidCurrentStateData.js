@@ -10,7 +10,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 731545, 
         "metrics" : {
-            "testPositivityRatio" : 0.043, 
+            "testPositivityRatio" : 0.04, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -34,8 +34,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 151539, 
             "deaths" : 859, 
-            "positiveTests" : 153741, 
-            "negativeTests" : 2874072, 
+            "positiveTests" : 153763, 
+            "negativeTests" : 2874789, 
             "contactTracers" : 235, 
             "hospitalBeds" : {
                 "capacity" : 1363, 
@@ -279,7 +279,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 4903185, 
         "metrics" : {
-            "testPositivityRatio" : 0.055, 
+            "testPositivityRatio" : 0.053, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -303,8 +303,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 846844, 
             "deaths" : 16199, 
-            "positiveTests" : 799507, 
-            "negativeTests" : 5523732, 
+            "positiveTests" : 799720, 
+            "negativeTests" : 5529195, 
             "contactTracers" : 404, 
             "hospitalBeds" : {
                 "capacity" : 14789, 
@@ -524,7 +524,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 3017804, 
         "metrics" : {
-            "testPositivityRatio" : 0.077, 
+            "testPositivityRatio" : 0.076, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -548,8 +548,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 534590, 
             "deaths" : 8776, 
-            "positiveTests" : 329685, 
-            "negativeTests" : 3573821, 
+            "positiveTests" : 329941, 
+            "negativeTests" : 3577009, 
             "contactTracers" : 790, 
             "hospitalBeds" : {
                 "capacity" : 7863, 
@@ -769,7 +769,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 7278717, 
         "metrics" : {
-            "testPositivityRatio" : 0.15, 
+            "testPositivityRatio" : 0.148, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -793,8 +793,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 1296750, 
             "deaths" : 22761, 
-            "positiveTests" : 1310385, 
-            "negativeTests" : 10470760, 
+            "positiveTests" : 1313663, 
+            "negativeTests" : 10488788, 
             "contactTracers" : 396, 
             "hospitalBeds" : {
                 "capacity" : 15721, 
@@ -1250,7 +1250,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 5758736, 
         "metrics" : {
-            "testPositivityRatio" : 0.087, 
+            "testPositivityRatio" : 0.086, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -1274,8 +1274,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 851958, 
             "deaths" : 9653, 
-            "positiveTests" : 855987, 
-            "negativeTests" : 11196620, 
+            "positiveTests" : 859170, 
+            "negativeTests" : 11224844, 
             "contactTracers" : 1300, 
             "hospitalBeds" : {
                 "capacity" : 11187, 
@@ -1500,7 +1500,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 3565287, 
         "metrics" : {
-            "testPositivityRatio" : 0.067, 
+            "testPositivityRatio" : 0.07, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -1524,8 +1524,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 431851, 
             "deaths" : 8945, 
-            "positiveTests" : 554998, 
-            "negativeTests" : 11409388, 
+            "positiveTests" : 561169, 
+            "negativeTests" : 11492500, 
             "contactTracers" : 860, 
             "hospitalBeds" : {
                 "capacity" : 7914, 
@@ -1759,13 +1759,13 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 705749, 
         "metrics" : {
-            "testPositivityRatio" : 0.018, 
+            "testPositivityRatio" : 0.019, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 21.9, 
-            "contactTracerCapacityRatio" : 0.35, 
-            "infectionRate" : 1.21, 
+            "caseDensity" : 24.7, 
+            "contactTracerCapacityRatio" : 0.31, 
+            "infectionRate" : 1.25, 
             "infectionRateCI90" : 0.16, 
             "icuCapacityRatio" : 0.76, 
             "vaccinationsInitiatedRatio" : 0.832, 
@@ -1781,10 +1781,10 @@ let currentAllStatesData = [
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 67996, 
+            "cases" : 68134, 
             "deaths" : 1197, 
-            "positiveTests" : 98042, 
-            "negativeTests" : 3313972, 
+            "positiveTests" : 98270, 
+            "negativeTests" : 3318961, 
             "contactTracers" : 268, 
             "hospitalBeds" : {
                 "capacity" : 3462, 
@@ -1796,7 +1796,7 @@ let currentAllStatesData = [
                 "currentUsageTotal" : 244, 
                 "currentUsageCovid" : 15
             }, 
-            "newCases" : 0, 
+            "newCases" : 138, 
             "newDeaths" : 0, 
             "vaccinesDistributed" : 1476135, 
             "vaccinationsInitiated" : 587405, 
@@ -2052,7 +2052,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 973764, 
         "metrics" : {
-            "testPositivityRatio" : 0.09, 
+            "testPositivityRatio" : 0.089, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -2076,8 +2076,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 157175, 
             "deaths" : 2203, 
-            "positiveTests" : 176565, 
-            "negativeTests" : 2748910, 
+            "positiveTests" : 177080, 
+            "negativeTests" : 2753588, 
             "contactTracers" : 211, 
             "hospitalBeds" : {
                 "capacity" : 2910, 
@@ -2288,7 +2288,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 21477737, 
         "metrics" : {
-            "testPositivityRatio" : 0.031, 
+            "testPositivityRatio" : 0.03, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -2302,7 +2302,7 @@ let currentAllStatesData = [
         }, 
         "riskLevels" : {
             "overall" : 2, 
-            "testPositivityRatio" : 1, 
+            "testPositivityRatio" : 0, 
             "caseDensity" : 1, 
             "contactTracerCapacityRatio" : 1, 
             "infectionRate" : 2, 
@@ -2312,8 +2312,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 3700143, 
             "deaths" : 61789, 
-            "positiveTests" : 4376800, 
-            "negativeTests" : 39743163, 
+            "positiveTests" : 4378438, 
+            "negativeTests" : 39801779, 
             "contactTracers" : 2600, 
             "hospitalBeds" : {
                 "capacity" : 53902, 
@@ -2628,7 +2628,13 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : []
+                "anomalies" : [
+                    {
+                        "date" : "2021-12-04", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 1264190.0
+                    }
+                ]
             }, 
             "negativeTests" : {
                 "sources" : [
@@ -2638,7 +2644,13 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : []
+                "anomalies" : [
+                    {
+                        "date" : "2021-12-04", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 11282760.0
+                    }
+                ]
             }, 
             "contactTracers" : {
                 "sources" : [
@@ -2729,7 +2741,18 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : []
+                "anomalies" : [
+                    {
+                        "date" : "2021-12-04", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 11282760.0
+                    }, 
+                    {
+                        "date" : "2021-12-04", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 1264190.0
+                    }
+                ]
             }, 
             "caseDensity" : {
                 "sources" : [
@@ -2798,7 +2821,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 1415872, 
         "metrics" : {
-            "testPositivityRatio" : 0.016, 
+            "testPositivityRatio" : 0.017, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -2822,8 +2845,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 85464, 
             "deaths" : 1030, 
-            "positiveTests" : 93200, 
-            "negativeTests" : 2581240, 
+            "positiveTests" : 93272, 
+            "negativeTests" : 2585125, 
             "contactTracers" : 300, 
             "hospitalBeds" : {
                 "capacity" : 2498, 
@@ -3034,7 +3057,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 3155070, 
         "metrics" : {
-            "testPositivityRatio" : 0.161, 
+            "testPositivityRatio" : 0.157, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -3058,8 +3081,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 538738, 
             "deaths" : 7445, 
-            "positiveTests" : 523412, 
-            "negativeTests" : 4307920, 
+            "positiveTests" : 524470, 
+            "negativeTests" : 4314674, 
             "contactTracers" : 403, 
             "hospitalBeds" : {
                 "capacity" : 7370, 
@@ -3279,7 +3302,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 1787065, 
         "metrics" : {
-            "testPositivityRatio" : 0.093, 
+            "testPositivityRatio" : 0.091, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -3303,8 +3326,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 310039, 
             "deaths" : 3996, 
-            "positiveTests" : 401235, 
-            "negativeTests" : 2149355, 
+            "positiveTests" : 401477, 
+            "negativeTests" : 2151134, 
             "contactTracers" : 250, 
             "hospitalBeds" : {
                 "capacity" : 2910, 
@@ -3488,13 +3511,13 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 12671821, 
         "metrics" : {
-            "testPositivityRatio" : 0.059, 
+            "testPositivityRatio" : 0.057, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
             "caseDensity" : 57.5, 
             "contactTracerCapacityRatio" : 0.1, 
-            "infectionRate" : 1.25, 
+            "infectionRate" : 1.23, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.71, 
             "vaccinationsInitiatedRatio" : 0.7, 
@@ -3512,8 +3535,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 1866099, 
             "deaths" : 29710, 
-            "positiveTests" : 1775808, 
-            "negativeTests" : 30439107, 
+            "positiveTests" : 1782525, 
+            "negativeTests" : 30551150, 
             "contactTracers" : 3800, 
             "hospitalBeds" : {
                 "capacity" : 27340, 
@@ -3766,8 +3789,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 1138139, 
             "deaths" : 17829, 
-            "positiveTests" : 1179633, 
-            "negativeTests" : 10394646, 
+            "positiveTests" : 1183560, 
+            "negativeTests" : 10414542, 
             "contactTracers" : 1600, 
             "hospitalBeds" : {
                 "capacity" : 17517, 
@@ -3817,7 +3840,13 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : []
+                "anomalies" : [
+                    {
+                        "date" : "2021-12-04", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 1183560.0
+                    }
+                ]
             }, 
             "negativeTests" : {
                 "sources" : [
@@ -3827,7 +3856,13 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : []
+                "anomalies" : [
+                    {
+                        "date" : "2021-12-04", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 10414543.0
+                    }
+                ]
             }, 
             "contactTracers" : {
                 "sources" : [
@@ -3909,7 +3944,18 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : []
+                "anomalies" : [
+                    {
+                        "date" : "2021-12-04", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 10414543.0
+                    }, 
+                    {
+                        "date" : "2021-12-04", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 1183560.0
+                    }
+                ]
             }, 
             "caseDensity" : {
                 "sources" : [
@@ -4002,8 +4048,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 478787, 
             "deaths" : 6775, 
-            "positiveTests" : 426209, 
-            "negativeTests" : 3951852, 
+            "positiveTests" : 426847, 
+            "negativeTests" : 3955259, 
             "contactTracers" : 359, 
             "hospitalBeds" : {
                 "capacity" : 7944, 
@@ -4223,7 +4269,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 4467673, 
         "metrics" : {
-            "testPositivityRatio" : 0.105, 
+            "testPositivityRatio" : 0.101, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -4247,8 +4293,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 806816, 
             "deaths" : 11434, 
-            "positiveTests" : 773415, 
-            "negativeTests" : 6295098, 
+            "positiveTests" : 776025, 
+            "negativeTests" : 6316952, 
             "contactTracers" : 1240, 
             "hospitalBeds" : {
                 "capacity" : 10661, 
@@ -4298,13 +4344,7 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : [
-                    {
-                        "date" : "2021-12-03", 
-                        "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 773416.0
-                    }
-                ]
+                "anomalies" : []
             }, 
             "negativeTests" : {
                 "sources" : [
@@ -4314,13 +4354,7 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : [
-                    {
-                        "date" : "2021-12-03", 
-                        "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 6295109.0
-                    }
-                ]
+                "anomalies" : []
             }, 
             "contactTracers" : {
                 "sources" : [
@@ -4416,18 +4450,7 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : [
-                    {
-                        "date" : "2021-12-03", 
-                        "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 6295109.0
-                    }, 
-                    {
-                        "date" : "2021-12-03", 
-                        "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 773416.0
-                    }
-                ]
+                "anomalies" : []
             }, 
             "caseDensity" : {
                 "sources" : [
@@ -4496,7 +4519,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 4648794, 
         "metrics" : {
-            "testPositivityRatio" : 0.023, 
+            "testPositivityRatio" : 0.022, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -4520,8 +4543,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 774181, 
             "deaths" : 14844, 
-            "positiveTests" : 710649, 
-            "negativeTests" : 8217987, 
+            "positiveTests" : 710832, 
+            "negativeTests" : 8221843, 
             "contactTracers" : 800, 
             "hospitalBeds" : {
                 "capacity" : 12807, 
@@ -5269,7 +5292,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 1344212, 
         "metrics" : {
-            "testPositivityRatio" : 0.107, 
+            "testPositivityRatio" : 0.105, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -5293,8 +5316,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 124098, 
             "deaths" : 1348, 
-            "positiveTests" : 112195, 
-            "negativeTests" : 3036642, 
+            "positiveTests" : 112525, 
+            "negativeTests" : 3039295, 
             "contactTracers" : 86, 
             "hospitalBeds" : {
                 "capacity" : 3036, 
@@ -5514,7 +5537,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 9986857, 
         "metrics" : {
-            "testPositivityRatio" : 0.184, 
+            "testPositivityRatio" : 0.18, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -5538,8 +5561,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 1532247, 
             "deaths" : 26207, 
-            "positiveTests" : 1637242, 
-            "negativeTests" : 17929200, 
+            "positiveTests" : 1642673, 
+            "negativeTests" : 17951885, 
             "contactTracers" : 1000, 
             "hospitalBeds" : {
                 "capacity" : 21954, 
@@ -6028,7 +6051,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 6137428, 
         "metrics" : {
-            "testPositivityRatio" : 0.119, 
+            "testPositivityRatio" : 0.118, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -6052,8 +6075,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 941603, 
             "deaths" : 15653, 
-            "positiveTests" : 978748, 
-            "negativeTests" : 8299601, 
+            "positiveTests" : 986479, 
+            "negativeTests" : 8357424, 
             "contactTracers" : 94, 
             "hospitalBeds" : {
                 "capacity" : 15219, 
@@ -6500,7 +6523,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 2976149, 
         "metrics" : {
-            "testPositivityRatio" : 0.073, 
+            "testPositivityRatio" : 0.072, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -6524,8 +6547,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 517138, 
             "deaths" : 10306, 
-            "positiveTests" : 246334, 
-            "negativeTests" : 1800256, 
+            "positiveTests" : 246497, 
+            "negativeTests" : 1801927, 
             "contactTracers" : 200, 
             "hospitalBeds" : {
                 "capacity" : 7745, 
@@ -6736,7 +6759,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 1068778, 
         "metrics" : {
-            "testPositivityRatio" : 0.086, 
+            "testPositivityRatio" : 0.082, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -6760,8 +6783,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 193218, 
             "deaths" : 2778, 
-            "positiveTests" : 207285, 
-            "negativeTests" : 1513419, 
+            "positiveTests" : 207391, 
+            "negativeTests" : 1515394, 
             "contactTracers" : 200, 
             "hospitalBeds" : {
                 "capacity" : 2707, 
@@ -6811,7 +6834,13 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : []
+                "anomalies" : [
+                    {
+                        "date" : "2021-12-04", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 207391.0
+                    }
+                ]
             }, 
             "negativeTests" : {
                 "sources" : [
@@ -6821,7 +6850,13 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : []
+                "anomalies" : [
+                    {
+                        "date" : "2021-12-04", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 1515396.0
+                    }
+                ]
             }, 
             "contactTracers" : {
                 "sources" : [
@@ -6912,7 +6947,18 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : []
+                "anomalies" : [
+                    {
+                        "date" : "2021-12-04", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 1515396.0
+                    }, 
+                    {
+                        "date" : "2021-12-04", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 207391.0
+                    }
+                ]
             }, 
             "caseDensity" : {
                 "sources" : [
@@ -6981,7 +7027,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 10488084, 
         "metrics" : {
-            "testPositivityRatio" : 0.076, 
+            "testPositivityRatio" : 0.077, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -7005,8 +7051,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 1550983, 
             "deaths" : 18890, 
-            "positiveTests" : 1523087, 
-            "negativeTests" : 16131884, 
+            "positiveTests" : 1525167, 
+            "negativeTests" : 16152291, 
             "contactTracers" : 1215, 
             "hospitalBeds" : {
                 "capacity" : 21802, 
@@ -7226,7 +7272,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 762062, 
         "metrics" : {
-            "testPositivityRatio" : 0.103, 
+            "testPositivityRatio" : 0.104, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -7250,8 +7296,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 165414, 
             "deaths" : 1967, 
-            "positiveTests" : 131801, 
-            "negativeTests" : 1892577, 
+            "positiveTests" : 131850, 
+            "negativeTests" : 1892837, 
             "contactTracers" : 500, 
             "hospitalBeds" : {
                 "capacity" : 1961, 
@@ -7462,7 +7508,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 1934408, 
         "metrics" : {
-            "testPositivityRatio" : 0.167, 
+            "testPositivityRatio" : 0.165, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -7486,8 +7532,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 317450, 
             "deaths" : 2850, 
-            "positiveTests" : 308470, 
-            "negativeTests" : 2166423, 
+            "positiveTests" : 308646, 
+            "negativeTests" : 2167190, 
             "contactTracers" : 1000, 
             "hospitalBeds" : {
                 "capacity" : 4123, 
@@ -7763,7 +7809,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 1359711, 
         "metrics" : {
-            "testPositivityRatio" : 0.114, 
+            "testPositivityRatio" : 0.115, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -7787,8 +7833,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 170080, 
             "deaths" : 1757, 
-            "positiveTests" : 141758, 
-            "negativeTests" : 2871685, 
+            "positiveTests" : 142684, 
+            "negativeTests" : 2876746, 
             "contactTracers" : 140, 
             "hospitalBeds" : {
                 "capacity" : 2794, 
@@ -7987,8 +8033,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 1279667, 
             "deaths" : 28494, 
-            "positiveTests" : 1273931, 
-            "negativeTests" : 19033256, 
+            "positiveTests" : 1276878, 
+            "negativeTests" : 19065811, 
             "contactTracers" : 3000, 
             "hospitalBeds" : {
                 "capacity" : 21584, 
@@ -8199,7 +8245,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 2096829, 
         "metrics" : {
-            "testPositivityRatio" : 0.15, 
+            "testPositivityRatio" : 0.151, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -8223,8 +8269,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 325272, 
             "deaths" : 5432, 
-            "positiveTests" : 556962, 
-            "negativeTests" : 3827833, 
+            "positiveTests" : 557117, 
+            "negativeTests" : 3827881, 
             "contactTracers" : 375, 
             "hospitalBeds" : {
                 "capacity" : 4261, 
@@ -8435,7 +8481,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 3080156, 
         "metrics" : {
-            "testPositivityRatio" : 0.095, 
+            "testPositivityRatio" : 0.093, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -8459,8 +8505,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 475460, 
             "deaths" : 8126, 
-            "positiveTests" : 600924, 
-            "negativeTests" : 4171672, 
+            "positiveTests" : 601616, 
+            "negativeTests" : 4177946, 
             "contactTracers" : 600, 
             "hospitalBeds" : {
                 "capacity" : 8165, 
@@ -8675,9 +8721,9 @@ let currentAllStatesData = [
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 45.1, 
-            "contactTracerCapacityRatio" : 0.22, 
-            "infectionRate" : 1.1, 
+            "caseDensity" : 49.5, 
+            "contactTracerCapacityRatio" : 0.2, 
+            "infectionRate" : 1.13, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.72, 
             "vaccinationsInitiatedRatio" : 0.795, 
@@ -8688,15 +8734,15 @@ let currentAllStatesData = [
             "testPositivityRatio" : 1, 
             "caseDensity" : 3, 
             "contactTracerCapacityRatio" : 1, 
-            "infectionRate" : 1, 
+            "infectionRate" : 2, 
             "icuCapacityRatio" : 1
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 2789992, 
-            "deaths" : 57354, 
-            "positiveTests" : 3045269, 
-            "negativeTests" : 63594695, 
+            "cases" : 2796043, 
+            "deaths" : 57396, 
+            "positiveTests" : 3051800, 
+            "negativeTests" : 63687393, 
             "contactTracers" : 9620, 
             "hospitalBeds" : {
                 "capacity" : 44161, 
@@ -8708,8 +8754,8 @@ let currentAllStatesData = [
                 "currentUsageTotal" : 3479, 
                 "currentUsageCovid" : 640
             }, 
-            "newCases" : 2486, 
-            "newDeaths" : 22, 
+            "newCases" : 8537, 
+            "newDeaths" : 64, 
             "vaccinesDistributed" : 36401405, 
             "vaccinationsInitiated" : 15468158, 
             "vaccinationsCompleted" : 13466844, 
@@ -8916,7 +8962,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 11689100, 
         "metrics" : {
-            "testPositivityRatio" : 0.145, 
+            "testPositivityRatio" : 0.146, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -8940,8 +8986,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 1743801, 
             "deaths" : 27011, 
-            "positiveTests" : 1478683, 
-            "negativeTests" : 16405811, 
+            "positiveTests" : 1482998, 
+            "negativeTests" : 16422522, 
             "contactTracers" : 1659, 
             "hospitalBeds" : {
                 "capacity" : 28560, 
@@ -9166,7 +9212,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 3956971, 
         "metrics" : {
-            "testPositivityRatio" : 0.11, 
+            "testPositivityRatio" : 0.109, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -9190,8 +9236,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 675733, 
             "deaths" : 11269, 
-            "positiveTests" : 631559, 
-            "negativeTests" : 2639523, 
+            "positiveTests" : 631664, 
+            "negativeTests" : 2640356, 
             "contactTracers" : 700, 
             "hospitalBeds" : {
                 "capacity" : 8348, 
@@ -9435,7 +9481,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 4217737, 
         "metrics" : {
-            "testPositivityRatio" : 0.05, 
+            "testPositivityRatio" : 0.049, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -9459,8 +9505,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 397421, 
             "deaths" : 5299, 
-            "positiveTests" : 350168, 
-            "negativeTests" : 5433606, 
+            "positiveTests" : 350623, 
+            "negativeTests" : 5442025, 
             "contactTracers" : 656, 
             "hospitalBeds" : {
                 "capacity" : 6830, 
@@ -9680,7 +9726,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 12801989, 
         "metrics" : {
-            "testPositivityRatio" : 0.145, 
+            "testPositivityRatio" : 0.144, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -9704,8 +9750,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 1791030, 
             "deaths" : 34107, 
-            "positiveTests" : 1749039, 
-            "negativeTests" : 19336289, 
+            "positiveTests" : 1753176, 
+            "negativeTests" : 19357337, 
             "contactTracers" : 1508, 
             "hospitalBeds" : {
                 "capacity" : 29025, 
@@ -9997,8 +10043,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 222519, 
             "deaths" : 3274, 
-            "positiveTests" : 121654, 
-            "negativeTests" : 1749035, 
+            "positiveTests" : 121656, 
+            "negativeTests" : 1749223, 
             "contactTracers" : 10, 
             "hospitalBeds" : {
                 "capacity" : 9310, 
@@ -10223,7 +10269,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 1059361, 
         "metrics" : {
-            "testPositivityRatio" : 0.058, 
+            "testPositivityRatio" : 0.057, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -10247,8 +10293,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 198036, 
             "deaths" : 2949, 
-            "positiveTests" : 238141, 
-            "negativeTests" : 5283031, 
+            "positiveTests" : 238523, 
+            "negativeTests" : 5288403, 
             "contactTracers" : 200, 
             "hospitalBeds" : {
                 "capacity" : 2351, 
@@ -10468,7 +10514,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 5148714, 
         "metrics" : {
-            "testPositivityRatio" : 0.052, 
+            "testPositivityRatio" : 0.051, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -10492,8 +10538,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 925629, 
             "deaths" : 14318, 
-            "positiveTests" : 962134, 
-            "negativeTests" : 9016311, 
+            "positiveTests" : 962831, 
+            "negativeTests" : 9026429, 
             "contactTracers" : 775, 
             "hospitalBeds" : {
                 "capacity" : 10457, 
@@ -10713,7 +10759,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 884659, 
         "metrics" : {
-            "testPositivityRatio" : 0.159, 
+            "testPositivityRatio" : 0.154, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -10737,8 +10783,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 169789, 
             "deaths" : 2375, 
-            "positiveTests" : 114722, 
-            "negativeTests" : 792378, 
+            "positiveTests" : 114839, 
+            "negativeTests" : 793130, 
             "contactTracers" : 350, 
             "hospitalBeds" : {
                 "capacity" : 2542, 
@@ -11024,7 +11070,13 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : []
+                "anomalies" : [
+                    {
+                        "date" : "2021-12-03", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 1088908.0
+                    }
+                ]
             }, 
             "negativeTests" : {
                 "sources" : [
@@ -11034,7 +11086,13 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : []
+                "anomalies" : [
+                    {
+                        "date" : "2021-12-03", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 8194789.0
+                    }
+                ]
             }, 
             "contactTracers" : {
                 "sources" : [
@@ -11144,7 +11202,18 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : []
+                "anomalies" : [
+                    {
+                        "date" : "2021-12-03", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 1088908.0
+                    }, 
+                    {
+                        "date" : "2021-12-03", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 8194789.0
+                    }
+                ]
             }, 
             "caseDensity" : {
                 "sources" : [
@@ -11213,7 +11282,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 28995881, 
         "metrics" : {
-            "testPositivityRatio" : 0.065, 
+            "testPositivityRatio" : 0.058, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -11237,8 +11306,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 4313071, 
             "deaths" : 74589, 
-            "positiveTests" : 4567758, 
-            "negativeTests" : 34721138, 
+            "positiveTests" : 4570644, 
+            "negativeTests" : 34777004, 
             "contactTracers" : 3722, 
             "hospitalBeds" : {
                 "capacity" : 60101, 
@@ -11288,13 +11357,7 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : [
-                    {
-                        "date" : "2021-12-03", 
-                        "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 4567781.0
-                    }
-                ]
+                "anomalies" : []
             }, 
             "negativeTests" : {
                 "sources" : [
@@ -11304,13 +11367,7 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : [
-                    {
-                        "date" : "2021-12-03", 
-                        "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 34721437.0
-                    }
-                ]
+                "anomalies" : []
             }, 
             "contactTracers" : {
                 "sources" : [
@@ -11401,18 +11458,7 @@ let currentAllStatesData = [
                         "name" : null
                     }
                 ], 
-                "anomalies" : [
-                    {
-                        "date" : "2021-12-03", 
-                        "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 34721437.0
-                    }, 
-                    {
-                        "date" : "2021-12-03", 
-                        "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 4567781.0
-                    }
-                ]
+                "anomalies" : []
             }, 
             "caseDensity" : {
                 "sources" : [
@@ -11481,7 +11527,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 3205958, 
         "metrics" : {
-            "testPositivityRatio" : 0.107, 
+            "testPositivityRatio" : 0.105, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -11505,8 +11551,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 606666, 
             "deaths" : 3606, 
-            "positiveTests" : 677508, 
-            "negativeTests" : 5158509, 
+            "positiveTests" : 678442, 
+            "negativeTests" : 5166381, 
             "contactTracers" : 1200, 
             "hospitalBeds" : {
                 "capacity" : 5571, 
@@ -11717,7 +11763,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 8535519, 
         "metrics" : {
-            "testPositivityRatio" : 0.076, 
+            "testPositivityRatio" : 0.078, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -11741,8 +11787,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 985297, 
             "deaths" : 14798, 
-            "positiveTests" : 1239101, 
-            "negativeTests" : 10419018, 
+            "positiveTests" : 1241163, 
+            "negativeTests" : 10435887, 
             "contactTracers" : 1547, 
             "hospitalBeds" : {
                 "capacity" : 17049, 
@@ -11953,7 +11999,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 623989, 
         "metrics" : {
-            "testPositivityRatio" : 0.046, 
+            "testPositivityRatio" : 0.047, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -11977,8 +12023,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 53431, 
             "deaths" : 419, 
-            "positiveTests" : 71401, 
-            "negativeTests" : 2704946, 
+            "positiveTests" : 71878, 
+            "negativeTests" : 2711669, 
             "contactTracers" : 53, 
             "hospitalBeds" : {
                 "capacity" : 1240, 
@@ -12198,7 +12244,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 7614893, 
         "metrics" : {
-            "testPositivityRatio" : 0.081, 
+            "testPositivityRatio" : 0.089, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -12222,8 +12268,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 788853, 
             "deaths" : 9517, 
-            "positiveTests" : 615128, 
-            "negativeTests" : 9071244, 
+            "positiveTests" : 616796, 
+            "negativeTests" : 9091815, 
             "contactTracers" : 2122, 
             "hospitalBeds" : {
                 "capacity" : 11191, 
@@ -12275,9 +12321,9 @@ let currentAllStatesData = [
                 ], 
                 "anomalies" : [
                     {
-                        "date" : "2021-12-02", 
+                        "date" : "2021-12-03", 
                         "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 615128.0
+                        "original_observation" : 616796.0
                     }
                 ]
             }, 
@@ -12291,9 +12337,9 @@ let currentAllStatesData = [
                 ], 
                 "anomalies" : [
                     {
-                        "date" : "2021-12-02", 
+                        "date" : "2021-12-03", 
                         "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 9071247.0
+                        "original_observation" : 9091817.0
                     }
                 ]
             }, 
@@ -12397,14 +12443,14 @@ let currentAllStatesData = [
                 ], 
                 "anomalies" : [
                     {
-                        "date" : "2021-12-02", 
+                        "date" : "2021-12-03", 
                         "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 615128.0
+                        "original_observation" : 616796.0
                     }, 
                     {
-                        "date" : "2021-12-02", 
+                        "date" : "2021-12-03", 
                         "type" : "cumulative_tail_truncated", 
-                        "original_observation" : 9071247.0
+                        "original_observation" : 9091817.0
                     }
                 ]
             }, 
@@ -12479,9 +12525,9 @@ let currentAllStatesData = [
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
-            "caseDensity" : 42.2, 
-            "contactTracerCapacityRatio" : 0.05, 
-            "infectionRate" : 0.87, 
+            "caseDensity" : 71.9, 
+            "contactTracerCapacityRatio" : 0.03, 
+            "infectionRate" : 1.09, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.7, 
             "vaccinationsInitiatedRatio" : 0.664, 
@@ -12492,15 +12538,15 @@ let currentAllStatesData = [
             "testPositivityRatio" : 2, 
             "caseDensity" : 3, 
             "contactTracerCapacityRatio" : 2, 
-            "infectionRate" : 0, 
+            "infectionRate" : 1, 
             "icuCapacityRatio" : 0
         }, 
         "cdcTransmissionLevel" : 3, 
         "actuals" : {
-            "cases" : 997447, 
+            "cases" : 997112, 
             "deaths" : 10138, 
-            "positiveTests" : 1047779, 
-            "negativeTests" : 12120949, 
+            "positiveTests" : 1050418, 
+            "negativeTests" : 12135401, 
             "contactTracers" : 600, 
             "hospitalBeds" : {
                 "capacity" : 12386, 
@@ -12512,7 +12558,7 @@ let currentAllStatesData = [
                 "currentUsageTotal" : 1095, 
                 "currentUsageCovid" : 447
             }, 
-            "newCases" : 335, 
+            "newCases" : 5196, 
             "newDeaths" : 4, 
             "vaccinesDistributed" : 9458955, 
             "vaccinationsInitiated" : 3869007, 
@@ -12559,7 +12605,13 @@ let currentAllStatesData = [
                         "name" : "The New York Times"
                     }
                 ], 
-                "anomalies" : []
+                "anomalies" : [
+                    {
+                        "date" : "2021-12-03", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 997112.0
+                    }
+                ]
             }, 
             "deaths" : {
                 "sources" : [
@@ -12690,7 +12742,13 @@ let currentAllStatesData = [
                         "name" : "The New York Times"
                     }
                 ], 
-                "anomalies" : []
+                "anomalies" : [
+                    {
+                        "date" : "2021-12-03", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 997112.0
+                    }
+                ]
             }, 
             "contactTracerCapacityRatio" : {
                 "sources" : [
@@ -12710,7 +12768,13 @@ let currentAllStatesData = [
                         "name" : "The New York Times"
                     }
                 ], 
-                "anomalies" : []
+                "anomalies" : [
+                    {
+                        "date" : "2021-12-03", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 997112.0
+                    }
+                ]
             }, 
             "infectionRateCI90" : {
                 "sources" : [
@@ -12720,7 +12784,13 @@ let currentAllStatesData = [
                         "name" : "The New York Times"
                     }
                 ], 
-                "anomalies" : []
+                "anomalies" : [
+                    {
+                        "date" : "2021-12-03", 
+                        "type" : "cumulative_tail_truncated", 
+                        "original_observation" : 997112.0
+                    }
+                ]
             }, 
             "icuCapacityRatio" : {
                 "sources" : [
@@ -12749,7 +12819,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 1792147, 
         "metrics" : {
-            "testPositivityRatio" : 0.12, 
+            "testPositivityRatio" : 0.118, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -12773,8 +12843,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 302120, 
             "deaths" : 5021, 
-            "positiveTests" : 333477, 
-            "negativeTests" : 3742026, 
+            "positiveTests" : 334106, 
+            "negativeTests" : 3746319, 
             "contactTracers" : 248, 
             "hospitalBeds" : {
                 "capacity" : 5845, 
@@ -12994,7 +13064,7 @@ let currentAllStatesData = [
         "long" : null, 
         "population" : 578759, 
         "metrics" : {
-            "testPositivityRatio" : 0.063, 
+            "testPositivityRatio" : 0.064, 
             "testPositivityRatioDetails" : {
                 "source" : "other"
             }, 
@@ -13018,8 +13088,8 @@ let currentAllStatesData = [
         "actuals" : {
             "cases" : 112368, 
             "deaths" : 1472, 
-            "positiveTests" : 86504, 
-            "negativeTests" : 1086453, 
+            "positiveTests" : 86590, 
+            "negativeTests" : 1087333, 
             "contactTracers" : 50, 
             "hospitalBeds" : {
                 "capacity" : 1603, 
