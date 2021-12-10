@@ -13,13 +13,13 @@ let historicalUSData = {
         "testPositivityRatioDetails" : {
             "source" : "other"
         }, 
-        "caseDensity" : 36.0, 
+        "caseDensity" : 36.4, 
         "contactTracerCapacityRatio" : 0.11, 
-        "infectionRate" : 1.12, 
+        "infectionRate" : 1.14, 
         "infectionRateCI90" : 0.1, 
-        "icuCapacityRatio" : 0.77, 
-        "vaccinationsInitiatedRatio" : 0.713, 
-        "vaccinationsCompletedRatio" : 0.602
+        "icuCapacityRatio" : 0.79, 
+        "vaccinationsInitiatedRatio" : 0.715, 
+        "vaccinationsCompletedRatio" : 0.605
     }, 
     "riskLevels" : {
         "overall" : 3, 
@@ -31,27 +31,27 @@ let historicalUSData = {
     }, 
     "cdcTransmissionLevel" : 3, 
     "actuals" : {
-        "cases" : 49356263, 
-        "deaths" : 790082, 
+        "cases" : 49505304, 
+        "deaths" : 791933, 
         "positiveTests" : 50445826, 
         "negativeTests" : 618034971, 
         "contactTracers" : 66210, 
         "hospitalBeds" : {
-            "capacity" : 711685, 
-            "currentUsageTotal" : 545992, 
-            "currentUsageCovid" : 61953
+            "capacity" : 719309, 
+            "currentUsageTotal" : 566459, 
+            "currentUsageCovid" : 63962
         }, 
         "icuBeds" : {
-            "capacity" : 81355, 
-            "currentUsageTotal" : 62436, 
-            "currentUsageCovid" : 14096
+            "capacity" : 81528, 
+            "currentUsageTotal" : 64276, 
+            "currentUsageCovid" : 14425
         }, 
-        "newCases" : 113992, 
-        "newDeaths" : 1767, 
-        "vaccinesDistributed" : 582057445, 
-        "vaccinationsInitiated" : 236363835, 
-        "vaccinationsCompleted" : 199687439, 
-        "vaccinesAdministered" : 473243228, 
+        "newCases" : 149041, 
+        "newDeaths" : 1851, 
+        "vaccinesDistributed" : 586471075, 
+        "vaccinationsInitiated" : 237087380, 
+        "vaccinationsCompleted" : 200400533, 
+        "vaccinesAdministered" : 475728399, 
         "vaccinesAdministeredDemographics" : null, 
         "vaccinationsInitiatedDemographics" : null
     }, 
@@ -168,7 +168,7 @@ let historicalUSData = {
         "vaccinationsInitiatedRatio" : null, 
         "vaccinationsCompletedRatio" : null
     }, 
-    "lastUpdatedDate" : "2021-12-08", 
+    "lastUpdatedDate" : "2021-12-09", 
     "url" : null, 
     "metricsTimeseries" : [
         {
@@ -6878,7 +6878,7 @@ let historicalUSData = {
             "testPositivityRatio" : 0.061, 
             "caseDensity" : 27.9, 
             "contactTracerCapacityRatio" : 0.14, 
-            "infectionRate" : 1.03, 
+            "infectionRate" : 1.04, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.76, 
             "vaccinationsInitiatedRatio" : 0.693, 
@@ -6977,7 +6977,7 @@ let historicalUSData = {
             "testPositivityRatio" : 0.076, 
             "caseDensity" : 24.1, 
             "contactTracerCapacityRatio" : 0.17, 
-            "infectionRate" : 1.11, 
+            "infectionRate" : 1.12, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.75, 
             "vaccinationsInitiatedRatio" : 0.702, 
@@ -6988,7 +6988,7 @@ let historicalUSData = {
             "testPositivityRatio" : 0.079, 
             "caseDensity" : 24.8, 
             "contactTracerCapacityRatio" : 0.16, 
-            "infectionRate" : 1.12, 
+            "infectionRate" : 1.13, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.78, 
             "vaccinationsInitiatedRatio" : 0.704, 
@@ -6999,7 +6999,7 @@ let historicalUSData = {
             "testPositivityRatio" : 0.082, 
             "caseDensity" : 25.7, 
             "contactTracerCapacityRatio" : 0.16, 
-            "infectionRate" : 1.13, 
+            "infectionRate" : 1.14, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.79, 
             "vaccinationsInitiatedRatio" : 0.705, 
@@ -7010,7 +7010,7 @@ let historicalUSData = {
             "testPositivityRatio" : null, 
             "caseDensity" : 30.3, 
             "contactTracerCapacityRatio" : 0.13, 
-            "infectionRate" : 1.13, 
+            "infectionRate" : 1.14, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.79, 
             "vaccinationsInitiatedRatio" : 0.707, 
@@ -7021,7 +7021,7 @@ let historicalUSData = {
             "testPositivityRatio" : null, 
             "caseDensity" : 34.7, 
             "contactTracerCapacityRatio" : 0.12, 
-            "infectionRate" : 1.14, 
+            "infectionRate" : 1.15, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.79, 
             "vaccinationsInitiatedRatio" : 0.708, 
@@ -7032,7 +7032,7 @@ let historicalUSData = {
             "testPositivityRatio" : null, 
             "caseDensity" : 36.2, 
             "contactTracerCapacityRatio" : 0.11, 
-            "infectionRate" : 1.15, 
+            "infectionRate" : 1.16, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.78, 
             "vaccinationsInitiatedRatio" : 0.71, 
@@ -7043,7 +7043,7 @@ let historicalUSData = {
             "testPositivityRatio" : null, 
             "caseDensity" : 36.6, 
             "contactTracerCapacityRatio" : 0.11, 
-            "infectionRate" : 1.15, 
+            "infectionRate" : 1.16, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.76, 
             "vaccinationsInitiatedRatio" : 0.711, 
@@ -7054,7 +7054,7 @@ let historicalUSData = {
             "testPositivityRatio" : null, 
             "caseDensity" : 35.8, 
             "contactTracerCapacityRatio" : 0.11, 
-            "infectionRate" : 1.16, 
+            "infectionRate" : 1.17, 
             "infectionRateCI90" : 0.1, 
             "icuCapacityRatio" : 0.77, 
             "vaccinationsInitiatedRatio" : 0.712, 
@@ -7065,12 +7065,23 @@ let historicalUSData = {
             "testPositivityRatio" : null, 
             "caseDensity" : 36.0, 
             "contactTracerCapacityRatio" : 0.11, 
-            "infectionRate" : 1.16, 
+            "infectionRate" : 1.17, 
             "infectionRateCI90" : 0.1, 
-            "icuCapacityRatio" : 0.77, 
+            "icuCapacityRatio" : 0.79, 
             "vaccinationsInitiatedRatio" : 0.713, 
             "vaccinationsCompletedRatio" : 0.602, 
             "date" : "2021-12-07"
+        }, 
+        {
+            "testPositivityRatio" : null, 
+            "caseDensity" : 36.4, 
+            "contactTracerCapacityRatio" : 0.11, 
+            "infectionRate" : 1.17, 
+            "infectionRateCI90" : 0.1, 
+            "icuCapacityRatio" : 0.79, 
+            "vaccinationsInitiatedRatio" : 0.715, 
+            "vaccinationsCompletedRatio" : 0.605, 
+            "date" : "2021-12-08"
         }, 
         {
             "testPositivityRatio" : null, 
@@ -7081,7 +7092,7 @@ let historicalUSData = {
             "icuCapacityRatio" : null, 
             "vaccinationsInitiatedRatio" : null, 
             "vaccinationsCompletedRatio" : null, 
-            "date" : "2021-12-08"
+            "date" : "2021-12-09"
         }
     ], 
     "actualsTimeseries" : [
@@ -13076,9 +13087,9 @@ let historicalUSData = {
             "negativeTests" : 129017923, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
-                "capacity" : 766903, 
-                "currentUsageTotal" : 513870, 
-                "currentUsageCovid" : 43511
+                "capacity" : 766783, 
+                "currentUsageTotal" : 513868, 
+                "currentUsageCovid" : 43519
             }, 
             "icuBeds" : {
                 "capacity" : 83537, 
@@ -13098,9 +13109,9 @@ let historicalUSData = {
             "negativeTests" : 130207909, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
-                "capacity" : 781101, 
-                "currentUsageTotal" : 536554, 
-                "currentUsageCovid" : 44761
+                "capacity" : 781109, 
+                "currentUsageTotal" : 536493, 
+                "currentUsageCovid" : 44746
             }, 
             "icuBeds" : {
                 "capacity" : 83746, 
@@ -13120,12 +13131,12 @@ let historicalUSData = {
             "negativeTests" : 131589139, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
-                "capacity" : 792009, 
-                "currentUsageTotal" : 555918, 
-                "currentUsageCovid" : 45561
+                "capacity" : 792141, 
+                "currentUsageTotal" : 555991, 
+                "currentUsageCovid" : 45569
             }, 
             "icuBeds" : {
-                "capacity" : 83843, 
+                "capacity" : 83830, 
                 "currentUsageTotal" : 59646, 
                 "currentUsageCovid" : 10084
             }, 
@@ -13142,12 +13153,12 @@ let historicalUSData = {
             "negativeTests" : 133018971, 
             "contactTracers" : 61422, 
             "hospitalBeds" : {
-                "capacity" : 797050, 
+                "capacity" : 797097, 
                 "currentUsageTotal" : 558451, 
-                "currentUsageCovid" : 45556
+                "currentUsageCovid" : 45546
             }, 
             "icuBeds" : {
-                "capacity" : 84226, 
+                "capacity" : 84239, 
                 "currentUsageTotal" : 59686, 
                 "currentUsageCovid" : 10273
             }, 
@@ -13164,14 +13175,14 @@ let historicalUSData = {
             "negativeTests" : 134383477, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 796557, 
+                "capacity" : 796553, 
                 "currentUsageTotal" : 555109, 
-                "currentUsageCovid" : 45807
+                "currentUsageCovid" : 45808
             }, 
             "icuBeds" : {
-                "capacity" : 84675, 
+                "capacity" : 84662, 
                 "currentUsageTotal" : 60220, 
-                "currentUsageCovid" : 10340
+                "currentUsageCovid" : 10341
             }, 
             "newCases" : 85297, 
             "newDeaths" : 930, 
@@ -13186,14 +13197,14 @@ let historicalUSData = {
             "negativeTests" : 135477422, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 795598, 
+                "capacity" : 795684, 
                 "currentUsageTotal" : 536425, 
-                "currentUsageCovid" : 46034
+                "currentUsageCovid" : 46033
             }, 
             "icuBeds" : {
                 "capacity" : 84108, 
                 "currentUsageTotal" : 58460, 
-                "currentUsageCovid" : 10351
+                "currentUsageCovid" : 10350
             }, 
             "newCases" : 78579, 
             "newDeaths" : 872, 
@@ -13208,12 +13219,12 @@ let historicalUSData = {
             "negativeTests" : 136205469, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 805004, 
+                "capacity" : 804914, 
                 "currentUsageTotal" : 529353, 
                 "currentUsageCovid" : 46746
             }, 
             "icuBeds" : {
-                "capacity" : 85035, 
+                "capacity" : 85048, 
                 "currentUsageTotal" : 57796, 
                 "currentUsageCovid" : 10553
             }, 
@@ -13230,14 +13241,14 @@ let historicalUSData = {
             "negativeTests" : 137083406, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 782226, 
+                "capacity" : 782126, 
                 "currentUsageTotal" : 511909, 
-                "currentUsageCovid" : 48156
+                "currentUsageCovid" : 48158
             }, 
             "icuBeds" : {
                 "capacity" : 85245, 
                 "currentUsageTotal" : 57803, 
-                "currentUsageCovid" : 10823
+                "currentUsageCovid" : 10824
             }, 
             "newCases" : 74638, 
             "newDeaths" : 537, 
@@ -13274,13 +13285,13 @@ let historicalUSData = {
             "negativeTests" : 139716842, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 844523, 
+                "capacity" : 844489, 
                 "currentUsageTotal" : 570427, 
                 "currentUsageCovid" : 51584
             }, 
             "icuBeds" : {
-                "capacity" : 86634, 
-                "currentUsageTotal" : 61703, 
+                "capacity" : 86643, 
+                "currentUsageTotal" : 61704, 
                 "currentUsageCovid" : 11355
             }, 
             "newCases" : 81882, 
@@ -13296,13 +13307,13 @@ let historicalUSData = {
             "negativeTests" : 141088634, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 799255, 
-                "currentUsageTotal" : 569012, 
-                "currentUsageCovid" : 51545
+                "capacity" : 799379, 
+                "currentUsageTotal" : 568982, 
+                "currentUsageCovid" : 51546
             }, 
             "icuBeds" : {
                 "capacity" : 86597, 
-                "currentUsageTotal" : 61860, 
+                "currentUsageTotal" : 61841, 
                 "currentUsageCovid" : 11503
             }, 
             "newCases" : 90669, 
@@ -13318,14 +13329,14 @@ let historicalUSData = {
             "negativeTests" : 142473193, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 786573, 
+                "capacity" : 786713, 
                 "currentUsageTotal" : 564188, 
                 "currentUsageCovid" : 52527
             }, 
             "icuBeds" : {
                 "capacity" : 86167, 
-                "currentUsageTotal" : 61539, 
-                "currentUsageCovid" : 11561
+                "currentUsageTotal" : 61519, 
+                "currentUsageCovid" : 11564
             }, 
             "newCases" : 99868, 
             "newDeaths" : 968, 
@@ -13340,14 +13351,14 @@ let historicalUSData = {
             "negativeTests" : 143591176, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 774066, 
-                "currentUsageTotal" : 535190, 
-                "currentUsageCovid" : 52370
+                "capacity" : 774593, 
+                "currentUsageTotal" : 535679, 
+                "currentUsageCovid" : 52451
             }, 
             "icuBeds" : {
-                "capacity" : 85794, 
-                "currentUsageTotal" : 60087, 
-                "currentUsageCovid" : 11604
+                "capacity" : 85890, 
+                "currentUsageTotal" : 60158, 
+                "currentUsageCovid" : 11623
             }, 
             "newCases" : 84207, 
             "newDeaths" : 838, 
@@ -13368,8 +13379,8 @@ let historicalUSData = {
             }, 
             "icuBeds" : {
                 "capacity" : 85693, 
-                "currentUsageTotal" : 58738, 
-                "currentUsageCovid" : 11852
+                "currentUsageTotal" : 58733, 
+                "currentUsageCovid" : 11855
             }, 
             "newCases" : 74195, 
             "newDeaths" : 428, 
@@ -13390,8 +13401,8 @@ let historicalUSData = {
             }, 
             "icuBeds" : {
                 "capacity" : 85919, 
-                "currentUsageTotal" : 58817, 
-                "currentUsageCovid" : 12383
+                "currentUsageTotal" : 58812, 
+                "currentUsageCovid" : 12386
             }, 
             "newCases" : 94006, 
             "newDeaths" : 540, 
@@ -13406,14 +13417,14 @@ let historicalUSData = {
             "negativeTests" : 146565531, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 754516, 
-                "currentUsageTotal" : 532709, 
-                "currentUsageCovid" : 57831
+                "capacity" : 755043, 
+                "currentUsageTotal" : 533221, 
+                "currentUsageCovid" : 57903
             }, 
             "icuBeds" : {
-                "capacity" : 86426, 
-                "currentUsageTotal" : 61431, 
-                "currentUsageCovid" : 12750
+                "capacity" : 86522, 
+                "currentUsageTotal" : 61503, 
+                "currentUsageCovid" : 12772
             }, 
             "newCases" : 92416, 
             "newDeaths" : 1130, 
@@ -13494,8 +13505,8 @@ let historicalUSData = {
             "negativeTests" : 152416233, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 795148, 
-                "currentUsageTotal" : 558183, 
+                "capacity" : 795088, 
+                "currentUsageTotal" : 558171, 
                 "currentUsageCovid" : 63628
             }, 
             "icuBeds" : {
@@ -13538,13 +13549,13 @@ let historicalUSData = {
             "negativeTests" : 154385857, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 756412, 
-                "currentUsageTotal" : 524900, 
-                "currentUsageCovid" : 67376
+                "capacity" : 756293, 
+                "currentUsageTotal" : 524779, 
+                "currentUsageCovid" : 67364
             }, 
             "icuBeds" : {
-                "capacity" : 86342, 
-                "currentUsageTotal" : 60945, 
+                "capacity" : 86322, 
+                "currentUsageTotal" : 60935, 
                 "currentUsageCovid" : 14233
             }, 
             "newCases" : 130449, 
@@ -13626,14 +13637,14 @@ let historicalUSData = {
             "negativeTests" : 160694108, 
             "contactTracers" : 62396, 
             "hospitalBeds" : {
-                "capacity" : 815384, 
-                "currentUsageTotal" : 597861, 
-                "currentUsageCovid" : 76998
+                "capacity" : 815171, 
+                "currentUsageTotal" : 597738, 
+                "currentUsageCovid" : 77028
             }, 
             "icuBeds" : {
-                "capacity" : 87969, 
-                "currentUsageTotal" : 64829, 
-                "currentUsageCovid" : 15871
+                "capacity" : 87923, 
+                "currentUsageTotal" : 64813, 
+                "currentUsageCovid" : 15877
             }, 
             "newCases" : 181496, 
             "newDeaths" : 1390, 
@@ -13649,7 +13660,7 @@ let historicalUSData = {
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 811842, 
-                "currentUsageTotal" : 574714, 
+                "currentUsageTotal" : 574717, 
                 "currentUsageCovid" : 77797
             }, 
             "icuBeds" : {
@@ -13671,7 +13682,7 @@ let historicalUSData = {
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 806476, 
-                "currentUsageTotal" : 559145, 
+                "currentUsageTotal" : 559148, 
                 "currentUsageCovid" : 79886
             }, 
             "icuBeds" : {
@@ -13693,7 +13704,7 @@ let historicalUSData = {
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 773938, 
-                "currentUsageTotal" : 538140, 
+                "currentUsageTotal" : 538143, 
                 "currentUsageCovid" : 83418
             }, 
             "icuBeds" : {
@@ -13715,7 +13726,7 @@ let historicalUSData = {
             "contactTracers" : 62396, 
             "hospitalBeds" : {
                 "capacity" : 773913, 
-                "currentUsageTotal" : 558473, 
+                "currentUsageTotal" : 558476, 
                 "currentUsageCovid" : 85872
             }, 
             "icuBeds" : {
@@ -15635,13 +15646,13 @@ let historicalUSData = {
             "contactTracers" : 67410, 
             "hospitalBeds" : {
                 "capacity" : 810553, 
-                "currentUsageTotal" : 599106, 
-                "currentUsageCovid" : 95867
+                "currentUsageTotal" : 599102, 
+                "currentUsageCovid" : 95863
             }, 
             "icuBeds" : {
                 "capacity" : 89962, 
-                "currentUsageTotal" : 68212, 
-                "currentUsageCovid" : 21403
+                "currentUsageTotal" : 68213, 
+                "currentUsageCovid" : 21404
             }, 
             "newCases" : 120183, 
             "newDeaths" : 3843, 
@@ -22940,7 +22951,7 @@ let historicalUSData = {
             "negativeTests" : 594458286, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 779053, 
+                "capacity" : 779048, 
                 "currentUsageTotal" : 608261, 
                 "currentUsageCovid" : 46774
             }, 
@@ -23070,14 +23081,14 @@ let historicalUSData = {
             "negativeTests" : 600417885, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 724800, 
-                "currentUsageTotal" : 562991, 
-                "currentUsageCovid" : 49248
+                "capacity" : 724823, 
+                "currentUsageTotal" : 563015, 
+                "currentUsageCovid" : 49250
             }, 
             "icuBeds" : {
-                "capacity" : 82263, 
-                "currentUsageTotal" : 62897, 
-                "currentUsageCovid" : 11401
+                "capacity" : 82273, 
+                "currentUsageTotal" : 62908, 
+                "currentUsageCovid" : 11400
             }, 
             "newCases" : 90485, 
             "newDeaths" : 1425, 
@@ -23357,8 +23368,8 @@ let historicalUSData = {
             "contactTracers" : 66210, 
             "hospitalBeds" : {
                 "capacity" : 765114, 
-                "currentUsageTotal" : 547083, 
-                "currentUsageCovid" : 54418
+                "currentUsageTotal" : 547086, 
+                "currentUsageCovid" : 54416
             }, 
             "icuBeds" : {
                 "capacity" : 82199, 
@@ -23382,14 +23393,14 @@ let historicalUSData = {
             "negativeTests" : 614144115, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 765044, 
-                "currentUsageTotal" : 552846, 
-                "currentUsageCovid" : 55800
+                "capacity" : 765118, 
+                "currentUsageTotal" : 552823, 
+                "currentUsageCovid" : 55801
             }, 
             "icuBeds" : {
                 "capacity" : 82089, 
                 "currentUsageTotal" : 60612, 
-                "currentUsageCovid" : 13025
+                "currentUsageCovid" : 13026
             }, 
             "newCases" : 23950, 
             "newDeaths" : 107, 
@@ -23408,14 +23419,14 @@ let historicalUSData = {
             "negativeTests" : 615250550, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 715581, 
-                "currentUsageTotal" : 530266, 
-                "currentUsageCovid" : 57197
+                "capacity" : 715868, 
+                "currentUsageTotal" : 530551, 
+                "currentUsageCovid" : 57196
             }, 
             "icuBeds" : {
                 "capacity" : 81452, 
                 "currentUsageTotal" : 61037, 
-                "currentUsageCovid" : 13192
+                "currentUsageCovid" : 13194
             }, 
             "newCases" : 216312, 
             "newDeaths" : 1876, 
@@ -23434,14 +23445,14 @@ let historicalUSData = {
             "negativeTests" : 616716346, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 723286, 
-                "currentUsageTotal" : 559121, 
-                "currentUsageCovid" : 58141
+                "capacity" : 723598, 
+                "currentUsageTotal" : 559435, 
+                "currentUsageCovid" : 58155
             }, 
             "icuBeds" : {
                 "capacity" : 82098, 
-                "currentUsageTotal" : 63855, 
-                "currentUsageCovid" : 13356
+                "currentUsageTotal" : 63854, 
+                "currentUsageCovid" : 13359
             }, 
             "newCases" : 109294, 
             "newDeaths" : 1555, 
@@ -23460,14 +23471,14 @@ let historicalUSData = {
             "negativeTests" : 618034971, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 776948, 
-                "currentUsageTotal" : 609671, 
-                "currentUsageCovid" : 58516
+                "capacity" : 778052, 
+                "currentUsageTotal" : 610752, 
+                "currentUsageCovid" : 58537
             }, 
             "icuBeds" : {
                 "capacity" : 82506, 
-                "currentUsageTotal" : 64881, 
-                "currentUsageCovid" : 13476
+                "currentUsageTotal" : 64880, 
+                "currentUsageCovid" : 13477
             }, 
             "newCases" : 139357, 
             "newDeaths" : 1966, 
@@ -23486,14 +23497,14 @@ let historicalUSData = {
             "negativeTests" : null, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 776834, 
-                "currentUsageTotal" : 610950, 
-                "currentUsageCovid" : 58997
+                "capacity" : 777977, 
+                "currentUsageTotal" : 612000, 
+                "currentUsageCovid" : 59008
             }, 
             "icuBeds" : {
-                "capacity" : 82357, 
-                "currentUsageTotal" : 64999, 
-                "currentUsageCovid" : 13586
+                "capacity" : 82354, 
+                "currentUsageTotal" : 64995, 
+                "currentUsageCovid" : 13589
             }, 
             "newCases" : 138719, 
             "newDeaths" : 1350, 
@@ -23512,14 +23523,14 @@ let historicalUSData = {
             "negativeTests" : null, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 776727, 
-                "currentUsageTotal" : 611934, 
-                "currentUsageCovid" : 59704
+                "capacity" : 778613, 
+                "currentUsageTotal" : 613250, 
+                "currentUsageCovid" : 59736
             }, 
             "icuBeds" : {
-                "capacity" : 82392, 
-                "currentUsageTotal" : 65059, 
-                "currentUsageCovid" : 13698
+                "capacity" : 82482, 
+                "currentUsageTotal" : 65138, 
+                "currentUsageCovid" : 13707
             }, 
             "newCases" : 153245, 
             "newDeaths" : 2149, 
@@ -23538,14 +23549,14 @@ let historicalUSData = {
             "negativeTests" : null, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 770730, 
-                "currentUsageTotal" : 593625, 
-                "currentUsageCovid" : 59728
+                "capacity" : 773418, 
+                "currentUsageTotal" : 595304, 
+                "currentUsageCovid" : 59758
             }, 
             "icuBeds" : {
-                "capacity" : 81605, 
-                "currentUsageTotal" : 63270, 
-                "currentUsageCovid" : 13749
+                "capacity" : 81683, 
+                "currentUsageTotal" : 63321, 
+                "currentUsageCovid" : 13761
             }, 
             "newCases" : 58141, 
             "newDeaths" : 490, 
@@ -23564,14 +23575,14 @@ let historicalUSData = {
             "negativeTests" : null, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 765936, 
-                "currentUsageTotal" : 579732, 
-                "currentUsageCovid" : 60649
+                "capacity" : 769574, 
+                "currentUsageTotal" : 582805, 
+                "currentUsageCovid" : 60749
             }, 
             "icuBeds" : {
-                "capacity" : 81481, 
-                "currentUsageTotal" : 62159, 
-                "currentUsageCovid" : 13938
+                "capacity" : 81502, 
+                "currentUsageTotal" : 62329, 
+                "currentUsageCovid" : 13956
             }, 
             "newCases" : 34572, 
             "newDeaths" : 161, 
@@ -23590,14 +23601,14 @@ let historicalUSData = {
             "negativeTests" : null, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 714172, 
-                "currentUsageTotal" : 547834, 
-                "currentUsageCovid" : 62089
+                "capacity" : 718726, 
+                "currentUsageTotal" : 551485, 
+                "currentUsageCovid" : 62650
             }, 
             "icuBeds" : {
-                "capacity" : 81461, 
-                "currentUsageTotal" : 62510, 
-                "currentUsageCovid" : 14116
+                "capacity" : 81339, 
+                "currentUsageTotal" : 62762, 
+                "currentUsageCovid" : 14305
             }, 
             "newCases" : 197449, 
             "newDeaths" : 1351, 
@@ -23616,14 +23627,14 @@ let historicalUSData = {
             "negativeTests" : null, 
             "contactTracers" : 66210, 
             "hospitalBeds" : {
-                "capacity" : 711685, 
-                "currentUsageTotal" : 545992, 
-                "currentUsageCovid" : 61953
+                "capacity" : 721454, 
+                "currentUsageTotal" : 568250, 
+                "currentUsageCovid" : 64129
             }, 
             "icuBeds" : {
-                "capacity" : 81355, 
-                "currentUsageTotal" : 62436, 
-                "currentUsageCovid" : 14096
+                "capacity" : 81796, 
+                "currentUsageTotal" : 64517, 
+                "currentUsageCovid" : 14472
             }, 
             "newCases" : 113992, 
             "newDeaths" : 1767, 
@@ -23634,6 +23645,32 @@ let historicalUSData = {
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null, 
             "date" : "2021-12-07"
+        }, 
+        {
+            "cases" : 49505304, 
+            "deaths" : 791933, 
+            "positiveTests" : null, 
+            "negativeTests" : null, 
+            "contactTracers" : 66210, 
+            "hospitalBeds" : {
+                "capacity" : 719309, 
+                "currentUsageTotal" : 566459, 
+                "currentUsageCovid" : 63962
+            }, 
+            "icuBeds" : {
+                "capacity" : 81528, 
+                "currentUsageTotal" : 64276, 
+                "currentUsageCovid" : 14425
+            }, 
+            "newCases" : 149041, 
+            "newDeaths" : 1851, 
+            "vaccinesDistributed" : 586471075, 
+            "vaccinationsInitiated" : 237087380, 
+            "vaccinationsCompleted" : 200400533, 
+            "vaccinesAdministered" : 475728399, 
+            "vaccinesAdministeredDemographics" : null, 
+            "vaccinationsInitiatedDemographics" : null, 
+            "date" : "2021-12-08"
         }, 
         {
             "cases" : null, 
@@ -23659,7 +23696,7 @@ let historicalUSData = {
             "vaccinesAdministered" : null, 
             "vaccinesAdministeredDemographics" : null, 
             "vaccinationsInitiatedDemographics" : null, 
-            "date" : "2021-12-08"
+            "date" : "2021-12-09"
         }
     ], 
     "riskLevelsTimeseries" : [
@@ -27102,6 +27139,11 @@ let historicalUSData = {
             "overall" : 3, 
             "caseDensity" : 3, 
             "date" : "2021-12-08"
+        }, 
+        {
+            "overall" : 3, 
+            "caseDensity" : 3, 
+            "date" : "2021-12-09"
         }
     ], 
     "cdcTransmissionLevelTimeseries" : [
@@ -29855,6 +29897,10 @@ let historicalUSData = {
         }, 
         {
             "date" : "2021-12-08", 
+            "cdcTransmissionLevel" : 3
+        }, 
+        {
+            "date" : "2021-12-09", 
             "cdcTransmissionLevel" : 3
         }
     ]
