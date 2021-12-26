@@ -9,15 +9,15 @@ let currentUSData = {
     "long" : null, 
     "population" : 331486822, 
     "metrics" : {
-        "testPositivityRatio" : 0.084, 
+        "testPositivityRatio" : 0.091, 
         "testPositivityRatioDetails" : {
             "source" : "other"
         }, 
-        "caseDensity" : 56.9, 
+        "caseDensity" : 56.7, 
         "contactTracerCapacityRatio" : 0.07, 
-        "infectionRate" : 1.19, 
+        "infectionRate" : 1.15, 
         "infectionRateCI90" : 0.1, 
-        "icuCapacityRatio" : 0.79, 
+        "icuCapacityRatio" : 0.76, 
         "vaccinationsInitiatedRatio" : 0.729, 
         "vaccinationsCompletedRatio" : 0.618
     }, 
@@ -31,23 +31,23 @@ let currentUSData = {
     }, 
     "cdcTransmissionLevel" : 3, 
     "actuals" : {
-        "cases" : 51812560, 
-        "deaths" : 813790, 
-        "positiveTests" : 52396749, 
-        "negativeTests" : 642333970, 
+        "cases" : 52054982, 
+        "deaths" : 814891, 
+        "positiveTests" : 51683671, 
+        "negativeTests" : 621588880, 
         "contactTracers" : 66210, 
         "hospitalBeds" : {
-            "capacity" : 745898, 
-            "currentUsageTotal" : 577413, 
-            "currentUsageCovid" : 70058
+            "capacity" : 745924, 
+            "currentUsageTotal" : 552088, 
+            "currentUsageCovid" : 70844
         }, 
         "icuBeds" : {
-            "capacity" : 80003, 
-            "currentUsageTotal" : 63069, 
-            "currentUsageCovid" : 15915
+            "capacity" : 80024, 
+            "currentUsageTotal" : 61137, 
+            "currentUsageCovid" : 15935
         }, 
-        "newCases" : 265032, 
-        "newDeaths" : 3287, 
+        "newCases" : 58348, 
+        "newDeaths" : 99, 
         "vaccinesDistributed" : 611897975, 
         "vaccinationsInitiated" : 241520561, 
         "vaccinationsCompleted" : 204740321, 
@@ -168,6 +168,6 @@ let currentUSData = {
         "vaccinationsInitiatedRatio" : null, 
         "vaccinationsCompletedRatio" : null
     }, 
-    "lastUpdatedDate" : "2021-12-24", 
+    "lastUpdatedDate" : "2021-12-26", 
     "url" : null
 }
