@@ -9,15 +9,15 @@ let currentUSData = {
     "long" : null, 
     "population" : 331486822, 
     "metrics" : {
-        "testPositivityRatio" : 0.091, 
+        "testPositivityRatio" : 0.098, 
         "testPositivityRatioDetails" : {
             "source" : "other"
         }, 
-        "caseDensity" : 56.7, 
-        "contactTracerCapacityRatio" : 0.07, 
-        "infectionRate" : 1.15, 
+        "caseDensity" : 61.8, 
+        "contactTracerCapacityRatio" : 0.06, 
+        "infectionRate" : 1.14, 
         "infectionRateCI90" : 0.1, 
-        "icuCapacityRatio" : 0.76, 
+        "icuCapacityRatio" : 0.75, 
         "vaccinationsInitiatedRatio" : 0.729, 
         "vaccinationsCompletedRatio" : 0.618
     }, 
@@ -31,23 +31,23 @@ let currentUSData = {
     }, 
     "cdcTransmissionLevel" : 3, 
     "actuals" : {
-        "cases" : 52054982, 
-        "deaths" : 814891, 
-        "positiveTests" : 51683671, 
-        "negativeTests" : 621588880, 
+        "cases" : 52244696, 
+        "deaths" : 814970, 
+        "positiveTests" : 53004509, 
+        "negativeTests" : 646637908, 
         "contactTracers" : 66210, 
         "hospitalBeds" : {
-            "capacity" : 745924, 
-            "currentUsageTotal" : 552088, 
-            "currentUsageCovid" : 70844
+            "capacity" : 718459, 
+            "currentUsageTotal" : 512194, 
+            "currentUsageCovid" : 68917
         }, 
         "icuBeds" : {
-            "capacity" : 80024, 
-            "currentUsageTotal" : 61137, 
-            "currentUsageCovid" : 15935
+            "capacity" : 77251, 
+            "currentUsageTotal" : 57843, 
+            "currentUsageCovid" : 15495
         }, 
-        "newCases" : 58348, 
-        "newDeaths" : 99, 
+        "newCases" : 189714, 
+        "newDeaths" : 79, 
         "vaccinesDistributed" : 611897975, 
         "vaccinationsInitiated" : 241520561, 
         "vaccinationsCompleted" : 204740321, 
@@ -168,6 +168,6 @@ let currentUSData = {
         "vaccinationsInitiatedRatio" : null, 
         "vaccinationsCompletedRatio" : null
     }, 
-    "lastUpdatedDate" : "2021-12-26", 
+    "lastUpdatedDate" : "2021-12-27", 
     "url" : null
 }
